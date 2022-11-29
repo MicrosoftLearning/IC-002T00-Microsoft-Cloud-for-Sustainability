@@ -24,17 +24,17 @@ In this lab, you will do the following:
 
 In this lab, the focus is on the “Data Ingestion” aspect of the Solution Focus Area. It follows the “Organization and Reference data Set up” and forms the basis for the emission calculations and the reporting thereafter. The Microsoft Sustainability Manager is flexible with multiple automated options to ingest data – such as the connectors as well as manual inputs. For scenarios that may require complex data transformation and/or ETL, tools like Azure Data Factory are recommended. You can explore this functionality in deeper detail on Microsoft Docs, please visit [Overview of Microsoft Cloud for Sustainability Data Import](https://docs.microsoft.com/en-us/industry/sustainability/import-data)
 
-![](media/9d46ab408ece0a29ab85b4c6dc0ef24f.png)
+![](Images/image001.png)
 
 ### Personas and Scenarios
 
 In this lab, Reed Flores – IT Admin for Wide World Importers utilizes the activity data Excel spreadsheets sourced by Alex Serra – Emissions Analyst. The Activity data spreadsheets contain Electricity Purchased for the year 2021 and Miles driven by the fleet of Fabrikam Electric Trucks for the calendar year 2021. Reed utilizes Microsoft Sustainability Manger’s connector functionality to import from the Excel spreadsheets, and reviews other connectors available for future purposes. Reed uses the built-in Power Query functionality to transform the data to match Microsoft Sustainability Manager’s data schema and looks for other potential issues such as case-sensitive d data fields.
 
-![](media/5b6937348161db5693a33bc7fb0ac688.png)
+![](Images/image002.png)
 
 In this lab exercise, we will focus on the Lab 2 scenario illustrated below:
 
-![](media/2bf242e01418fef1793d979f53fa9c19.png)
+![](Images/image003.png)
 
 ## Exercise 1: Import Data
 
