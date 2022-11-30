@@ -543,9 +543,8 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
     1.  The **Emission source** is used to identify which activity data type should be used in the calculation.
     1.  The **Activity data to include filter** is used to filter activity data to a specific subset of the activity data type.
     To create the filter perform the following steps: 
-        1.  Click **Add-\>Add row**
-           
-        ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image062.png)
+        1.  Click **Add-\>Add row** 
+        ![Graphical user interface, text, application, email Description automatically generated] (./Images/Lab03/L03_image062.png)
         
         1.  In the “Select a field” dropdown, choose “**Organizational Unit**”
         ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image063.png)
@@ -559,17 +558,18 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
         1.  In the “Select a field” dropdown, choose “**Quantity unit**”
         ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image066.png)
 
-       1.  In the “Value” dropdown, choose “**mile**”
-
+        1.  In the “Value” dropdown, choose “**mile**”
         ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image067.png)
 
     1.  The **Calculation model** is used to identify which calculation model should be used for the calculation. **Be sure to choose the Calculation model from the dropdown list.**
+    
     1.  “**Automatically run this calculation when data is refreshed**” is used to automatically trigger calculations when the matching activity data is refreshed.
+    
     1.  The form should resemble the image below, Click “**Next**”
-
-    >[!NOTE] **Note**: Choose the Calculation model from the dropdown list
-
-    ![Graphical user interface Description automatically generated with medium confidence](./Images/Lab03/L03_image068.png)
+        
+        >[!NOTE] **Note**: Choose the Calculation model from the dropdown list
+    
+        ![Graphical user interface Description automatically generated with medium confidence](./Images/Lab03/L03_image068.png)
 
     On the “Preview” page of the New calculation profile wizard you will see the emissions calculated for the first row of data that matches your Activity data to include filter. **In this scenario, the values seen in the preview may be different than the image below.**
 
