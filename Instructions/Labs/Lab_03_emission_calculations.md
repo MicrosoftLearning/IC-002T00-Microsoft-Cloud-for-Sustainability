@@ -593,9 +593,9 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
     -   N20: 0.033 \* 298 = 9.834 lb
     -   CO2E: 3,001.127 + 5.95 + 9.834 = 3,016.911 lb
 
-    1. You can click “**Save**” to save your Calculation profile.
+1. You can click “**Save**” to save your Calculation profile.
 
-    ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image069.png)
+![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image069.png)
 
 Great job, you have created a calculation profile. Calculation profiles are the mechanisms by which Calculation jobs are queued. You can set your Calculation profiles to run automatically when matching Activity Data is added or updated, as we chose in this scenario, or you can run them manually which we will discuss in Task 3 of this exercise. **Please continue to the next task.**
 
@@ -605,7 +605,7 @@ In this task, Alex will run the newly created Calculation Profiles for the elect
 
 1.  Navigate to “**Calculation profiles**” on the left side of the page.
 
-    ![Graphical user interface, text, application Description automatically generated with medium confidence](./Images/Lab03/L03_image070.png)
+    ![Graphical user interface, text, application Description automatically generated with medium confidence](./Images/Lab03/L03_image060.png)
 
 1.  To run the calculation profile for Purchased Electricity: Contractual Instrument Type - 2021:
     1.  Select **Purchased Electricity: Contractual Instrument Based - 2021 - Wide World Importers** in the list
