@@ -417,7 +417,7 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
     1.  The **Category name** is used for identifying the action in the calculation model.
     1.  The **Emission report value** is used to identify which field should be used to retrieve the value used in the emission calculation. In this scenario, the Output variable from the Estimation factor action is used.
 
-    >[!NOTE] **Note**: In this scenario, the Unit is automatically selected based on the Unit type of the Output variable from the Estimation factor node
+        >[!NOTE] **Note**: In this scenario, the Unit is automatically selected based on the Unit type of the Output variable from the Estimation factor node
 
     1.  The **Emission factor library** is used to identify which factor library will be used to identify the emission factor.
     1.  The **Emission factor** is used to identify which emission factor or factor mapping will be used to calculate the emissions. In this scenario, Alex and Wide World Importers may not know which electric grid a vehicle was charged on or the energy source, so Alex chooses the US Average emission factor to provide the estimated emissions.
@@ -541,31 +541,27 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
 1.  The fields and their values are explained below:
     1.  The **Calculation profile name** is used for identifying the calculation profile in the list.
     1.  The **Emission source** is used to identify which activity data type should be used in the calculation.
-    1.  The **Activity data to include filter** is used to filter activity data to a specific subset of the activity data type.  
-        To create the filter perform the following steps:
+    1.  The **Activity data to include filter** is used to filter activity data to a specific subset of the activity data type.
+    To create the filter perform the following steps: 
         1.  Click **Add-\>Add row**
-
-            ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image062.png)
-
+           
+        ![Graphical user interface, application Description automatically generated (./Images/Lab03/L03_image062.png)
+        
         1.  In the “Select a field” dropdown, choose “**Organizational Unit**”
-
-            ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image063.png)
+        ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image063.png)
 
         1.  In the “Value” dropdown, choose “**Wide World Importers (Organizational unit)**”
-
-            ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image064.png)
+        ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image064.png)
 
         1.  Click **Add-\>Add row** again
-
-            ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image065.png)
+        ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image065.png)
 
         1.  In the “Select a field” dropdown, choose “**Quantity unit**”
+        ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image066.png)
 
-            ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image066.png)
+       1.  In the “Value” dropdown, choose “**mile**”
 
-        1.  In the “Value” dropdown, choose “**mile**”
-
-            ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image067.png)
+        ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image067.png)
 
     1.  The **Calculation model** is used to identify which calculation model should be used for the calculation. **Be sure to choose the Calculation model from the dropdown list.**
     1.  “**Automatically run this calculation when data is refreshed**” is used to automatically trigger calculations when the matching activity data is refreshed.
