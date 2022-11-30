@@ -29,7 +29,7 @@ In the Emission calculations focus area calculation models are designed to calcu
 The following terminologies will be used throughout the configuration of Emission Calculations:
 
 -   **Estimation Factor**: Provides a way to convert from one unit type to another, such as night stays to kilowatt hour (kWh) used.
--   **Emission Factor**: Defines the amount of greenhouse gas emitted by a given unit type, this includes defining gas emissions such as CO2, CH4, and N20.
+-   **Emission Factor**: Defines the amount of greenhouse gas emitted by a given unit type, this includes defining gas emissions such as CO<sub>2</sub>, CH<sub>4</sub>, and N<sub>2</sub>O.
 -   **Factor Mapping**: Provides a way to map reference data to a specific emission factor, simplifying calculation models by allowing customers to choose a reference data type and allowing the system to find the appropriate emission factor.
 -   **Factor Library**: A collection/grouping of emission or estimation factors and factor mappings, used by calculation models.
 -   **Calculation Model**: Thought of as the instruction set used by the application to perform the emission calculations, utilizes factor libraries, factor mappings, and emission/estimation factors to perform the emission calculations.
@@ -100,9 +100,9 @@ In this task, Alex will create factor mappings to map the Contractual instrument
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image010.png)
 
-1.  The FRCC (FRCC All) Emission factor shows us the carbon emissions produced, 861lb of CO2, 0.055lb of CH4, and 0.007lb of N2O, **per megawatt hour (MWh) of energy consumed**.
+1.  The FRCC (FRCC All) Emission factor shows us the carbon emissions produced, 861lb of CO<sub>2</sub>, 0.055lb of CH<sub>4</sub>, and 0.007lb of N<sub>2</sub>O, **per megawatt hour (MWh) of energy consumed**.
 
-    This information is important to understand how our final CO2E (Carbon equivalent) will be calculated later. When creating a new emission factor, you will want to define how much of each gas is produced per a given unit. There are several other gas types that can be tracked as seen on the screen, depending on the scenario some or all of them may be used.
+    This information is important to understand how our final CO<sub>2</sub>E (Carbon equivalent) will be calculated later. When creating a new emission factor, you will want to define how much of each gas is produced per a given unit. There are several other gas types that can be tracked as seen on the screen, depending on the scenario some or all of them may be used.
 
     ![A screenshot of a computer Description automatically generated](./Images/Lab03/L03_image011.png)
 
@@ -122,10 +122,10 @@ In this task, Alex will create factor mappings to map the Contractual instrument
     -   **Factor**: FRCC (FRCC All)
 
 1.  The fields and their values are **explained** below:
-    1.  The **Name** of the factor mapping is used for identifying the factor mapping in the list.
-    1.  The **Reference Data** is mapping the Contractual Instrument Type.
-    1.  The **Factor** is mapping the Emission Factor
-    1.  Click “**Save & Close**” to save the record.
+    -  (1) The **Name** of the factor mapping is used for identifying the factor mapping in the list.
+    -  (2) The **Reference Data** is mapping the Contractual Instrument Type.
+    -  (3) The **Factor** is mapping the Emission Factor
+    -  (4) Click “**Save & Close**” to save the record.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image014.png)
 
@@ -140,11 +140,11 @@ In this task, Alex will create factor mappings to map the Contractual instrument
     -   **Factor**: FRCC (FRCC All)
 
 1.  The fields and their values are **explained** below:
-    1.  The **Name** of the factor mapping is used for identifying the factor mapping in the list.
-    1.  The **Reference Data** is mapping the Contractual Instrument Type.
-    1.  The **Factor** **Library** is the library used
-    1.  The **Factor** is mapping the Emission Factor
-    1.  Click “**Save & Close**” to save the record.
+    -  (1) The **Name** of the factor mapping is used for identifying the factor mapping in the list.
+    -  (2) The **Reference Data** is mapping the Contractual Instrument Type.
+    -  (3) The **Factor** **Library** is the library used
+    -  (4) The **Factor** is mapping the Emission Factor
+    -  (5) Click “**Save & Close**” to save the record.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image016.png)
 
@@ -176,12 +176,12 @@ In this task, Alex will create an estimation factor library to define the estima
     -   **Library Type**: Estimation factor library
 
 1.  The fields and their values are **explained** below:
-    - (1) The **Name** of the factor library, this is used for identifying the factor library in the list.
-    - (2) The **Description** of the factor library is used to provide more information about the factor library for others
-    - (3) The **Documentation reference** for the factor library is used to identify the documentation used to generate the factor library
-    - (4) The **Type** of factor library is used to identify if this factor library is a Custom, Demo (sample), or Standard (pre-loaded based on EPA libraries)
-    - (5) The **Library Type** of the factor library, this functionally switches the library type between Emission or Estimation Library. Emission Libraries are used to calculate emission gases, and Estimation Libraries are used to create estimated conversions from one unit type to another, such as 100 miles driven to kWh.
-    - (6) Click “**Save & Close**” saves the record.
+    -  (1) The **Name** of the factor library, this is used for identifying the factor library in the list.
+    -  (2) The **Description** of the factor library is used to provide more information about the factor library for others
+    -  (3) The **Documentation reference** for the factor library is used to identify the documentation used to generate the factor library
+    -  (4) The **Type** of factor library is used to identify if this factor library is a Custom, Demo (sample), or Standard (pre-loaded based on EPA libraries)
+    -  (5) The **Library Type** of the factor library, this functionally switches the library type between Emission or Estimation Library. Emission Libraries are used to calculate emission gases, and Estimation Libraries are used to create estimated conversions from one unit type to another, such as 100 miles driven to kWh.
+    -  (6) Click “**Save & Close**” saves the record.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image020.png)
 
@@ -214,13 +214,13 @@ In this task, Alex will create the estimation factor for estimating the kilowatt
     -   **Factor value unit**: kWh
 
 1.  The fields and their values are **explained** below:
-    - (1) The **Name**, this is used for identifying the emission factor in the list.
-    - (2) The **Documentation reference**, this is used to identify the documentation used to generate the estimation factor
-    - (3) The **Factor library** links the estimation factor to the factor library. This will default if you click “New Estimation factor” while you are in a factor library.
-    - (4) The **Unit** is used to identify what unit will be converted
-    - (5) The **Factor value** is used to determine the amount to be estimated per the Factor value unit
-    - (6) The **Factor value unit** is used to specify the unit type to be converted to.
-    - (7) Click “**Save & Close**” saves the record.
+    -  (1) The **Name**, this is used for identifying the emission factor in the list.
+    -  (2) The **Documentation reference**, this is used to identify the documentation used to generate the estimation factor
+    -  (3) The **Factor library** links the estimation factor to the factor library. This will default if you click “New Estimation factor” while you are in a factor library.
+    -  (4) The **Unit** is used to identify what unit will be converted
+    -  (5) The **Factor value** is used to determine the amount to be estimated per the Factor value unit
+    -  (6) The **Factor value unit** is used to specify the unit type to be converted to.
+    -  (7) Click “**Save & Close**” saves the record.
 
     ![Graphical user interface, application Description automatically generated with medium confidence](./Images/Lab03/L03_image024.png)
 
@@ -259,11 +259,11 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
     -   **Documentation reference**: https://www.epa.gov/sites/default/files/2020-12/documents/electricityemissions.pdf
 
 1.  The fields and their values are **explained** below:
-    1.  The **Category name** is used for identifying the calculation model in the list.
-    1.  The **Activity data** is used to identify which type of activity data the model will process
-    1.  The **Calculation method** is used to roughly note what the calculation will be doing.
-    1.  The **Documentation reference** is used to identify the documentation used to create the calculation model
-    1.  Click “**Save**” to save the record.
+    -  (1) The **Category name** is used for identifying the calculation model in the list.
+    -  (2) The **Activity data** is used to identify which type of activity data the model will process
+    -  (3) The **Calculation method** is used to roughly note what the calculation will be doing.
+    -  (4) The **Documentation reference** is used to identify the documentation used to create the calculation model
+    -  (5) Click “**Save**” to save the record.
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image029.png)
 
@@ -287,9 +287,9 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
     After the quantity has been converted, the converted value will be multiplied against each gas listed in the emission factor, determining the volume of gases produced.
 
-    To determine the CO2E (Carbon Dioxide Equivalency), the gases produced are multiplied against their GWP factor (Global Warming Potential factor), which is stored in the “Greenhouse Gases” Dataverse table and are added together.
+    To determine the CO<sub>2</sub>E (Carbon Dioxide Equivalency), the gases produced are multiplied against their GWP factor (Global Warming Potential factor), which is stored in the “Greenhouse Gases” Dataverse table and are added together.
 
-    The **Report** action stores the gases produced values, CO2E value, and other identifying information about the activity data row in the emissions table.
+    The **Report** action stores the gases produced values, CO<sub>2</sub>E value, and other identifying information about the activity data row in the emissions table.
 
 1.  Populate the Report action with the following data:
     -   **Category name**: Electricity \* EF (Contractual Instrument Type)
@@ -300,16 +300,16 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
     -   **Emission factor**: Contractual Instrument Type
 
 1.  The fields and their values are **explained** below:
-    1.  The **Category name** is used for identifying the action in the calculation model.
-    1.  The **Description** is used to roughly note what the calculation will be doing.
+    -  (1) The **Category name** is used for identifying the action in the calculation model.
+    -  (2) The **Description** is used to roughly note what the calculation will be doing.
 
     >[!NOTE] **Note**: This value can also be determined by a Power Fx expression if a more complex value is needed instead of a specific field.
 
-    1.  The **Emission report value** is used to identify which field from the activity data type should be used to retrieve the value used in the emission calculation.
-    1.  The **Unit** is used to identify the field from the activity data type to be used to retrieve the unit type of the value. Alternatively, a unit can be specified to always be used in the action, regardless of which unit is specified on the activity date type.
-    1.  The **Emission factor library** is used to identify which factor library will be used to identify the emission factor.
-    1.  The **Emission factor** is used to identify which emission factor or factor mapping will be used to calculate the emissions. Choosing a factor mapping will allow multiple reference data values to map to an emission factor, allowing for a calculation model to not be bound to a single emission factor.
-    1.  Click “**Save**” to save the record.
+    -  (1) The **Emission report value** is used to identify which field from the activity data type should be used to retrieve the value used in the emission calculation.
+    -  (2) The **Unit** is used to identify the field from the activity data type to be used to retrieve the unit type of the value. Alternatively, a unit can be specified to always be used in the action, regardless of which unit is specified on the activity date type.
+    -  (3) The **Emission factor library** is used to identify which factor library will be used to identify the emission factor.
+    -  (4) The **Emission factor** is used to identify which emission factor or factor mapping will be used to calculate the emissions. Choosing a factor mapping will allow multiple reference data values to map to an emission factor, allowing for a calculation model to not be bound to a single emission factor.
+    -  (5) Click “**Save**” to save the record.
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image033.png)
 
@@ -346,11 +346,11 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
     -   **Documentation reference**: <https://fueleconomy.gov/feg/byfuel/EV2022.shtml>
 
 1.  The fields and their values are **explained** below:
-    1.  The **Category name** is used for identifying the calculation model in the list.
-    1.  The **Activity data** is used to identify which type of activity data the model will process
-    1.  The **Calculation method** is used to roughly note what the calculation will be doing.
-    1.  The **Documentation reference** is used to identify the documentation used to create the calculation model
-    1.  Click “**Save**” to save the record.
+    -  (1) The **Category name** is used for identifying the calculation model in the list.
+    -  (2) The **Activity data** is used to identify which type of activity data the model will process
+    -  (3) The **Calculation method** is used to roughly note what the calculation will be doing.
+    -  (4) The **Documentation reference** is used to identify the documentation used to create the calculation model
+    -  (5) Click “**Save**” to save the record.
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image039.png)
 
@@ -380,16 +380,16 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
     -   **Estimation factor**: Fabrikam Electric Truck - EPA Estimate
     -   **Output variable name**: kWhQuantity
 1.  The fields and their values are **explained** below:
-    1.  The **Category name** is used for identifying the action in the calculation model.
-    1.  The **Estimation value** is used to identify which field from the activity data type should be used to retrieve the value used in the estimation calculation.
+    -  (1) The **Category name** is used for identifying the action in the calculation model.
+    -  (2) The **Estimation value** is used to identify which field from the activity data type should be used to retrieve the value used in the estimation calculation.
 
         >[!NOTE] **Note**: This value can also be determined by a Power Fx expression if a more complex value is needed instead of a specific field.
 
-    1.  The **Unit** is used to identify the field from the activity data type should be used to retrieve the unit type of the value. Alternatively, a unit can be specified to always be used in the action, regardless of which unit is specified on the activity date type.
-    1.  The **Estimation factor library** is used to identify which factor library will be used to identify the estimation factor.
-    1.  The **Estimation factor** is used to identify which estimation factor or factor mapping will be used calculate the estimation. In this scenario only one estimation factor has been created so, it does not make sense to select a factor mapping currently.
-    1.  The **Output variable name** is used to name the output of the estimation factor calculation for use in actions further down the chain
-    1.  Click “**Save**” to save the record.
+    -  (1) The **Unit** is used to identify the field from the activity data type should be used to retrieve the unit type of the value. Alternatively, a unit can be specified to always be used in the action, regardless of which unit is specified on the activity date type.
+    -  (2) The **Estimation factor library** is used to identify which factor library will be used to identify the estimation factor.
+    -  (3) The **Estimation factor** is used to identify which estimation factor or factor mapping will be used calculate the estimation. In this scenario only one estimation factor has been created so, it does not make sense to select a factor mapping currently.
+    -  (4) The **Output variable name** is used to name the output of the estimation factor calculation for use in actions further down the chain
+    -  (5) Click “**Save**” to save the record.
 
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image043.png)
@@ -414,14 +414,14 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
     -   **Emission factor**: US Average
 
 1.  The fields and their values are **explained** below:
-    1.  The **Category name** is used for identifying the action in the calculation model.
-    1.  The **Emission report value** is used to identify which field should be used to retrieve the value used in the emission calculation. In this scenario, the Output variable from the Estimation factor action is used.
+    -  (1) The **Category name** is used for identifying the action in the calculation model.
+    -  (2) The **Emission report value** is used to identify which field should be used to retrieve the value used in the emission calculation. In this scenario, the Output variable from the Estimation factor action is used.
 
         >[!NOTE] **Note**: In this scenario, the Unit is automatically selected based on the Unit type of the Output variable from the Estimation factor node
 
-    1.  The **Emission factor library** is used to identify which factor library will be used to identify the emission factor.
-    1.  The **Emission factor** is used to identify which emission factor or factor mapping will be used to calculate the emissions. In this scenario, Alex and Wide World Importers may not know which electric grid a vehicle was charged on or the energy source, so Alex chooses the US Average emission factor to provide the estimated emissions.
-    1.  Click “**Save**” to save the record.
+    -  (1) The **Emission factor library** is used to identify which factor library will be used to identify the emission factor.
+    -  (2) The **Emission factor** is used to identify which emission factor or factor mapping will be used to calculate the emissions. In this scenario, Alex and Wide World Importers may not know which electric grid a vehicle was charged on or the energy source, so Alex chooses the US Average emission factor to provide the estimated emissions.
+    -  (3)  Click “**Save**” to save the record.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image047.png)
 
@@ -445,7 +445,7 @@ In this task, Alex will create a Calculation Profile for the electricity purchas
 
 1.  Navigate to “**Calculation profiles**” on the left side of the page.
 
-    ![](./Images/Lab03/L03_image050.png)
+    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image050.png)
 
 1.  Click “**+New Calculation profile**” to create a new Calculation profile
 
@@ -459,37 +459,37 @@ In this task, Alex will create a Calculation Profile for the electricity purchas
     -   **Check Schedule Automatically run**
 
 1.  The fields and their values are **explained** below:
-    1.  The **Calculation profile** name is used for identifying the calculation profile in the list.
-    1.  The **Emission source** is used to identify which activity data type should be used in the calculation.
-    1.  The **Activity data to include filter** is used to filter activity data to a specific subset of the activity data type.  
+    -  (1) The **Calculation profile** name is used for identifying the calculation profile in the list.
+    -  (2) The **Emission source** is used to identify which activity data type should be used in the calculation.
+    -  (3)  The **Activity data to include filter** is used to filter activity data to a specific subset of the activity data type.  
     To create the filter perform the following steps:
         1.  Click **Add-\>Add row**
 
             ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image052.png)
 
-        1.  In the “Select a field” dropdown, choose **Organizational Unit**
+        2.  In the “Select a field” dropdown, choose **Organizational Unit**
 
             ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image053.png)
 
-        1.  In the “Value” dropdown, choose “**Wide World Importers (Organizational unit)**”
+        3.  In the “Value” dropdown, choose “**Wide World Importers (Organizational unit)**”
         
             ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image054.png)
 
-        1.  Click **Add-\>Add row** again
+        4.  Click **Add-\>Add row** again
 
             ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image055.png)
 
-        1.  In the “Select a field” dropdown, choose “**Quantity unit**”
+        5.  In the “Select a field” dropdown, choose “**Quantity unit**”
 
             ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image056.png)
 
-        1.  In the “Value” dropdown, choose “**kWh**”
+        6.  In the “Value” dropdown, choose “**kWh**”
 
             ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image057.png)
 
-    1.  The **Calculation model** is used to identify which calculation model should be used for the calculation. **Be sure to choose the Calculation model from the dropdown list.**
-    1.  “**Automatically run this calculation when data is refreshed**” is used to automatically trigger calculations when the matching activity data is refreshed.
-    1.  The form should resemble the image below, Click “**Next**”
+    -  (4) The **Calculation model** is used to identify which calculation model should be used for the calculation. **Be sure to choose the Calculation model from the dropdown list.**
+    -  (5) “**Automatically run this calculation when data is refreshed**” is used to automatically trigger calculations when the matching activity data is refreshed.
+    -  (6) The form should resemble the image below, Click “**Next**”
 
     >[!NOTE] **Note**: Choose the Calculation model from the dropdown list
 
@@ -501,18 +501,18 @@ In this task, Alex will create a Calculation Profile for the electricity purchas
 
     The values of emissions gasses are determined by multiplying the converted consumption by each of the greenhouse gas factors from the emission factor (FRCC) determined in the factor mapping:
 
-    -   CO2: 3.519038 \* 861 = 3,029.892 lb
-    -   CH4: 3.519038 \* .055 = 0.194 lb
-    -   N20: 3.519038 \* .007 = 0.025 lb
+    -   CO<sub>2</sub>: 3.519038 \* 861 = 3,029.892 lb
+    -   CH<sub>4</sub>: 3.519038 \* .055 = 0.194 lb
+    -   N<sub>2</sub>O: 3.519038 \* .007 = 0.025 lb
 
     Finally, multiplying the greenhouse gases by their GWP factor (Global Warming Potential) found in the Greenhouse gases table, and adding up the values.
 
     >[!NOTE] **Note**: the values in this by hand demonstration have been rounded to 3 decimal points resulting in a slightly different value. Microsoft Sustainability Manager computes up to 10 decimal points
 
-    -   CO2: 3,029.892 \* 1 = 3,029.892 lb
-    -   CH4: 0.194 \* 25 = 4.85 lb
-    -   N20: 0.025 \* 298 = 7.45 lb
-    -   CO2E: 3,029.892 + 4.85 + 7.45 = 3,042.19 lb
+    -   CO<sub>2</sub>: 3,029.892 \* 1 = 3,029.892 lb
+    -   CH<sub>4</sub>: 0.194 \* 25 = 4.85 lb
+    -   N<sub>2</sub>O: 0.025 \* 298 = 7.45 lb
+    -   CO<sub>2</sub>E: 3,029.892 + 4.85 + 7.45 = 3,042.19 lb
 1.  You can click “**Save**” to save your Calculation profile.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image059.png)
@@ -539,34 +539,34 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
     -   **Check Schedule Automatically run**
 
 1.  The fields and their values are explained below:
-    - (1) The **Calculation profile name** is used for identifying the calculation profile in the list.
-    - (2) The **Emission source** is used to identify which activity data type should be used in the calculation.
-    - (3) The **Activity data to include filter** is used to filter activity data to a specific subset of the activity data type.
+    -  (1) The **Calculation profile name** is used for identifying the calculation profile in the list.
+    -  (2) The **Emission source** is used to identify which activity data type should be used in the calculation.
+    -  (3) The **Activity data to include filter** is used to filter activity data to a specific subset of the activity data type.
     To create the filter perform the following steps: 
         
         1.  Click **Add-\>Add row** 
         ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image062.png)
         
-        1.  In the “Select a field” dropdown, choose “**Organizational Unit**”
+        2.  In the “Select a field” dropdown, choose “**Organizational Unit**”
         ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image063.png)
 
-        1.  In the “Value” dropdown, choose “**Wide World Importers (Organizational unit)**”
+        3.  In the “Value” dropdown, choose “**Wide World Importers (Organizational unit)**”
         ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image064.png)
 
-        1.  Click **Add-\>Add row** again
+        4.  Click **Add-\>Add row** again
         ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image065.png)
 
-        1.  In the “Select a field” dropdown, choose “**Quantity unit**”
+        5.  In the “Select a field” dropdown, choose “**Quantity unit**”
         ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image066.png)
 
-        1.  In the “Value” dropdown, choose “**mile**”
+        6.  In the “Value” dropdown, choose “**mile**”
         ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image067.png)
 
-    - (4)  The **Calculation model** is used to identify which calculation model should be used for the calculation. **Be sure to choose the Calculation model from the dropdown list.**
+    -  (4) The **Calculation model** is used to identify which calculation model should be used for the calculation. **Be sure to choose the Calculation model from the dropdown list.**
     
-    - (5)  “**Automatically run this calculation when data is refreshed**” is used to automatically trigger calculations when the matching activity data is refreshed.
+    -  (5) “**Automatically run this calculation when data is refreshed**” is used to automatically trigger calculations when the matching activity data is refreshed.
     
-    - (6) The form should resemble the image below, Click “**Next**”
+    -  (6) The form should resemble the image below, Click “**Next**”
         
         >[!NOTE] **Note**: Choose the Calculation model from the dropdown list
     
@@ -580,18 +580,18 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
 
     Multiplying the converted consumption by each of the greenhouse gas factors from the emission factor (FRCC) determined in the factor mapping:
 
-    -   CO2: 3.667515 \* 861 = 3,001.127 lb
-    -   CH4: 3.667515 \* .055 = 0.238 lb
-    -   N20: 3.667515 \* .007 = 0.033 lb
+    -   CO<sub>2</sub>: 3.667515 \* 861 = 3,001.127 lb
+    -   CH<sub>4</sub>: 3.667515 \* .055 = 0.238 lb
+    -   N<sub>2</sub>O: 3.667515 \* .007 = 0.033 lb
 
     Finally, multiplying the greenhouse gases by their GWP factor (Global Warming Potential) found in the Greenhouse gases table, and adding up the values.
 
     >[!NOTE] **Note**: the values in this by hand demonstration have been rounded to 3 decimal points resulting in a slightly different value. Microsoft Sustainability Manager computes up to 10 decimal points
 
-    -   CO2: 3,001.127 \* 1 = 3,001.127 lb
-    -   CH4: 0.238 \* 25 = 5.95 lb
-    -   N20: 0.033 \* 298 = 9.834 lb
-    -   CO2E: 3,001.127 + 5.95 + 9.834 = 3,016.911 lb
+    -   CO<sub>2</sub>: 3,001.127 \* 1 = 3,001.127 lb
+    -   CH<sub>4</sub>: 0.238 \* 25 = 5.95 lb
+    -   N<sub>2</sub>O: 0.033 \* 298 = 9.834 lb
+    -   CO<sub>2</sub>E: 3,001.127 + 5.95 + 9.834 = 3,016.911 lb
 
 1. You can click “**Save**” to save your Calculation profile.
 
@@ -608,14 +608,14 @@ In this task, Alex will run the newly created Calculation Profiles for the elect
     ![Graphical user interface, text, application Description automatically generated with medium confidence](./Images/Lab03/L03_image060.png)
 
 1.  To run the calculation profile for Purchased Electricity: Contractual Instrument Type - 2021:
-    - (1) Select **Purchased Electricity: Contractual Instrument Based - 2021 - Wide World Importers** in the list
-    - (2) Click **Run calculation** on the command bar
+    -  (1) Select **Purchased Electricity: Contractual Instrument Based - 2021 - Wide World Importers** in the list
+    -  (2) Click **Run calculation** on the command bar
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image071.png)
 
 1.  To run the calculation profile for Electric Vehicle Miles Driven - 2021:
-    - (1) Select **Electric Vehicle Miles Driven - 2021** in the list
-    - (2) Click **Run calculation** on the command bar
+    -  (1) Select **Electric Vehicle Miles Driven - 2021** in the list
+    -  (2) Click **Run calculation** on the command bar
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image072.png)
 
@@ -647,7 +647,7 @@ In this task, Alex will run the newly created Calculation Profiles for the elect
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image079.png)
 
-1.  After a few moments, the view will refresh, and the calculated emissions data for each of the activity data records imported in previous labs will be shown. Scroll to the right to see the CO2E carbon emission values.
+1.  After a few moments, the view will refresh, and the calculated emissions data for each of the activity data records imported in previous labs will be shown. Scroll to the right to see the CO<sub>2</sub>E carbon emission values.
 
     ![A screenshot of a computer Description automatically generated](./Images/Lab03/L03_image080.png)
 
