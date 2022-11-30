@@ -539,12 +539,13 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
     -   **Check Schedule Automatically run**
 
 1.  The fields and their values are explained below:
-    1.  The **Calculation profile name** is used for identifying the calculation profile in the list.
-    1.  The **Emission source** is used to identify which activity data type should be used in the calculation.
-    1.  The **Activity data to include filter** is used to filter activity data to a specific subset of the activity data type.
+    - [1] The **Calculation profile name** is used for identifying the calculation profile in the list.
+    - [2] The **Emission source** is used to identify which activity data type should be used in the calculation.
+    - [3] The **Activity data to include filter** is used to filter activity data to a specific subset of the activity data type.
     To create the filter perform the following steps: 
+        
         1.  Click **Add-\>Add row** 
-        ![Graphical user interface, text, application, email Description automatically generated] (./Images/Lab03/L03_image062.png)
+        ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image062.png)
         
         1.  In the “Select a field” dropdown, choose “**Organizational Unit**”
         ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image063.png)
@@ -561,11 +562,11 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
         1.  In the “Value” dropdown, choose “**mile**”
         ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image067.png)
 
-    1.  The **Calculation model** is used to identify which calculation model should be used for the calculation. **Be sure to choose the Calculation model from the dropdown list.**
+    - [4]  The **Calculation model** is used to identify which calculation model should be used for the calculation. **Be sure to choose the Calculation model from the dropdown list.**
     
-    1.  “**Automatically run this calculation when data is refreshed**” is used to automatically trigger calculations when the matching activity data is refreshed.
+    - [5]  “**Automatically run this calculation when data is refreshed**” is used to automatically trigger calculations when the matching activity data is refreshed.
     
-    1.  The form should resemble the image below, Click “**Next**”
+    - [6] The form should resemble the image below, Click “**Next**”
         
         >[!NOTE] **Note**: Choose the Calculation model from the dropdown list
     
