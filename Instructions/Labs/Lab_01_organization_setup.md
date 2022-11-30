@@ -45,10 +45,6 @@ In this lab exercise, we will focus on the scenarios illustrated below:
 In this exercise, you will learn about the steps that Alex and Reed take to set up Wide World Imports company profile, organizational data, and reference data. You can explore this functionality in deeper detail on Microsoft Docs, please visit [Set up a company profile](https://docs.microsoft.com/en-us/industry/sustainability/setup-company-profile).
 
 -   For our Instructor Lead Training, we suggest using In-private browsing, or a new browser profile.
--   For our Instructor Lead Training, log in to <https://make.powerapps.com> using the mcfsiaduserXX@powerplatformopenhacks.onmicrosoft.com account that has been assigned to you.
--   For our Instructor Lead Training, please use the environment selector to select the MCFSInADay_XX environment that has been assigned to you
-
-    ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image004.png)
 
 -   Open the **Sustainability Manager** Application
 
