@@ -40,7 +40,7 @@ In this lab exercise, we will focus on the Lab 2 scenario illustrated below:
 
 In this exercise, you will learn about the steps that Reed takes to ingest the spreadsheets given by Alex. Data import is a vital task to bringing large volumes of data into Microsoft Sustainability Manager. Excel is utilized in this lab; however, many pre-built connectors are available, and Partners can build custom connectors to integrate with additional data sources. You can explore this functionality in deeper detail on Microsoft Docs, please visit [Overview of data connectors](https://docs.microsoft.com/en-us/industry/sustainability/import-data-connectors).
 
->[!NOTE] **Important** Please ensure you have completed the previous lab to create Reference Data. **The data import process requires all Reference Data to exist, and the process is case sensitive, so please ensure the Reference data that was added has the exact same case formatting as what is found in the lab**. Failure to do so will result in errors during the data import process
+    >[!NOTE]**Important** Please ensure you have completed the previous lab to create Reference Data. **The data import process requires all Reference Data to exist, and the process is case sensitive, so please ensure the Reference data that was added has the exact same case formatting as what is found in the lab**. Failure to do so will result in errors during the data import process
 
 -   For our Instructor Lead Training, we suggest using In-private browsing, or a new browser profile.
 -   For this lab, you will be utilizing OneDrive. Please ensure that your personal one drive has been initialized by clicking the app selector button in the top left corner of the screen.
@@ -53,7 +53,7 @@ In this exercise, you will learn about the steps that Reed takes to ingest the s
 
 -   This will open a new tab with your new OneDrive. You can close this tab and return to the Power Apps maker portal.
 
-![Graphical user interface, application Description automatically generated](./Images/L02_image006.png)
+    ![Graphical user interface, application Description automatically generated](./Images/L02_image006.png)
 
 -   Open the **Sustainability Manager** Application
 
@@ -331,7 +331,7 @@ On the “Transform data” page of the Power Query wizard, various data and col
 
 1.  After a minute or two click the “**Refresh**” button above the list to see the updated status, which should be “**Completed**”.Ensure you have the correct number of records as below and the status of the data connections are **Complete** before moving to next steps.
 
-    >[!NOTE]**Note:** In case if you have more duplicate records than below screenshot, due to an issue with the following the correct data import steps , you have to delete the activity data and redo the process .Reach out to the lab instructor for support
+    >[!NOTE] **Note:** In case if you have more duplicate records than below screenshot, due to an issue with the following the correct data import steps , you have to delete the activity data and redo the process .Reach out to the lab instructor for support
 
     ![](./Images/L02_image059.png)
 
