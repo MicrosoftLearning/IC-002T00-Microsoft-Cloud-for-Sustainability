@@ -365,7 +365,7 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 1.  A new action is added to the Calculation model. Select that action to configure it.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image042.png)
-
+    
     The **Estimation factor** action is used to create an estimated value for converting one unit type to another in a different unit group, such as converting night stays to kilowatt hours (kWh) used. This is important when it may be difficult to know the exact amount of a given emission source that is used. In this lab, the action will be used to convert miles driven by the fleet of electric vehicles to kWh used. This helps Wide World Importers estimate the carbon emissions for their fleet of electric vehicles that are driving across the USA and may be charging various amounts and on different grids and energy sources.
 
     The activity data quantity and quantity unit will be converted to the same unit type as the estimation factor. In this lab, the mile unit from the Activity data will be converted to 100 mile units.
