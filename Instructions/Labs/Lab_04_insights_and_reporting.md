@@ -82,7 +82,7 @@ In this task, Amber explores the various **Sustainability** dashboards which pro
 
     Summary statistics can be viewed in the left tile. These statistics include the total scope 1 emissions for the current reporting period compared to the previous period. They also include emissions by source type and emissions broken down by greenhouse emissions. Greenhouse emissions include the following gases:
 
-    -   **CO2** – Carbon dioxide
+    -   **CO<sub>2</sub>** – Carbon dioxide
     -   **CH<sub>4</sub>** – Methane
     -   **N<sub>2</sub>O** – Nitrous oxide
     -   **HFCs** – Hydrofluorocarbons (that is, manufactured compounds that contain hydrogen and fluorine atoms)
@@ -154,9 +154,9 @@ In this task, Amber explores the various **Sustainability** dashboards which pro
 
     The bottom-right tile has three tabs: **By country/region**, **By organizational unit**, and **By facility**. Each tab shows scope 3 emissions for the corresponding delineation of data.
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image010.png)
+     ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image010.png)
 
-    1.  Select **Renewable energy** on the top tab to view the summary view of renewable energy, its sources, and the contract type.
+1.  Select **Renewable energy** on the top tab to view the summary view of renewable energy, its sources, and the contract type.
 
     The summary statistics can be viewed in the left tile. These statistics include renewable energy as a total percentage of energy that was used for the selected reporting period compared to the previous period. The tile also shows the percentage of renewable energy by source type, such as solar, wind, and water.
 
@@ -166,9 +166,9 @@ In this task, Amber explores the various **Sustainability** dashboards which pro
 
     The bottom-right tile has three tabs: **By country/region**, **By organizational unit**, and **By facility**. Each tab shows renewable energy for the corresponding delineation of data.
 
-![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image011.png)
+    ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image011.png)
 
-    1.  Select **Deep analysis** on the top tab to dive deeper into data and uncover insights that might not be available from other reports. The dashboard can be filtered by selecting a reporting period and accounting method.
+1.  Select **Deep analysis** on the top tab to dive deeper into data and uncover insights that might not be available from other reports. The dashboard can be filtered by selecting a reporting period and accounting method.
 
     The **Decomposition tree** can be used to drill down from the company-level to more granular levels of the organization, and to access
 
@@ -180,27 +180,27 @@ In this task, Amber explores the various **Sustainability** dashboards which pro
     -  Different levels of scope 1, scope 2, and scope 3 emissions.
     -  Facility
 
-    ![Graphical user interface, text, application Description automatically generated](./Images/Lab04/L04_image011.png)
-
-2.  Amber drills into our decomposition tree to identify where our high sources of emissions are. Click the + next to Total emissions, and select Scope
-
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab04/L04_image012.png)
 
-3.  Amber can see that Scope 2 has the largest volume of emissions. Click the + next to Scope 2, and select Emission source to identify which Scope 2 emission source is biggest contributor
+1.  Amber drills into our decomposition tree to identify where our high sources of emissions are. Click the + next to Total emissions, and select Scope
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab04/L04_image013.png)
 
-4.  It seems that Purchased electricity was the biggest contributor of emissions. Click the + next to Purchased electricity and select Country/region to identify which regions were contributing to the large Purchased electricity emissions.
+1.  Amber can see that Scope 2 has the largest volume of emissions. Click the + next to Scope 2, and select Emission source to identify which Scope 2 emission source is biggest contributor
 
-    ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab04/L04_image014.png)
+    ![Graphical user interface, text, application Description automatically generated](./Images/Lab04/L04_image014.png)
 
-5.  The USA contributed the most to the Purchased Electricity emissions. The Country/Region selection is driven by the country region mapping table found in the Settings area. Click the + next to USA and select Organization to see which organizations contributed to this.
+1.  It seems that Purchased electricity was the biggest contributor of emissions. Click the + next to Purchased electricity and select Country/region to identify which regions were contributing to the large Purchased electricity emissions.
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image015.png)
+    ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab04/L04_image015.png)
 
-6.  Wide World Importers was the largest contributor to Contoso Corp’s carbon emissions. Amber uses this information to create a goal for Wide World Importers to reduce their Purchased electricity emissions by 300 mtCO<sub>2</sub>E (In the next Lab)
+1.  The USA contributed the most to the Purchased Electricity emissions. The Country/Region selection is driven by the country region mapping table found in the Settings area. Click the + next to USA and select Organization to see which organizations contributed to this.
 
-![A picture containing graphical user interface Description automatically generated](./Images/Lab04/L04_image016.png)
+    ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image016.png)
+
+1.  Wide World Importers was the largest contributor to Contoso Corp’s carbon emissions. Amber uses this information to create a goal for Wide World Importers to reduce their Purchased electricity emissions by 300 mtCO<sub>2</sub>E (In the next Lab)
+
+    ![A picture containing graphical user interface Description automatically generated](./Images/Lab04/L04_image017.png)
 
 Great job, you have successfully explored various Sustainability dashboards. You can use these dashboards to gain insights into your emissions data. You can see as we drilled down from total emissions to the organization level, we were able to determine that Wide World Importers needs to reduce the carbon emissions from Purchased electricity. This could be achieved in a variety of ways such as switching to renewable energy sources or using more energy efficient devices and vehicles. You can use these insights to drive business decisions and use the information to create scorecards and goals to track your progress. **Please continue to the next task.**
 
