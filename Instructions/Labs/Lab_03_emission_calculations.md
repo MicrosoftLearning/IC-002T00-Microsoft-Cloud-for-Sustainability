@@ -545,7 +545,7 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
     To create the filter perform the following steps: 
         1.  Click **Add-\>Add row**
            
-        ![Graphical user interface, application Description automatically generated (./Images/Lab03/L03_image062.png)
+        ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image062.png)
         
         1.  In the “Select a field” dropdown, choose “**Organizational Unit**”
         ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image063.png)
