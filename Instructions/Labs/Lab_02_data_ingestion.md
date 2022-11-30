@@ -225,7 +225,7 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
 2.  After a few moments, the view will refresh, and the activity data records that were imported during this lab will be displayed.
 
-    ![](./Images/Lab02/L02_image042.png)
+    ![](./Images/Lab02/L02_image042a.png)
 
 Great job, you have just completed the data import of 2021 Purchased Electricity for Wide World Importers. This is an important step to realizing the goal of recording, reporting, and reducing carbon emissions. Next, we will import the 2021 Miles Driven for Wide World Importers fleet of electric vehicles. **Please continue to the next task.**
 
