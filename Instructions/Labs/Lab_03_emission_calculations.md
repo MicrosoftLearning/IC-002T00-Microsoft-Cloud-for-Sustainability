@@ -176,12 +176,12 @@ In this task, Alex will create an estimation factor library to define the estima
     -   **Library Type**: Estimation factor library
 
 1.  The fields and their values are **explained** below:
-    1.  The **Name** of the factor library, this is used for identifying the factor library in the list.
-    1.  The **Description** of the factor library is used to provide more information about the factor library for others
-    1.  The **Documentation reference** for the factor library is used to identify the documentation used to generate the factor library
-    1.  The **Type** of factor library is used to identify if this factor library is a Custom, Demo (sample), or Standard (pre-loaded based on EPA libraries)
-    1.  The **Library Type** of the factor library, this functionally switches the library type between Emission or Estimation Library. Emission Libraries are used to calculate emission gases, and Estimation Libraries are used to create estimated conversions from one unit type to another, such as 100 miles driven to kWh.
-    1.  Click “**Save & Close**” saves the record.
+    - [1] The **Name** of the factor library, this is used for identifying the factor library in the list.
+    - [2] The **Description** of the factor library is used to provide more information about the factor library for others
+    - [3] The **Documentation reference** for the factor library is used to identify the documentation used to generate the factor library
+    - [4] The **Type** of factor library is used to identify if this factor library is a Custom, Demo (sample), or Standard (pre-loaded based on EPA libraries)
+    - [5] The **Library Type** of the factor library, this functionally switches the library type between Emission or Estimation Library. Emission Libraries are used to calculate emission gases, and Estimation Libraries are used to create estimated conversions from one unit type to another, such as 100 miles driven to kWh.
+    - [6] Click “**Save & Close**” saves the record.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image020.png)
 
@@ -214,13 +214,13 @@ In this task, Alex will create the estimation factor for estimating the kilowatt
     -   **Factor value unit**: kWh
 
 1.  The fields and their values are **explained** below:
-    1.  The **Name**, this is used for identifying the emission factor in the list.
-    1.  The **Documentation reference**, this is used to identify the documentation used to generate the estimation factor
-    1.  The **Factor library** links the estimation factor to the factor library. This will default if you click “New Estimation factor” while you are in a factor library.
-    1.  The **Unit** is used to identify what unit will be converted
-    1.  The **Factor value** is used to determine the amount to be estimated per the Factor value unit
-    1.  The **Factor value unit** is used to specify the unit type to be converted to.
-    1.  Click “**Save & Close**” saves the record.
+    - [1] The **Name**, this is used for identifying the emission factor in the list.
+    - [2] The **Documentation reference**, this is used to identify the documentation used to generate the estimation factor
+    - [3] The **Factor library** links the estimation factor to the factor library. This will default if you click “New Estimation factor” while you are in a factor library.
+    - [4] The **Unit** is used to identify what unit will be converted
+    - [5] The **Factor value** is used to determine the amount to be estimated per the Factor value unit
+    - [6] The **Factor value unit** is used to specify the unit type to be converted to.
+    - [7] Click “**Save & Close**” saves the record.
 
     ![Graphical user interface, application Description automatically generated with medium confidence](./Images/Lab03/L03_image024.png)
 
