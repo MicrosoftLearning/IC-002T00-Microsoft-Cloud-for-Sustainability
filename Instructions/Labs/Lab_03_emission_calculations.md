@@ -176,12 +176,12 @@ In this task, Alex will create an estimation factor library to define the estima
     -   **Library Type**: Estimation factor library
 
 1.  The fields and their values are **explained** below:
-    - [1] The **Name** of the factor library, this is used for identifying the factor library in the list.
-    - [2] The **Description** of the factor library is used to provide more information about the factor library for others
-    - [3] The **Documentation reference** for the factor library is used to identify the documentation used to generate the factor library
-    - [4] The **Type** of factor library is used to identify if this factor library is a Custom, Demo (sample), or Standard (pre-loaded based on EPA libraries)
-    - [5] The **Library Type** of the factor library, this functionally switches the library type between Emission or Estimation Library. Emission Libraries are used to calculate emission gases, and Estimation Libraries are used to create estimated conversions from one unit type to another, such as 100 miles driven to kWh.
-    - [6] Click “**Save & Close**” saves the record.
+    - (1) The **Name** of the factor library, this is used for identifying the factor library in the list.
+    - (2) The **Description** of the factor library is used to provide more information about the factor library for others
+    - (3) The **Documentation reference** for the factor library is used to identify the documentation used to generate the factor library
+    - (4) The **Type** of factor library is used to identify if this factor library is a Custom, Demo (sample), or Standard (pre-loaded based on EPA libraries)
+    - (5) The **Library Type** of the factor library, this functionally switches the library type between Emission or Estimation Library. Emission Libraries are used to calculate emission gases, and Estimation Libraries are used to create estimated conversions from one unit type to another, such as 100 miles driven to kWh.
+    - (6) Click “**Save & Close**” saves the record.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image020.png)
 
@@ -214,13 +214,13 @@ In this task, Alex will create the estimation factor for estimating the kilowatt
     -   **Factor value unit**: kWh
 
 1.  The fields and their values are **explained** below:
-    - [1] The **Name**, this is used for identifying the emission factor in the list.
-    - [2] The **Documentation reference**, this is used to identify the documentation used to generate the estimation factor
-    - [3] The **Factor library** links the estimation factor to the factor library. This will default if you click “New Estimation factor” while you are in a factor library.
-    - [4] The **Unit** is used to identify what unit will be converted
-    - [5] The **Factor value** is used to determine the amount to be estimated per the Factor value unit
-    - [6] The **Factor value unit** is used to specify the unit type to be converted to.
-    - [7] Click “**Save & Close**” saves the record.
+    - (1) The **Name**, this is used for identifying the emission factor in the list.
+    - (2) The **Documentation reference**, this is used to identify the documentation used to generate the estimation factor
+    - (3) The **Factor library** links the estimation factor to the factor library. This will default if you click “New Estimation factor” while you are in a factor library.
+    - (4) The **Unit** is used to identify what unit will be converted
+    - (5) The **Factor value** is used to determine the amount to be estimated per the Factor value unit
+    - (6) The **Factor value unit** is used to specify the unit type to be converted to.
+    - (7) Click “**Save & Close**” saves the record.
 
     ![Graphical user interface, application Description automatically generated with medium confidence](./Images/Lab03/L03_image024.png)
 
@@ -539,9 +539,9 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
     -   **Check Schedule Automatically run**
 
 1.  The fields and their values are explained below:
-    - [1] The **Calculation profile name** is used for identifying the calculation profile in the list.
-    - [2] The **Emission source** is used to identify which activity data type should be used in the calculation.
-    - [3] The **Activity data to include filter** is used to filter activity data to a specific subset of the activity data type.
+    - (1) The **Calculation profile name** is used for identifying the calculation profile in the list.
+    - (2) The **Emission source** is used to identify which activity data type should be used in the calculation.
+    - (3) The **Activity data to include filter** is used to filter activity data to a specific subset of the activity data type.
     To create the filter perform the following steps: 
         
         1.  Click **Add-\>Add row** 
@@ -562,11 +562,11 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
         1.  In the “Value” dropdown, choose “**mile**”
         ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image067.png)
 
-    - [4]  The **Calculation model** is used to identify which calculation model should be used for the calculation. **Be sure to choose the Calculation model from the dropdown list.**
+    - (4)  The **Calculation model** is used to identify which calculation model should be used for the calculation. **Be sure to choose the Calculation model from the dropdown list.**
     
-    - [5]  “**Automatically run this calculation when data is refreshed**” is used to automatically trigger calculations when the matching activity data is refreshed.
+    - (5)  “**Automatically run this calculation when data is refreshed**” is used to automatically trigger calculations when the matching activity data is refreshed.
     
-    - [6] The form should resemble the image below, Click “**Next**”
+    - (6) The form should resemble the image below, Click “**Next**”
         
         >[!NOTE] **Note**: Choose the Calculation model from the dropdown list
     
@@ -608,14 +608,14 @@ In this task, Alex will run the newly created Calculation Profiles for the elect
     ![Graphical user interface, text, application Description automatically generated with medium confidence](./Images/Lab03/L03_image060.png)
 
 1.  To run the calculation profile for Purchased Electricity: Contractual Instrument Type - 2021:
-    - [1] Select **Purchased Electricity: Contractual Instrument Based - 2021 - Wide World Importers** in the list
-    - [2] Click **Run calculation** on the command bar
+    - (1) Select **Purchased Electricity: Contractual Instrument Based - 2021 - Wide World Importers** in the list
+    - (2) Click **Run calculation** on the command bar
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image071.png)
 
 1.  To run the calculation profile for Electric Vehicle Miles Driven - 2021:
-    - [1] Select **Electric Vehicle Miles Driven - 2021** in the list
-    - [2] Click **Run calculation** on the command bar
+    - (1) Select **Electric Vehicle Miles Driven - 2021** in the list
+    - (2) Click **Run calculation** on the command bar
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image072.png)
 
