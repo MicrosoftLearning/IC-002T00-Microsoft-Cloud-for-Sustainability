@@ -212,25 +212,42 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 
 1.  In the left navigation pane, select **Reporting**.
 
-![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image017.png)
-
-1.  Once the report is saved, the **Generate report** button will be visible on the command bar. Select **Generate report** and then the report is queued to be generated.
-
     ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image018.png)
 
-2.  Select **Refresh** button on the command bar until the **Report generation status** is changed from **Pending** to **Ready for download.** This may take a few minutes to generate.
+1.  Select **New**.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image019.png)
 
-3.  Once the status is changed, a button **Download report** is visible in the command bar. Select that button to download the generated report. An Excel report begins to be downloaded. Open the report.
+1.  Set the following fields:
+    -   **Name** – Enter the name of the report. For example: MC4S Emissions report
+    -   **Report type** – Select **Emissions report**.
+    -   **Start date** – 01/01/2021
+    -   **End date** – 12/31/2021
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image020.png)
+        Fields can be selected to group data by, or column headers for the report. The available fields for Emissions report are **Country**, **Region**, **Latitude/Longitude**, **Organization unit**, **Facility, Is market-based, Is biogenic, Scope, Emission source, Activity type**. (The **Organization hierarchy date** field appears only after the **Organization unit** field is selected.).
 
-4.  The reports contain the following information:
--   The **Group by** column headers that were selected. In this case, it is grouped by Country/Region, Regional group, Facility, Scope, Emissions source, and Activity type
--   The following emission metrics: **CO2**, **CH<sub>4</sub>**, **N<sub>2</sub>O**, **SF<sub>6</sub>**, **NF<sub>3</sub>**, **CO<sub>2</sub>E**, **HFCs**, **PFCs**, and **Other GHGs.**
+        For this task, Jessie will just set **Country/Region**, **Regional group**, **Facility**, **Scope**, **Emissions source**, and **Activity type** for use in Contoso Corp’s carbon emissions reporting for public disclosure.
 
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab04/L04_image021.png)
+        Once these are selected. Select **Save** on the top command bar.
+        ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image020.png)
+
+1.  Once the report is saved, the **Generate report** button will be visible on the command bar. Select **Generate report** and then the report is queued to be generated.
+
+    ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image021.png)
+
+1.  Select **Refresh** button on the command bar until the **Report generation status** is changed from **Pending** to **Ready for download.** This may take a few minutes to generate.
+
+    ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image022.png)
+
+1.  Once the status is changed, a button **Download report** is visible in the command bar. Select that button to download the generated report. An Excel report begins to be downloaded. Open the report.
+
+    ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image023.png)
+
+1.  The reports contain the following information:
+    - The **Group by** column headers that were selected. In this case, it is grouped by Country/Region, Regional group, Facility, Scope, Emissions source, and Activity type
+    - The following emission metrics: **CO2**, **CH<sub>4</sub>**, **N<sub>2</sub>O**, **SF<sub>6</sub>**, **NF<sub>3</sub>**, **CO<sub>2</sub>E**, **HFCs**, **PFCs**, and **Other GHGs.**
+
+    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab04/L04_image024.png)
 
     Great job, you have successfully generated an emissions report. Emissions reports are useful for providing information in public disclosures. Microsoft Sustainability provides this information in a tabular format to allow you to adapt it to meet the rapidly changing regulatory requirements. There is a great opportunity for **partners** to assist in the generation of the disclosure documents by configuring an emissions report to export data in a consistent and familiar format for ingestion into a **partner** solution. **Please continue to the next task.**
 
