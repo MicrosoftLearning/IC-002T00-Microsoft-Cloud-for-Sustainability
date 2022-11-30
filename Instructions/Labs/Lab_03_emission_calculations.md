@@ -383,7 +383,7 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
     1.  The **Category name** is used for identifying the action in the calculation model.
     1.  The **Estimation value** is used to identify which field from the activity data type should be used to retrieve the value used in the estimation calculation.
 
-    >[!NOTE] **Note**: This value can also be determined by a Power Fx expression if a more complex value is needed instead of a specific field.
+        >[!NOTE] **Note**: This value can also be determined by a Power Fx expression if a more complex value is needed instead of a specific field.
 
     1.  The **Unit** is used to identify the field from the activity data type should be used to retrieve the unit type of the value. Alternatively, a unit can be specified to always be used in the action, regardless of which unit is specified on the activity date type.
     1.  The **Estimation factor library** is used to identify which factor library will be used to identify the estimation factor.
