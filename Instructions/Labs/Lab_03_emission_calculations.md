@@ -608,20 +608,20 @@ In this task, Alex will run the newly created Calculation Profiles for the elect
     ![Graphical user interface, text, application Description automatically generated with medium confidence](./Images/Lab03/L03_image060.png)
 
 1.  To run the calculation profile for Purchased Electricity: Contractual Instrument Type - 2021:
-    1.  Select **Purchased Electricity: Contractual Instrument Based - 2021 - Wide World Importers** in the list
-    1.  Click **Run calculation** on the command bar
+    - [1] Select **Purchased Electricity: Contractual Instrument Based - 2021 - Wide World Importers** in the list
+    - [2] Click **Run calculation** on the command bar
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image071.png)
 
 1.  To run the calculation profile for Electric Vehicle Miles Driven - 2021:
-    1.  Select **Electric Vehicle Miles Driven - 2021** in the list
-    1.  Click **Run calculation** on the command bar
+    - [1] Select **Electric Vehicle Miles Driven - 2021** in the list
+    - [2] Click **Run calculation** on the command bar
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image072.png)
 
 1.  After several minutes (approximately 6 minutes) both calculation jobs should be completed. Alex clicks the “**Refresh**” button on the command bar to check the status of the calculation jobs. The two Calculation profiles should now have a status of “**Succeeded**”.
 
-    ![](./Images/Lab03/L03_image073.png)
+    ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab03/L03_image073.png)
 
 1.  In the bottom left corner, change the Area to **Analytics**
 
