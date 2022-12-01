@@ -229,9 +229,9 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 
      For this task, Jessie will just set **Country/Region**, **Regional group**, **Facility**, **Scope**, **Emissions source**, and **Activity type** for use in Contoso Corp’s carbon emissions reporting for public disclosure.
 
-    1. Once these are selected, select **Save** on the top command bar.
-     
-     ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image020.png)
+1. Once these are selected, select **Save** on the top command bar.
+
+    ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image020.png)
 
 1.  Once the report is saved, the **Generate report** button will be visible on the command bar. Select **Generate report** and then the report is queued to be generated.
 
