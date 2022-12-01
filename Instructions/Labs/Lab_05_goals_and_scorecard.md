@@ -145,64 +145,64 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
         1.  In the “Value” dropdown, choose “**Wide World Importers (Organizational unit)**”
 
-            ![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image00.png)
+            ![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image015.png)
 
         1.  Select **Add -> Add row** again
 
-            ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image00.png)
+            ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image016.png)
 
         1.  In the “Select a field” dropdown, choose “**Consumption end date**”
 
-            ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image00.png)
+            ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image017.png)
 
         1.  In the “Operator” dropdown, which currently says “Equals”, choose “**Last x years**”
 
-            ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image00.png)
+            ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image018.png)
 
         1.  In the “Value” field, type in the number, **1**
 
-            ![A picture containing graphical user interface Description automatically generated](./Images/Lab05/L05_image00.png)
+            ![A picture containing graphical user interface Description automatically generated](./Images/Lab05/L05_image019.png)
 
         1.  At the top of the form, click “Calculate” to see a preview of the data that would be used for the current value check in. Copy this value. **The value calculated may be different from the image below.**
 
-            ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image00.png)
+            ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image020.png)
 
         1.  The Current value data connection should look like the image below, click “**Save**” when finished.
 
-            ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image00.png)
+            ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image021.png)
 
-1.  **Source of target value** is used to specify what the source of the target value is. The **Source of target value** can be connected to data or, in this scenario, entered manually. Amber selects “**Enter manually**” and enter **600** to set our target of reducing our annual emissions to 600 mtCO2E.
+    1.  **Source of target value** is used to specify what the source of the target value is. The **Source of target value** can be connected to data or, in this scenario, entered manually. Amber selects “**Enter manually**” and enter **600** to set our target of reducing our annual emissions to 600 mtCO2E.
 
-1.  **Status update method** is used to specify how the status of the goal check ins will be set. The **Status update method** can be entered manually or, in this scenario, automatic to automatically set the status for goal check-ins based on a set of rules. Amber selects “**Automatic**” and select “**Create rules**”
+    1.  **Status update method** is used to specify how the status of the goal check ins will be set. The **Status update method** can be entered manually or, in this scenario, automatic to automatically set the status for goal check-ins based on a set of rules. Amber selects “**Automatic**” and select “**Create rules**”
     1.  Select “**New Rule**” to start a new rule for our Status.
 
-            ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image00.png)
+        ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image022.png)
 
     1.  In the “**Operator**” dropdown, choose “**is greater than**”
 
-           ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab05/L05_image00.png)
+        ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab05/L05_image023.png)
 
     1.  In the “**Value**” field, which currently says “**0**”, enter 600, and select “**At Risk**” from the “**Set status to**” dropdown
 
-            ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image00.png)
+         ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image025.png)
 
     1.  This specifies that if the check-in value is greater than 600 (our target value), then the organization is at risk, and the check-in will have a status of At risk.
     1.  In the **“Otherwise, change status to**” dropdown, select “**On track**”
 
-            ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image00.png)
+        ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image026.png)
 
-1.  This specifies that if the condition above is not met during a check-in, then we are on track to meeting the goal, and the check-in will have a status of On track.
+    1.  This specifies that if the condition above is not met during a check-in, then we are on track to meeting the goal, and the check-in will have a status of On track.
     1.  The Status rules should look like the image below, click “**Confirm**”
 
-            ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image00.png)
+        ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image027.png)
 
-1.  Select “**Save**”
+    1.  Select “**Save**”
 
-![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image00.png)
+        ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image028.png)
 
 1.  The new goal should be visible in the list of goals for the scorecard.
 
-![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab05/L05_image029.png)
 
 Great job, you have created a Goal for your scorecard. Goals are important to keep track of an organization’s progress towards reducing their carbon footprint. Any goals you have with a current value that is connected to data will have check-ins created roughly every 24 hours. Let’s go ahead and create our first check-in manually so you are familiar with the check-in data. **Please continue to the next task**
 
