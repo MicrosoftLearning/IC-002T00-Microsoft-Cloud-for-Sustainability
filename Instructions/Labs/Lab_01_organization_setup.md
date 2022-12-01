@@ -44,7 +44,7 @@ In this lab exercise, we will focus on the scenarios illustrated below:
 
 In this exercise, you will learn about the steps that Alex and Reed take to set up Wide World Imports company profile, organizational data, and reference data. You can explore this functionality in deeper detail on Microsoft Docs, please visit Set up a company profile at +++https://docs.microsoft.com/en-us/industry/sustainability/setup-company-profile+++.
 
--   Open the **Sustainability Manager** Application
+1. Open the **Sustainability Manager** Application
 
     ![Graphical user interface, application, Teams Description automatically generated](./Images/Lab01/L01_image005.png)
 
@@ -52,7 +52,7 @@ You will land on the **Home** page for Microsoft Sustainability Manager.
 
 ![A screenshot of a computer Description automatically generated](./Images/Lab01/L01_image006.png)
 
- >[!NOTE] **Note**: You can dismiss the Product tour by scrolling down and selecting the **Dismiss tour** button.
+ >[!NOTE]**Note**: You can dismiss the Product tour by scrolling down and selecting the **Dismiss tour** button.
 
  ![Graphical user interface, text, application Description automatically generated](./Images/Lab01/L01_image007.png)
 
