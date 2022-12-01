@@ -4,7 +4,7 @@
 
 ### Background
 
-In this lab for Microsoft Cloud for Sustainability you will build on top of demo data to configure the “Set up organization and reference data” scenario. Contoso Corp (*organization* *present in the demo data*) is a specialty Coffee distribution business with operations in APAC, US, Africa, and Europe.
+In this lab for Microsoft Cloud for Sustainability you will build on top of demo data to configure the “Set up organization and reference data” scenario. Contoso Corp (*organization present in the demo data*) is a specialty Coffee distribution business with operations in APAC, US, Africa, and Europe.
 
 Contoso Corp is experiencing Supply chain challenges to transport its finished goods across the USA and wants to augment its transportation and logistics capacities. To meet this challenge, Contoso Corp acquires a transportation business called Wide World Importers based in Florida, USA. Wide World Importers has two office facilities with 100 employees that coordinate a fleet of 40 electric trucks that will be used for transportation of finished goods across the USA.
 
@@ -42,19 +42,17 @@ In this lab exercise, we will focus on the scenarios illustrated below:
 
 ## Exercise 1: Set up company profile and reference data
 
-In this exercise, you will learn about the steps that Alex and Reed take to set up Wide World Imports company profile, organizational data, and reference data. You can explore this functionality in deeper detail on Microsoft Docs, please visit [Set up a company profile](https://docs.microsoft.com/en-us/industry/sustainability/setup-company-profile).
-
--   For our Instructor Lead Training, we suggest using In-private browsing, or a new browser profile.
+In this exercise, you will learn about the steps that Alex and Reed take to set up Wide World Imports company profile, organizational data, and reference data. You can explore this functionality in deeper detail on Microsoft Docs, please visit Set up a company profile at +++https://docs.microsoft.com/en-us/industry/sustainability/setup-company-profile+++.
 
 -   Open the **Sustainability Manager** Application
 
     ![Graphical user interface, application, Teams Description automatically generated](./Images/Lab01/L01_image005.png)
 
-You will land on the **Home** page for Microsoft Sustainability Manager
+You will land on the **Home** page for Microsoft Sustainability Manager.
 
 ![A screenshot of a computer Description automatically generated](./Images/Lab01/L01_image006.png)
 
- >[!NOTE]**Note**: You can dismiss the Product tour by scrolling down and clicking on the “Dismiss tour” button.
+ >[!NOTE] **Note**: You can dismiss the Product tour by scrolling down and selecting the **Dismiss tour** button.
 
  ![Graphical user interface, text, application Description automatically generated](./Images/Lab01/L01_image007.png)
 
@@ -66,11 +64,11 @@ Area navigation is a common first step in each lab and exercise. You can find th
 
 In this task, Alex sets up the Company profile, hierarchy, and facilities for the Wide World Importers organization in Microsoft Sustainability Manager.
 
-1. In the bottom left corner, change your Area to **Settings**
+1. In the bottom left corner, change your Area to **Settings**.
 
     ![](./Images/Lab01/L01_image009.png)
 
-1. Navigate to “**Company profile**” on the left side of the page.
+1. Navigate to **Company profile** on the left side of the page.
 
     ![](./Images/Lab01/L01_image010.png)
 
@@ -78,23 +76,23 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image011.png)
 
-1. On the **Company profile** page, Click on **Industries** Tab. Microsoft Sustainability Manager includes a selection of pre-defined industries and sub-verticals based on NACE standards, [NACE Code](https://nacev2.com/en). Click +**Add**
+1. On the **Company profile** page, select **Industries** tab. Microsoft Sustainability Manager includes a selection of pre-defined industries and sub-verticals based on NACE standards, see NACE Code at +++https://nacev2.com/en. Select **+Add**.
 
     ![](./Images/Lab01/L01_image012.png)
 
-1. In the **Industries** section select **Transportation and storage**
+1. In the **Industries** section, select **Transportation and storage**.
 
     ![Graphical user interface, application, PowerPoint Description automatically generated](./Images/Lab01/L01_image013.png)
 
-1. In the next screen select **“Land transport and transport via pipelines”** and select **“Add”**
+1. In the next screen, select **Land transport and transport via pipelines** and select **Add**.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image014.png)
 
-1. “**Land transport and transport via pipelines**” is now visible in the Industries section at the bottom of the **Company profile** page
+1. **Land transport and transport via pipelines** is now visible in the Industries section at the bottom of the **Company profile** page.
 
     ![Graphical user interface, website Description automatically generated](./Images/Lab01/L01_image015.png)
 
-1. In the **Company profile** page switch to the **Structure** tab
+1. In the **Company profile** page, switch to the **Structure** tab.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image016.png)
 
@@ -102,81 +100,65 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
 
     ![Graphical user interface, application, table Description automatically generated](./Images/Lab01/L01_image017.png)
 
-1. Enter the following data for organizational unit and select **Save** in the button pane
+1. Enter the following data for organizational unit and select **Save** in the button pane:
 
-    - **Name**: Wide World Importers
-
-    - **Organizational unit type**: Department
+    1. **Name**: Wide World Importers
+    1. **Organizational unit type**: Department
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image018.png)
 
-1. In the Organizational hierarchies section, which appears after clicking **Save**, click + **New Organizational hierarchy**
+1. In the **Organizational hierarchies** section, which appears after selecting **Save**, select **+ New Organizational hierarchy**.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab01/L01_image019.png)
 
-1. Set the following values and click **Save & Close**
+1. Set the following values and select **Save & Close**:
 
-    - **Parent**: Contoso USA
-
-    - **Effective start date**: The first day of the current month (MM/DD/YYYY)
+    1. **Parent**: Contoso USA
+    1. **Effective start date**: The first day of the current month (MM/DD/YYYY)
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image020.png)
 
-1. After being returned to the Organizational Unit, click **Save & Close** to return to the **Company profile**
+1. After being returned to the **Organizational Unit**, select **Save & Close** to return to the **Company profile**.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab01/L01_image021.png)
 
-1. Navigate to **Company profile** switch to **Facilities** tab page and select **Add facility**
+1. Navigate to **Company profile**, switch to the **Facilities** tab page and select **Add facility**.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image022.png)
 
-1. Create a new Facility with the following details. Once the values are entered, select **Save & Close**
+1. Create a new Facility with the following details. Once the values are entered, select **Save & Close**:
 
     >[!NOTE] **Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
-    - **Name**: Wide World Importers - Miami Office
-
-    - **Address line 1**: Brickell Avenue
-
-    - **City**: Miami
-
-    - **State**: Florida
-
-    - **Zip**: 33132
-
-    - **Country**: United states of America
-
-    - **Latitude**: 25.774320
-
-    - **Longitude**: -80.187720
+    1. **Name**: Wide World Importers - Miami Office
+    1. **Address line 1**: Brickell Avenue
+    1. **City**: Miami
+    1. **State**: Florida
+    1. **Zip**: 33132
+    1. **Country**: United states of America
+    1. **Latitude**: 25.774320
+    1. **Longitude**: -80.187720
 
     >[!NOTE] **Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
 
-![](./Images/Lab01/L01_image023.png)
+    ![](./Images/Lab01/L01_image023.png)
 
-1. Using the same steps, add another new **Facility**. Once the values are entered, select **Save & Close**
+1. Using the same steps, add another new **Facility**. Once the values are entered, select **Save & Close**.
 
     >[!NOTE] **Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
-    - **Name**: Wide World Importers - Tampa Office
-
-    - **Address line 1**: Lois Avenue
-
-    - **City**: Tampa
-
-    - **State**: Florida
-
-    - **Zip**: 33609
-
-    - **Country**: United states of America
-
-    - **Latitude**: 27.944830
-
-    - **Longitude**: -82.514050
+    1. **Name**: Wide World Importers - Tampa Office
+    1. **Address line 1**: Lois Avenue
+    1. **City**: Tampa
+    1. **State**: Florida
+    1. **Zip**: 33609
+    1. **Country**: United states of America
+    1. **Latitude**: 27.944830
+    1. **Longitude**: -82.514050
 
     >[!NOTE] **Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
 
-![](./Images/Lab01/L01_image024.png)
+    ![](./Images/Lab01/L01_image024.png)
 
 Great job, by completing these steps, you have completed the organizational setup. Organizational structure and facility management will be linked to activity and emission data to group emissions by Organization, facility, and even regions. This is an important part of carbon emission reporting and organization disclosures. **Please continue to the next task.**
 
@@ -188,23 +170,22 @@ In this task, Reed sets up the reference data for contractual instrument types i
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image025.png)
 
-1. Navigate to “**Reference data**” on the left side of the page.
+1. Navigate to **Reference data** on the left side of the page.
 
     ![](./Images/Lab01/L01_image026.png)
 
-1. Select **Contractual instrument types** and select **View**
+1. Select **Contractual instrument types** and select **View**.
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab01/L01_image027.png)
 
-1. Under **Active contractual instrument types \>Select New** to create new contractual types
+1. Under **Active contractual instrument types**, select **New** to create new contractual types
 
     ![Graphical user interface, text, table Description automatically generated with medium confidence](./Images/Lab01/L01_image028.png)
 
 1. Create a new Contractual Instrument with the following details. Once entered, select **Save & Close** in the button pane.
 
-    - **Name**: VanArsdel Ltd
-
-    - **Energy source**: Nuclear
+    1. **Name**: VanArsdel Ltd
+    1. **Energy source**: Nuclear
 
     >[!NOTE] **Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
@@ -214,9 +195,8 @@ In this task, Reed sets up the reference data for contractual instrument types i
 
 1. In the same way, again create a new Contractual Instrument with the following details. Once entered, select **Save & Close** in the button pane.
 
-    - **Name**: Adatum Corp
-
-    - **Energy source**: Other
+    1. **Name**: Adatum Corp
+    1. **Energy source**: Other
 
     ![](./Images/Lab01/L01_image030.png)
 
@@ -226,29 +206,28 @@ Great job, by completing these steps, you have added contractual instrument type
 
 In this task, Reed sets up a unit conversion factor in Microsoft Sustainability Manager. While reviewing the inventory management plan, Alex identifies a missing unit of distance needed to calculate emissions for the fleet of electric vehicles. They ask Reed to add a new unit to the Length/Distance unit group.
 
-Unit Groups are used to group units together and define a base unit used to convert between unit types. For example, the Length/Distance unit group contains units of length and distance, with a base unit of meter (m). The units within the Length/Distance unit group have conversions between the unit type and meter, such as miles convert to 1,609.344 meters. You can explore this functionality in deeper detail on Microsoft Docs, please visit [Set up unit groups](https://docs.microsoft.com/en-us/industry/sustainability/setup-unit-groups).
+Unit Groups are used to group units together and define a base unit used to convert between unit types. For example, the Length/Distance unit group contains units of length and distance, with a base unit of meter (m). The units within the Length/Distance unit group have conversions between the unit type and meter, such as miles convert to 1,609.344 meters. You can explore this functionality in deeper detail on Microsoft Docs, please visit **Set up unit groups** at +++https://docs.microsoft.com/en-us/industry/sustainability/setup-unit-groups+++.
 
-1. In the bottom left corner, change the Area to Settings
+1. In the bottom left corner, change the Area to **Settings**.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image031.png)
 
-1. Navigate to “**Unit groups**” on the left side of the page.
+1. Navigate to **Unit groups** on the left side of the page.
 
     ![](./Images/Lab01/L01_image032.png)
 
-1. Under **Active unit groups, Select Length/distance** and open
+1. Under **Active unit groups**, select **Length/distance** and open it.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab01/L01_image033.png)
 
-1. Select **New unit** to create new
+1. Select **New unit** to create a new unit.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab01/L01_image034.png)
 
 1. Enter the following details to create a new unit. Once entered, select **Save & Close** from the button pane.
 
-    - **Name**: 100 mile
-
-    - **Conversion factor**: 160934.40
+    1. **Name**: 100 mile
+    1. **Conversion factor**: 160934.40
 
     >[!NOTE] **Note:** The EPA calculates electric vehicle efficiency by the number of kilowatt hours (kWh) used per 100 miles. For consistency, it is best practice to utilize the same
 
