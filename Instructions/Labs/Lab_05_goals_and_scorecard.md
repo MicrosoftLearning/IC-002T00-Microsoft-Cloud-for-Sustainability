@@ -36,17 +36,17 @@ In this lab, Amber Rodrigues – Sustainability specialist for Contoso Corp crea
 
 Finally, Amber, with the help of Reed Flores – IT Admin for Wide World Importers, configures Microsoft Teams collaboration. Once configured, Amber opens a chat with one of their colleagues to discuss changes to a factor library, continuing Ambers great work to record, report, and reduce carbon emissions across Wide World Importers and the entirety of Contoso corp.
 
-![Diagram Description automatically generated](./Images/Lab05/L05_image02.png)
+![Diagram Description automatically generated](./Images/Lab05/L05_image002.png)
 
 In this lab exercise, we will focus on the scenarios illustrated below:
 
-![Diagram Description automatically generated](./Images/Lab05/L05_image03.png)
+![Diagram Description automatically generated](./Images/Lab05/L05_image003.png)
 
 ===
 
 ## Exercise 1: Define sustainability goals
 
-In this exercise, you will learn about the steps that Amber takes to create scorecards and goals to help Wide World Importers track carbon reduction progress. Based on the results of the previous lab, Amber has determined that Wide World Importers needs to reduce their Scope 2: Purchased electricity carbon emissions. Scorecards and goals allow organizations to set carbon reduction targets and track their progress to that. You can explore this functionality in deeper detail on Microsoft Docs, please visit Overview of scorecards and goals +++https://docs.microsoft.com/en-us/industry/sustainability/reports-scorecards-goals)+++.
+In this exercise, you will learn about the steps that Amber takes to create scorecards and goals to help Wide World Importers track carbon reduction progress. Based on the results of the previous lab, Amber has determined that Wide World Importers needs to reduce their Scope 2: Purchased electricity carbon emissions. Scorecards and goals allow organizations to set carbon reduction targets and track their progress to that. You can explore this functionality in deeper detail on Microsoft Docs, please visit Overview of scorecards and goals +++https://docs.microsoft.com/en-us/industry/sustainability/reports-scorecards-goals+++.
 
 1. Log in to your Cloud for Sustainability environment at +++https://make.powerapps.com+++
 
@@ -89,7 +89,7 @@ Great job, you have created a new scorecard. Scorecards are used to track progre
 
 ### Task 2: Create a Goal
 
-In this task, Amber will create a new goal instructing Wide World Importers to reduce their carbon emissions from 900 mtCO2E to 600 mtCO2E. Amber will enable automatic check-ins and status rules to ensure that the goal is automatically kept up to date. These automatic check-ins will occur once every 24 hours. Microsoft Sustainability Manager utilizes goals to help organizations like Contoso Corp and Wide World Importers track their carbon reduction goals.
+In this task, Amber will create a new goal instructing Wide World Importers to reduce their carbon emissions from 900 mtCO<sub>2</sub>E to 600 mtCO<sub>2</sub>E. Amber will enable automatic check-ins and status rules to ensure that the goal is automatically kept up to date. These automatic check-ins will occur once every 24 hours. Microsoft Sustainability Manager utilizes goals to help organizations like Contoso Corp and Wide World Importers track their carbon reduction goals.
 
 1.  Select the **+Add goal** button to create a new goal.
 
@@ -105,11 +105,11 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
     >[!NOTE] **Note**: The automatic check-in process will not perform a check-in if the current date is outside of the Start and End date range. Wide World Importers chose 12/31/2021 to include the final calculation of 2021 as the first, or base, check-in value for the new goal
 
-    -  **Unit of measure**: mtCO2e
+    -  **Unit of measure**: mtCO<sub>2</sub>E
     -  **Starting value**: 900
     -  **Source of current value**: Connect to data
        - Data source: Emission
-       - Value: CO2E
+       - Value: CO<sub>2</sub>E
        - Filter: Org Unit equals Wide World Importers AND Consumption end date Last x years 1
     -  **Source of target value**: Enter manually
     -  **Target value**: 600
@@ -131,7 +131,7 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
         ![A picture containing rectangle Description automatically generated](./Images/Lab05/L05_image011.png)
 
-        1.  Choose Emission as the Data source, this is the table where the data will come from, and CO2E as the value, this is the field where the data will come from.
+        1.  Choose Emission as the Data source, this is the table where the data will come from, and CO<sub>2</sub>E as the value, this is the field where the data will come from.
 
             ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image012.png)
 
@@ -171,7 +171,7 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
             ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image021.png)
 
-    1.  **Source of target value** is used to specify what the source of the target value is. The **Source of target value** can be connected to data or, in this scenario, entered manually. Amber selects “**Enter manually**” and enter **600** to set our target of reducing our annual emissions to 600 mtCO2E.
+    1.  **Source of target value** is used to specify what the source of the target value is. The **Source of target value** can be connected to data or, in this scenario, entered manually. Amber selects “**Enter manually**” and enter **600** to set our target of reducing our annual emissions to 600 mtCO<sub>2</sub>E.
 
     1.  **Status update method** is used to specify how the status of the goal check ins will be set. The **Status update method** can be entered manually or, in this scenario, automatic to automatically set the status for goal check-ins based on a set of rules. Amber selects “**Automatic**” and select “**Create rules**”
     1.  Select “**New Rule**” to start a new rule for our Status.
