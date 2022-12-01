@@ -269,56 +269,57 @@ Great job, you have just completed the Defining Sustainability Goals exercise. T
 
 In this exercise, Reed Flores – IT Admin for Wide World Importers will configure integration with Microsoft Teams for Microsoft Sustainability Manager. Microsoft Teams offers several features useful for organizations. By integrating Microsoft Cloud for Sustainability with Microsoft Teams, you can improve the collaboration between your sustainability team and improve the performance of your carbon reduction goals. You can quickly collaborate with colleagues utilizing Microsoft Teams Chat embedded in Dynamics 365.
 
-**Note**: The following task, “**Enable enhanced Teams Integration** **and Turn on Microsoft Teams chats inside Dynamics 365** ” requires Global Administrator rights in your tenant. For simplicity and security reasons, we have already completed this task in the instructor lead lab environments. We have included the instructions for you for posterity. Please continue to [**Task 2: Add Link chats to Dynamics 365 records**](#Task2AddLinkchatstoDynamics365records)
+>[!NOTE] **Note**: The following task, “**Enable enhanced Teams Integration**” “**and Turn on Microsoft Teams chats inside Dynamics 365**” requires Global Administrator rights in your tenant. For simplicity and security reasons, we have already completed this task in the instructor lead lab environments. We have included the instructions for you for posterity. Please continue to **Task 2: Add Link chats to Dynamics 365 records**
 
-### Task 1: (ONLY FOR REFERENCE, NOT TO BE PERFORMED AS PART OF THE LAB) Enable enhanced Teams Integration and Turn on Microsoft Teams chats inside Dynamics 365
+### Task 1: (**ONLY FOR REFERENCE, NOT TO BE PERFORMED AS PART OF THE LAB**) Enable enhanced Teams Integration and Turn on Microsoft Teams chats inside Dynamics 365
 
 By default, the Basic and Enhanced Microsoft Teams integration is disabled in Microsoft Sustainability Manager. In this Task, Reed will enable Microsoft Teams in Dynamics 365.
 
 1.  Change the current Area to **Settings**
 
-![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab05/L05_image036.png)
 
 1.  Navigate to “**Teams chat**” on the left side of the page.
 
-![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image037.png)
 
 1.  On the **Microsoft Teams collaboration and chat** page, switch **Turn on the linking of Dynamics 365 records to Microsoft Teams channels** to **Yes**.
 
-![](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image038.png)
 
 1.  Select the **Save** button at the bottom left.
 
-![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image039.png)
 
 1.  After the page finishes saving, switch **Turn on Enhanced Microsoft Teams Integration** to **Yes**.
 
-![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image040.png)
 
 1.  Another pop-up window will open to grant permissions. Select the user you are signed in as currently (this account must be a global administrator).
 
-![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image00.png)
+   ![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image041.png)
 
 1.  Select **Accept** for requested permissions. It may take several minutes to configure. Ensure you do not have pop ups blocked that may interfere with the communication. If so, turn off blockers for this website, cancel and try connecting again.
 
-![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image00.png)
+   ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image042.png)
 
 1.  Once the dialog disappears, Select the **Save** button at the bottom left.
-2.  Both Microsoft Teams Integration settings are now set to Yes.
 
-![Graphical user interface, text Description automatically generated](./Images/Lab05/L05_image00.png)
+1.  Both Microsoft Teams Integration settings are now set to Yes.
+
+    ![Graphical user interface, text Description automatically generated](./Images/Lab05/L05_image043.png)
 
 1.  On the **Microsoft Teams collaboration and chat** page, switch **Turn on Microsoft Teams chats inside Dynamics 365** to **Yes**.
 
-![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image044.png)
 
 1.  Select the **Save** button at the bottom left.
 
-![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image045.png)
 
 1.  Microsoft Teams chats inside Dynamics365 is now set to Yes, and a new section appears at the bottom of the screen called “**Connect chats to Dynamics 365 records**”
 
-![](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image046.png)
 
 Great job, you have enabled Microsoft Teams integration for Dynamics 365 and turned on Microsoft Teams chats inside Dynamics 365. **Please continue to the next task.**
 
@@ -328,32 +329,33 @@ In this task, Reed will add a new Dynamics 365 record type, Factor Library, to t
 
 1.  In the Microsoft sustainability manager for your environment, Navigate to Settings -> “**Teams chat**” on the left side of the page.
 
-![](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image047.png)
 
 1.  On the **Microsoft Teams collaboration and chat** page, switch **Turn on Microsoft Teams chats inside Dynamics 365** to **Yes**.
-2.  Select on **+Add Record Types** to add a Link chat configuration
 
-![](./Images/Lab05/L05_image00.png)
+1.  Select on **+Add Record Types** to add a Link chat configuration
+
+    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image048.png)
 
 1.  On the Link chat to record type form, select **Factor library** in the **Choose record type lookup** (you can scroll or type).
 
-![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image049.png)
 
 1.  Switch **Join chat** and **Introduction message** to **Yes**. Select **Factor libraries** from the Message view dropdown.
 
-![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image050.png)
 
 1.  Hovering the mouse over a view while the Message view list is open will give a preview of the message, the first 4-5 fields from the view are included in the message.
 
-![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image051.png)
 
 1.  Select **Save**
 
-![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image00.png)
+   ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image052.png)
 
 1.  Factor library is now visible in the list of linked record types
 
-![Graphical user interface, application, email Description automatically generated](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, application, email Description automatically generated](./Images/Lab05/L05_image053.png)
 
 Great job, you have now turned on and configured a new entity for Microsoft Teams chats inside Dynamics 365. This will allow you to create linked Microsoft Teams chats directly inside of Cloud for Sustainability to discuss specific records. Next, we will test out the Microsoft Teams integration. **Please continue to the next task.**
 
@@ -385,8 +387,8 @@ In this task, Amber will create a linked chat to collaborate with Allen Contoso 
 
 1.  On the “**New linked chat**” blade we need to:
     1.  Search for chat Participants, for this scenario use the dummy account, Allen Contoso
-    2.  Add a note to provide context for the chat to the participants
-    3.  When finished, select “**Start chat**”
+    1.  Add a note to provide context for the chat to the participants
+    1.  When finished, select “**Start chat**”
 
 ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab05/L05_image00.png)
 
