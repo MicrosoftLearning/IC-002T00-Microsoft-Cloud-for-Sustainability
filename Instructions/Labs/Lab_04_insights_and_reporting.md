@@ -67,9 +67,7 @@ In this task, Amber explores the various **Sustainability** dashboards which pro
 1.  The page displays the **Emissions overview** dashboard, the dashboard is filtered by selecting a reporting period and accounting method. The top tile in the dashboard has three tabs: Emissions, Emissions by scope, and Emissions by scope (line chart). Each tab has a toggle that is used to **show a comparison by year**. When the toggle is off, data for the selected reporting period is shown in a monthly view. When the toggle is on, all available years are shown on a trend chart. The details around each of the tabs in the top tile are as follows:
 
     -   Emissions – This tab shows total emissions over time.
-
     -   Emissions by scope – This tab shows a breakdown of emissions by scope 1, scope 2, and scope 3. It includes a chart for each scope.
-
     -   Emissions by scope (line chart) – This tab shows each scope as a separate line on one chart. Therefore, you can easily compare emissions by scope over time.
 
     The **Emissions by source and scope** tile at the bottom shows a further breakdown of data in each scope. It shows specific sources and their contribution to emissions overall.
@@ -224,12 +222,12 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
     -   **Start date** – 01/01/2021
     -   **End date** – 12/31/2021
 
-        Fields can be selected to group data by, or column headers for the report. The available fields for Emissions report are **Country**, **Region**, **Latitude/Longitude**, **Organization unit**, **Facility, Is market-based, Is biogenic, Scope, Emission source, Activity type**. (The **Organization hierarchy date** field appears only after the **Organization unit** field is selected.).
+    Fields can be selected to group data by, or column headers for the report. The available fields for Emissions report are **Country**, **Region**, **Latitude/Longitude**, **Organization unit**, **Facility, Is market-based, Is biogenic, Scope, Emission source, Activity type**. (The **Organization hierarchy date** field appears only after the **Organization unit** field is selected.).
 
-        For this task, Jessie will just set **Country/Region**, **Regional group**, **Facility**, **Scope**, **Emissions source**, and **Activity type** for use in Contoso Corp’s carbon emissions reporting for public disclosure.
+    For this task, Jessie will just set **Country/Region**, **Regional group**, **Facility**, **Scope**, **Emissions source**, and **Activity type** for use in Contoso Corp’s carbon emissions reporting for public disclosure.
 
-        Once these are selected. Select **Save** on the top command bar.
-        ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image020.png)
+    Once these are selected. Select **Save** on the top command bar.
+   ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image020.png)
 
 1.  Once the report is saved, the **Generate report** button will be visible on the command bar. Select **Generate report** and then the report is queued to be generated.
 
@@ -273,6 +271,6 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
     1.  The **Group by** column headers that were selected in the earlier steps.
     2.  **Quantity** and **Unit** fields
 
-        ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image026.png)
+    ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image026.png)
 
-        **Congratulations!** You have successfully generated an activity report. Activity reports are useful for providing information in public disclosures. Microsoft Sustainability provides this information in a tabular format to allow you to adapt it to meet the rapidly changing regulatory requirements. There is a great opportunity for **partners** to assist in the generation of the disclosure documents by configuring an activity report to export data in a consistent and familiar format for ingestion into a **partner** solution.
+**Congratulations!** You have successfully generated an activity report. Activity reports are useful for providing information in public disclosures. Microsoft Sustainability provides this information in a tabular format to allow you to adapt it to meet the rapidly changing regulatory requirements. There is a great opportunity for **partners** to assist in the generation of the disclosure documents by configuring an activity report to export data in a consistent and familiar format for ingestion into a **partner** solution.
