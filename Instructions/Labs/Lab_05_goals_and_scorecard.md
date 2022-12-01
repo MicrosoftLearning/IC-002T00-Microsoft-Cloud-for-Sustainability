@@ -68,7 +68,7 @@ In this task, Amber will create a new scorecard to track the goals for Wide Worl
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image006.png)
 
-1.  On the “Scorecards” view, click **+Add Scorecard**
+1.  On the “Scorecards” view, select **+Add Scorecard**
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image007.png)
 
@@ -127,7 +127,7 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
     1. **End date** is used to identify the ending time frame of the goal
     1. **Unit** is used to specify which unit you would like to measure in this goal
     1. **Starting value** is used to specify your starting point for the goal
-    1. **Source of current value** is used to specify what the source of the current value is, if set to Enter Manually, or where to retrieve the current value from each day. The **Source of current value** can be a roll up from other child goals, or as in this scenario, Connected to data. Amber selects “**Connect to data**”, and click “**Set up connection**”
+    1. **Source of current value** is used to specify what the source of the current value is, if set to Enter Manually, or where to retrieve the current value from each day. The **Source of current value** can be a roll up from other child goals, or as in this scenario, Connected to data. Amber selects “**Connect to data**”, and select “**Set up connection**”
 
         ![A picture containing rectangle Description automatically generated](./Images/Lab05/L05_image011.png)
 
@@ -143,7 +143,7 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
             ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image014.png)
 
-        1.  In the “Value” dropdown, choose “**Wide World Importers (Organizational unit)**”
+        1.  In the “**Value**” dropdown, choose “**Wide World Importers (Organizational unit)**”
 
             ![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image015.png)
 
@@ -151,23 +151,23 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
             ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image016.png)
 
-        1.  In the “Select a field” dropdown, choose “**Consumption end date**”
+        1.  In the “**Select a field**” dropdown, choose “**Consumption end date**”
 
             ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image017.png)
 
-        1.  In the “Operator” dropdown, which currently says “Equals”, choose “**Last x years**”
+        1.  In the “**Operator**” dropdown, which currently says “**Equals**”, choose “**Last x years**”
 
             ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image018.png)
 
-        1.  In the “Value” field, type in the number, **1**
+        1.  In the “**Value**” field, type in the number, **1**
 
             ![A picture containing graphical user interface Description automatically generated](./Images/Lab05/L05_image019.png)
 
-        1.  At the top of the form, click “Calculate” to see a preview of the data that would be used for the current value check in. Copy this value. **The value calculated may be different from the image below.**
+        1.  At the top of the form, select “**Calculate**” to see a preview of the data that would be used for the current value check in. Copy this value. **The value calculated may be different from the image below.**
 
             ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image020.png)
 
-        1.  The Current value data connection should look like the image below, click “**Save**” when finished.
+        1.  The Current value data connection should look like the image below, select “**Save**” when finished.
 
             ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image021.png)
 
@@ -182,7 +182,7 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
         ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab05/L05_image023.png)
 
-    1.  In the “**Value**” field, which currently says “**0**”, enter 600, and select “**At Risk**” from the “**Set status to**” dropdown
+    1.  In the “**Value**” field, which currently says “**0**”, enter **600**, and select “**At Risk**” from the “**Set status to**” dropdown
 
          ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image025.png)
 
@@ -192,7 +192,7 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
         ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image026.png)
 
     1.  This specifies that if the condition above is not met during a check-in, then we are on track to meeting the goal, and the check-in will have a status of On track.
-    1.  The Status rules should look like the image below, click “**Confirm**”
+    1.  The Status rules should look like the image below, select “**Confirm**”
 
         ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image027.png)
 
@@ -212,52 +212,58 @@ In this task, Amber will create a manual goal check-in Wide World Importers Scop
 
 Sometimes we may have goals that are set to use manually check-ins if we are not able to connect data to them, or even after a goal with connected data is created, we need to wait roughly 24 hours for our first check-in to occur. In either of these situations, you may find it useful to be able to create and review a check-in. This task will take you through the process of creating a Goal Check-in.
 
-1.  Amber opens the goal that was created in the previous task by clicking the goal name from the list in the scorecard.
+1.  Amber opens the goal that was created in the previous task by selecting the goal name from the list in the scorecard.
 
-![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image030.png)
 
 1.  Amber can see:
+
     1.  **Progress** towards the Reduce Scope 2 Emissions - 2022 goal
-    2.  The goal check-in **History**
-    3.  The **Goal details**
+    1.  The goal check-in **History**
+    1.  The **Goal details**
 
-![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image031.png)
 
-1.  In the History section, click on either the **+** or the **Check-in** button to create a new Goal check-in for the first check-in.
+1.  In the History section, select on either the **+** or the **Check-in** button to create a new Goal check-in for the first check-in.
 
-![Graphical user interface, application, Word Description automatically generated](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, application, Word Description automatically generated](./Images/Lab05/L05_image032.png)
 
-1.  A “New check-in” box will appear.
+1.  A “**New check-in**” box will appear.
 
-![Graphical user interface, text Description automatically generated](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, text Description automatically generated](./Images/Lab05/L05_image033.png)
 
 1.  Populate the New check-in with the following data:
--   **Update for**: Use today’s date.
--   **New value**: The preview value you copied from the Source of current value connection screen. In this scenario, 379.59
--   **Add Note**: First check-in
-1.  Enter the data mentioned above:
-2.  **Update for** is used identify what date the check-in was for. This may be the current date or a date in the past.
-3.  **New value** is used to specify the current value of the goal check-in. This value will be used on the Progress chart above
-    1.  Note: In this scenario, the Status will be automatically set based on the Status rules we set on the goal
-4.  **Note** is optionally used if you want to provide more information or context about the check-in, such as a heatwave increased heating which resulted in an abnormally high carbon emission value for this check-in.
-5.  Select “**Save**”
 
-![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image00.png)
+    -   **Update for**: Use today’s date.
+    -   **New value**: The preview value you copied from the Source of current value connection screen. In this scenario, 379.59
+    -   **Add Note**: First check-in
+
+1.  Enter the data mentioned above:
+
+    1.  **Update for** is used identify what date the check-in was for. This may be the current date or a date in the past.
+    1.  **New value** is used to specify the current value of the goal check-in. This value will be used on the Progress chart above
+        1.  **Note:** In this scenario, the Status will be automatically set based on the Status rules we set on the goal
+    1.  **Note** is optionally used if you want to provide more information or context about the check-in, such as a heatwave increased heating which resulted in an abnormally high carbon emission value for this check-in.
+    1.  Select “**Save**”
+
+    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image034.png)
 
 1.  Amber now sees:
--   The **Progress** section has updated showing the latest check-in value and status, as well its plot on the graph.
--   The **History** section shows the recently created check-in with the status automatically set based on the goal rules. Check-ins will be shown in the order of newest to oldest.
+    -   The **Progress** section has updated showing the latest check-in value and status, as well its plot on the graph.
+    -   The **History** section shows the recently created check-in with the status automatically set based on the goal rules. Check-ins will be shown in the order of newest to oldest.
 
-![Graphical user interface, text, email Description automatically generated](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, text, email Description automatically generated](./Images/Lab05/L05_image035.png)
 
 Great job, you have just completed the Defining Sustainability Goals exercise. These tasks are critical to helping an organization realize their Sustainability and carbon reduction goals. Some important notes:
 
-1.  **Automated Goal check-ins run via a backend service roughly every 24 hours**, based on the time of day when the Microsoft Cloud for Sustainability was installed.
-2.  **As of the current release, there is not a way to change the timing for Automated Goal check-ins**.
-3.  You can create a manual check-in at any time.
-4.  You can import historical Goal Check-ins by using the native Power Platform data import wizard. The Goal Check-in table is called “Check-ins”
+-  **Automated Goal check-ins run via a backend service roughly every 24 hours**, based on the time of day when the Microsoft Cloud for Sustainability was installed.
+-  **As of the current release, there is not a way to change the timing for Automated Goal check-ins**.
+-  You can create a manual check-in at any time.
+-  You can import historical Goal Check-ins by using the native Power Platform data import wizard. The Goal Check-in table is called “**Check-ins**”
 
 **Please continue to the next task.**
+
+===
 
 ## Exercise 2: Set up Teams collaboration
 
@@ -310,7 +316,7 @@ By default, the Basic and Enhanced Microsoft Teams integration is disabled in Mi
 
 ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image00.png)
 
-1.  Microsoft Teams chats inside Dynamics365 is now set to Yes, and a new section appears at the bottom of the screen called “Connect chats to Dynamics 365 records”
+1.  Microsoft Teams chats inside Dynamics365 is now set to Yes, and a new section appears at the bottom of the screen called “**Connect chats to Dynamics 365 records**”
 
 ![](./Images/Lab05/L05_image00.png)
 
@@ -320,7 +326,7 @@ Great job, you have enabled Microsoft Teams integration for Dynamics 365 and tur
 
 In this task, Reed will add a new Dynamics 365 record type, Factor Library, to the Link chats configuration. This feature allows other record types to be linked to Teams chats directly within Microsoft Sustainability Manager.
 
-1.  In the Microsoft sustainability manager for your environment, Navigate to Settings \> “**Teams chat**” on the left side of the page.
+1.  In the Microsoft sustainability manager for your environment, Navigate to Settings -> “**Teams chat**” on the left side of the page.
 
 ![](./Images/Lab05/L05_image00.png)
 
@@ -373,14 +379,14 @@ In this task, Amber will create a linked chat to collaborate with Allen Contoso 
 
 1.  Select “**New connected chat**” to create a new chat window with another user, Allen Contoso, to discuss changes to the Factor mappings on the EPA 2022 - eGRID Factor library.
 
-    **Note**: You may need to wait a few minutes or perform a hard refresh (CTRL+F5) for the “New connected chat” button to appear the first time.
+    **Note**: You may need to wait a few minutes or perform a hard refresh (CTRL+F5) for the “**New connected chat**” button to appear the first time.
 
 ![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image00.png)
 
-1.  On the “New linked chat” blade we need to:
+1.  On the “**New linked chat**” blade we need to:
     1.  Search for chat Participants, for this scenario use the dummy account, Allen Contoso
     2.  Add a note to provide context for the chat to the participants
-    3.  When finished, click “**Start chat**”
+    3.  When finished, select “**Start chat**”
 
 ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab05/L05_image00.png)
 
