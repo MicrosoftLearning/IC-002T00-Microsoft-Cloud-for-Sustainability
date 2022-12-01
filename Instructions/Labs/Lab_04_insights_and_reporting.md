@@ -44,9 +44,9 @@ In this lab exercise, we will focus on the scenarios illustrated below:
 
 In this exercise, you will take on the persona of Amber Rodriguez – Sustainability Specialist for Contoso Corp. utilizing the various Sustainability Dashboards to gain insights into the organization.
 
-Log in to your Cloud for Sustainability environment at <https://make.powerapps.com>
+1. Log in to your Cloud for Sustainability environment at +++https://make.powerapps.com+++.
 
-- Open the **Sustainability Manager** Application
+1. Open the **Sustainability Manager** Application.
 
     ![Graphical user interface, application, Teams Description automatically generated](./Images/Lab04/L04_image004.png)
 
@@ -180,23 +180,23 @@ In this task, Amber explores the various **Sustainability** dashboards which pro
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab04/L04_image012.png)
 
-1.  Amber drills into our decomposition tree to identify where our high sources of emissions are. Select the + next to Total emissions, and select Scope
+1.  Amber drills into our decomposition tree to identify where our high sources of emissions are. Select the **+** next to **Total emissions**, and select **Scope**.
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab04/L04_image013.png)
 
-1.  Amber can see that Scope 2 has the largest volume of emissions. Select the + next to Scope 2, and select Emission source to identify which Scope 2 emission source is biggest contributor
+1.  Amber can see that Scope 2 has the largest volume of emissions. Select the **+** next to **Scope 2**, and select **Emission source** to identify which Scope 2 emission source is biggest contributor.
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab04/L04_image014.png)
 
-1.  It seems that Purchased electricity was the biggest contributor of emissions. Select the + next to Purchased electricity and select Country/region to identify which regions were contributing to the large Purchased electricity emissions.
+1.  It seems that Purchased electricity was the biggest contributor of emissions. Select the **+** next to **Purchased electricity** and select **Country/region** to identify which regions were contributing to the large Purchased electricity emissions.
 
     ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab04/L04_image015.png)
 
-1.  The USA contributed the most to the Purchased Electricity emissions. The Country/Region selection is driven by the country region mapping table found in the Settings area. Select the + next to USA and select Organization to see which organizations contributed to this.
+1.  The USA contributed the most to the Purchased Electricity emissions. The Country/Region selection is driven by the country region mapping table found in the Settings area. Select the **+** next to **USA** and select **Organization** to see which organizations contributed to this.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image016.png)
 
-1.  Wide World Importers was the largest contributor to Contoso Corp’s carbon emissions. Amber uses this information to create a goal for Wide World Importers to reduce their Purchased electricity emissions by 300 mtCO<sub>2</sub>E (In the next Lab)
+1.  Wide World Importers was the largest contributor to Contoso Corp’s carbon emissions. Amber uses this information to create a goal for Wide World Importers to reduce their Purchased electricity emissions by 300 mtCO<sub>2</sub>E (in the next Lab).
 
     ![A picture containing graphical user interface Description automatically generated](./Images/Lab04/L04_image017.png)
 
@@ -219,16 +219,17 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
     ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image019.png)
 
 1.  Set the following fields:
-    1.  **Name** – Enter the name of the report. For example: MC4S Emissions report
-    1.  **Report type** – Select **Emissions report**.
-    1.  **Start date** – 01/01/2021
-    1.  **End date** – 12/31/2021
+
+    1.  **Name**: Enter the name of the report. For example: MC4S Emissions report
+    1.  **Report type**: Emissions report
+    1.  **Start date**: 01/01/2021
+    1.  **End date**: 12/31/2021
 
     Fields can be selected to group data by, or column headers for the report. The available fields for Emissions report are **Country**, **Region**, **Latitude/Longitude**, **Organization unit**, **Facility, Is market-based, Is biogenic, Scope, Emission source, Activity type**. (The **Organization hierarchy date** field appears only after the **Organization unit** field is selected.).
 
      For this task, Jessie will just set **Country/Region**, **Regional group**, **Facility**, **Scope**, **Emissions source**, and **Activity type** for use in Contoso Corp’s carbon emissions reporting for public disclosure.
 
-     Once these are selected. Select **Save** on the top command bar.
+    1. Once these are selected, select **Save** on the top command bar.
      
      ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image020.png)
 
@@ -240,7 +241,7 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image022.png)
 
-1.  Once the status is changed, a button **Download report** is visible in the command bar. Select that button to download the generated report. An Excel report begins to be downloaded. Open the report.
+1.  Once the status is changed, a **Download report** button is visible in the command bar. Select that button to download the generated report. An Excel report begins to be downloaded. Open the report.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image023.png)
 
@@ -263,11 +264,12 @@ Great job, you have successfully generated an emissions report. Emissions report
     ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image027.png)
 
 1.  Set the following fields:
-    1. **Name** – Enter the name of the report. For example: MC4S Activities report
-    1. **Report type** – Select **Activities report**.
-    1. **Target Activity** – Select **Purchased energy.**
-    1. **Start date** – 01/01/2021
-    1. **End date** – 12/31/2021
+
+    1. **Name**: Enter the name of the report. For example: MC4S Activities report
+    1. **Report type**: Activities report
+    1. **Target Activity**: Purchased energy
+    1. **Start date**: 01/01/2021
+    1. **End date**: 12/31/2021
 
     Fields can be selected to group data by, or column headers for the report. The available fields for Emissions report are **Country**, **Region**, **Latitude/Longitude**, **Organization unit** and **Facility** (The **Organization hierarchy date** field appears only after the **Organization unit** field is selected.).
 
@@ -280,9 +282,9 @@ Great job, you have successfully generated an emissions report. Emissions report
     | Mobile combustion     | Fuel type Vehicle type Industrial process type |
     | Industrial processes  | Facility Industrial process type               |
 
-    For this task, Jessie will just set Country/Region, Regional group, Facility, and Is Renewable for use in Contoso Corp’s carbon emissions reporting to organizations like the Carbon Disclosure Project and the Task Force on Climate-Related Financial Disclosures
+    For this task, Jessie will just set Country/Region, Regional group, Facility, and Is Renewable for use in Contoso Corp’s carbon emissions reporting to organizations like the Carbon Disclosure Project and the Task Force on Climate-Related Financial Disclosures.
 
-    Once these are selected. Select **Save** on the top command bar.
+1. Once these are selected. Select **Save** on the top command bar.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image028.png)
 
@@ -294,7 +296,7 @@ Great job, you have successfully generated an emissions report. Emissions report
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image030.png)
 
-1.  Once the status is changed, a button **Download report** is visible in the command bar. Select that button to download the generated report. An Excel report begins to be downloaded. Open the report.
+1.  Once the status is changed, a **Download report** button is visible in the command bar. Select that button to download the generated report. An Excel report begins to be downloaded. Open the report.
 
    ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image031.png)
 
