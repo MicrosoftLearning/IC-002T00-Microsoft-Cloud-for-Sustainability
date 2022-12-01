@@ -67,9 +67,7 @@ In this task, Amber explores the various **Sustainability** dashboards which pro
 1.  The page displays the **Emissions overview** dashboard, the dashboard is filtered by selecting a reporting period and accounting method. The top tile in the dashboard has three tabs: Emissions, Emissions by scope, and Emissions by scope (line chart). Each tab has a toggle that is used to **show a comparison by year**. When the toggle is off, data for the selected reporting period is shown in a monthly view. When the toggle is on, all available years are shown on a trend chart. The details around each of the tabs in the top tile are as follows:
 
     -   Emissions – This tab shows total emissions over time.
-
     -   Emissions by scope – This tab shows a breakdown of emissions by scope 1, scope 2, and scope 3. It includes a chart for each scope.
-
     -   Emissions by scope (line chart) – This tab shows each scope as a separate line on one chart. Therefore, you can easily compare emissions by scope over time.
 
     The **Emissions by source and scope** tile at the bottom shows a further breakdown of data in each scope. It shows specific sources and their contribution to emissions overall.
@@ -170,7 +168,7 @@ In this task, Amber explores the various **Sustainability** dashboards which pro
 
 1.  Select **Deep analysis** on the top tab to dive deeper into data and uncover insights that might not be available from other reports. The dashboard can be filtered by selecting a reporting period and accounting method.
 
-    The **Decomposition tree** can be used to drill down from the company-level to more granular levels of the organization, and to access
+    The **Decomposition tree** can be used to drill down from the company-level to more granular levels of the organization, and to access:
 
     -  High value
     -  Low value
@@ -182,19 +180,19 @@ In this task, Amber explores the various **Sustainability** dashboards which pro
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab04/L04_image012.png)
 
-1.  Amber drills into our decomposition tree to identify where our high sources of emissions are. Click the + next to Total emissions, and select Scope
+1.  Amber drills into our decomposition tree to identify where our high sources of emissions are. Select the + next to Total emissions, and select Scope
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab04/L04_image013.png)
 
-1.  Amber can see that Scope 2 has the largest volume of emissions. Click the + next to Scope 2, and select Emission source to identify which Scope 2 emission source is biggest contributor
+1.  Amber can see that Scope 2 has the largest volume of emissions. Select the + next to Scope 2, and select Emission source to identify which Scope 2 emission source is biggest contributor
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab04/L04_image014.png)
 
-1.  It seems that Purchased electricity was the biggest contributor of emissions. Click the + next to Purchased electricity and select Country/region to identify which regions were contributing to the large Purchased electricity emissions.
+1.  It seems that Purchased electricity was the biggest contributor of emissions. Select the + next to Purchased electricity and select Country/region to identify which regions were contributing to the large Purchased electricity emissions.
 
     ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab04/L04_image015.png)
 
-1.  The USA contributed the most to the Purchased Electricity emissions. The Country/Region selection is driven by the country region mapping table found in the Settings area. Click the + next to USA and select Organization to see which organizations contributed to this.
+1.  The USA contributed the most to the Purchased Electricity emissions. The Country/Region selection is driven by the country region mapping table found in the Settings area. Select the + next to USA and select Organization to see which organizations contributed to this.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image016.png)
 
@@ -203,6 +201,8 @@ In this task, Amber explores the various **Sustainability** dashboards which pro
     ![A picture containing graphical user interface Description automatically generated](./Images/Lab04/L04_image017.png)
 
 Great job, you have successfully explored various Sustainability dashboards. You can use these dashboards to gain insights into your emissions data. You can see as we drilled down from total emissions to the organization level, we were able to determine that Wide World Importers needs to reduce the carbon emissions from Purchased electricity. This could be achieved in a variety of ways such as switching to renewable energy sources or using more energy efficient devices and vehicles. You can use these insights to drive business decisions and use the information to create scorecards and goals to track your progress. **Please continue to the next task.**
+
+===
 
 ## Exercise 2: Generate Quantitative preparation report
 
@@ -219,17 +219,18 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
     ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image019.png)
 
 1.  Set the following fields:
-    -   **Name** – Enter the name of the report. For example: MC4S Emissions report
-    -   **Report type** – Select **Emissions report**.
-    -   **Start date** – 01/01/2021
-    -   **End date** – 12/31/2021
+    1.  **Name** – Enter the name of the report. For example: MC4S Emissions report
+    1.  **Report type** – Select **Emissions report**.
+    1.  **Start date** – 01/01/2021
+    1.  **End date** – 12/31/2021
 
-        Fields can be selected to group data by, or column headers for the report. The available fields for Emissions report are **Country**, **Region**, **Latitude/Longitude**, **Organization unit**, **Facility, Is market-based, Is biogenic, Scope, Emission source, Activity type**. (The **Organization hierarchy date** field appears only after the **Organization unit** field is selected.).
+    Fields can be selected to group data by, or column headers for the report. The available fields for Emissions report are **Country**, **Region**, **Latitude/Longitude**, **Organization unit**, **Facility, Is market-based, Is biogenic, Scope, Emission source, Activity type**. (The **Organization hierarchy date** field appears only after the **Organization unit** field is selected.).
 
-        For this task, Jessie will just set **Country/Region**, **Regional group**, **Facility**, **Scope**, **Emissions source**, and **Activity type** for use in Contoso Corp’s carbon emissions reporting for public disclosure.
+     For this task, Jessie will just set **Country/Region**, **Regional group**, **Facility**, **Scope**, **Emissions source**, and **Activity type** for use in Contoso Corp’s carbon emissions reporting for public disclosure.
 
-        Once these are selected. Select **Save** on the top command bar.
-        ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image020.png)
+     Once these are selected. Select **Save** on the top command bar.
+     
+     ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image020.png)
 
 1.  Once the report is saved, the **Generate report** button will be visible on the command bar. Select **Generate report** and then the report is queued to be generated.
 
@@ -249,7 +250,7 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab04/L04_image024.png)
 
-    Great job, you have successfully generated an emissions report. Emissions reports are useful for providing information in public disclosures. Microsoft Sustainability provides this information in a tabular format to allow you to adapt it to meet the rapidly changing regulatory requirements. There is a great opportunity for **partners** to assist in the generation of the disclosure documents by configuring an emissions report to export data in a consistent and familiar format for ingestion into a **partner** solution. **Please continue to the next task.**
+Great job, you have successfully generated an emissions report. Emissions reports are useful for providing information in public disclosures. Microsoft Sustainability provides this information in a tabular format to allow you to adapt it to meet the rapidly changing regulatory requirements. There is a great opportunity for **partners** to assist in the generation of the disclosure documents by configuring an emissions report to export data in a consistent and familiar format for ingestion into a **partner** solution. **Please continue to the next task.**
 
 ### Task 2: Generate activity report
 
@@ -262,11 +263,11 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
     ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image027.png)
 
 1.  Set the following fields:
-    - **Name** – Enter the name of the report. For example: MC4S Activities report
-    - **Report type** – Select **Activities report**.
-    - **Target Activity** – Select **Purchased energy.**
-    - **Start date** – 01/01/2021
-    - **End date** – 12/31/2021
+    1. **Name** – Enter the name of the report. For example: MC4S Activities report
+    1. **Report type** – Select **Activities report**.
+    1. **Target Activity** – Select **Purchased energy.**
+    1. **Start date** – 01/01/2021
+    1. **End date** – 12/31/2021
 
     Fields can be selected to group data by, or column headers for the report. The available fields for Emissions report are **Country**, **Region**, **Latitude/Longitude**, **Organization unit** and **Facility** (The **Organization hierarchy date** field appears only after the **Organization unit** field is selected.).
 
@@ -287,20 +288,20 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 
 1.  Once the report is saved, the **Generate report** button will be visible on the command bar. Select **Generate report** and then the report is queued to be generated.
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image023.png)
+    ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image029.png)
 
-2.  Select **Refresh** button on the command bar until the **Report generation status** is changed from **Pending** to **Ready for download.** This may take a few minutes.
+1.  Select **Refresh** button on the command bar until the **Report generation status** is changed from **Pending** to **Ready for download.** This may take a few minutes.
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image024.png)
+    ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image030.png)
 
-3.  Once the status is changed, a button **Download report** is visible in the command bar. Select that button to download the generated report. An Excel report begins to be downloaded. Open the report.
+1.  Once the status is changed, a button **Download report** is visible in the command bar. Select that button to download the generated report. An Excel report begins to be downloaded. Open the report.
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image025.png)
+   ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image031.png)
 
-4.  The reports contain the following information:
-    1.  The **Group by** column headers that were selected in the earlier steps.
-    2.  **Quantity** and **Unit** fields
+1.  The reports contain the following information:
+    - The **Group by** column headers that were selected in the earlier steps.
+    - **Quantity** and **Unit** fields
 
-        ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image026.png)
+   ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image032.png)
 
-        **Congratulations!** You have successfully generated an activity report. Activity reports are useful for providing information in public disclosures. Microsoft Sustainability provides this information in a tabular format to allow you to adapt it to meet the rapidly changing regulatory requirements. There is a great opportunity for **partners** to assist in the generation of the disclosure documents by configuring an activity report to export data in a consistent and familiar format for ingestion into a **partner** solution.
+**Congratulations!** You have successfully generated an activity report. Activity reports are useful for providing information in public disclosures. Microsoft Sustainability provides this information in a tabular format to allow you to adapt it to meet the rapidly changing regulatory requirements. There is a great opportunity for **partners** to assist in the generation of the disclosure documents by configuring an activity report to export data in a consistent and familiar format for ingestion into a **partner** solution.
