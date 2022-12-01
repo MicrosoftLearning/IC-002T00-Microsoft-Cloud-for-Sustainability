@@ -44,7 +44,7 @@ In this lab exercise, we will focus on the scenarios illustrated below:
 
 In this exercise, you will learn about the steps that Alex and Reed take to set up Wide World Imports company profile, organizational data, and reference data. You can explore this functionality in deeper detail on Microsoft Docs, please visit Set up a company profile at +++https://docs.microsoft.com/en-us/industry/sustainability/setup-company-profile+++.
 
-1. Open the **Sustainability Manager** Application
+1. Open the **Sustainability Manager** Application.
 
     ![Graphical user interface, application, Teams Description automatically generated](./Images/Lab01/L01_image005.png)
 
@@ -76,7 +76,7 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image011.png)
 
-1. On the **Company profile** page, select **Industries** tab. Microsoft Sustainability Manager includes a selection of pre-defined industries and sub-verticals based on NACE standards, see NACE Code at +++https://nacev2.com/en. Select **+Add**.
+1. On the **Company profile** page, select the **Industries** tab. Microsoft Sustainability Manager includes a selection of pre-defined industries and sub-verticals based on NACE standards, see NACE Code at +++https://nacev2.com/en. Select **+Add**.
 
     ![](./Images/Lab01/L01_image012.png)
 
@@ -88,7 +88,7 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image014.png)
 
-1. **Land transport and transport via pipelines** is now visible in the Industries section at the bottom of the **Company profile** page.
+1. **Land transport and transport via pipelines** is now visible in the **Industries** section at the bottom of the **Company profile** page.
 
     ![Graphical user interface, website Description automatically generated](./Images/Lab01/L01_image015.png)
 
@@ -166,7 +166,7 @@ Great job, by completing these steps, you have completed the organizational setu
 
 In this task, Reed sets up the reference data for contractual instrument types in Microsoft Sustainability Manager. Contractual instrument types are the different types of contractual agreements that a firm has with their providers and suppliers.
 
-1. In the bottom left corner, change the Area to **Settings**
+1. In the bottom left corner, change the Area to **Settings**.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image025.png)
 
@@ -178,7 +178,7 @@ In this task, Reed sets up the reference data for contractual instrument types i
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab01/L01_image027.png)
 
-1. Under **Active contractual instrument types**, select **New** to create new contractual types
+1. Under **Active contractual instrument types**, select **New** to create new contractual types.
 
     ![Graphical user interface, text, table Description automatically generated with medium confidence](./Images/Lab01/L01_image028.png)
 
@@ -191,14 +191,14 @@ In this task, Reed sets up the reference data for contractual instrument types i
 
     ![](./Images/Lab01/L01_image029.png)
 
-    >[!NOTE]**Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
-
 1. In the same way, again create a new Contractual Instrument with the following details. Once entered, select **Save & Close** in the button pane.
 
     1. **Name**: Adatum Corp
     1. **Energy source**: Other
 
     ![](./Images/Lab01/L01_image030.png)
+
+    >[!NOTE]**Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
 Great job, by completing these steps, you have added contractual instrument types. There are many types of reference data, take some time after this lab to explore the other reference data types, they will be used throughout Microsoft Cloud for Sustainability, and Microsoft Sustainability Manager. **Please continue to the next task.**
 
