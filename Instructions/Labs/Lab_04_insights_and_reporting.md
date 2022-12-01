@@ -298,7 +298,7 @@ Great job, you have successfully generated an emissions report. Emissions report
 
 1.  Once the status is changed, a **Download report** button is visible in the command bar. Select that button to download the generated report. An Excel report begins to be downloaded. Open the report.
 
-   ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image031.png)
+    ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image031.png)
 
 1.  The reports contain the following information:
     - The **Group by** column headers that were selected in the earlier steps.
