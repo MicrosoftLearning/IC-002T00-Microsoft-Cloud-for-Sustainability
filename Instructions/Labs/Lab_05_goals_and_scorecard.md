@@ -36,11 +36,11 @@ In this lab, Amber Rodrigues – Sustainability specialist for Contoso Corp crea
 
 Finally, Amber, with the help of Reed Flores – IT Admin for Wide World Importers, configures Microsoft Teams collaboration. Once configured, Amber opens a chat with one of their colleagues to discuss changes to a factor library, continuing Ambers great work to record, report, and reduce carbon emissions across Wide World Importers and the entirety of Contoso corp.
 
-![Diagram Description automatically generated](./Images/Lab05/L05_image02.png)
+![Diagram Description automatically generated](./Images/Lab05/L05_image002.png)
 
 In this lab exercise, we will focus on the scenarios illustrated below:
 
-![Diagram Description automatically generated](./Images/Lab05/L05_image03.png)
+![Diagram Description automatically generated](./Images/Lab05/L05_image003.png)
 
 ===
 
