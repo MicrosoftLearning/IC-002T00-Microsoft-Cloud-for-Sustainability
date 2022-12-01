@@ -365,35 +365,35 @@ In this task, Amber will create a linked chat to collaborate with Allen Contoso 
 
 1.  Change the current Area to **Data**
 
-![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab05/L05_image054.png)
 
 1.  Navigate to “**Factor libraries**” on the left side of the page.
 
-![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image055.png)
 
 1.  Select on the **EPA 2022 - eGRID** Factor library
 
-![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image056.png)
 
 1.  Select the Chat icon in the top right corner of the screen to open the Microsoft Teams chats inside of Cloud for Sustainability.
 
-![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab05/L05_image057.png)
 
 1.  Select “**New connected chat**” to create a new chat window with another user, Allen Contoso, to discuss changes to the Factor mappings on the EPA 2022 - eGRID Factor library.
 
-    **Note**: You may need to wait a few minutes or perform a hard refresh (CTRL+F5) for the “**New connected chat**” button to appear the first time.
+    >[!NOTE] **Note**: You may need to wait a few minutes or perform a hard refresh (CTRL+F5) for the “**New connected chat**” button to appear the first time.
 
-![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image058.png)
 
 1.  On the “**New linked chat**” blade we need to:
     1.  Search for chat Participants, for this scenario use the dummy account, Allen Contoso
     1.  Add a note to provide context for the chat to the participants
     1.  When finished, select “**Start chat**”
 
-![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab05/L05_image059.png)
 
 1.  In a few moments an embedded chat window with all participants will appear, and a message will be displayed with the note that was included, some of the record data, and a link to the record.
 
-![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image00.png)
+    ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image060.png)
 
 **Congratulations!** You have started a Microsoft Teams linked chat inside of Cloud for Sustainability. Linked chats can be used to help teams and organizations collaborate and improve efficiency by having the record context directly in the chat. You can configure many entities to have linked chats, as well as utilize custom system views to tailor the displayed fields to an organization’s needs.
