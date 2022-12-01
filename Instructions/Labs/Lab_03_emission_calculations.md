@@ -491,7 +491,7 @@ In this task, Alex will create a Calculation Profile for the electricity purchas
     
     To create the filter perform the following steps:
 
-        1.  Select **Add-\>Add row**
+        1.  Select **Add -> Add row**
 
             ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image052.png)
 
