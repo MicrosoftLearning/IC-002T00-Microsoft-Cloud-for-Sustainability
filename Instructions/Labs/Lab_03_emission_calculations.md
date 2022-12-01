@@ -123,13 +123,11 @@ In this task, Alex will create factor mappings to map the Contractual instrument
     1. **Reference Data**: +++VanArsdel Ltd+++
     1. **Factor**: +++FRCC (FRCC All)+++
 
-1.  The fields and their values are explained below:
+1.  The fields and their values are explained below. Select **Save & Close** to save the record.
 
     - The **Name** of the factor mapping is used for identifying the factor mapping in the list.
     - The **Reference Data** is mapping the Contractual Instrument Type.
     - The **Factor** is mapping the Emission Factor.
-
-    1. Select **Save & Close** to save the record.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image014.png)
 
@@ -144,14 +142,12 @@ In this task, Alex will create factor mappings to map the Contractual instrument
     1. **Factor Library**: +++EPA 2021 -eGRID+++
     1. **Factor**: +++FRCC (FRCC All)+++
 
-1.  The fields and their values are explained below:
+1.  The fields and their values are explained below. Select **Save & Close** to save the record.
 
     - The **Name** of the factor mapping is used for identifying the factor mapping in the list.
     - The **Reference Data** is mapping the Contractual Instrument Type.
     - The **Factor** **Library** is the library used.
     - The **Factor** is mapping the Emission Factor.
-
-    1.  Select **Save & Close** to save the record.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image016.png)
 
@@ -183,15 +179,13 @@ In this task, Alex will create an estimation factor library to define the estima
     1. **Type**: Custom
     1. **Library Type**: Estimation factor library
 
-1.  The fields and their values are explained below:
+1.  The fields and their values are explained below. Select **Save & Close** saves the record.
 
     - The **Name** of the factor library, this is used for identifying the factor library in the list.
     - The **Description** of the factor library is used to provide more information about the factor library for others.
     - The **Documentation reference** for the factor library is used to identify the documentation used to generate the factor library.
     - The **Type** of factor library is used to identify if this factor library is a Custom, Demo (sample), or Standard (pre-loaded based on EPA libraries).
     - The **Library Type** of the factor library, this functionally switches the library type between Emission or Estimation Library. Emission Libraries are used to calculate emission gases, and Estimation Libraries are used to create estimated conversions from one unit type to another, such as 100 miles driven to kWh.
-
-    1.  Select **Save & Close** saves the record.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image020.png)
 
@@ -224,7 +218,7 @@ In this task, Alex will create the estimation factor for estimating the kilowatt
     1. **Factor value**: +++49.00+++
     1. **Factor value unit**: kWh
 
-1.  The fields and their values are **explained** below:
+1.  The fields and their values are explained below. Select **Save & Close** to save the record.
 
     - The **Name**, this is used for identifying the emission factor in the list.
     - The **Documentation reference**, this is used to identify the documentation used to generate the estimation factor.
@@ -232,8 +226,6 @@ In this task, Alex will create the estimation factor for estimating the kilowatt
     - The **Unit** is used to identify what unit will be converted.
     - The **Factor value** is used to determine the amount to be estimated per the Factor value unit.
     - The **Factor value unit** is used to specify the unit type to be converted to.
-
-    1.  Select **Save & Close** to save the record.
 
     ![Graphical user interface, application Description automatically generated with medium confidence](./Images/Lab03/L03_image024.png)
 
@@ -274,14 +266,12 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
     1. **Calculation method**: +++EPA Equation 1: Electricity (MWh) \* EF+++
     1. **Documentation reference**: +++https://www.epa.gov/sites/default/files/2020-12/documents/electricityemissions.pdf+++
 
-1.  The fields and their values are explained below:
+1.  The fields and their values are explained below. Select **Save** to save the record.
 
     - The **Category name** is used for identifying the calculation model in the list.
     - The **Activity data** is used to identify which type of activity data the model will process.
     - The **Calculation method** is used to roughly note what the calculation will be doing.
     - The **Documentation reference** is used to identify the documentation used to create the calculation model.
-
-    1.  Select **Save** to save the record.
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image029.png)
 
@@ -318,19 +308,17 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
     1. **Emission factor library**: EPA 2021 - eGRID
     1. **Emission factor**: Contractual Instrument Type
 
-1.  The fields and their values are explained below:
+1.  The fields and their values are explained below. Select **Save** to save the record.
 
     - The **Category name** is used for identifying the action in the calculation model.
     - The **Description** is used to roughly note what the calculation will be doing.
 
-    >[!NOTE] **Note**: This value can also be determined by a Power Fx expression if a more complex value is needed instead of a specific field.
+        >[!NOTE] **Note**: This value can also be determined by a Power Fx expression if a more complex value is needed instead of a specific field.
 
     - The **Emission report value** is used to identify which field from the activity data type should be used to retrieve the value used in the emission calculation.
     - The **Unit** is used to identify the field from the activity data type to be used to retrieve the unit type of the value. Alternatively, a unit can be specified to always be used in the action, regardless of which unit is specified on the activity date type.
     - The **Emission factor library** is used to identify which factor library will be used to identify the emission factor.
     - The **Emission factor** is used to identify which emission factor or factor mapping will be used to calculate the emissions. Choosing a factor mapping will allow multiple reference data values to map to an emission factor, allowing for a calculation model to not be bound to a single emission factor.
-
-    1. Select **Save** to save the record.
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image033.png)
 
@@ -367,14 +355,12 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
     1. **Calculation method**: Miles Driven to kWh \* EF
     1. **Documentation reference**: +++https://fueleconomy.gov/feg/byfuel/EV2022.shtml+++
 
-1.  The fields and their values are explained below:
+1.  The fields and their values are explained below. Select **Save** to save the record.
 
     - The **Category name** is used for identifying the calculation model in the list.
     - The **Activity data** is used to identify which type of activity data the model will process
     - The **Calculation method** is used to roughly note what the calculation will be doing.
     - The **Documentation reference** is used to identify the documentation used to create the calculation model
-
-    1.  Select **Save** to save the record.
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image039.png)
 
@@ -405,20 +391,17 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
     1. **Estimation factor**: Fabrikam Electric Truck - EPA Estimate
     1. **Output variable name**: kWhQuantity
 
-1.  The fields and their values are explained below:
+1.  The fields and their values are explained below. Select **Save** to save the record.
 
     - The **Category name** is used for identifying the action in the calculation model.
     - The **Estimation value** is used to identify which field from the activity data type should be used to retrieve the value used in the estimation calculation.
 
-        >[!NOTE] **Note**: This value can also be determined by a Power Fx expression if a more complex value is needed instead of a specific field.
+            >[!NOTE] **Note**: This value can also be determined by a Power Fx expression if a more complex value is needed instead of a specific field.
 
     - The **Unit** is used to identify the field from the activity data type should be used to retrieve the unit type of the value. Alternatively, a unit can be specified to always be used in the action, regardless of which unit is specified on the activity date type.
     - The **Estimation factor library** is used to identify which factor library will be used to identify the estimation factor.
     - The **Estimation factor** is used to identify which estimation factor or factor mapping will be used calculate the estimation. In this scenario only one estimation factor has been created so, it does not make sense to select a factor mapping currently.
     - The **Output variable name** is used to name the output of the estimation factor calculation for use in actions further down the chain.
-
-    1.  Select **Save** to save the record.
-
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image043.png)
 
@@ -426,7 +409,7 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image044.png)
 
-1.  Select “**Report**” on the list of Available actions
+1.  Select **Report** on the list of Available actions
 
     ![Graphical user interface, application, website Description automatically generated](./Images/Lab03/L03_image045.png)
 
@@ -442,17 +425,15 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
     1. **Emission factor librar**y: EPA 2021 - eGrid
     1. **Emission factor**: US Average
 
-1.  The fields and their values are explained below:
+1.  The fields and their values are explained below. Select **Save** to save the record.
 
     - The **Category name** is used for identifying the action in the calculation model.
     - The **Emission report value** is used to identify which field should be used to retrieve the value used in the emission calculation. In this scenario, the Output variable from the Estimation factor action is used.
 
-        >[!NOTE] **Note**: In this scenario, the Unit is automatically selected based on the Unit type of the Output variable from the Estimation factor node
+            >[!NOTE] **Note**: In this scenario, the Unit is automatically selected based on the Unit type of the Output variable from the Estimation factor node
 
     - The **Emission factor library** is used to identify which factor library will be used to identify the emission factor.
     - The **Emission factor** is used to identify which emission factor or factor mapping will be used to calculate the emissions. In this scenario, Alex and Wide World Importers may not know which electric grid a vehicle was charged on or the energy source, so Alex chooses the US Average emission factor to provide the estimated emissions.
-
-    1.  Select **Save** to save the record.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image047.png)
 
