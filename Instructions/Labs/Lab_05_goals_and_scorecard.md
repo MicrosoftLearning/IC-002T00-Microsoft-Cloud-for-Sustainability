@@ -176,10 +176,10 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
     1. **Source of target value**: Enter manually
     1. **Target value**: ++600+++ (as the target of reducing our annual emissions to 600 mtCO<sub>2</sub>E)
 
-1.  **Status update method** is used to specify how the status of the goal check ins will be set. The **Status update method** can be entered manually or, in this scenario, automatic to automatically set the status for goal check-ins based on a set of rules. Amber selects **Automatic** and wants to create a rule to change the status to At risk when the value is over 600 or leave as **On track** otherwise. To do this, follow thiese steps:
+1.  **Status update method** is used to specify how the status of the goal check ins will be set. The **Status update method** can be entered manually or, in this scenario, automatic to automatically set the status for goal check-ins based on a set of rules. Amber selects **Automatic** and wants to create a rule to change the status to **At risk** when the value is over 600 or leave as **On track** otherwise. To do this, follow these steps:
 
     1.  Select **Automatic** next to **Status update method**.
-    1.  Select **New Rule**” to start a new rule for our Status.
+    1.  Select **New Rule** to start a new rule for our Status.
 
         ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image022.png)
 
