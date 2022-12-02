@@ -343,7 +343,7 @@ In this task, Reed imports the second excel spreadsheet provided by Alex - “Fl
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab02/L02_image056.png)
 
-1.  After a minute or two select the **Refresh** button above the list to see the updated status, which should be **Completed**.Ensure you have the correct number of records as below and the status of the data connections are **Complete** before moving to next steps.
+1.  After a minute or two select the **Refresh** button above the list to see the updated status, which should be **Completed**. Ensure you have the correct number of records as below and the status of the data connections are **Complete** before moving to next steps.
 
     >[!NOTE] **Note:** In case if you have more duplicate records than below screenshot, due to an issue with the following the correct data import steps , you have to delete the activity data and redo the process .Reach out to the lab instructor for support.
 
