@@ -75,8 +75,9 @@ In this task, Amber will create a new scorecard to track the goals for Wide Worl
     Amber uses the following information to populate the fields on the new Scorecard:
         - **Name**: Wide World Importers Reduction Plan - 2025
 
-1.  Amber uses the following information to populate the fields on the new Scorecard. Enter the data and select **Save**:
-    1. **Name**: +++Wide World Importers Reduction Plan - 2025+++
+1.  Amber uses the following information to populate the fields on the new Scorecard. 
+    1. Enter the **Name**: +++Wide World Importers Reduction Plan - 2025+++
+    2. Select **Save**
 
     > [!NOTE] **Note:** The name of the scorecard is used for identifying the scorecard in the list.
 
