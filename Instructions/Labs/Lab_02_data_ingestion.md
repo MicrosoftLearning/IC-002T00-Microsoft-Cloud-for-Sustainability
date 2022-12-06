@@ -1,4 +1,4 @@
-# Lab 02: Data ingestion
+# Module X Lesson X Lab 2: Data ingestion
 
 ## Overview
 
@@ -22,7 +22,7 @@ In this lab, you will do the following:
 
 ### Solution Focus Area
 
-In this lab, the focus is on the “Data Ingestion” aspect of the Solution Focus Area. It follows the “Organization and Reference data Set up” and forms the basis for the emission calculations and the reporting thereafter. The Microsoft Sustainability Manager is flexible with multiple automated options to ingest data – such as the connectors as well as manual inputs. For scenarios that may require complex data transformation and/or ETL, tools like Azure Data Factory are recommended. You can explore this functionality in deeper detail on Microsoft Docs, please visit **Overview of Microsoft Cloud for Sustainability Data Import** at +++https://docs.microsoft.com/en-us/industry/sustainability/import-data+++.
+In this lab, the focus is on the “Data Ingestion” aspect of the Solution Focus Area. It follows the “Organization and Reference data Set up” and forms the basis for the emission calculations and the reporting thereafter. The Microsoft Sustainability Manager is flexible with multiple automated options to ingest data – such as the connectors as well as manual inputs. For scenarios that may require complex data transformation and/or ETL, tools like Azure Data Factory are recommended. You can explore this functionality in deeper detail on Microsoft Docs at **Overview of Microsoft Cloud for Sustainability Data Import**, +++https://docs.microsoft.com/en-us/industry/sustainability/import-data+++.
 
 ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image001.png)
 
@@ -89,9 +89,9 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
 1.  On the **New data connection** wizard:
 
-     1.  Select **Activity data** from data type screen.
-     1.  Choose **Purchased electricity** from the Activity data drop down list.
-     1.  Select **Next** when finished.
+     1.  (1) Select **Activity data** from data type screen.
+     1.  (2) Choose **Purchased electricity** from the Activity data drop down list.
+     1.  (3) Select **Next** when finished.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image015.png)
 
@@ -105,8 +105,8 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
 1.  On the **Choose connector** page:
 
-     1.  Select **Excel**.
-     1.  Select **Next**.
+     1.  (1) Select **Excel**.
+     1.  (2) Select **Next**.
 
     >[!NOTE]**Note:** Notice the Adatum Utility Management connector at the bottom. Data providers and Partners can create their own connectors to be available in Microsoft Sustainability Manager.
 
@@ -114,8 +114,8 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
 1.  A new dialog will open for Power Query. On the **Power Query** dialog:
 
-     1.  Select **Upload file**.
-     1.  Select **Browse**.
+     1.  (1) Select **Upload file**.
+     1.  (2) Select **Browse**.
 
     >[!NOTE]**Note:** You can also choose to import an existing file located in OneDrive. For simplicity of this lab, we are using the Upload file functionality.
 
@@ -123,8 +123,8 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
 1.  On the file selection window, browse to the location of the excel files that were downloaded.
 
-     1.  Select the **Purchased electricity Wide World Importers - 2021.xlsx** file.
-     1.  Select **Open**.
+     1.  (1) Select the **Purchased electricity Wide World Importers - 2021.xlsx** file.
+     1.  (2) Select **Open**.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image020.png)
 
@@ -142,8 +142,8 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
 1.  On the **Choose data** page of the **Power Query** wizard:
 
-     1.  Select the **Purchased electricity** sheet.
-     1.  Select **Transform data**.
+     1.  (1) Select the **Purchased electricity** sheet.
+     1.  (2) Select **Transform data**.
 
     ![Table Description automatically generated](./Images/Lab02/L02_image025.png)
 
@@ -155,11 +155,11 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
 1.  On the **Map to CDM entity** of the dialog window we need to:
 
-     1.  Select the table name, **Purchased energy**.
-     1.  Select **Auto map** to allow any automatic mappings to occur.
-     1.  **Contractual Instrument Type** was **Not mapped**, hence Reed selects **Contracted firm** from the list of options in the **Query output column**.
-     1.  **Energy Provider name** was **Not mapped**, select **Provider** from the list of options in the **Query output column**.
-     1.  When finished, select **OK**.
+     1.  (1) Select the table name, **Purchased energy**.
+     1.  (2) Select **Auto map** to allow any automatic mappings to occur.
+     1.  (3) **Contractual Instrument Type** was **Not mapped**, hence Reed selects **Contracted firm** from the list of options in the **Query output column**.
+     1.  (4) **Energy Provider name** was **Not mapped**, select **Provider** from the list of options in the **Query output column**.
+     1.  (5) When finished, select **OK**.
 
     ![Graphical user interface, table Description automatically generated](./Images/Lab02/L02_image027.png)
 
@@ -185,8 +185,8 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
 1.  On the **Review and finish** page:
 
-     1.  Enter a name for the new connection, such as +++**Wide World Importers - Purchased Electricity - 2021**+++.
-     1.  Select **Connect**.
+     1.  (1) Enter a name for the new connection, such as +++**Wide World Importers - Purchased Electricity - 2021**+++.
+     1.  (1) Select **Connect**.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image031.png)
 
@@ -230,11 +230,11 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image061.png)
 
-2.  After a few moments, the view will refresh, and the activity data records that were imported during this lab will be displayed.
+1.  After a few moments, the view will refresh, and the activity data records that were imported during this lab will be displayed.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image042a.png)
 
-Great job, you have just completed the data import of 2021 Purchased Electricity for Wide World Importers. This is an important step to realizing the goal of recording, reporting, and reducing carbon emissions. Next, we will import the 2021 Miles Driven for Wide World Importers fleet of electric vehicles. **Please continue to the next task.**
+Great job, you have helped Reed complete the data import of 2021 Purchased Electricity for Wide World Importers. This is an important step to realizing the goal of recording, reporting, and reducing carbon emissions. Next, you will import the 2021 Miles Driven for Wide World Importers fleet of electric vehicles. **Please continue to the next task.**
 
 ### Task 2: Import 2021 data “Miles Driven” for Electric Trucks
 
@@ -250,30 +250,30 @@ In this task, Reed imports the second excel spreadsheet provided by Alex - “Fl
 
 1.  On the **New data connection** wizard:
 
-     1.  Select **Activity data** from data type screen.
-     1.  Choose **Purchased electricity** from the **Activity data** drop down list.
-     1.  Select **Next** when finished.
+     1.  (1) Select **Activity data** from data type screen.
+     1.  (2) Choose **Purchased electricity** from the **Activity data** drop down list.
+     1.  (3) Select **Next** when finished.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image043.png)
 
 1.  On the **Choose connector** page:
 
-     1.  Select **Excel**.
-     1.  Select **Next** when finished.
+     1.  (1) Select **Excel**.
+     1.  (2) Select **Next** when finished.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image044.png)
 
 1.  A new dialog will open for Power Query. On the **Power Query** dialog:
 
-     1.  Select **Upload file**.
-     1.  Select **Browse**.
+     1.  (1) Select **Upload file**.
+     1.  (2) Select **Browse**.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image045.png)
 
 1.  On the file selection window, browse to the location of the excel files that were downloaded.
 
-     1.  Select the **Fleet Vehicles Miles Driven Wide World Importers - 2021.xlsx** file.
-     1.  Select **Open**.
+     1.  (1) Select the **Fleet Vehicles Miles Driven Wide World Importers - 2021.xlsx** file.
+     1.  (2) Select **Open**.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image046.png)
 
@@ -283,8 +283,8 @@ In this task, Reed imports the second excel spreadsheet provided by Alex - “Fl
 
 1.  On **Choose data** page of the **Power Query** wizard:
 
-     1.  Select the **Miles Driven** sheet.
-     1.  Select **Transform data**.
+     1.  (1) Select the **Miles Driven** sheet.
+     1.  (2) Select **Transform data**.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image048.png)
 
@@ -296,11 +296,11 @@ In this task, Reed imports the second excel spreadsheet provided by Alex - “Fl
 
 1.  On the **Map to CDM entity** dialog window we need to:
 
-     1.  Select the table name, **Purchased energy**.
-     1.  Select **Auto map** to allow any automatic mappings to occur.
-     1.  **Contractual Instrument Type** was **Not mapped**, hence Reed selects **Contracted firm** from the list of options in the **Query output column**.
-     1.  **Energy Provider Name** was **Not mapped**, select **Provider** from the list of options in the **Query output column**.
-     1.  When finished, select **OK**.
+     1.  (1) Select the table name, **Purchased energy**.
+     1.  (2) Select **Auto map** to allow any automatic mappings to occur.
+     1.  (3) **Contractual Instrument Type** was **Not mapped**, hence Reed selects **Contracted firm** from the list of options in the **Query output column**.
+     1.  (4) **Energy Provider Name** was **Not mapped**, select **Provider** from the list of options in the **Query output column**.
+     1.  (5) When finished, select **OK**.
 
     ![Graphical user interface, table Description automatically generated](./Images/Lab02/L02_image050.png)
 
@@ -326,8 +326,8 @@ In this task, Reed imports the second excel spreadsheet provided by Alex - “Fl
 
 1.  On the **Review and finish** page:
 
-     1.  Enter a name for the new connection, such as +++**Wide World Importers - Electric Vehicle Miles Driven - 2021**+++.
-     1.  Select **Connect**.
+     1.  (1) Enter a name for the new connection, such as +++**Wide World Importers - Electric Vehicle Miles Driven - 2021**+++.
+     1.  (2) Select **Connect**.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image054.png)
 
@@ -377,4 +377,6 @@ In this task, Reed imports the second excel spreadsheet provided by Alex - “Fl
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image062.png)
 
-**Congratulations!** You have just completed the data import for 2021 Miles Driven for Wide World Importers. This is an important step to realizing the goal of recording, reporting, and reducing carbon emissions. In the following labs we will calculate emissions, review insights and reporting, and define our reduction scorecards and goals.
+Great job, by completing these steps you have helped Reed by using the Microsoft Sustainability Manger’s connector functionality to import from the  “Fleet Vehicles Miles Driven Wide World Importers - 2021.xlsx” spreadsheet, and used the built-in Power Query functionality to transform the data to match Microsoft Sustainability Manager’s data schema. This brings the Miles driven by Wide World Importers fleet of electric truck for the year 2021 into the Purchased electricity activity data.
+
+**Congratulations!** Reed and Alex can use the imported data for emission calculations and reporting. This is an important step to realizing the goal of recording, reporting, and reducing carbon emissions. In the following labs we will calculate emissions, review insights and reporting, and define our reduction scorecards and goals.
