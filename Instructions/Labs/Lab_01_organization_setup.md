@@ -42,7 +42,7 @@ In this lab exercise, we will focus on the scenarios illustrated below:
 
 ## Exercise 1: Set up company profile and reference data
 
-In this exercise, you will learn about the steps that Alex and Reed take to set up Wide World Imports company profile, organizational data, and reference data. You can explore this functionality in deeper detail on Microsoft Docs. To do this visit S**et up a company profile** at +++https://docs.microsoft.com/en-us/industry/sustainability/setup-company-profile+++.
+In this exercise, you will learn about the steps that Alex and Reed take to set up Wide World Imports company profile, organizational data, and reference data. You can explore this functionality in deeper detail on Microsoft Docs. To do this visit **Set up a company profile** at +++https://docs.microsoft.com/en-us/industry/sustainability/setup-company-profile+++.
 
 1. Open the **Sustainability Manager** Application.
 
@@ -241,4 +241,4 @@ Unit Groups are used to group units together and define a base unit used to conv
 
 Great job, by completing these steps you have helped Reed add the missing unit for the fleet for elctric vehicles to the Length/Distance unit group to Microsoft Sustainability Manager.
 
-**Congratulations!** You have assisted Alex (Emissions Analyst) and Reed (IT Admin) of Wide World Importers to set up their organizational structure, add the contractual instrument types, and add a new unit to the Length/Distance unit group. This forms the foundation for the rest of the work they will do with the Microsoft Cloud for Sustainability and Microsoft Sustainability Manager. These data points are used throughout the tools, so it is important to spend the time to ensure that your organization and reference data is set up correctly.
+**Congratulations!** Alex and Reed of Wide World Importers now have their organizational structure set up along with the contractual instrument types, and a new unit in the Length/Distance unit group. This forms the foundation for the rest of the work they will do with the Microsoft Cloud for Sustainability and Microsoft Sustainability Manager. These data points are used throughout the tools, so it is important to spend the time to ensure that your organization and reference data is set up correctly.
