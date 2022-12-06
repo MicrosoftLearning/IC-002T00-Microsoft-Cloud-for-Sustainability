@@ -1,4 +1,4 @@
-# Lab 01: Organization Setup
+# Module X Lesson X Lab 1: Organization Setup
 
 ## Overview
 
