@@ -564,52 +564,54 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image061.png)
 
-1.  The fields and their values are explained below:
+1.  The first fields of the New calcualtion profile are explained below:
 
     -  The **Calculation profile name** is used for identifying the calculation profile in the list.
     -  The **Emission source** is used to identify which activity data type should be used in the calculation.
-    -  The **Activity data to include filter** is used to filter activity data to a specific subset of the activity data type.
+    -  The **Activity data to include in calculation** filter is used to filter activity data to a specific subset of the activity data type.
 
-1.  Populate the following information on the **New calculation profile** wizard:
+1.  Populate them with the following information:
 
-    1. **Calculation profile name**: +++Electric Vehicle Miles Driven - 2021+++
-    1. **Emission source**: Purchased electricity
-    1. **Activity data to include in calculation**: Organizational Unit equals Wide World Importers AND Quantity unit equals mile
-    
-        1. To create the filter perform the following steps: 
+    1. (1) **Calculation profile name**: +++Electric Vehicle Miles Driven - 2021+++
+    1. (2) **Emission source**: Purchased electricity
+    1. (3) **Activity data to include in calculation**: Organizational Unit equals Wide World Importers AND Quantity unit equals mile
+     
+        To create the filter perform the following steps:
 
-            1.  Select **Add -> Add row**.
+        1.  Select **Add -> Add row**.
 
-        ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image062.png)
+            ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image062.png)
         
-    1.  In the **Select a field** dropdown, choose **Organizational Unit**.
+        1.  In the **Select a field** dropdown, choose **Organizational Unit**.
 
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image063.png)
+            ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image063.png)
 
-    1.  In the **Value** dropdown, choose **Wide World Importers (Organizational unit)**.
+        1.  In the **Value** dropdown, choose **Wide World Importers (Organizational unit)**.
 
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image064.png)
+            ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image064.png)
 
-    1.  Select **Add -> Add row** again.
+        1.  Select **Add -> Add row** again.
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image065.png)
+            ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image065.png)
 
-    1.  In the **Select a field** dropdown, choose **Quantity unit**.
+        1.  In the **Select a field** dropdown, choose **Quantity unit**.
 
-        ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image066.png)
+            ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image066.png)
 
-    1.  (3) In the **Value** dropdown, choose **mile**.
+        1.  In the **Value** dropdown, choose **mile**.
 
-        ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image067.png)
+            ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image067.png)
 
-    1.  (4) The **Calculation model** is used to identify which calculation model should be used for the calculation. Choose the **Calculation model** from the dropdown list
-    
-    1.  (5) **Automatically run this calculation when data is refreshed** is used to automatically trigger calculations when the matching activity data is refreshed.
-  
-      1. **Calculation model**: Select Electric Vehicle Miles Driven - 2021 from dropdown
-    1. Check **Schedule Automatically run**
-  
-    1.  (6) The form should resemble the image below. Select **Next**.
+1.  The final fields of the New calculation profile wizard are explained below:
+
+    - The **Calculation model** is used to identify which calculation model should be used for the calculation. Choose the **Calculation model** from the dropdown list
+    - **Automatically run this calculation when data is refreshed** is used to automatically trigger calculations when the matching activity data is refreshed.
+
+1. Set the remaining fields as follows:
+
+    1. (4) Select **Electric Vehicle Miles Driven - 2021** from the **Calculation model** dropdown list.   
+    1. (5) Check **Schedule Automatically run**.
+    1. (6) The form should resemble the image below. Select **Next**.
 
         ![Graphical user interface Description automatically generated with medium confidence](./Images/Lab03/L03_image068.png)
 
