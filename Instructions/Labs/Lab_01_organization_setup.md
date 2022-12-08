@@ -44,6 +44,10 @@ In this lab exercise, we will focus on the scenarios illustrated below:
 
 In this exercise, you will learn about the steps that Alex and Reed take to set up Wide World Imports company profile, organizational data, and reference data. You can explore this functionality in deeper detail on Microsoft Docs. To do this visit **Set up a company profile** at +++https://docs.microsoft.com/en-us/industry/sustainability/setup-company-profile+++.
 
+1. Navigate to +++https://make.powerapps.com++ and log into your Microsoft 365 tenant.
+
+1. If needed, change the environment to **MC4S** on the top bar.
+
 1. Open the **Sustainability Manager** Application.
 
     ![Graphical user interface, application, Teams Description automatically generated](./Images/Lab01/L01_image005.png)
@@ -139,6 +143,7 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
     1. **Latitude**: 25.774320
     1. **Longitude**: -80.187720
 
+
     >[!NOTE] **Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
 
     ![](./Images/Lab01/L01_image023.png)
@@ -156,7 +161,8 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
     1. **Latitude**: 27.944830
     1. **Longitude**: -82.514050
 
-    >[!NOTE] **Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
+
+>[!NOTE] **Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
 
     ![](./Images/Lab01/L01_image024.png)
 
@@ -187,6 +193,7 @@ In this task, Reed sets up the reference data for contractual instrument types i
     1. **Name**: VanArsdel Ltd
     1. **Energy source**: Nuclear
 
+
     >[!NOTE] **Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
     ![](./Images/Lab01/L01_image029.png)
@@ -199,8 +206,6 @@ In this task, Reed sets up the reference data for contractual instrument types i
     ![](./Images/Lab01/L01_image030.png)
 
     >[!NOTE]**Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
-
-In this task, Reed sets up the reference data for contractual instrument types in Microsoft Sustainability Manager. Contractual instrument types are the different types of contractual agreements that a firm has with their providers and suppliers.
 
 Great job, by completing these steps, you have helped Reed add reference data for contractual instrument types. There are many types of reference data. Take some time after this lab to explore the other reference data types. They will be used throughout Microsoft Cloud for Sustainability, and Microsoft Sustainability Manager. **Please continue to the next task.**
 
@@ -231,7 +236,8 @@ Unit Groups are used to group units together and define a base unit used to conv
     1. **Name**: 100 mile
     1. **Conversion factor**: 160934.40
 
-    >[!NOTE] **Note:** The EPA calculates electric vehicle efficiency by the number of kilowatt hours (kWh) used per 100 miles. For consistency, it is best practice to utilize the same
+
+>[!NOTE] **Note:** The EPA calculates electric vehicle efficiency by the number of kilowatt hours (kWh) used per 100 miles. For consistency, it is best practice to utilize the same
 
     ![](./Images/Lab01/L01_image035.png)
 
