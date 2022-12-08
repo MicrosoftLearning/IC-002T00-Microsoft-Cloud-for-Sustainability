@@ -159,9 +159,9 @@ In this task, Alex will create factor mappings to map the Contractual instrument
 
     ![Graphical user interface, text Description automatically generated](./Images/Lab03/L03_image017.png)
 
-Great job, you have completed adding the factor mappings for your Purchased electricity activity data! This is an important step toward the creation of calculation models that will calculate emissions for multiple emission factors based on reference data, such as Contractual Instrument Types or Facilities.
+Great job, you have completed adding the factor mappings for the Purchased electricity activity data for Alex! This is an important step toward the creation of calculation models that will calculate emissions for multiple emission factors based on reference data, such as Contractual Instrument Types or Facilities. 
 
-By creating these factor mappings, we can choose Contractual Instrument Types as emission factor during our calculation model creation. This tells Microsoft Sustainability Manager to map the contractual instrument type on an activity data record to the emission factor listed in the factor mapping. This allows you to create more dynamic calculations rather than calculations specific to a given emission factor. We will go into more detail on this later in this lab. **Please continue to the next task.**
+By creating these factor mappings, we can choose Contractual Instrument Types as emission factor during our calculation model creation. This tells Microsoft Sustainability Manager to map the contractual instrument type on an activity data record to the emission factor listed in the factor mapping. This allows you to create more dynamic calculations rather than calculations specific to a given emission factor. We will go into more detail on this later in this lab.  **Please continue to the next task.**
 
 ### Task 2: Create Estimation Factor Library
 
@@ -194,7 +194,7 @@ In this task, Alex will create an estimation factor library to define the estima
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image020.png)
 
-Great job, you have created an **Estimation Library**. Estimation Libraries are the first step to utilizing estimations for emissions where you may not be able to determine the exact emissions. Some examples of estimations include estimating the amount of natural gas and electricity per hotel night stay during business travel, or vehicle fuel consumption by distance traveled. **Please continue to the next task.**
+Great job, you have helped Alex create an Estimation Library to define the estimation factor for estimating the kilowatt hours (kWh) used per miles driven. Estimation Libraries are the first step to utilizing estimations for emissions where you may not be able to determine the exact emissions. Some examples of estimations include estimating the amount of natural gas and electricity per hotel night stay during business travel, or vehicle fuel consumption by distance traveled. **Please continue to the next task.**
 
 ### Task 3: Create Estimation Factor
 
@@ -239,7 +239,7 @@ In this task, Alex will create the estimation factor for estimating the kilowatt
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image025.png)
 
-Great job, you have created an estimation factor. Estimation factors are important to be able to convert from one unit type to another when an estimate is appropriate, such as estimated fuel or battery economy of vehicles, or estimating gas and electric utilization of hotel stays. **Please continue to the next task.**
+Great job, you have helped Alex create an estimation factor for estimating the kilowatt hours (kWh) used per miles driven. Estimation factors are important to be able to convert from one unit type to another when an estimate is appropriate, such as estimated fuel or battery economy of vehicles, or estimating gas and electric utilization of hotel stays. **Please continue to the next task.**
 
 ===
 
@@ -338,7 +338,9 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
     ![A screenshot of a computer Description automatically generated](./Images/Lab03/L03_image035.png)
 
-Great job, you have created a new Calculation model. In this Calculation model you have utilized factor mappings, an important differentiator for Microsoft Cloud for Sustainability. Factor mappings allow the Calculation models to be more dynamic by mapping reference data to emission factors, allowing you to have one model that can calculate for multiple emission factors. Calculation models are the instruction sets that are used by Microsoft Cloud for Sustainability to calculate emissions. There are several calculation models that are included with Microsoft Cloud for Sustainability based on EPA calculations. Sometimes these included models may not match your unique customer needs and you will need to create new models to provide custom calculations, be sure to review some of the included models to see other types of complex calculation models. **Please continue to the next task.**
+Great job, you have helped Alex create a new Calculation model to calculate carbon emissions for purchased electricity based on the contractual instrument type. This will be used in Exercise 3. In this Calculation model you utilized factor mappings, an important differentiator for Microsoft Cloud for Sustainability. Factor mappings allow the Calculation models to be more dynamic by mapping reference data to emission factors, allowing you to have one model that can calculate for multiple emission factors. 
+
+Calculation models are the instruction sets that are used by Microsoft Cloud for Sustainability to calculate emissions. There are several calculation models that are included with Microsoft Cloud for Sustainability based on EPA calculations. Sometimes these included models may not match your unique customer needs and you will need to create new models to provide custom calculations, be sure to review some of the included models to see other types of complex calculation models. **Please continue to the next task.**
 
 ### Task 2: Create Electric Vehicle Miles Driven Model
 
@@ -456,7 +458,9 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
     ![A screenshot of a computer Description automatically generated](./Images/Lab03/L03_image049.png)
 
-Great job, you have created a new Calculation model. This Calculation model included an estimation factor, allowing you to calculate emissions in areas where you may not know the exact quantity of an emission source, but still need to account for the carbon emissions. Calculation models are the instruction sets that are used by Microsoft Cloud for Sustainability to calculate emissions. There are several calculation models that are included with Microsoft Cloud for Sustainability based on EPA calculations. Sometimes these included models may not match your unique customer needs and you will need to create new models to provide custom calculations, be sure to review some of the included models to see other types of complex calculation models. **Please continue to the next task.**
+Great job, you have helped Alex create another new Calculation model to calculate carbon emissions for miles driven by electric vehicles. This Calculation model included an estimation factor, allowing Alex to calculate emissions in areas where he may not know the exact quantity of an emission source, but still needs to account for the carbon emissions.  This model will be used in the following exercise. 
+
+Calculation models are the instruction sets that are used by Microsoft Cloud for Sustainability to calculate emissions. There are several calculation models that are included with Microsoft Cloud for Sustainability based on EPA calculations. Sometimes these included models may not match your unique customer needs and you will need to create new models to provide custom calculations, be sure to review some of the included models to see other types of complex calculation models. **Please continue to the next task.**
 
 ===
 
@@ -550,7 +554,9 @@ In this task, Alex will create a Calculation Profile for the electricity purchas
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image059.png)
 
-Great job, you have created a calculation profile. Calculation profiles are the mechanisms by which Calculation jobs are queued. You can set your Calculation profiles to run automatically when matching Activity Data is added or updated, as we chose in this scenario, or you can run them manually which we will discuss in Task 3 of this exercise. **Please continue to the next task.**
+Great job, you have helped Alex create a calculation profile for the electricity purchased by Wide World Importers for their facilities for the year 2021. This profile used the calculation model defined early in this lab. The profile was filtered to only activity data for the Wide World Importers organizational unit, and where the unit type is kWh. 
+
+Calculation profiles are the mechanisms by which Calculation jobs are queued. You can set your Calculation profiles to run automatically when matching Activity Data is added or updated, as we chose in this scenario, or you can run them manually which we will discuss in Task 3 of this exercise. **Please continue to the next task.**
 
 ### Task 2: Create Electric Vehicle Miles Driven Calculation Profile
 
@@ -642,7 +648,9 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
 
 ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image069.png)
 
-Great job, you have helped Alex create a calculation profile using the calculation model defined earlier in this lab. You filtered the profile to only activity data for the Wide World Importers organizational unit, and where the unit type is mile to ensure ensure that only the miles driven for Wide World Importers’ fleet of electric vehicles is included in the calculation job. Calculation profiles are the mechanisms by which Calculation jobs are queued. You can set your Calculation profiles to run automatically when matching Activity Data is added or updated, as we chose in this scenario, or you can run them manually which we will discuss in Task 3 of this exercise. **Please continue to the next task.**
+Great job, you have helped Alex create another calculation profile using the calculation model defined earlier in this lab. You filtered the profile to only activity data for the Wide World Importers organizational unit, and where the unit type is mile to ensure ensure that only the miles driven for Wide World Importers’ fleet of electric vehicles is included in the calculation job. 
+
+Calculation profiles are the mechanisms by which Calculation jobs are queued. You can set your Calculation profiles to run automatically when matching Activity Data is added or updated, as we chose in this scenario, or you can run them manually which we will discuss in Task 3 of this exercise. **Please continue to the next task.**
 
 ### Task 3: Run Calculation Profiles
 
