@@ -1,4 +1,4 @@
-# Lab 04: Insights and reporting
+# Module 6 Lesson 2 Lab 4: Insights and reporting
 
 ## Overview
 
@@ -20,9 +20,9 @@ In this lab, you will do the following:
 ### Prerequisites
 
 -   Microsoft Sustainability manager environment is set up with sample data
--   Lab 01 organization and reference data is entered
--   Lab 02 activity data is ingested
--   Lab 03 emissions are calculated
+-   Lab 1 organization and reference data is entered
+-   Lab 2 activity data is ingested
+-   Lab 3 emissions are calculated
 
 ### Solution Focus Area
 
@@ -46,11 +46,13 @@ In this exercise, you will take on the persona of Amber Rodriguez – Sustainabi
 
 1. Log in to your Cloud for Sustainability environment at +++https://make.powerapps.com+++.
 
+1. If needed, change the environment to **MC4S** on the top bar.
+
 1. Open the **Sustainability Manager** Application.
 
     ![Graphical user interface, application, Teams Description automatically generated](./Images/Lab04/L04_image004.png)
 
-    >[NOTE!] **Important** Please make sure that you have completed the previous labs to ensure that the dashboards and reports show meaningful data.
+    >[ALERT!] **Important** Please make sure that you have completed the previous labs to ensure that the dashboards and reports show meaningful data.
 
 ### Task 1: Explore Sustainability Dashboards
 
@@ -200,7 +202,7 @@ In this task, Amber explores the various **Sustainability** dashboards which pro
 
     ![A picture containing graphical user interface Description automatically generated](./Images/Lab04/L04_image017.png)
 
-Great job, you have successfully explored various Sustainability dashboards. You can use these dashboards to gain insights into your emissions data. You can see as we drilled down from total emissions to the organization level, we were able to determine that Wide World Importers needs to reduce the carbon emissions from Purchased electricity. This could be achieved in a variety of ways such as switching to renewable energy sources or using more energy efficient devices and vehicles. You can use these insights to drive business decisions and use the information to create scorecards and goals to track your progress. **Please continue to the next task.**
+Great job, you have successfully explored various Sustainability dashboards with Amber to gain insights into the emissions data. You can see as you drilled down from total emissions to the organization level, Amber was able to determine that Wide World Importers needs to reduce the carbon emissions from Purchased electricity. This could be achieved in a variety of ways such as switching to renewable energy sources or using more energy efficient devices and vehicles. You and she can use these insights to drive business decisions and use the information to create scorecards and goals to track progress. **Please continue to the next task.**
 
 ===
 
@@ -251,7 +253,7 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab04/L04_image024.png)
 
-Great job, you have successfully generated an emissions report. Emissions reports are useful for providing information in public disclosures. Microsoft Sustainability provides this information in a tabular format to allow you to adapt it to meet the rapidly changing regulatory requirements. There is a great opportunity for **partners** to assist in the generation of the disclosure documents by configuring an emissions report to export data in a consistent and familiar format for ingestion into a **partner** solution. **Please continue to the next task.**
+Great job, you have helped Jessie successfully generate an emissions report. Emissions reports are useful for providing information in public disclosures. Microsoft Sustainability provides this information in a tabular format to allow you to adapt it to meet the rapidly changing regulatory requirements. There is a great opportunity for partners to assist in the generation of the disclosure documents by configuring an emissions report to export data in a consistent and familiar format for ingestion into a partner solution. This report can be used in conjunction with the activity report, which will be generated in the next task. **Please continue to the next task.**
 
 ### Task 2: Generate activity report
 
@@ -306,4 +308,6 @@ Great job, you have successfully generated an emissions report. Emissions report
 
    ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image032.png)
 
-**Congratulations!** You have successfully generated an activity report. Activity reports are useful for providing information in public disclosures. Microsoft Sustainability provides this information in a tabular format to allow you to adapt it to meet the rapidly changing regulatory requirements. There is a great opportunity for **partners** to assist in the generation of the disclosure documents by configuring an activity report to export data in a consistent and familiar format for ingestion into a **partner** solution.
+Great job, you have Jessie successfully generate an an activity report. Activity reports are useful for providing information in public disclosures. Microsoft Sustainability provides this information in a tabular format to allow you to adapt it to meet the rapidly changing regulatory requirements. There is a great opportunity for **partners** to assist in the generation of the disclosure documents by configuring an emissions report to export data in a consistent and familiar format for ingestion into a **partner** solution. 
+
+**Congratulations!** Jessie can now include the emission and activity reports in the sustainability reporting procedures for Contoso Corp. These reports will help develop goals that can be tracked using Scorecards, which will be created in the next lab.
