@@ -1,4 +1,4 @@
-# Lab 05: Goals and scorecard
+# Module 7 Lesson 2 Lab 5: Goals and scorecard
 
 ## Overview
 
@@ -17,10 +17,10 @@ In this lab, you will do the following:
 ### Prerequisites
 
 -   Microsoft Sustainability manager environment is set up with sample data
--   Lab 01 organization and reference data is entered
--   Lab 02 activity data is ingested
--   Lab 03 emissions are calculated
--   Lab 04 deep analysis and reporting review
+-   Lab 1 organization and reference data is entered
+-   Lab 2 activity data is ingested
+-   Lab 3 emissions are calculated
+-   Lab 4 deep analysis and reporting review
 
 ### Solution Focus Area
 
@@ -50,6 +50,8 @@ In this exercise, you will learn about the steps that Amber takes to create scor
 
 1. Log in to your Cloud for Sustainability environment at +++https://make.powerapps.com+++
 
+1. If needed, change the environment to **MC4S** on the top bar.
+
 1. Open the **Sustainability Manager** Application.
         
     ![Graphical user interface, application, Teams Description automatically generated](./Images/Lab05/L05_image004.png)
@@ -72,14 +74,11 @@ In this task, Amber will create a new scorecard to track the goals for Wide Worl
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image007.png)
 
-    Amber uses the following information to populate the fields on the new Scorecard:
-        - **Name**: Wide World Importers Reduction Plan - 2025
-
 1.  Amber uses the following information to populate the fields on the new Scorecard.
  
     (1) Enter the **Name**: +++Wide World Importers Reduction Plan - 2025+++
 
-    (2) Select **Save**
+    (2) Select **Save**.
 
     > [!NOTE] **Note:** The name of the scorecard is used for identifying the scorecard in the list.
 
@@ -89,7 +88,7 @@ In this task, Amber will create a new scorecard to track the goals for Wide Worl
 
     ![A picture containing background pattern Description automatically generated](./Images/Lab05/L05_image009.png)
 
-Great job, you have created a new scorecard. Scorecards are used to track progress towards an organization’s sustainability goals by serving to logically group goals together. In the next tasks we will discuss creating goals and goal check-ins. **Please continue to the next task.**
+Great job, you have helped Amber create a new scorecard to track the goals for Wide World Importers. Scorecards are used to track progress towards an organization’s sustainability goals by serving to logically group goals together. In the next tasks we will discuss creating goals and goal check-ins.  **Please continue to the next task.**
 
 ### Task 2: Create a Goal
 
@@ -101,42 +100,51 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
 1. The first fields of the goal are explained below: 
 
-    - **Name** is used for identifying the goal in the list.
+    - **Goal name** is used for identifying the goal in the list.
     - **Owner** is used to identify the primary person responsible for monitoring and tracking goal progress.
     - **Scorecard** is used to specify which scorecard to associate the goal with. In this scenario, because the goal was created on the scorecard page, the scorecard field is automatically filled out.
     - **Organizational unit** is used to identify which Organizational unit the goal is associated with.
     - **Start date** is used to identify the starting time frame of the goal.
     - **End date** is used to identify the ending time frame of the goal.
-    - **Unit** is used to specify which unit you would like to measure in this goal.
+    - **Unit of measure** is used to specify which unit you would like to measure in this goal.
     - **Starting value** is used to specify your starting point for the goal.
+    - **Source of current value** is used to specify what the source of the current value is, if set to Enter Manually, or where to retrieve the current value from each day. The **Source of current value** can be a roll up from other child goals, or as in this scenario, Connected to data.
 
 1.  Amber uses the following information to populate these fields on the new Goal. Enter the data:
-    1. **Name**: +++Reduce Scope 2 Emissions – 2022+++
-    1. **Owner**: Your lab User
-    1. **Scorecard**: Wide World Importers Reduction Plan - 2025
-    1. **Organizational Unit**: Wide World Importers
-    1. **Start date**: 12/31/2021
-    1. **End date**: 12/31/2022
 
-        >[!NOTE] **Note**: The automatic check-in process will not perform a check-in if the current date is outside of the Start and End date range. Wide World Importers chose 12/31/2021 to include the final calculation of 2021 as the first, or base, check-in value for the new goal
+    (1) **Name**: +++Reduce Scope 2 Emissions – 2022+++
 
-    1. **Unit of measure**: mtCO<sub>2</sub>E
-    1. **Starting value**: +++900+++
+    (2) **Owner**: Your lab User
 
-1. **Source of current value** is used to specify what the source of the current value is, if set to Enter Manually, or where to retrieve the current value from each day. The **Source of current value** can be a roll up from other child goals, or as in this scenario, Connected to data. Amber wants **Connect to data** with **Emission** as the **Data source** and **CO<sub>2</sub>E** as the **Value**.
+    (3) **Scorecard**: Wide World Importers Reduction Plan - 2025
 
-    1. Select **Connect to data** and then select **Set up connection**.
+    (4) **Organizational unit**: Wide World Importers
 
-        ![A picture containing rectangle Description automatically generated](./Images/Lab05/L05_image011.png)
+    (5) **Start date**: 12/31/2021
+
+    (6) **End date**: 12/31/2022
+
+    >[!NOTE] **Note**: The automatic check-in process will not perform a check-in if the current date is outside of the Start and End date range. Wide World Importers chose 12/31/2021 to include the final calculation of 2021 as the first, or base, check-in value for the new goal
+
+    (7) **Unit of measure**: mtCO<sub>2</sub>E
+
+    (8)**Starting value**: +++900+++
+   
+    ![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image010b.png)
+
+1. Amber wants **Connect to data** with **Emission** as the **Data source** and **CO<sub>2</sub>E** as the **Value**. Select **Connect to data** and then select **Set up connection**.
+
+    ![A picture containing rectangle Description automatically generated](./Images/Lab05/L05_image011.png)
 
     1. Choose **Emission** as the **Data source**. This is the table where the data will come from.
+
     1. Set +++**CO<sub>2</sub>E**+++ as the **Value**. This is the field where the data will come from.
 
-        ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image012.png)  
+    ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image012.png)  
   
 1. Amber wants to filter the data by: **Org Unit equals Wide World Importers AND Consumption end date Last x years 1**. 
 
-    1.  Select **Add -> Add row**
+    1. Select **Add -> Add row**.
 
         ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image013.png)
 
@@ -172,11 +180,17 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image021.png)
 
-1.  **Source of target value** is used to specify what the source of the target value is. The **Source of target value** can be connected to data or, in this scenario, entered manually. Amber selects to set the following for this (enter this data):
-    1. **Source of target value**: Enter manually
-    1. **Target value**: ++600+++ (as the target of reducing our annual emissions to 600 mtCO<sub>2</sub>E)
+1.  The next fields of the goal is explained below:
+    - **Source of target value** is used to specify what the source of the target value is. The **Source of target value** can be connected to data or, in this scenario, entered manually. 
+    -  **Status update method** is used to specify how the status of the goal check ins will be set. The **Status update method** can be entered manually or, in this scenario, automatic to automatically set the status for goal check-ins based on a set of rules. 
 
-1.  **Status update method** is used to specify how the status of the goal check ins will be set. The **Status update method** can be entered manually or, in this scenario, automatic to automatically set the status for goal check-ins based on a set of rules. Amber selects **Automatic** and wants to create a rule to change the status to **At risk** when the value is over 600 or leave as **On track** otherwise. To do this, follow these steps:
+1. Amber selects **Enter manually** for the **Source of target value** and our target of reducing our annual emissions as 600 mtCO2E. To do this:
+    1. Select **Enter manually** for **Source of target value**.
+    1. Set **Target value** to ++600+++.
+
+    (Need screenshot here)
+
+1. Amber selects **Automatic** for the **Status update method** and wants to create a rule to change the status to **At risk** when the value is over 600 or leave as **On track** otherwise. To do this, follow these steps:
 
     1.  Select **Automatic** next to **Status update method**.
     1.  Select **New Rule** to start a new rule for our Status.
@@ -203,13 +217,14 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
     1.  Select **Save**.
 
+    (need new image of finshed goal prior to Save)
         ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image028.png)
 
 1.  The new goal should be visible in the list of goals for the scorecard.
 
     ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab05/L05_image029.png)
 
-Great job, you have created a Goal for your scorecard. Goals are important to keep track of an organization’s progress towards reducing their carbon footprint. Any goals you have with a current value that is connected to data will have check-ins created roughly every 24 hours. Let’s go ahead and create our first check-in manually so you are familiar with the check-in data. **Please continue to the next task**
+Great job, you have helped Amber create a goal for your scorecard instructing Wide World Importers to reduce their carbon emissions from 900 mtCO2E to 600 mtCO2E. You enabled automatic check-ins and status rules to ensure that the goal is automatically kept up to date. Goals are important to keep track of an organization’s progress towards reducing their carbon footprint. Any goals you have with a current value that is connected to data will have check-ins created roughly every 24 hours. Let’s go ahead and create our first check-in manually so you are familiar with the check-in data.  **Please continue to the next task**
 
 ### Task 3: Create a Goal Check-in
 
