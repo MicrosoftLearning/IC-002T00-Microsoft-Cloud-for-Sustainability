@@ -1,4 +1,4 @@
-# Module X Lesson X Lab 3: Emission calculations
+# Module 5 Lesson 2 Lab 3: Emission calculations
 
 ## Overview
 
@@ -58,6 +58,8 @@ In this exercise, you will learn about the steps that Alex takes to define the f
 Wide World Importers may not know exactly how much electricity was purchased for charging the Electric Trucks, which grids the electricity came from, or what the energy source is. However, Wide World Importers can estimate the amount of electricity purchased by identifying how many kilowatt hours (kWh) are used per 100 miles, based on EPA vehicle efficiency data. You can explore this functionality in deeper detail on Microsoft Docs, please visit **Overview of Emission factors** at +++https://docs.microsoft.com/en-us/industry/sustainability/calculate-emission-factors+++.
 
 1. Log in to your Cloud for Sustainability environment at +++https://make.powerapps.com+++.
+
+1. If needed, change the environment to **MC4S** on the top bar.
 
 1. Open the **Sustainability Manager** Application.
 
@@ -308,11 +310,10 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
 1.  The fields and their values are explained below.
 
-    - The **Category name** is used for identifying the action in the calculation model.
-    - The **Description** is used to roughly note what the calculation will be doing.
-
         >[!NOTE] **Note**: This value can also be determined by a Power Fx expression if a more complex value is needed instead of a specific field.
 
+    - The **Category name** is used for identifying the action in the calculation model.
+    - The **Description** is used to roughly note what the calculation will be doing.
     - The **Emission report value** is used to identify which field from the activity data type should be used to retrieve the value used in the emission calculation.
     - The **Unit** is used to identify the field from the activity data type to be used to retrieve the unit type of the value. Alternatively, a unit can be specified to always be used in the action, regardless of which unit is specified on the activity date type.
     - The **Emission factor library** is used to identify which factor library will be used to identify the emission factor.
@@ -398,7 +399,7 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
     - The **Category name** is used for identifying the action in the calculation model.
     - The **Estimation value** is used to identify which field from the activity data type should be used to retrieve the value used in the estimation calculation.
 
-            >[!NOTE] **Note**: This value can also be determined by a Power Fx expression if a more complex value is needed instead of a specific field.
+    >[!NOTE] **Note**: This value can also be determined by a Power Fx expression if a more complex value is needed instead of a specific field.
 
     - The **Unit** is used to identify the field from the activity data type should be used to retrieve the unit type of the value. Alternatively, a unit can be specified to always be used in the action, regardless of which unit is specified on the activity date type.
     - The **Estimation factor library** is used to identify which factor library will be used to identify the estimation factor.
@@ -434,7 +435,7 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
     - The **Category name** is used for identifying the action in the calculation model.
     - The **Emission report value** is used to identify which field should be used to retrieve the value used in the emission calculation. In this scenario, the Output variable from the Estimation factor action is used.
 
-            >[!NOTE] **Note**: In this scenario, the Unit is automatically selected based on the Unit type of the Output variable from the Estimation factor node
+    >[!NOTE] **Note**: In this scenario, the Unit is automatically selected based on the Unit type of the Output variable from the Estimation factor node
 
     - The **Emission factor library** is used to identify which factor library will be used to identify the emission factor.
     - The **Emission factor** is used to identify which emission factor or factor mapping will be used to calculate the emissions. In this scenario, Alex and Wide World Importers may not know which electric grid a vehicle was charged on or the energy source, so Alex chooses the US Average emission factor to provide the estimated emissions.
@@ -531,7 +532,7 @@ In this task, Alex will create a Calculation Profile for the electricity purchas
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image058.png)
 
-    On the “Preview” page of the New calculation profile wizard the emissions are calculated for the first row of data that matches the Activity data to include filter. **In this scenario, the values seen in the preview may be different than the image below.**
+    On the **Preview** page of the New calculation profile wizard the emissions are calculated for the first row of data that matches the Activity data to include filter. **In this scenario, the values seen in the preview may be different than the image below.**
 
     These values were determined by converting the consumed kWh to MWh: 3519.038/1000 = 3.519038 MWh
 
