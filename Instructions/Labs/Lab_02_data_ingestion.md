@@ -1,4 +1,4 @@
-# Module X Lesson X Lab 2: Data ingestion
+# Module 4 Lesson 2 Lab 2: Data ingestion
 
 ## Overview
 
@@ -40,10 +40,13 @@ In this lab exercise, we will focus on the Lab 02 scenario illustrated below:
 
 In this exercise, you will learn about the steps that Reed takes to ingest the spreadsheets given by Alex. Data import is a vital task to bringing large volumes of data into Microsoft Sustainability Manager. Excel is utilized in this lab; however, many pre-built connectors are available, and Partners can build custom connectors to integrate with additional data sources. You can explore this functionality in deeper detail on Microsoft Docs, please visit **Overview of data connectors** at +++https://docs.microsoft.com/en-us/industry/sustainability/import-data-connectors+++.
 
->[!NOTE] **Important** Please ensure you have completed the previous lab to create Reference Data. **The data import process requires all Reference Data to exist, and the process is case sensitive, so please ensure the Reference data that was added has the exact same case formatting as what is found in the lab**. Failure to do so will result in errors during the data import process
+>[!ALERT] **Important** Please ensure you have completed the previous lab to create Reference Data. **The data import process requires all Reference Data to exist, and the process is case sensitive, so please ensure the Reference data that was added has the exact same case formatting as what is found in the lab**. Failure to do so will result in errors during the data import process
 
--   For our Instructor Lead Training, we suggest using In-private browsing, or a new browser profile.
--   For this lab, you will be utilizing OneDrive. Please ensure that your personal one drive has been initialized by selecting the app selector button in the top left corner of the screen
+1. Navigate to +++https://make.powerapps.com++ and log into your Microsoft 365 tenant.
+
+1. If needed, change the environment to **MC4S** on the top bar.
+
+1. Please ensure that your personal one drive has been initialized by selecting the app selector button in the top left corner of the screen
 
     ![Graphical user interface, application, chat or text message Description automatically generated](./Images/Lab02/L02_image005.png)
 
@@ -108,6 +111,7 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
      1.  (1) Select **Excel**.
      1.  (2) Select **Next**.
 
+
     >[!NOTE]**Note:** Notice the Adatum Utility Management connector at the bottom. Data providers and Partners can create their own connectors to be available in Microsoft Sustainability Manager.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image018.png)
@@ -116,6 +120,7 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
      1.  (1) Select **Upload file**.
      1.  (2) Select **Browse**.
+
 
     >[!NOTE]**Note:** You can also choose to import an existing file located in OneDrive. For simplicity of this lab, we are using the Upload file functionality.
 
@@ -186,7 +191,7 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 1.  On the **Review and finish** page:
 
      1.  (1) Enter a name for the new connection, such as +++**Wide World Importers - Purchased Electricity - 2021**+++.
-     1.  (1) Select **Connect**.
+     1.  (2) Select **Connect**.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image031.png)
 
