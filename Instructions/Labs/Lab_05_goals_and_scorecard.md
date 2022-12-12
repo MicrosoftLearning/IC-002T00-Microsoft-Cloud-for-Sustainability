@@ -48,7 +48,7 @@ In this lab exercise, we will focus on the scenarios illustrated below:
 
 In this exercise, you will learn about the steps that Amber takes to create scorecards and goals to help Wide World Importers track carbon reduction progress. Based on the results of the previous lab, Amber has determined that Wide World Importers needs to reduce their Scope 2: Purchased electricity carbon emissions. Scorecards and goals allow organizations to set carbon reduction targets and track their progress to that. You can explore this functionality in deeper detail on Microsoft Docs, please visit Overview of scorecards and goals +++https://docs.microsoft.com/en-us/industry/sustainability/reports-scorecards-goals+++.
 
-1. Log in to your Cloud for Sustainability environment at +++https://make.powerapps.com+++
+1. If needed, log in to your Cloud for Sustainability environment at +++https://make.powerapps.com+++ in a new browser window.
 
 1. If needed, change the environment to **MC4S** on the top bar.
 
@@ -180,17 +180,17 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image021.png)
 
-1.  The next fields of the goal is explained below:
+1.  The next fields of the goal are explained below:
     - **Source of target value** is used to specify what the source of the target value is. The **Source of target value** can be connected to data or, in this scenario, entered manually. 
     -  **Status update method** is used to specify how the status of the goal check ins will be set. The **Status update method** can be entered manually or, in this scenario, automatic to automatically set the status for goal check-ins based on a set of rules. 
 
 1. Amber selects **Enter manually** for the **Source of target value** and our target of reducing our annual emissions as 600 mtCO2E. To do this:
     1. Select **Enter manually** for **Source of target value**.
-    1. Set **Target value** to ++600+++.
+    1. Set **Target value** to ++600+++ mtCO<sub>2</sub>E annual emissions.
 
     (Need screenshot here)
 
-1. Amber selects **Automatic** for the **Status update method** and wants to create a rule to change the status to **At risk** when the value is over 600 or leave as **On track** otherwise. To do this, follow these steps:
+1. Amber selects **Automatic** for the **Status update method** and wants to create a rule to change the status to **At risk** when the value is over **600** or leave as **On track** otherwise. To do this, follow these steps:
 
     1.  Select **Automatic** next to **Status update method**.
     1.  Select **New Rule** to start a new rule for our Status.
@@ -205,13 +205,15 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
          ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image025.png)
 
-    1.  This specifies that if the check-in value is greater than 600 (our target value), then the organization is at risk, and the check-in will have a status of At risk.
+        This specifies that if the check-in value is greater than 600 (our target value), then the organization is at risk, and the check-in will have a status of At risk.
+
     1.  In the **Otherwise, change status to** dropdown, select **On track**.
 
         ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image026.png)
 
-    1.  This specifies that if the condition above is not met during a check-in, then we are on track to meeting the goal, and the check-in will have a status of On track.
-    1.  The Status rules should look like the image below, select **Confirm**.
+        This specifies that if the condition above is not met during a check-in, then we are on track to meeting the goal, and the check-in will have a status of On track.
+
+    1.  The Status rules should look like the image below. Select **Confirm**.
 
         ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image027.png)
 
@@ -238,9 +240,9 @@ Sometimes we may have goals that are set to use manually check-ins if we are not
 
 1.  Amber can see:
 
-    - **Progress** towards the Reduce Scope 2 Emissions - 2022 goal
-    - The goal check-in **History**
-    - The **Goal details**
+    (1) **Progress** towards the Reduce Scope 2 Emissions - 2022 goal
+    (2) The goal check-in **History**
+    (3) The **Goal details**
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image031.png)
 
@@ -252,20 +254,23 @@ Sometimes we may have goals that are set to use manually check-ins if we are not
 
     ![Graphical user interface, text Description automatically generated](./Images/Lab05/L05_image033.png)
 
-1.  Populate the **New check-in** with the following data and select **Save**:
-
-    1. **Update for**: Use today’s date.
-    1. **New value**: The preview value you copied from the Source of current value connection screen. In this scenario, +++379.59+++.
-    1. **Add Note**: +++First check-in+++.
-
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image034.png)
-
-1.  These fields are explained below:
+1.  The fields are explained below:
 
     - **Update for** is used identify what date the check-in was for. This may be the current date or a date in the past.
     - **New value** is used to specify the current value of the goal check-in. This value will be used on the Progress chart above
-        >[!NOTE]**Note:** In this scenario, the Status will be automatically set based on the Status rules we set on the goal
+
+        >[!NOTE]Note: In this scenario, the Status will be automatically set based on the Status rules we set on the goal
+
     - **Note** is optionally used if you want to provide more information or context about the check-in, such as a heatwave increased heating which resulted in an abnormally high carbon emission value for this check-in.
+
+1.  Populate the **New check-in** with the following data:
+
+    (1) **Update for**: Use today’s date.
+    (2) **New value**: The preview value you copied from the Source of current value connection screen. In this scenario, +++379.59+++.
+    (3) **Add Note**: +++First check-in+++.
+    (4) Select **Save**.
+
+    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image034.png)
 
 1.  Amber now sees:
 
@@ -274,7 +279,7 @@ Sometimes we may have goals that are set to use manually check-ins if we are not
 
     ![Graphical user interface, text, email Description automatically generated](./Images/Lab05/L05_image035.png)
 
-Great job, you have just completed the Defining Sustainability Goals exercise. These tasks are critical to helping an organization realize their Sustainability and carbon reduction goals. Some important notes:
+Great job, you have helped Amber create a scorecard and goal to help Wide World Importers track carbon reduction progress. These tasks are critical to helping an organization realize their Sustainability goals. Some important notes:
 
 -  **Automated Goal check-ins run via a backend service roughly every 24 hours**, based on the time of day when the Microsoft Cloud for Sustainability was installed.
 -  **As of the current release, there is not a way to change the timing for Automated Goal check-ins**.
@@ -317,11 +322,11 @@ By default, the Basic and Enhanced Microsoft Teams integration is disabled in Mi
 
 1.  Another pop-up window will open to grant permissions. Select the user you are signed in as currently (this account must be a global administrator).
 
-   ![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image041.png)
+    ![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image041.png)
 
 1.  Select **Accept** for requested permissions. It may take several minutes to configure. Ensure you do not have pop ups blocked that may interfere with the communication. If so, turn off blockers for this website, cancel and try connecting again.
 
-   ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image042.png)
+    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image042.png)
 
 1.  Once the dialog disappears, Select the **Save** button at the bottom left.
 
@@ -341,7 +346,7 @@ By default, the Basic and Enhanced Microsoft Teams integration is disabled in Mi
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image046.png)
 
-Great job, you have enabled Microsoft Teams integration for Dynamics 365 and turned on Microsoft Teams chats inside Dynamics 365. **Please continue to the next task.**
+Great job, you have helped Reed enable Microsoft Teams integration for Dynamics 365 and turn on Microsoft Teams chats inside Dynamics 365. This will help Reed improve collaboration between teams and improve performance on goals. Please continue to the next task. **Please continue to the next task.**
 
 ### Task 2: Add Link chats to Dynamics 365 records
 
@@ -377,7 +382,7 @@ In this task, Reed will add a new Dynamics 365 record type, Factor Library, to t
 
     ![Graphical user interface, application, email Description automatically generated](./Images/Lab05/L05_image053.png)
 
-Great job, you have now turned on and configured a new entity for Microsoft Teams chats inside Dynamics 365. This will allow you to create linked Microsoft Teams chats directly inside of Cloud for Sustainability to discuss specific records. Next, we will test out the Microsoft Teams integration. **Please continue to the next task.**
+Great job, you have helped Reed turn on and configure a new Dynamics 365 record type, Factor Library, to the Link chats configuration. This will allow Reed to create linked Microsoft Teams chats directly inside of Cloud for Sustainability to discuss specific records. Next, we will test out the Microsoft Teams integration. **Please continue to the next task.**
 
 ### Task 3: Create a Microsoft Teams linked chat
 
@@ -405,10 +410,10 @@ In this task, Amber will create a linked chat to collaborate with Allen Contoso 
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image058.png)
 
-1.  On the **New linked chat** blade we need to:
-    1.  Search for chat **Participants** - for this scenario use the dummy account, +++**Allen Contoso**+++.
-    1.  Add a note to provide context for the chat to the participants.
-    1.  When finished, select **Start chat**.
+1.  On the **New linked chat** blade:
+    (1)  Search for chat **Participants** - for this scenario use the dummy account, +++**Allen Contoso**+++.
+    (2)  Add a note to provide context for the chat to the participants.
+    (3)  When finished, select **Start chat**.
 
     ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab05/L05_image059.png)
 
@@ -416,4 +421,6 @@ In this task, Amber will create a linked chat to collaborate with Allen Contoso 
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image060.png)
 
-**Congratulations!** You have started a Microsoft Teams linked chat inside of Cloud for Sustainability. Linked chats can be used to help teams and organizations collaborate and improve efficiency by having the record context directly in the chat. You can configure many entities to have linked chats, as well as utilize custom system views to tailor the displayed fields to an organization’s needs.
+Great job, you have helped Amber create a linked chat to collaborate with Allen Contoso to discuss the EPA 2022 - eGRID in preparation for 2022 reporting needs.
+
+**Congratulations!** Reed and Amber can now use the scorecard and its information in the new linked chat you set up with one of their colleagues to discuss changes to a factor library, continuing Ambers great work to record, report, and reduce carbon emissions across Wide World Importers and the entirety of Contoso corp. Linked chats can be used to help teams and organizations collaborate and improve efficiency by having the record context directly in the chat. You can configure many entities to have linked chats, as well as utilize custom system views to tailor the displayed fields to an organization’s needs.
