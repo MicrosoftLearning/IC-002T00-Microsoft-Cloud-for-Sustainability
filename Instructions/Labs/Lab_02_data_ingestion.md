@@ -42,7 +42,7 @@ In this exercise, you will learn about the steps that Reed takes to ingest the s
 
 >[!ALERT] **Important** Please ensure you have completed the previous lab to create Reference Data. **The data import process requires all Reference Data to exist, and the process is case sensitive, so please ensure the Reference data that was added has the exact same case formatting as what is found in the lab**. Failure to do so will result in errors during the data import process
 
-1. Navigate to +++https://make.powerapps.com++ and log into your Microsoft 365 tenant.
+1. Open a new browser window, if necessary, and navigate to +++https://make.powerapps.com+++ and log into your Microsoft 365 tenant.
 
 1. If needed, change the environment to **MC4S** on the top bar.
 
