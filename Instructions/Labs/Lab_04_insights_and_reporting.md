@@ -44,7 +44,7 @@ In this lab exercise, we will focus on the scenarios illustrated below:
 
 In this exercise, you will take on the persona of Amber Rodriguez – Sustainability Specialist for Contoso Corp. utilizing the various Sustainability Dashboards to gain insights into the organization.
 
-1. Log in to your Cloud for Sustainability environment at +++https://make.powerapps.com+++.
+1. Open a new browser window, if necessary, and loog in to your Cloud for Sustainability environment at +++https://make.powerapps.com+++.
 
 1. If needed, change the environment to **MC4S** on the top bar.
 
