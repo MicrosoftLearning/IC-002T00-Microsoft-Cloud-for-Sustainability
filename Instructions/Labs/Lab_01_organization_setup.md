@@ -44,7 +44,7 @@ In this lab exercise, we will focus on the scenarios illustrated below:
 
 In this exercise, you will learn about the steps that Alex and Reed take to set up Wide World Imports company profile, organizational data, and reference data. You can explore this functionality in deeper detail on Microsoft Docs. To do this visit **Set up a company profile** at +++https://docs.microsoft.com/en-us/industry/sustainability/setup-company-profile+++.
 
-1. Navigate to +++https://make.powerapps.com++ and log into your Microsoft 365 tenant.
+1.Open a new browser window and navigate to +++https://make.powerapps.com+++ and log into your Microsoft 365 tenant.
 
 1. If needed, change the environment to **MC4S** on the top bar.
 
@@ -80,7 +80,7 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image011.png)
 
-1. On the **Company profile** page, select the **Industries** tab. Microsoft Sustainability Manager includes a selection of pre-defined industries and sub-verticals based on NACE standards, see NACE Code at +++https://nacev2.com/en. Select **+Add**.
+1. On the **Company profile** page, select the **Industries** tab. Microsoft Sustainability Manager includes a selection of pre-defined industries and sub-verticals based on NACE standards, see NACE Code at +++https://nacev2.com/en+++. Select **+Add**.
 
     ![](./Images/Lab01/L01_image012.png)
 
