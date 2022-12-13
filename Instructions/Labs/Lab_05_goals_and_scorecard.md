@@ -48,7 +48,7 @@ In this lab exercise, we will focus on the scenarios illustrated below:
 
 In this exercise, you will learn about the steps that Amber takes to create scorecards and goals to help Wide World Importers track carbon reduction progress. Based on the results of the previous lab, Amber has determined that Wide World Importers needs to reduce their Scope 2: Purchased electricity carbon emissions. Scorecards and goals allow organizations to set carbon reduction targets and track their progress to that. You can explore this functionality in deeper detail on Microsoft Docs, please visit Overview of scorecards and goals +++https://docs.microsoft.com/en-us/industry/sustainability/reports-scorecards-goals+++.
 
-1. If needed, log in to your Cloud for Sustainability environment at +++https://make.powerapps.com+++ in a new browser window.
+1. If needed, open a new browser window and log in to your Cloud for Sustainability environment at +++https://make.powerapps.com+++ in a new browser window.
 
 1. If needed, change the environment to **MC4S** on the top bar.
 
@@ -186,7 +186,7 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
 1. Amber selects **Enter manually** for the **Source of target value** and our target of reducing our annual emissions as 600 mtCO2E. To do this:
     1. Select **Enter manually** for **Source of target value**.
-    1. Set **Target value** to ++600+++ mtCO<sub>2</sub>E annual emissions.
+    1. Set **Target value** to +++600+++ mtCO<sub>2</sub>E annual emissions.
 
     (Need screenshot here)
 
@@ -241,7 +241,9 @@ Sometimes we may have goals that are set to use manually check-ins if we are not
 1.  Amber can see:
 
     (1) **Progress** towards the Reduce Scope 2 Emissions - 2022 goal
+
     (2) The goal check-in **History**
+
     (3) The **Goal details**
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image031.png)
@@ -266,8 +268,11 @@ Sometimes we may have goals that are set to use manually check-ins if we are not
 1.  Populate the **New check-in** with the following data:
 
     (1) **Update for**: Use today’s date.
+
     (2) **New value**: The preview value you copied from the Source of current value connection screen. In this scenario, +++379.59+++.
+
     (3) **Add Note**: +++First check-in+++.
+
     (4) Select **Save**.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image034.png)
@@ -411,8 +416,11 @@ In this task, Amber will create a linked chat to collaborate with Allen Contoso 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image058.png)
 
 1.  On the **New linked chat** blade:
+
     (1)  Search for chat **Participants** - for this scenario use the dummy account, +++**Allen Contoso**+++.
+
     (2)  Add a note to provide context for the chat to the participants.
+
     (3)  When finished, select **Start chat**.
 
     ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab05/L05_image059.png)
