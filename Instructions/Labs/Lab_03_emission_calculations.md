@@ -57,7 +57,7 @@ In this exercise, you will learn about the steps that Alex takes to define the f
 
 Wide World Importers may not know exactly how much electricity was purchased for charging the Electric Trucks, which grids the electricity came from, or what the energy source is. However, Wide World Importers can estimate the amount of electricity purchased by identifying how many kilowatt hours (kWh) are used per 100 miles, based on EPA vehicle efficiency data. You can explore this functionality in deeper detail on Microsoft Docs, please visit **Overview of Emission factors** at +++https://docs.microsoft.com/en-us/industry/sustainability/calculate-emission-factors+++.
 
-1. Log in to your Cloud for Sustainability environment at +++https://make.powerapps.com+++.
+1. Open a new browser window and log in to your Cloud for Sustainability environment at +++https://make.powerapps.com+++.
 
 1. If needed, change the environment to **MC4S** on the top bar.
 
@@ -129,10 +129,13 @@ In this task, Alex will create factor mappings to map the Contractual instrument
 
 1.  Alex will use the following information to populate the fields on the **New Factor mapping**:
 
-    1. (1) **Name**: +++FRCC - Purchased Electricity - VanArsdel Ltd+++
-    1. (2) **Reference Data**: +++VanArsdel Ltd+++
-    1. (3) **Factor**: +++FRCC (FRCC All)+++
-    1. (4) Select **Save & Close** to save the record.
+    (1) **Name**: +++FRCC - Purchased Electricity - VanArsdel Ltd+++
+
+    (2) **Reference Data**: +++VanArsdel Ltd+++
+
+    (3) **Factor**: +++FRCC (FRCC All)+++
+
+    (4) Select **Save & Close** to save the record.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image014.png)
 
@@ -149,11 +152,15 @@ In this task, Alex will create factor mappings to map the Contractual instrument
 
 1.  Alex will use the following information to populate the fields on the **New Factor mapping**:
 
-    1. (1) **Name**: +++FRCC - Purchased Electricity - Adatum Corp+++
-    1. (2) **Reference Data**: +++Adatum Corp+++
-    1. (3) **Factor Library**: +++EPA 2021 -eGRID+++
-    1. (4) **Factor**: +++FRCC (FRCC All)+++
-    1. (5) Select **Save & Close** to save the record.
+    (1) **Name**: +++FRCC - Purchased Electricity - Adatum Corp+++
+
+    (2) **Reference Data**: +++Adatum Corp+++
+
+    (3) **Factor Library**: +++EPA 2021 -eGRID+++
+
+    (4) **Factor**: +++FRCC (FRCC All)+++
+
+    (5) Select **Save & Close** to save the record.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image016.png)
 
@@ -187,12 +194,17 @@ In this task, Alex will create an estimation factor library to define the estima
 
 1.  Alex will use the following information to populate the fields on the new Factor library:
 
-    1. (1) **Name**: +++Electric Vehicle Estimation Library+++
-    1. (2) **Description**: +++Scope 2 Emissions from Electric Vehicles+++
-    1. (3) **Documentation reference**: +++https://fueleconomy.gov/feg/byfuel/EV2022.shtml+++
-    1. (4) **Type**: Custom
-    1. (5) **Library Type**: Estimation factor library
-    1. (6) Select **Save & Close** saves the record.
+    (1) **Name**: +++Electric Vehicle Estimation Library+++
+
+    (2) **Description**: +++Scope 2 Emissions from Electric Vehicles+++
+
+    (3) **Documentation reference**: +++https://fueleconomy.gov/feg/byfuel/EV2022.shtml+++
+
+    (4) **Type**: Custom
+
+    (5) **Library Type**: Estimation factor library
+
+    (6) Select **Save & Close** saves the record.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image020.png)
 
@@ -227,13 +239,19 @@ In this task, Alex will create the estimation factor for estimating the kilowatt
 
 1.  Alex reviews the Fabrikam electric truck details on the EPA website and determines the following information needs to be populated on the **New Estimation factor**:
 
-    1. (1) **Name**: +++Fabrikam Electric Truck - EPA Estimate+++
-    1. (2) **Documentation reference**: +++https://fueleconomy.gov/feg/noframes/45318.shtml+++
-    1. (3) **Factor Library**: +++Electric Vehicle Estimation Library+++.
-    1. (4) **Unit**: 100 Mile
-    1. (5) **Factor value**: +++49.00+++
-    1. (6) **Factor value unit**: kWh
-    1. (7) Select **Save & Close** to save the record.
+    (1) **Name**: +++Fabrikam Electric Truck - EPA Estimate+++
+
+    (2) **Documentation reference**: +++https://fueleconomy.gov/feg/noframes/45318.shtml+++
+
+    (3) **Factor Library**: +++Electric Vehicle Estimation Library+++.
+
+    (4) **Unit**: 100 Mile
+
+    (5) **Factor value**: +++49.00+++
+
+    (6) **Factor value unit**: kWh
+
+    (7) Select **Save & Close** to save the record.
 
     ![Graphical user interface, application Description automatically generated with medium confidence](./Images/Lab03/L03_image024.png)
 
@@ -276,11 +294,15 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
 1.  Populate the **Source** action with the following data:
 
-    1. (1) **Category name**: +++Purchased Electricity: Contractual Instrument Based - 2021+++
-    1. (2) **Activity data**: Purchased electricity
-    1. (3) **Calculation method**: +++EPA Equation 1: Electricity (MWh) \* EF+++
-    1. (4) **Documentation reference**: +++https://www.epa.gov/sites/default/files/2020-12/documents/electricityemissions.pdf+++
-    1. (5) Select **Save** to save the record.
+    (1) **Category name**: +++Purchased Electricity: Contractual Instrument Based - 2021+++
+
+    (2) **Activity data**: Purchased electricity
+
+    (3) **Calculation method**: +++EPA Equation 1: Electricity (MWh) \* EF+++
+
+    (4) **Documentation reference**: +++https://www.epa.gov/sites/default/files/2020-12/documents/electricityemissions.pdf+++
+
+    (5) Select **Save** to save the record.
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image029.png)
 
@@ -321,13 +343,19 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
 1.  Populate the **Report action** with the following data:
 
-    1. (1) **Category name**: +++Electricity \* EF (Contractual Instrument Type)+++
-    1. (2) **Description**: +++EPA Equation 1: Electricity (MWh) \* EF+++
-    1. (3) **Emission report value**: Quantity
-    1. (4) **Unit**: Quantity unit
-    1. (5) **Emission factor library**: EPA 2021 - eGRID
-    1. (6) **Emission factor**: Contractual Instrument Type
-    1. (7) Select **Save** to save the record.
+    (1) **Category name**: +++Electricity \* EF (Contractual Instrument Type)+++
+
+    (2) **Description**: +++EPA Equation 1: Electricity (MWh) \* EF+++
+
+    (3) **Emission report value**: Quantity
+
+    (4) **Unit**: Quantity unit
+
+    (5) **Emission factor library**: EPA 2021 - eGRID
+
+    (6) **Emission factor**: Contractual Instrument Type
+
+    (7) Select **Save** to save the record.
  
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image033.png)
 
@@ -368,11 +396,15 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
 1.  Populate the Source action with the following data:
 
-    1. (1) **Category name**: +++Electric Vehicle Miles Driven - 2021+++
-    1. (2) **Activity data**: Purchased electricity
-    1. (3) **Calculation method**: Miles Driven to kWh \* EF
-    1. (4) **Documentation reference**: +++https://fueleconomy.gov/feg/byfuel/EV2022.shtml+++
-    1. (5) Select **Save** to save the record.
+    (1) **Category name**: +++Electric Vehicle Miles Driven - 2021+++
+
+    (2) **Activity data**: Purchased electricity
+
+    (3) **Calculation method**: Miles Driven to kWh \* EF
+
+    (4) **Documentation reference**: +++https://fueleconomy.gov/feg/byfuel/EV2022.shtml+++
+
+    (5) Select **Save** to save the record.
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image039.png)
 
@@ -408,13 +440,19 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
 1.  Populate the Estimation factor action with the following data:
 
-    1. (1) **Category name**: +++Estimate kWh/100 Mile+++
-    1. (2) **Estimation value**: Quantity
-    1. (3) **Unit**: Quantity unit
-    1. (4) **Estimation factor library**: Electric Vehicle Estimation Library
-    1. (5) **Estimation factor**: Fabrikam Electric Truck - EPA Estimate
-    1. (6) **Output variable name**: kWhQuantity
-    1. (7) Select **Save** to save the record.
+    (1) **Category name**: +++Estimate kWh/100 Mile+++
+
+    (2) **Estimation value**: Quantity
+
+    (3) **Unit**: Quantity unit
+
+    (4) **Estimation factor library**: Electric Vehicle Estimation Library
+
+    (5) **Estimation factor**: Fabrikam Electric Truck - EPA Estimate
+
+    (6) **Output variable name**: kWhQuantity
+
+    (7) Select **Save** to save the record.
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image043.png)
 
@@ -442,12 +480,15 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
 1.  Populate the Report action with the following data:
 
-    1. (1) **Category name**: kWh \* EF
-    1. (2) **Emission report value**: kWhQuantity
-    1. **Unit**: kWh
-    1. (3) **Emission factor librar**y: EPA 2021 - eGrid
-    1. (4) **Emission factor**: US Average
-    1. (5) Select **Save** to save the record.
+    (1) **Category name**: kWh \* EF
+
+    (2) **Emission report value**: kWhQuantity and **Unit**: kWh
+
+    (3) **Emission factor librar**y: EPA 2021 - eGrid
+
+    (4) **Emission factor**: US Average
+
+    (5) Select **Save** to save the record.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image047.png)
 
@@ -489,9 +530,11 @@ In this task, Alex will create a Calculation Profile for the electricity purchas
  
 1.  Populate them with the following information: 
 
-    1. (1) **Calculation profile name**: +++Purchased Electricity: Contractual Instrument Based - 2021 - Wide World Importers+++
-    1. (2) **Emission source**: Purchased electricity
-    1. (3) **Activity data to include in calculation**: Organizational Unit equals Wide World Importers AND Quantity Unit equals kWh
+    (1) **Calculation profile name**: +++Purchased Electricity: Contractual Instrument Based - 2021 - Wide World Importers+++
+
+    (2) **Emission source**: Purchased electricity
+
+    (3) **Activity data to include in calculation**: Organizational Unit equals Wide World Importers AND Quantity Unit equals kWh
    
         To create the filter perform the following steps:
 
@@ -526,9 +569,11 @@ In this task, Alex will create a Calculation Profile for the electricity purchas
 
 1. Set the remaining fields as follows:
 
-    1. (4) Select **Purchased Electricity: Contractual Instrument Based - 2021** in the **Calculation model** dropdown list
-    1. (5) Check **Schedule Automatically run**.
-    1. (6) The form should resemble the image below. Select **Next**.
+    (4) Select **Purchased Electricity: Contractual Instrument Based - 2021** in the **Calculation model** dropdown list
+
+    (5) Check **Schedule Automatically run**.
+
+    (6) The form should resemble the image below. Select **Next**.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image058.png)
 
@@ -579,9 +624,11 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
 
 1.  Populate them with the following information:
 
-    1. (1) **Calculation profile name**: +++Electric Vehicle Miles Driven - 2021+++
-    1. (2) **Emission source**: Purchased electricity
-    1. (3) **Activity data to include in calculation**: Organizational Unit equals Wide World Importers AND Quantity unit equals mile
+    (1) **Calculation profile name**: +++Electric Vehicle Miles Driven - 2021+++
+
+    (2) **Emission source**: Purchased electricity
+
+    (3) **Activity data to include in calculation**: Organizational Unit equals Wide World Importers AND Quantity unit equals mile
      
         To create the filter perform the following steps:
 
@@ -616,9 +663,11 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
 
 1. Set the remaining fields as follows:
 
-    1. (4) Select **Electric Vehicle Miles Driven - 2021** from the **Calculation model** dropdown list.   
-    1. (5) Check **Schedule Automatically run**.
-    1. (6) The form should resemble the image below. Select **Next**.
+    (4) Select **Electric Vehicle Miles Driven - 2021** from the **Calculation model** dropdown list.   
+
+    (5) Check **Schedule Automatically run**.
+
+    (6) The form should resemble the image below. Select **Next**.
 
         ![Graphical user interface Description automatically generated with medium confidence](./Images/Lab03/L03_image068.png)
 
@@ -663,15 +712,17 @@ In this task, Alex will run the newly created Calculation Profiles for the elect
 
 1.  To run the calculation profile for **Purchased Electricity: Contractual Instrument Type - 2021**:
 
-    1.  (1) Select **Purchased Electricity: Contractual Instrument Based - 2021 - Wide World Importers** in the list.
-    1.  (2) Select **Run calculation** on the command bar.
+    (1) Select **Purchased Electricity: Contractual Instrument Based - 2021 - Wide World Importers** in the list.
+
+    (2) Select **Run calculation** on the command bar.
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image071.png)
 
 1.  To run the calculation profile for **Electric Vehicle Miles Driven - 2021**:
 
-    1.  (1) Select **Electric Vehicle Miles Driven - 2021** in the list.
-    1.  (2) Select **Run calculation** on the command bar.
+    (1) Select **Electric Vehicle Miles Driven - 2021** in the list.
+
+    (2) Select **Run calculation** on the command bar.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image072.png)
 
