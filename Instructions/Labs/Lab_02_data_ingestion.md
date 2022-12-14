@@ -92,9 +92,11 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
 1.  On the **New data connection** wizard:
 
-     1.  (1) Select **Activity data** from data type screen.
-     1.  (2) Choose **Purchased electricity** from the Activity data drop down list.
-     1.  (3) Select **Next** when finished.
+    (1) Select **Activity data** from data type screen.
+
+    (2) Choose **Purchased electricity** from the Activity data drop down list.
+
+    (3) Select **Next** when finished.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image015.png)
 
@@ -108,8 +110,9 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
 1.  On the **Choose connector** page:
 
-     1.  (1) Select **Excel**.
-     1.  (2) Select **Next**.
+    (1) Select **Excel**.
+
+    (2) Select **Next**.
 
 
     >[!NOTE]**Note:** Notice the Adatum Utility Management connector at the bottom. Data providers and Partners can create their own connectors to be available in Microsoft Sustainability Manager.
@@ -128,8 +131,9 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
 1.  On the file selection window, browse to the location of the excel files that were downloaded.
 
-     1.  (1) Select the **Purchased electricity Wide World Importers - 2021.xlsx** file.
-     1.  (2) Select **Open**.
+    (1) Select the **Purchased electricity Wide World Importers - 2021.xlsx** file.
+
+    (2) Select **Open**.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image020.png)
 
@@ -160,11 +164,15 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
 1.  On the **Map to CDM entity** of the dialog window we need to:
 
-     1.  (1) Select the table name, **Purchased energy**.
-     1.  (2) Select **Auto map** to allow any automatic mappings to occur.
-     1.  (3) **Contractual Instrument Type** was **Not mapped**, hence Reed selects **Contracted firm** from the list of options in the **Query output column**.
-     1.  (4) **Energy Provider name** was **Not mapped**, select **Provider** from the list of options in the **Query output column**.
-     1.  (5) When finished, select **OK**.
+    (1) Select the table name, **Purchased energy**.
+
+    (2) Select **Auto map** to allow any automatic mappings to occur.
+
+    (3) **Contractual Instrument Type** was **Not mapped**, hence Reed selects **Contracted firm** from the list of options in the **Query output column**.
+
+    (4) **Energy Provider name** was **Not mapped**, select **Provider** from the list of options in the **Query output column**.
+
+    (5) When finished, select **OK**.
 
     ![Graphical user interface, table Description automatically generated](./Images/Lab02/L02_image027.png)
 
@@ -190,8 +198,9 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
 1.  On the **Review and finish** page:
 
-     1.  (1) Enter a name for the new connection, such as +++**Wide World Importers - Purchased Electricity - 2021**+++.
-     1.  (2) Select **Connect**.
+    (1) Enter a name for the new connection, such as +++**Wide World Importers - Purchased Electricity - 2021**+++.
+
+    (2) Select **Connect**.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image031.png)
 
@@ -255,30 +264,34 @@ In this task, Reed imports the second excel spreadsheet provided by Alex - “Fl
 
 1.  On the **New data connection** wizard:
 
-     1.  (1) Select **Activity data** from data type screen.
-     1.  (2) Choose **Purchased electricity** from the **Activity data** drop down list.
-     1.  (3) Select **Next** when finished.
+    (1) Select **Activity data** from data type screen.
+
+    (2) Choose **Purchased electricity** from the **Activity data** drop down list.
+
+    (3) Select **Next** when finished.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image043.png)
 
 1.  On the **Choose connector** page:
 
-     1.  (1) Select **Excel**.
-     1.  (2) Select **Next** when finished.
+    (1) Select **Excel**.
+    (2) Select **Next** when finished.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image044.png)
 
 1.  A new dialog will open for Power Query. On the **Power Query** dialog:
 
-     1.  (1) Select **Upload file**.
-     1.  (2) Select **Browse**.
+    (1) Select **Upload file**.
+
+    (2) Select **Browse**.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image045.png)
 
 1.  On the file selection window, browse to the location of the excel files that were downloaded.
 
-     1.  (1) Select the **Fleet Vehicles Miles Driven Wide World Importers - 2021.xlsx** file.
-     1.  (2) Select **Open**.
+    (1) Select the **Fleet Vehicles Miles Driven Wide World Importers - 2021.xlsx** file.
+
+    (2) Select **Open**.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image046.png)
 
@@ -288,8 +301,9 @@ In this task, Reed imports the second excel spreadsheet provided by Alex - “Fl
 
 1.  On **Choose data** page of the **Power Query** wizard:
 
-     1.  (1) Select the **Miles Driven** sheet.
-     1.  (2) Select **Transform data**.
+    (1) Select the **Miles Driven** sheet.
+
+    (2) Select **Transform data**.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image048.png)
 
@@ -301,11 +315,15 @@ In this task, Reed imports the second excel spreadsheet provided by Alex - “Fl
 
 1.  On the **Map to CDM entity** dialog window we need to:
 
-     1.  (1) Select the table name, **Purchased energy**.
-     1.  (2) Select **Auto map** to allow any automatic mappings to occur.
-     1.  (3) **Contractual Instrument Type** was **Not mapped**, hence Reed selects **Contracted firm** from the list of options in the **Query output column**.
-     1.  (4) **Energy Provider Name** was **Not mapped**, select **Provider** from the list of options in the **Query output column**.
-     1.  (5) When finished, select **OK**.
+    (1) Select the table name, **Purchased energy**.
+
+    (2) Select **Auto map** to allow any automatic mappings to occur.
+
+    (3) **Contractual Instrument Type** was **Not mapped**, hence Reed selects **Contracted firm** from the list of options in the **Query output column**.
+
+    (4) **Energy Provider Name** was **Not mapped**, select **Provider** from the list of options in the **Query output column**.
+
+    (5) When finished, select **OK**.
 
     ![Graphical user interface, table Description automatically generated](./Images/Lab02/L02_image050.png)
 
@@ -331,8 +349,9 @@ In this task, Reed imports the second excel spreadsheet provided by Alex - “Fl
 
 1.  On the **Review and finish** page:
 
-     1.  (1) Enter a name for the new connection, such as +++**Wide World Importers - Electric Vehicle Miles Driven - 2021**+++.
-     1.  (2) Select **Connect**.
+    (1) Enter a name for the new connection, such as +++**Wide World Importers - Electric Vehicle Miles Driven - 2021**+++.
+
+    (2) Select **Connect**.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image054.png)
 
