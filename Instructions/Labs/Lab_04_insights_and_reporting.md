@@ -222,14 +222,14 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 
 1.  Set the following fields:
 
-    1.  **Name**: Enter the name of the report. For example: MC4S Emissions report
+    1.  **Name**: Enter the name of the report. For example: +++MC4S Emissions report+++
     1.  **Report type**: Emissions report
     1.  **Start date**: 01/01/2021
     1.  **End date**: 12/31/2021
 
     Fields can be selected to group data by, or column headers for the report. The available fields for Emissions report are **Country**, **Region**, **Latitude/Longitude**, **Organization unit**, **Facility, Is market-based, Is biogenic, Scope, Emission source, Activity type**. (The **Organization hierarchy date** field appears only after the **Organization unit** field is selected.).
 
-     For this task, Jessie will just set **Country/Region**, **Regional group**, **Facility**, **Scope**, **Emissions source**, and **Activity type** for use in Contoso Corp’s carbon emissions reporting for public disclosure.
+1. For this task, Jessie will just set **Country/Region**, **Regional group**, **Facility**, **Scope**, **Emissions source**, and **Activity type** for use in Contoso Corp’s carbon emissions reporting for public disclosure.
 
 1. Once these are selected, select **Save** on the top command bar.
 
@@ -267,7 +267,7 @@ Great job, you have helped Jessie successfully generate an emissions report. Emi
 
 1.  Set the following fields:
 
-    1. **Name**: Enter the name of the report. For example: MC4S Activities report
+    1. **Name**: Enter the name of the report. For example: +++MC4S Activities report+++
     1. **Report type**: Activities report
     1. **Target Activity**: Purchased energy
     1. **Start date**: 01/01/2021
@@ -284,7 +284,7 @@ Great job, you have helped Jessie successfully generate an emissions report. Emi
     | Mobile combustion     | Fuel type Vehicle type Industrial process type |
     | Industrial processes  | Facility Industrial process type               |
 
-    For this task, Jessie will just set Country/Region, Regional group, Facility, and Is Renewable for use in Contoso Corp’s carbon emissions reporting to organizations like the Carbon Disclosure Project and the Task Force on Climate-Related Financial Disclosures.
+1. For this task, Jessie will just set **Country/Region**, **Regional group**, **Facility**, and **Is Renewable** for use in Contoso Corp’s carbon emissions reporting to organizations like the Carbon Disclosure Project and the Task Force on Climate-Related Financial Disclosures.
 
 1. Once these are selected. Select **Save** on the top command bar.
 
