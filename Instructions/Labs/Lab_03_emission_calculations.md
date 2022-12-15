@@ -121,7 +121,7 @@ In this task, Alex will create factor mappings to map the Contractual instrument
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image013.png)
 
-1.  The fields and their values are explained below.
+1.  The fields are explained below.
 
     - The **Name** of the factor mapping is used for identifying the factor mapping in the list.
     - The **Reference Data** is mapping the Contractual Instrument Type.
@@ -143,7 +143,7 @@ In this task, Alex will create factor mappings to map the Contractual instrument
 
     ![Graphical user interface, text Description automatically generated](./Images/Lab03/L03_image015.png)
 
-1.  The fields and their values are explained below.
+1.  The fields are explained below.
 
     - The **Name** of the factor mapping is used for identifying the factor mapping in the list.
     - The **Reference Data** is mapping the Contractual Instrument Type.
@@ -184,7 +184,7 @@ In this task, Alex will create an estimation factor library to define the estima
 
     ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab03/L03_image019.png)
 
-1.  The fields and their values are explained below.
+1.  The fields are explained below.
 
     - The **Name** of the factor library, this is used for identifying the factor library in the list.
     - The **Description** of the factor library is used to provide more information about the factor library for others.
@@ -228,7 +228,7 @@ In this task, Alex will create the estimation factor for estimating the kilowatt
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image023.png)
 
-1.  The fields and their values are explained below.
+1.  The fields are explained below.
 
     - The **Name**, this is used for identifying the emission factor in the list.
     - The **Documentation reference**, this is used to identify the documentation used to generate the estimation factor.
@@ -245,11 +245,11 @@ In this task, Alex will create the estimation factor for estimating the kilowatt
 
     (3) **Factor Library**: +++Electric Vehicle Estimation Library+++.
 
-    (4) **Unit**: 100 Mile
+    (4) **Unit**: +++100 Mile+++
 
     (5) **Factor value**: +++49.00+++
 
-    (6) **Factor value unit**: kWh
+    (6) **Factor value unit**: +++kWh+++
 
     (7) Select **Save & Close** to save the record.
 
@@ -285,7 +285,7 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
     ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab03/L03_image028.png)
 
-1.  The fields and their values are explained below.
+1.  The fields are explained below.
 
     - The **Category name** is used for identifying the calculation model in the list.
     - The **Activity data** is used to identify which type of activity data the model will process.
@@ -330,7 +330,7 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
     The **Report** action stores the gases produced values, CO<sub>2</sub>E value, and other identifying information about the activity data row in the emissions table.
 
-1.  The fields and their values are explained below.
+1.  The fields are explained below.
 
         >[!NOTE] **Note**: This value can also be determined by a Power Fx expression if a more complex value is needed instead of a specific field.
 
@@ -375,7 +375,7 @@ Calculation models are the instruction sets that are used by Microsoft Cloud for
 
 In this task, Alex will create a new calculation model to calculate carbon emissions for miles driven by electric vehicles. They will leverage the estimation factor library created in the previous exercise to first estimate the kilowatt hours (kWh) used by an electric vehicle, then calculate the carbon emissions for that electricity based on the US Average emission factor.
 
-1.  Navigate to “**Calculation models**” on the left side of the page.
+1.  Navigate to “**Calculation models**” on the left side of the page, if necessary.
 
     ![Application Description automatically generated with low confidence](./Images/Lab03/L03_image036.png)
 
@@ -387,7 +387,7 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
     ![Graphical user interface, application, Teams Description automatically generated](./Images/Lab03/L03_image038.png)
 
-1.  The fields and their values are explained below.
+1.  The fields are explained below.
 
     - The **Category name** is used for identifying the calculation model in the list.
     - The **Activity data** is used to identify which type of activity data the model will process
@@ -400,7 +400,7 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
     (2) **Activity data**: Purchased electricity
 
-    (3) **Calculation method**: Miles Driven to kWh \* EF
+    (3) **Calculation method**: +++Miles Driven to kWh \* EF+++
 
     (4) **Documentation reference**: +++https://fueleconomy.gov/feg/byfuel/EV2022.shtml+++
 
@@ -426,7 +426,7 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
     After the quantity has been converted, the converted value will be multiplied against the Factor quantity and stored in the output variable. The output variable is only accessible within the calculation model, available for use by actions further down the chain. The estimated value will not be stored in a table.
 
-1.  The fields and their values are explained below.
+1.  The fields are explained below.
 
     - The **Category name** is used for identifying the action in the calculation model.
     - The **Estimation value** is used to identify which field from the activity data type should be used to retrieve the value used in the estimation calculation.
@@ -450,7 +450,7 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
     (5) **Estimation factor**: Fabrikam Electric Truck - EPA Estimate
 
-    (6) **Output variable name**: kWhQuantity
+    (6) **Output variable name**: +++kWhQuantity+++
 
     (7) Select **Save** to save the record.
 
@@ -468,7 +468,7 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image046.png)
 
-1.  The fields and their values are explained below. 
+1.  The fields are explained below. 
 
     - The **Category name** is used for identifying the action in the calculation model.
     - The **Emission report value** is used to identify which field should be used to retrieve the value used in the emission calculation. In this scenario, the Output variable from the Estimation factor action is used.
@@ -480,7 +480,7 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
 1.  Populate the Report action with the following data:
 
-    (1) **Category name**: kWh \* EF
+    (1) **Category name**: +++kWh \* EF+++
 
     (2) **Emission report value**: kWhQuantity and **Unit**: kWh
 
@@ -536,31 +536,31 @@ In this task, Alex will create a Calculation Profile for the electricity purchas
 
     (3) **Activity data to include in calculation**: Organizational Unit equals Wide World Importers AND Quantity Unit equals kWh
    
-        To create the filter perform the following steps:
+    To create the filter perform the following steps:
 
-        1.  Select **Add -> Add row**.
+    1.  Select **Add -> Add row**.
 
-            ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image052.png)
+        ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image052.png)
 
-        1.  In the **Select a field** dropdown, choose **Organizational Unit**.
+    1.  In the **Select a field** dropdown, choose **Organizational Unit**.
 
-            ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image053.png)
+        ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image053.png)
 
-        1.  In the **Value** dropdown, choose **Wide World Importers (Organizational unit)**.
+    1.  In the **Value** dropdown, choose **Wide World Importers (Organizational unit)**.
         
-            ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image054.png)
+        ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image054.png)
 
-        1.  Select **Add -> Add row** again.
+    1.  Select **Add -> Add row** again.
 
-            ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image055.png)
+        ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image055.png)
 
-        1.  In the **Select a field** dropdown, choose **Quantity unit**.
+    1.  In the **Select a field** dropdown, choose **Quantity unit**.
 
-            ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image056.png)
+        ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image056.png)
 
-        1.  In the **Value** dropdown, choose **kWh**.
+    1.  In the **Value** dropdown, choose **kWh**.
 
-             ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image057.png)
+        ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image057.png)
 
 1.  The final fields of the **New calculation profile** wizard are explained below:
 
@@ -569,7 +569,7 @@ In this task, Alex will create a Calculation Profile for the electricity purchas
 
 1. Set the remaining fields as follows:
 
-    (4) Select **Purchased Electricity: Contractual Instrument Based - 2021** in the **Calculation model** dropdown list
+    (4) Select +++**Purchased Electricity: Contractual Instrument Based - 2021**+++ in the **Calculation model** dropdown list
 
     (5) Check **Schedule Automatically run**.
 
@@ -608,7 +608,7 @@ Calculation profiles are the mechanisms by which Calculation jobs are queued. Yo
 
 In this task, Alex will create a Calculation Profile for the miles driven by Wide World Importers’ fleet of electric vehicles for year 2021. They will use the calculation model defined earlier in this lab and filter the profile to only activity data for the Wide World Importers organizational unit, and where the unit type is mile. These filters will ensure that only the miles driven for Wide World Importers’ fleet of electric vehicles is included in the calculation job. This will exclude the purchased electricity, which was covered in the previous task.
 
-1.  Navigate to **Calculation profiles** on the left side of the page.
+1.  Navigate to **Calculation profiles** on the left side of the page, if necessary.
 
     ![Graphical user interface, text, application Description automatically generated with medium confidence](./Images/Lab03/L03_image060.png)
 
@@ -630,31 +630,31 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
 
     (3) **Activity data to include in calculation**: Organizational Unit equals Wide World Importers AND Quantity unit equals mile
      
-        To create the filter perform the following steps:
+    To create the filter perform the following steps:
 
-        1.  Select **Add -> Add row**.
+    1.  Select **Add -> Add row**.
 
-            ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image062.png)
+        ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image062.png)
         
-        1.  In the **Select a field** dropdown, choose **Organizational Unit**.
+    1.  In the **Select a field** dropdown, choose **Organizational Unit**.
 
-            ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image063.png)
+        ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image063.png)
 
-        1.  In the **Value** dropdown, choose **Wide World Importers (Organizational unit)**.
+    1.  In the **Value** dropdown, choose **Wide World Importers (Organizational unit)**.
 
-            ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image064.png)
+        ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image064.png)
 
-        1.  Select **Add -> Add row** again.
+    1.  Select **Add -> Add row** again.
 
-            ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image065.png)
+        ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image065.png)
 
-        1.  In the **Select a field** dropdown, choose **Quantity unit**.
+    1.  In the **Select a field** dropdown, choose **Quantity unit**.
 
-            ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image066.png)
+        ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image066.png)
 
-        1.  In the **Value** dropdown, choose **mile**.
+    1.  In the **Value** dropdown, choose **mile**.
 
-            ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image067.png)
+        ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image067.png)
 
 1.  The final fields of the New calculation profile wizard are explained below:
 
@@ -706,7 +706,7 @@ Calculation profiles are the mechanisms by which Calculation jobs are queued. Yo
 
 In this task, Alex will run the newly created Calculation Profiles for the electricity purchased by Wide World Importers and miles driven by Wide World Importers fleet of electric vehicles. This will create a calculation job that will iterate over each activity data row matching the Calculation Profile filter criteria and use the Calculation Models created earlier in this lab to calculate the carbon emissions for each row. The results will be placed in the emissions table, which Alex will review once the calculations complete.
 
-1.  Navigate to **Calculation profiles** on the left side of the page.
+1.  Navigate to **Calculation profiles** on the left side of the page, if necessary.
 
     ![Graphical user interface, text, application Description automatically generated with medium confidence](./Images/Lab03/L03_image060.png)
 
