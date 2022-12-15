@@ -42,21 +42,14 @@ In this exercise, you will learn about the steps that Reed takes to ingest the s
 
 >[!ALERT] **Important** Please ensure you have completed the previous lab to create Reference Data. **The data import process requires all Reference Data to exist, and the process is case sensitive, so please ensure the Reference data that was added has the exact same case formatting as what is found in the lab**. Failure to do so will result in errors during the data import process
 
-1. Open a new browser window, if necessary, and navigate to +++https://make.powerapps.com+++ and log into your Microsoft 365 tenant.
+1. Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
+
+1. Open a new browser window and navigate to +++https://make.powerapps.com+++.
+ 
+1. Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
 
 1. If needed, change the environment to **MC4S** on the top bar.
 
-1. Please ensure that your personal one drive has been initialized by selecting the app selector button in the top left corner of the screen
-
-    ![Graphical user interface, application, chat or text message Description automatically generated](./Images/Lab02/L02_image005.png)
-
-1. Select **OneDrive** from the Apps list
-
-    ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image006.png)
-
-1. This will open a new tab with your new OneDrive. You can close this tab and return to the Power Apps maker portal.
-
-    ![Graphical user interface, application, Teams Description automatically generated](./Images/Lab02/L02_image007.png)
 
 1. Open the **Sustainability Manager** Application.
 
@@ -78,7 +71,7 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
     ![Graphical user interface, application, Teams Description automatically generated](./Images/Lab02/L02_image011.png)
 
-1.  Navigate to **Activity data** on the left side of the page.
+1.  Navigate to **Activity data** on the left side of the page, if necessary.
 
     ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab02/L02_image012.png)
 
@@ -86,7 +79,7 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image013.png)
 
-1.  On the **Connections** view, select **+New**.
+1.  On the **Data connections** view, select **+New**.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image014.png)
 
@@ -121,15 +114,16 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
 1.  A new dialog will open for Power Query. On the **Power Query** dialog:
 
-     1.  (1) Select **Upload file**.
-     1.  (2) Select **Browse**.
+    (1) Select **Upload file**.
+
+    (2) Select **Browse**.
 
 
     >[!NOTE]**Note:** You can also choose to import an existing file located in OneDrive. For simplicity of this lab, we are using the Upload file functionality.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image019.png)
 
-1.  On the file selection window, browse to the location of the excel files that were downloaded.
+1.  On the file selection window, browse to desktop of the VM and open the **Lab Files** folder.
 
     (1) Select the **Purchased electricity Wide World Importers - 2021.xlsx** file.
 
@@ -249,6 +243,8 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image042a.png)
 
 Great job, you have helped Reed complete the data import of 2021 Purchased Electricity for Wide World Importers. This is an important step to realizing the goal of recording, reporting, and reducing carbon emissions. Next, you will import the 2021 Miles Driven for Wide World Importers fleet of electric vehicles. **Please continue to the next task.**
+
+===
 
 ### Task 2: Import 2021 data “Miles Driven” for Electric Trucks
 
