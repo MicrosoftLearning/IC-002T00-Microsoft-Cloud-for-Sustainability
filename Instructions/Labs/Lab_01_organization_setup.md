@@ -44,7 +44,11 @@ In this lab exercise, we will focus on the scenarios illustrated below:
 
 In this exercise, you will learn about the steps that Alex and Reed take to set up Wide World Imports company profile, organizational data, and reference data. You can explore this functionality in deeper detail on Microsoft Docs. To do this visit **Set up a company profile** at +++https://docs.microsoft.com/en-us/industry/sustainability/setup-company-profile+++.
 
-1.Open a new browser window and navigate to +++https://make.powerapps.com+++ and log into your Microsoft 365 tenant.
+1. Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
+
+1. Open a new browser window and navigate to +++https://make.powerapps.com+++.
+
+1. Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
 
 1. If needed, change the environment to **MC4S** on the top bar.
 
@@ -56,7 +60,7 @@ You will land on the **Home** page for Microsoft Sustainability Manager.
 
 ![A screenshot of a computer Description automatically generated](./Images/Lab01/L01_image006.png)
 
- >[!NOTE]**Note**: You can dismiss the Product tour by scrolling down and selecting the **Dismiss tour** button.
+>[!NOTE] **Note**: You can dismiss the Product tour by scrolling down and selecting the **Dismiss tour** button.
 
  ![Graphical user interface, text, application Description automatically generated](./Images/Lab01/L01_image007.png)
 
@@ -106,7 +110,7 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
 
 1. Enter the following data for organizational unit and select **Save** in the button pane:
 
-    1. **Name**: Wide World Importers
+    1. **Name**: +++Wide World Importers+++
     1. **Organizational unit type**: Department
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image018.png)
@@ -117,7 +121,7 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
 
 1. Set the following values and select **Save & Close**:
 
-    1. **Parent**: Contoso USA
+    1. **Parent**: +++Contoso USA+++
     1. **Effective start date**: The first day of the current month (MM/DD/YYYY)
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image020.png)
@@ -126,7 +130,7 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab01/L01_image021.png)
 
-1. Navigate to **Company profile**, switch to the **Facilities** tab page and select **Add facility**.
+1. If necessary, navigate to **Company profile**, switch to the **Facilities** tab page and select **Add facility**.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image022.png)
 
@@ -134,14 +138,14 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
 
     >[!NOTE] **Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
-    1. **Name**: Wide World Importers - Miami Office
-    1. **Address line 1**: Brickell Avenue
-    1. **City**: Miami
-    1. **State**: Florida
-    1. **Zip**: 33132
+    1. **Name**: +++Wide World Importers - Miami Office+++
+    1. **Address line 1**: +++Brickell Avenue+++
+    1. **City**: +++Miami+++
+    1. **State**: +++Florida+++
+    1. **Zip**: +++33132+++
     1. **Country**: United states of America
-    1. **Latitude**: 25.774320
-    1. **Longitude**: -80.187720
+    1. **Latitude**: +++25.774320+++
+    1. **Longitude**: +++-80.187720+++
 
 
     >[!NOTE] **Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
@@ -152,19 +156,19 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
 
     >[!NOTE] **Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
-    1. **Name**: Wide World Importers - Tampa Office
-    1. **Address line 1**: Lois Avenue
-    1. **City**: Tampa
-    1. **State**: Florida
-    1. **Zip**: 33609
+    1. **Name**: +++Wide World Importers - Tampa Office+++
+    1. **Address line 1**: +++Lois Avenue+++
+    1. **City**: +++Tampa+++
+    1. **State**: +++Florida+++
+    1. **Zip**: +++33609+++
     1. **Country**: United states of America
-    1. **Latitude**: 27.944830
-    1. **Longitude**: -82.514050
+    1. **Latitude**: +++27.944830+++
+    1. **Longitude**: +++-82.514050+++
 
 
 >[!NOTE] **Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
 
-    ![](./Images/Lab01/L01_image024.png)
+![](./Images/Lab01/L01_image024.png)
 
 Great job, by completing these steps, you have assisted Alex with completing the organizational setup in Microsoft Sustainability Manager for Wide World of Importers. This included the Company profile, hierarchy, and facilities. Organizational structure and facility management will be linked to activity and emission data to group emissions by Organization, facility, and even regions. This is an important part of carbon emission reporting and organization disclosures. **Please continue to the next task.**
 
@@ -172,7 +176,7 @@ Great job, by completing these steps, you have assisted Alex with completing the
 
 In this task, Reed sets up the reference data for contractual instrument types in Microsoft Sustainability Manager. Contractual instrument types are the different types of contractual agreements that a firm has with their providers and suppliers.
 
-1. In the bottom left corner, change the Area to **Settings**.
+1. In the bottom left corner, change the Area to **Settings**, if necessary.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image025.png)
 
@@ -190,7 +194,7 @@ In this task, Reed sets up the reference data for contractual instrument types i
 
 1. Create a new Contractual Instrument with the following details. Once entered, select **Save & Close** in the button pane.
 
-    1. **Name**: VanArsdel Ltd
+    1. **Name**: +++VanArsdel Ltd+++
     1. **Energy source**: Nuclear
 
 
@@ -200,7 +204,7 @@ In this task, Reed sets up the reference data for contractual instrument types i
 
 1. In the same way, again create a new Contractual Instrument with the following details. Once entered, select **Save & Close** in the button pane.
 
-    1. **Name**: Adatum Corp
+    1. **Name**: +++Adatum Corp+++
     1. **Energy source**: Other
 
     ![](./Images/Lab01/L01_image030.png)
@@ -215,7 +219,7 @@ In this task, Reed sets up a unit conversion factor in Microsoft Sustainability 
 
 Unit Groups are used to group units together and define a base unit used to convert between unit types. For example, the Length/Distance unit group contains units of length and distance, with a base unit of meter (m). The units within the Length/Distance unit group have conversions between the unit type and meter, such as miles convert to 1,609.344 meters. You can explore this functionality in deeper detail on Microsoft Docs, please visit **Set up unit groups** at +++https://docs.microsoft.com/en-us/industry/sustainability/setup-unit-groups+++.
 
-1. In the bottom left corner, change the Area to **Settings**.
+1. In the bottom left corner, change the Area to **Settings**, if necessary.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image031.png)
 
@@ -233,13 +237,13 @@ Unit Groups are used to group units together and define a base unit used to conv
 
 1. Enter the following details to create a new unit. Once entered, select **Save & Close** from the button pane.
 
-    1. **Name**: 100 mile
-    1. **Conversion factor**: 160934.40
+    1. **Name**: +++100 mile+++
+    1. **Conversion factor**: +++160934.40+++
 
 
 >[!NOTE] **Note:** The EPA calculates electric vehicle efficiency by the number of kilowatt hours (kWh) used per 100 miles. For consistency, it is best practice to utilize the same
 
-    ![](./Images/Lab01/L01_image035.png)
+![](./Images/Lab01/L01_image035.png)
 
 Great job, by completing these steps you have helped Reed add the missing unit for the fleet for elctric vehicles to the Length/Distance unit group to Microsoft Sustainability Manager.
 
