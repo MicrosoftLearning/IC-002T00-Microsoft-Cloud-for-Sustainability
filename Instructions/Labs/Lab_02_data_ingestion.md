@@ -93,7 +93,7 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image015.png)
 
-1.  Take a moment to review the large list of connectors by selecting the **See all Power Query connectors** link.
+1.  Take a moment to review the large list of connectors by selecting the **See all Power Query connectors** link. This may take several moments to load.
 
     ![Graphical user interface Description automatically generated](./Images/Lab02/L02_image016.png)
 
@@ -123,7 +123,7 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image019.png)
 
-1.  On the file selection window, browse to desktop of the VM and open the **Lab Files** folder.
+1.  On the file selection window, browse to the desktop of the VM and open the **Lab Files** folder.
 
     (1) Select the **Purchased electricity Wide World Importers - 2021.xlsx** file.
 
@@ -131,13 +131,13 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image020.png)
 
-1.  Once the file is successfully uploaded, it may be required to select the sign in button below to create a new Connection credential, this is done by selecting **Sign in**.
+1.  Once the file is successfully uploaded, you may have to sign in. If the **Sign In** button is visible below the **Connection credentials** area, select **Sign in**.
 
     ![Graphical user interface, table Description automatically generated](./Images/Lab02/L02_image021.png)
 
-1.  An Office 365 Sign in dialog will appear. Reed selects their user from the list. (For the purposes of this lab, select your lab user account from the list).
+    1.  An Office 365 Sign in dialog will appear. Reed selects their user from the list. (For the purposes of this lab, select your lab user account from the list).
 
-    ![Graphical user interface, text, application Description automatically generated](./Images/Lab02/L02_image022.png)
+        ![Graphical user interface, text, application Description automatically generated](./Images/Lab02/L02_image022.png)
 
 1.  Once the sign in process is completed, the new connection is automatically selected. Select **Next**.
 
@@ -145,8 +145,8 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
 1.  On the **Choose data** page of the **Power Query** wizard:
 
-     1.  (1) Select the **Purchased electricity** sheet.
-     1.  (2) Select **Transform data**.
+    (1) Select the **Purchased electricity** sheet.
+    (2) Select **Transform data**.
 
     ![Table Description automatically generated](./Images/Lab02/L02_image025.png)
 
@@ -206,11 +206,13 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image033.png)
 
-1.  The **Connections** view will now be visible, along with the status of the recently created connection. It should say **Processing**.
+1.  The **Connections** view will now be visible, along with the status of the recently created connection. It should say **Scheduled** or **Processing**. 
+
+    >[!NOTE] You may have to click **Refresh** more than once to see the status change from **Scheduled** to **Processing**.
 
     ![Graphical user interface, text, application, website Description automatically generated](./Images/Lab02/L02_image034.png)
 
-1.  After a minute or two select the **Refresh** button above the list to see the updated status, which should be **Completed**.
+1.  After a minute or two select the **Refresh** button above the list to see the updated status, which should be **Complete**.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image035.png)
 
@@ -271,6 +273,7 @@ In this task, Reed imports the second excel spreadsheet provided by Alex - “Fl
 1.  On the **Choose connector** page:
 
     (1) Select **Excel**.
+
     (2) Select **Next** when finished.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image044.png)
@@ -283,7 +286,7 @@ In this task, Reed imports the second excel spreadsheet provided by Alex - “Fl
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image045.png)
 
-1.  On the file selection window, browse to the location of the excel files that were downloaded.
+1.  On the file selection window, browse to the **Lab Files** folder on the VM desktop.
 
     (1) Select the **Fleet Vehicles Miles Driven Wide World Importers - 2021.xlsx** file.
 
@@ -359,13 +362,13 @@ In this task, Reed imports the second excel spreadsheet provided by Alex - “Fl
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image055.png)
 
-1.  The **Connections** view will now be visible, along with the status of the recently created connection. It should say **Processing**.
+1.  The **Connections** view will now be visible, along with the status of the recently created connection. It should say **Scheduled** or **Processing**. If it says **Scheduled**, select **Refresh** a couple of times.
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab02/L02_image056.png)
 
 1.  After a minute or two select the **Refresh** button above the list to see the updated status, which should be **Completed**. Ensure you have the correct number of records as below and the status of the data connections are **Complete** before moving to next steps.
 
-    >[!NOTE] **Note:** In case if you have more duplicate records than below screenshot, due to an issue with the following the correct data import steps , you have to delete the activity data and redo the process .Reach out to the lab instructor for support.
+    >[!NOTE] **Note:** In case if you have duplicate records, you can ignore this and continue.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image057.png)
 
