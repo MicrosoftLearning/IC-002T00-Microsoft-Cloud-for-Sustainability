@@ -44,15 +44,19 @@ In this lab exercise, we will focus on the scenarios illustrated below:
 
 In this exercise, you will take on the persona of Amber Rodriguez – Sustainability Specialist for Contoso Corp. utilizing the various Sustainability Dashboards to gain insights into the organization.
 
-1. Open a new browser window, if necessary, and loog in to your Cloud for Sustainability environment at +++https://make.powerapps.com+++.
+1. Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
+
+1. Open a new browser window and navigate to +++https://make.powerapps.com+++.
+
+1. Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
 
 1. If needed, change the environment to **MC4S** on the top bar.
 
 1. Open the **Sustainability Manager** Application.
 
-    ![Graphical user interface, application, Teams Description automatically generated](./Images/Lab04/L04_image004.png)
+![Graphical user interface, application, Teams Description automatically generated](./Images/Lab04/L04_image004.png)
 
-    >[ALERT!] **Important** Please make sure that you have completed the previous labs to ensure that the dashboards and reports show meaningful data.
+>[ALERT!] **Important** Please make sure that you have completed the previous labs to ensure that the dashboards and reports show meaningful data.
 
 ### Task 1: Explore Sustainability Dashboards
 
@@ -254,6 +258,8 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab04/L04_image024.png)
 
 Great job, you have helped Jessie successfully generate an emissions report. Emissions reports are useful for providing information in public disclosures. Microsoft Sustainability provides this information in a tabular format to allow you to adapt it to meet the rapidly changing regulatory requirements. There is a great opportunity for partners to assist in the generation of the disclosure documents by configuring an emissions report to export data in a consistent and familiar format for ingestion into a partner solution. This report can be used in conjunction with the activity report, which will be generated in the next task. **Please continue to the next task.**
+
+===
 
 ### Task 2: Generate activity report
 
