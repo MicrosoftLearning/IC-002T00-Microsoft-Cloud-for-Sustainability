@@ -83,7 +83,7 @@ In this task, Alex will create factor mappings to map the Contractual instrument
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image006.png)
 
-1.  Select the **EPA 2021 - eGRID** Factor library to open the Factor library.
+1.  Select the **EPA 2021 - eGRID** Factor library to open the Factor library. Make sure you have selected the **2021** library, not the **2022** library.
 
     >[!NOTE] **Note**: Microsoft Sustainability Manager includes EPA and IPCC based Factor libraries for emissions and estimations. Additional libraries are on the roadmap. Take time to review the existing factor libraries.
 
@@ -113,7 +113,7 @@ In this task, Alex will create factor mappings to map the Contractual instrument
 
     ![A screenshot of a computer Description automatically generated](./Images/Lab03/L03_image011.png)
 
-1.  Return to **EPA 2021 - eGRID** by selecting on the back arrow, and select the **Factors mapping** tab.
+1.  Return to **EPA 2021 - eGRID** by selecting the back arrow, and select the **Factors mapping** tab.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image012.png)
 
@@ -133,7 +133,7 @@ In this task, Alex will create factor mappings to map the Contractual instrument
 
     (1) **Name**: +++FRCC - Purchased Electricity - VanArsdel Ltd+++
 
-    (2) **Reference Data**: +++VanArsdel Ltd+++
+    (2) **Reference Data Name**: +++VanArsdel Ltd+++
 
     (3) **Factor**: +++FRCC (FRCC All)+++
 
@@ -318,7 +318,7 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
 1.  Select **Report** on the list of **Available actions**.
 
-    >[!NOTE] **Note**: Only **Source**, **Report**, and **Estimation** actions are covered in this lab. Additional details about each available action can be found here: [Calculation models \| Microsoft Docs](https://docs.microsoft.com/en-us/industry/sustainability/calculate-calculation-models#add-a-calculation-model)
+    >[!NOTE] **Note**: Only **Source**, **Report**, and **Estimation** actions are covered in this lab. Additional details about each available action can be found in **Calculation models** at +++https://docs.microsoft.com/en-us/industry/sustainability/calculate-calculation-models#add-a-calculation-model+++.
 
     ![Graphical user interface, application, website Description automatically generated](./Images/Lab03/L03_image031.png)
 
@@ -359,6 +359,8 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
     (5) **Emission factor library**: EPA 2021 - eGRID
 
+    >[!NOTE]**Note**: There are several libraries with similar names. Make sure you select **EPA 2021 - eGRID** from the dropdown.
+
     (6) **Emission factor**: Contractual Instrument Type
 
     (7) Select **Save** to save the record.
@@ -383,7 +385,7 @@ Calculation models are the instruction sets that are used by Microsoft Cloud for
 
 In this task, Alex will create a new calculation model to calculate carbon emissions for miles driven by electric vehicles. They will leverage the estimation factor library created in the previous exercise to first estimate the kilowatt hours (kWh) used by an electric vehicle, then calculate the carbon emissions for that electricity based on the US Average emission factor.
 
-1.  Navigate to “**Calculation models**” on the left side of the page, if necessary.
+1.  Navigate to **Calculation models** on the left side of the page, if necessary.
 
     ![Application Description automatically generated with low confidence](./Images/Lab03/L03_image036.png)
 
@@ -492,9 +494,9 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
     (2) **Emission report value**: kWhQuantity and **Unit**: kWh
 
-    (3) **Emission factor library**: EPA 2021 - eGrid
+    (3) **Emission factor library**: EPA 2021 - eGrid (make sure you select the correct library)
 
-    (4) **Emission factor**: US Average
+    (4) **Emission factor**: +++US Average+++
 
     (5) Select **Save** to save the record.
 
@@ -585,7 +587,7 @@ In this task, Alex will create a Calculation Profile for the electricity purchas
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image058.png)
 
-    On the **Preview** page of the New calculation profile wizard the emissions are calculated for the first row of data that matches the Activity data to include filter. **In this scenario, the values seen in the preview may be different than the image below.**
+    On the **Preview** page of the New calculation profile wizard the emissions are calculated for the first row of data that matches the Activity data to include filter.
 
     These values were determined by converting the consumed kWh to MWh: 3519.038/1000 = 3.519038 MWh
 
@@ -605,6 +607,8 @@ In this task, Alex will create a Calculation Profile for the electricity purchas
     -   CO<sub>2</sub>E: 3,029.892 + 4.85 + 7.45 = 3,042.19 lb
 
 1.  You can select **Save** to save your Calculation profile.
+
+    >[!NOTE] **Note:** In this scenario, the values seen in the preview may be different than the image below. If your preview does not show up, it is OK.**
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image059.png)
 
@@ -679,7 +683,7 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
 
     (6) The form should resemble the image below. Select **Next**.
 
-        ![Graphical user interface Description automatically generated with medium confidence](./Images/Lab03/L03_image068.png)
+    ![Graphical user interface Description automatically generated with medium confidence](./Images/Lab03/L03_image068.png)
 
     On the **Preview** page of the New calculation profile wizard you will see the emissions calculated for the first row of data that matches your Activity data to include filter. 
 
@@ -702,7 +706,7 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
     -   N<sub>2</sub>O: 0.033 \* 298 = 9.834 lb
     -   CO<sub>2</sub>E: 3,001.127 + 5.95 + 9.834 = 3,016.911 lb
 
-1. You can select **Save** to save your Calculation profile.
+1. You can select **Save** to save your Calculation profile and select **Done** if necessary.
 
 >[!NOTE]**Note**: In this scenario, the values seen in the preview may be different than the image below.
 
@@ -738,7 +742,7 @@ In this task, Alex will run the newly created Calculation Profiles for the elect
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image072.png)
 
-1.  After several minutes (approximately 6 minutes) both calculation jobs should be completed. Alex selects the **Refresh** button on the command bar to check the status of the calculation jobs. The two Calculation profiles should now have a status of **Succeeded**.
+1.  After several minutes (approximately 6 minutes) both calculation jobs should be completed. Alex selects the **Refresh** button on the command bar to check the status of the calculation jobs. The two Calculation profiles should now have a status of **Succeeded**. If you are unable to see the column with **Succeeded**, you can scroll to the bottom and then to the right.
 
     ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab03/L03_image073.png)
 
@@ -754,7 +758,7 @@ In this task, Alex will run the newly created Calculation Profiles for the elect
 
     ![A screenshot of a computer Description automatically generated](./Images/Lab03/L03_image076.png)
 
-1.  Filter the view by selecting the down arrow next to the **Organizational Unit** column, and selecting **Filter by**.
+1.  Filter the view by selecting the down arrow next to the **Organizational Unit** column, and selecting **Filter by**. If you are unable to see the column with **Succeeded**, you can scroll to the bottom and then to the right. 
 
     ![Graphical user interface, application, Word Description automatically generated](./Images/Lab03/L03_image077.png)
 
