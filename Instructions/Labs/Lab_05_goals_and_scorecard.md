@@ -48,7 +48,7 @@ In this lab exercise, we will focus on the scenarios illustrated below:
 
 In this exercise, you will learn about the steps that Amber takes to create scorecards and goals to help Wide World Importers track carbon reduction progress. Based on the results of the previous lab, Amber has determined that Wide World Importers needs to reduce their Scope 2: Purchased electricity carbon emissions. Scorecards and goals allow organizations to set carbon reduction targets and track their progress to that. You can explore this functionality in deeper detail on Microsoft Docs, please visit Overview of scorecards and goals +++https://docs.microsoft.com/en-us/industry/sustainability/reports-scorecards-goals+++.
 
-1. Log into the virtual machine using the virtual machine credentials located on the Resources tab above.
+1. Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
 
 1. Open a new browser window and navigate to +++https://make.powerapps.com+++.
 
@@ -65,7 +65,7 @@ In this exercise, you will learn about the steps that Amber takes to create scor
 
 In this task, Amber will create a new scorecard to track the goals for Wide World Importers. Microsoft Sustainability Manager utilizes scorecards to group goals together.
 
-1.  Change the current Area to **Analytics**.
+1.  Change the current Area to **Analytics**, if necessary.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image005.png)
 
@@ -115,17 +115,17 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
 1.  Amber uses the following information to populate these fields on the new Goal. Enter the data:
 
-    (1) **Name**: +++Reduce Scope 2 Emissions – 2022+++
+    (1) **Goal name**: +++Reduce Scope 2 Emissions – 2022+++
 
-    (2) **Owner**: Your lab User
+    (2) **Owner**: +++MOD+++ and select **MOD Administrator**
 
     (3) **Scorecard**: Wide World Importers Reduction Plan - 2025
 
     (4) **Organizational unit**: Wide World Importers
 
-    (5) **Start date**: 12/31/2021
+    (5) **Start date**: 12/31/2021 (select from calendar, do not type)
 
-    (6) **End date**: 12/31/2022
+    (6) **End date**: 12/31/2022 (select from calendar, do not type)
 
     >[!NOTE] **Note**: The automatic check-in process will not perform a check-in if the current date is outside of the Start and End date range. Wide World Importers chose 12/31/2021 to include the final calculation of 2021 as the first, or base, check-in value for the new goal
 
@@ -135,17 +135,17 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
    
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image010b.png)
 
-1. Amber wants **Connect to data** with **Emission** as the **Data source** and **CO<sub>2</sub>E** as the **Value**. Select **Connect to data** and then select **Set up connection**.
+1. For **Source of current value**, Amber wants **Connect to data** with **Emission** as the **Data source** and **CO<sub>2</sub>E** as the **Value**. Select **Connect to data** and then select **Set up connection**.
 
     ![A picture containing rectangle Description automatically generated](./Images/Lab05/L05_image011.png)
 
     1. Choose **Emission** as the **Data source**. This is the table where the data will come from.
 
-    1. Set +++**CO<sub>2</sub>E**+++ as the **Value**. This is the field where the data will come from.
+    1. Select **CO<sub>2</sub>E** as the **Value**. This is the field where the data will come from.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image012.png)  
   
-1. Amber wants to filter the data by: **Org Unit equals Wide World Importers AND Consumption end date Last x years 1**. 
+1. Amber wants to filter the data by: **Org Unit equals Wide World Importers AND Consumption end date Last year**. 
 
     1. Select **Add -> Add row**.
 
@@ -167,19 +167,15 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
         ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image017.png)
 
-    1.  In the **Operator** dropdown, which currently says **Equals**, choose **Last x years**.
+    1.  In the **Operator** dropdown, which currently says **Equals**, choose **Last year**.
 
         ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image018.png)
-
-    1.  In the **Value** field, type in the number, **1**.
-
-        ![A picture containing graphical user interface Description automatically generated](./Images/Lab05/L05_image019.png)
 
 1.  At the top of the form, select **Calculate** to see a preview of the data that would be used for the current value check in. Copy this value. **The value calculated may be different from the image below.**
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image020.png)
 
-1.  The Current value data connection should look like the image below. Select **Save** when finished.
+1.  The Current value data connection should look like the image below. Select **Confirm** when finished.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image021.png)
 
@@ -191,14 +187,18 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
     1. Select **Enter manually** for **Source of target value**.
     1. Set **Target value** to +++600+++ mtCO<sub>2</sub>E annual emissions.
 
-    (Need screenshot here)
+        ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image021a.png)
 
 1. Amber selects **Automatic** for the **Status update method** and wants to create a rule to change the status to **At risk** when the value is over **600** or leave as **On track** otherwise. To do this, follow these steps:
 
     1.  Select **Automatic** next to **Status update method**.
-    1.  Select **New Rule** to start a new rule for our Status.
+    1.  Select **Setup status rules** to start a new rule for our Status.
 
         ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image022.png)
+
+    1. Select **+ Add rule**.
+
+        ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image022a.png)
 
     1.  In the **Operator** dropdown, choose **is greater than**.
 
@@ -272,9 +272,9 @@ Sometimes we may have goals that are set to use manually check-ins if we are not
 
     (1) **Update for**: Use today’s date.
 
-    (2) **New value**: The preview value you copied from the Source of current value connection screen. In this scenario, +++379.59+++.
+    (2) **New value**: The preview value from the Source of current value connection screen. In this scenario, +++379.59+++.
 
-    (3) **Add Note**: +++First check-in+++.
+    (3) Select **Add Note** and set +++First check-in+++.
 
     (4) Select **Save**.
 
@@ -302,9 +302,9 @@ Great job, you have helped Amber create a scorecard and goal to help Wide World 
 
 In this exercise, Reed Flores – IT Admin for Wide World Importers will configure integration with Microsoft Teams for Microsoft Sustainability Manager. Microsoft Teams offers several features useful for organizations. By integrating Microsoft Cloud for Sustainability with Microsoft Teams, you can improve the collaboration between your sustainability team and improve the performance of your carbon reduction goals. You can quickly collaborate with colleagues utilizing Microsoft Teams Chat embedded in Dynamics 365.
 
->[!NOTE] **Note**: The following task, **Enable enhanced Teams Integration and Turn on Microsoft Teams chats inside Dynamics 365**” requires Global Administrator rights in your tenant. For simplicity and security reasons, we have already completed this task in the instructor lead lab environments. We have included the instructions for you for posterity. Please continue to **Task 2: Add Link chats to Dynamics 365 records**.
+>[!NOTE] **Note**: The following task, **Enable enhanced Teams Integration and Turn on Microsoft Teams chats inside Dynamics 365**” requires Global Administrator rights in your tenant. 
 
-### Task 1: (**ONLY FOR REFERENCE, NOT TO BE PERFORMED AS PART OF THE LAB**) Enable enhanced Teams Integration and Turn on Microsoft Teams chats inside Dynamics 365
+### Task 1: Enable enhanced Teams Integration and Turn on Microsoft Teams chats inside Dynamics 365
 
 By default, the Basic and Enhanced Microsoft Teams integration is disabled in Microsoft Sustainability Manager. In this Task, Reed will enable Microsoft Teams in Dynamics 365.
 
@@ -360,21 +360,21 @@ Great job, you have helped Reed enable Microsoft Teams integration for Dynamics 
 
 In this task, Reed will add a new Dynamics 365 record type, Factor Library, to the Link chats configuration. This feature allows other record types to be linked to Teams chats directly within Microsoft Sustainability Manager.
 
-1.  In the Microsoft sustainability manager for your environment, navigate to **Settings -> Teams chat** on the left side of the page.
+1.  In the Microsoft sustainability manager for your environment, navigate to **Settings -> Teams chat** on the left side of the page, if necessary.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image047.png)
 
-1.  On the **Microsoft Teams collaboration and chat** page, switch **Turn on Microsoft Teams chats inside Dynamics 365** to **Yes**.
+1.  On the **Microsoft Teams collaboration and chat** page, switch **Turn on Microsoft Teams chats inside Dynamics 365** to **Yes**, if necessary.
 
-1.  Select on **+Add Record Types** to add a Link chat configuration.
+1.  In the **Connect chats to Dynamics 365 records** area, select **+Add Record Types** to add a Link chat configuration.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab05/L05_image048.png)
 
-1.  On the **Link chat to record type** form, select **Factor library** in the **Choose record type** lookup (you can scroll or type).
+1.  On the **Allow chats to be connected to this record type** form, select +++Factor library+++ in the **Choose record type** lookup (you can scroll or type).
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image049.png)
 
-1.  Switch **Join chat** and **Introduction message** to **Yes**. Select **Factor libraries** from the **Message view** dropdown.
+1.  Switch **Join chat** and **Include a note** to **On**. Select **Factor libraries** from the **Message view** dropdown.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image050.png)
 
@@ -386,7 +386,7 @@ In this task, Reed will add a new Dynamics 365 record type, Factor Library, to t
 
    ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image052.png)
 
-1.  Factor library is now visible in the list of linked record types.
+1.  Factor library is now visible in the list of connected record types.
 
     ![Graphical user interface, application, email Description automatically generated](./Images/Lab05/L05_image053.png)
 
@@ -404,7 +404,7 @@ In this task, Amber will create a linked chat to collaborate with Allen Contoso 
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab05/L05_image055.png)
 
-1.  Select on the **EPA 2022 - eGRID** Factor library.
+1.  Select the **EPA 2022 - eGRID** Factor library.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image056.png)
 
