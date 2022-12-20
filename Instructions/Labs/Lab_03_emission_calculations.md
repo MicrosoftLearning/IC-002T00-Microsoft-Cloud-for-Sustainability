@@ -57,7 +57,7 @@ In this exercise, you will learn about the steps that Alex takes to define the f
 
 Wide World Importers may not know exactly how much electricity was purchased for charging the Electric Trucks, which grids the electricity came from, or what the energy source is. However, Wide World Importers can estimate the amount of electricity purchased by identifying how many kilowatt hours (kWh) are used per 100 miles, based on EPA vehicle efficiency data. You can explore this functionality in deeper detail on Microsoft Docs, please visit **Overview of Emission factors** at +++https://docs.microsoft.com/en-us/industry/sustainability/calculate-emission-factors+++.
 
-1. Log into the virtual machine using the virtual machine credentials located on the Resources tab above.
+1. Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
 
 1. Open a new browser window and navigate to +++https://make.powerapps.com+++.
 
