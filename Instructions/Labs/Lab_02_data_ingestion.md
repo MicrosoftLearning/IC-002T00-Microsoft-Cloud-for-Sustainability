@@ -146,6 +146,7 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 1.  On the **Choose data** page of the **Power Query** wizard:
 
     (1) Select the **Purchased electricity** sheet.
+
     (2) Select **Transform data**.
 
     ![Table Description automatically generated](./Images/Lab02/L02_image025.png)
