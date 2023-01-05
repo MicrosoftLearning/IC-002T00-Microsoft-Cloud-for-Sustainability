@@ -222,7 +222,6 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
     1.  Select **Save**.
 
-    (need new image of finshed goal prior to Save)
         ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image028.png)
 
 1.  The new goal should be visible in the list of goals for the scorecard.
