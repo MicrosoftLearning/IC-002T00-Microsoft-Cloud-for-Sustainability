@@ -28,7 +28,7 @@ In this lab, the focus is on the “Data Ingestion” aspect of the Solution Foc
 
 ### Personas and Scenarios
 
-In this lab, Reed Flores – IT Admin for Wide World Importers utilizes the activity data Excel spreadsheets sourced by Alex Serra – Emissions Analyst. The Activity data spreadsheets contain Electricity Purchased for the year 2021 and Miles driven by the fleet of Fabrikam Electric Trucks for the calendar year 2021. Reed utilizes Microsoft Sustainability Manger’s connector functionality to import from the Excel spreadsheets, and reviews other connectors available for future purposes. Reed uses the built-in Power Query functionality to transform the data to match Microsoft Sustainability Manager’s data schema and looks for other potential issues such as case-sensitive d data fields.
+In this lab, Reed Flores – IT Admin for Wide World Importers utilizes the activity data Excel spreadsheets sourced by Alex Serra – Emissions Analyst. The Activity data spreadsheets contain Electricity Purchased for the year 2022 and Miles driven by the fleet of Fabrikam Electric Trucks for the calendar year 2022. Reed utilizes Microsoft Sustainability Manger’s connector functionality to import from the Excel spreadsheets, and reviews other connectors available for future purposes. Reed uses the built-in Power Query functionality to transform the data to match Microsoft Sustainability Manager’s data schema and looks for other potential issues such as case-sensitive d data fields.
 
 ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image002.png)
 
@@ -63,9 +63,9 @@ In this exercise, you will learn about the steps that Reed takes to ingest the s
 
    ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image010.png) 
 
-### Task 1: Import 2021 data for “Purchased Electricity“ for Facilities
+### Task 1: Import 2022 data for “Purchased Electricity“ for Facilities
 
-In this task, Reed imports the first excel spreadsheet provided by Alex, Purchased electricity Wide World Importers – 2021.xlsx. This brings in the Electricity Purchased by Wide World Importers facilities for the year 2021 into the Purchased electricity activity data.
+In this task, Reed imports the first excel spreadsheet provided by Alex, Purchased electricity Wide World Importers 2022.xlsx. This brings in the Electricity Purchased by Wide World Importers facilities for the year 2022 into the Purchased electricity activity data.
 
 1.  In the bottom left corner, change the Area to **Data**.
 
@@ -125,7 +125,7 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
 1.  On the file selection window, browse to the desktop of the VM and open the **Lab Files** folder.
 
-    (1) Select the **Purchased electricity Wide World Importers - 2021.xlsx** file.
+    (1) Select the **Purchased electricity Wide World Importers - 2022.xlsx** file.
 
     (2) Select **Open**.
 
@@ -193,7 +193,7 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
 1.  On the **Review and finish** page:
 
-    (1) Enter a name for the new connection, such as +++**Wide World Importers - Purchased Electricity - 2021**+++.
+    (1) Enter a name for the new connection, such as +++**Wide World Importers Purchased Electricity 2022**+++.
 
     (2) Select **Connect**.
 
@@ -245,13 +245,13 @@ In this task, Reed imports the first excel spreadsheet provided by Alex, Purchas
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image042a.png)
 
-Great job, you have helped Reed complete the data import of 2021 Purchased Electricity for Wide World Importers. This is an important step to realizing the goal of recording, reporting, and reducing carbon emissions. Next, you will import the 2021 Miles Driven for Wide World Importers fleet of electric vehicles. **Please continue to the next task.**
+Great job, you have helped Reed complete the data import of 2022 Purchased Electricity for Wide World Importers. This is an important step to realizing the goal of recording, reporting, and reducing carbon emissions. Next, you will import the 2022 Miles Driven for Wide World Importers fleet of electric vehicles. **Please continue to the next task.**
 
 ===
 
-### Task 2: Import 2021 data “Miles Driven” for Electric Trucks
+### Task 2: Import 2022 data “Miles Driven” for Electric Trucks
 
-In this task, Reed imports the second excel spreadsheet provided by Alex - “Fleet Vehicles Miles Driven Wide World Importers - 2021.xlsx”. While electric vehicles do not produce direct tailpipe emissions, they do produce “Scope 2: Purchased electricity from charging”. This brings in the Miles driven by Wide World Importers fleet of electric truck for the year 2021 into the Purchased electricity activity data.
+In this task, Reed imports the second excel spreadsheet provided by Alex - “Fleet Vehicles Miles Driven Wide World Importers 2022.xlsx”. While electric vehicles do not produce direct tailpipe emissions, they do produce “Scope 2: Purchased electricity from charging”. This brings in the Miles driven by Wide World Importers fleet of electric truck for the year 2022 into the Purchased electricity activity data.
 
 1.  Navigate to **Data connections** on the left side of the page.
 
@@ -289,7 +289,7 @@ In this task, Reed imports the second excel spreadsheet provided by Alex - “Fl
 
 1.  On the file selection window, browse to the **Lab Files** folder on the VM desktop.
 
-    (1) Select the **Fleet Vehicles Miles Driven Wide World Importers - 2021.xlsx** file.
+    (1) Select the **Fleet Vehicles Miles Driven Wide World Importers - 2022.xlsx** file.
 
     (2) Select **Open**.
 
@@ -349,7 +349,7 @@ In this task, Reed imports the second excel spreadsheet provided by Alex - “Fl
 
 1.  On the **Review and finish** page:
 
-    (1) Enter a name for the new connection, such as +++**Wide World Importers - Electric Vehicle Miles Driven - 2021**+++.
+    (1) Enter a name for the new connection, such as +++**Wide World Importers Electric Vehicle Miles Driven 2022**+++.
 
     (2) Select **Connect**.
 
@@ -401,6 +401,6 @@ In this task, Reed imports the second excel spreadsheet provided by Alex - “Fl
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image062.png)
 
-Great job, by completing these steps you have helped Reed by using the Microsoft Sustainability Manger’s connector functionality to import from the  “Fleet Vehicles Miles Driven Wide World Importers - 2021.xlsx” spreadsheet, and used the built-in Power Query functionality to transform the data to match Microsoft Sustainability Manager’s data schema. This brings the Miles driven by Wide World Importers fleet of electric truck for the year 2021 into the Purchased electricity activity data.
+Great job, by completing these steps you have helped Reed by using the Microsoft Sustainability Manger’s connector functionality to import from the  “Fleet Vehicles Miles Driven Wide World Importers - 2022.xlsx” spreadsheet, and used the built-in Power Query functionality to transform the data to match Microsoft Sustainability Manager’s data schema. This brings the Miles driven by Wide World Importers fleet of electric truck for the year 2022 into the Purchased electricity activity data.
 
 **Congratulations!** Reed and Alex can use the data you imported for emission calculations and reporting. This is an important step to realizing the goal of recording, reporting, and reducing carbon emissions. In the following labs we will calculate emissions, review insights and reporting, and define our reduction scorecards and goals.

@@ -123,11 +123,11 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
     (4) **Organizational unit**: Wide World Importers
 
-    (5) **Start date**: 12/31/2021 (select from calendar, do not type)
+    (5) **Start date**: 12/31/2022 (select from calendar, do not type)
 
     (6) **End date**: 12/31/2022 (select from calendar, do not type)
 
-    >[!NOTE] **Note**: The automatic check-in process will not perform a check-in if the current date is outside of the Start and End date range. Wide World Importers chose 12/31/2021 to include the final calculation of 2021 as the first, or base, check-in value for the new goal
+    >[!NOTE] **Note**: The automatic check-in process will not perform a check-in if the current date is outside of the Start and End date range. Wide World Importers chose 12/31/2022 to include the final calculation of 2022 as the first, or base, check-in value for the new goal
 
     (7) **Unit of measure**: mtCO<sub>2</sub>E
 
