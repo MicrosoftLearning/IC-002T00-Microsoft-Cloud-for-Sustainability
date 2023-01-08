@@ -158,15 +158,13 @@ In this task, Alex will create factor mappings to map the Contractual instrument
 
     (2) **Reference Data**: +++Adatum Corp+++
 
-    (3) **Factor Library**: +++EPA 2022 - eGRID+++
+    (3) **Factor**: +++FRCC (FRCC All)+++
 
-    (4) **Factor**: +++FRCC (FRCC All)+++
-
-    (5) Select **Save & Close** to save the record.
+    (4) Select **Save & Close** to save the record.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image016.png)
 
-1.  There are now two **Factor mappings**, one for each of the contractual instruments added during the previous labs.
+1.  There are now two additional **Factor mappings**, one for each of the contractual instruments added during the previous labs.
 
     ![Graphical user interface, text Description automatically generated](./Images/Lab03/L03_image017.png)
 
@@ -222,7 +220,7 @@ In this task, Alex will create the estimation factor for estimating the kilowatt
 
 1.  On the **Factor library** view, select the **Electric Vehicle Estimation Library** (this will be near the bottom of your page).
 
-    >[!NOTE] **Note**: For the purposes of this lab, we chose the largest electric vehicle available on the EPA, fueleconomy.gov website. **This is only an example**.
+    >[!NOTE] **Note**: For the purposes of this lab, we chose the largest electric vehicle available on the EPA, fueleconomy.gov website at the time of writing. **This is only an example**.
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image021.png)
 
@@ -540,7 +538,7 @@ In this task, Alex will create a Calculation Profile for the electricity purchas
  
 1.  Populate them with the following information: 
 
-    (1) **Calculation profile name**: +++Purchased Electricity: Contractual Instrument Based - 2022 - Wide World Importers+++
+    (1) **Calculation profile name**: +++Purchased Electricity: Contractual Instrument Based 2022 Wide World Importers+++
 
     (2) **Emission source**: Purchased electricity
 
@@ -638,7 +636,7 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
 
 1.  Populate them with the following information:
 
-    (1) **Calculation profile name**: +++Electric Vehicle Miles Driven - 2022+++
+    (1) **Calculation profile name**: +++Electric Vehicle Miles Driven 2022+++
 
     (2) **Emission source**: Purchased electricity
 
