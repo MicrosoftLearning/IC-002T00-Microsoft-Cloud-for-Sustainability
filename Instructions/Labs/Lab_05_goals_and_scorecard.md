@@ -115,7 +115,7 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
 1.  Amber uses the following information to populate these fields on the new Goal. Enter the data:
 
-    (1) **Goal name**: +++Reduce Scope 2 Emissions – 2022+++
+    (1) **Goal name**: +++Reduce Scope 2 Emissions – 2023+++
 
     (2) **Owner**: +++MOD+++ and select **MOD Administrator**
 
@@ -125,7 +125,7 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
     (5) **Start date**: 12/31/2022 (select from calendar, do not type)
 
-    (6) **End date**: 12/31/2022 (select from calendar, do not type)
+    (6) **End date**: 12/31/2023 (select from calendar, do not type)
 
     >[!NOTE] **Note**: The automatic check-in process will not perform a check-in if the current date is outside of the Start and End date range. Wide World Importers chose 12/31/2022 to include the final calculation of 2022 as the first, or base, check-in value for the new goal
 
@@ -242,7 +242,7 @@ Sometimes we may have goals that are set to use manually check-ins if we are not
 
 1.  Amber can see:
 
-    (1) **Progress** towards the Reduce Scope 2 Emissions - 2022 goal
+    (1) **Progress** towards the Reduce Scope 2 Emissions - 2023 goal
 
     (2) The goal check-in **History**
 
@@ -421,9 +421,11 @@ In this task, Amber will create a linked chat to collaborate with Allen Contoso 
 
     (1)  Search for chat **Participants** - for this scenario use the dummy account, +++**Allen Contoso**+++.
 
-    (2)  Add a note to provide context for the chat to the participants.
+    (2)  Enter a name for the Chat.
 
-    (3)  When finished, select **Start chat**.
+    (3)  Add a note to provide context for the chat to the participants.
+
+    (4)  When finished, select **Start chat**.
 
     ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab05/L05_image059.png)
 
