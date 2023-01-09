@@ -32,7 +32,7 @@ Analytics reports present calculated emissions in an organized way to detect tre
 
 ### Personas and Scenarios
 
-In this lab, Amber Rodriguez – Sustainability specialist for Contoso Corp reviews the data in the Insights section of Microsoft Sustainability Manager, noticing that Wide World Importers was a large contributor to Scope 2 emissions in 2021. Amber informs Jessie Irwin - Sustainability lead for Contoso Corp that the Activity and Emission Reports are available for review. Jessie opens the reporting section and creates a new Activity report and a new Emissions report. Jessie reviews the generated report and includes the report in the sustainability reporting procedures for Contoso Corp.
+In this lab, Amber Rodriguez – Sustainability specialist for Contoso Corp reviews the data in the Insights section of Microsoft Sustainability Manager, noticing that Wide World Importers was a large contributor to Scope 2 emissions in 2022. Amber informs Jessie Irwin - Sustainability lead for Contoso Corp that the Activity and Emission Reports are available for review. Jessie opens the reporting section and creates a new Activity report and a new Emissions report. Jessie reviews the generated report and includes the report in the sustainability reporting procedures for Contoso Corp.
 
 ![Diagram Description automatically generated](./Images/Lab04/L04_image002.png)
 
@@ -81,7 +81,7 @@ In this task, Amber explores the various **Sustainability** dashboards which pro
 
     (6) The tile at the bottom right has three tabs: **By country/region**, **By organizational unit**, and **By facility**. Each tab shows a breakdown of emissions by scope 1, scope 2, and scope 3.
 
-    (7) Select **2021** under **Filters : Reporting period** on the left side to explore the data. **Note**: The data in the image below may not match your data.
+    (7) Select **2022** under **Filters : Reporting period** on the left side to explore the data. **Note**: The data in the image below may not match your data.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab04/L04_image007.png)
 
@@ -232,8 +232,8 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 
     1.  **Name**: Enter the name of the report. For example: +++MC4S Emissions report+++
     1.  **Report type**: Emissions report
-    1.  **Start date**: 01/01/2021
-    1.  **End date**: 12/31/2021
+    1.  **Start date**: 01/01/2022
+    1.  **End date**: 12/31/2022
 
     Fields can be selected to group data by, or column headers for the report. The available fields for Emissions report are **Country/Region**, **Regional group**, **Latitude/Longitude**, **Organization unit**, **Facility**, **Is market based**, **Is biogenic**, **Scope**, **Emission source**, **Activity type**. (The **Organization hierarchy date** field appears only after the **Organization unit** field is selected.).
 
@@ -287,8 +287,8 @@ Great job, you have helped Jessie successfully generate an emissions report. Emi
     1. **Name**: Enter the name of the report. For example: +++MC4S Activities report+++
     1. **Report type**: Activities report
     1. **Target Activity**: Purchased energy
-    1. **Start date**: 01/01/2021
-    1. **End date**: 12/31/2021
+    1. **Start date**: 01/01/2022
+    1. **End date**: 12/31/2022
 
     Fields can be selected to group data by, or column headers for the report. The available fields for Emissions report are **Country**, **Region**, **Latitude/Longitude**, **Organization unit** and **Facility** (The **Organization hierarchy date** field appears only after the **Organization unit** field is selected.).
 

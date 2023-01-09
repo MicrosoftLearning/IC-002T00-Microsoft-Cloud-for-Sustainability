@@ -11,7 +11,7 @@ In the previous two labs, we laid the foundation for emission calculations by se
 In this lab, you will do the following:
 
 -   Review the Microsoft Sustainability Manager’s Dynamic calculation capabilities using Factor libraries, Emission factors and more.
--   Review the existing “EPA 2021 - eGRID” factor library and emission factors
+-   Review the existing “EPA 2022 - eGRID” factor library and emission factors
 -   Create a new custom factor library for estimating miles to kilowatt hours (kWh)
 -   Create new calculation models and new calculation profiles for calculation jobs
 -   The emissions calculated during this lab exercise will be utilized in the remaining scenarios (reporting and goals) in the upcoming lab exercises.
@@ -83,13 +83,13 @@ In this task, Alex will create factor mappings to map the Contractual instrument
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image006.png)
 
-1.  Select the **EPA 2021 - eGRID** Factor library to open the Factor library. Make sure you have selected the **2021** library, not the **2022** library.
+1.  Select the **EPA 2022 - eGRID** Factor library to open the Factor library. Make sure you have selected the **2022** library.
 
     >[!NOTE] **Note**: Microsoft Sustainability Manager includes EPA and IPCC based Factor libraries for emissions and estimations. Additional libraries are on the roadmap. Take time to review the existing factor libraries.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image007.png)
 
-1.  Let’s take a moment to explore the **EPA 2021 - eGRID** factor library. The **General** tab includes identifying information about the Factor library.
+1.  Let’s take a moment to explore the **EPA 2022 - eGRID** factor library. The **General** tab includes identifying information about the Factor library.
 
     -   **Name**: this is used for identifying the factor library in the list.
     -   **Description**: this is used to provide more information about the factor library.
@@ -113,7 +113,7 @@ In this task, Alex will create factor mappings to map the Contractual instrument
 
     ![A screenshot of a computer Description automatically generated](./Images/Lab03/L03_image011.png)
 
-1.  Return to **EPA 2021 - eGRID** by selecting the back arrow, and select the **Factors mapping** tab.
+1.  Return to **EPA 2022 - eGRID** by selecting the back arrow, and select the **Factors mapping** tab.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image012.png)
 
@@ -158,15 +158,13 @@ In this task, Alex will create factor mappings to map the Contractual instrument
 
     (2) **Reference Data**: +++Adatum Corp+++
 
-    (3) **Factor Library**: +++EPA 2021 - eGRID+++
+    (3) **Factor**: +++FRCC (FRCC All)+++
 
-    (4) **Factor**: +++FRCC (FRCC All)+++
-
-    (5) Select **Save & Close** to save the record.
+    (4) Select **Save & Close** to save the record.
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image016.png)
 
-1.  There are now two **Factor mappings**, one for each of the contractual instruments added during the previous labs.
+1.  There are now two additional **Factor mappings**, one for each of the contractual instruments added during the previous labs.
 
     ![Graphical user interface, text Description automatically generated](./Images/Lab03/L03_image017.png)
 
@@ -222,7 +220,7 @@ In this task, Alex will create the estimation factor for estimating the kilowatt
 
 1.  On the **Factor library** view, select the **Electric Vehicle Estimation Library** (this will be near the bottom of your page).
 
-    >[!NOTE] **Note**: For the purposes of this lab, we chose the largest electric vehicle available on the EPA, fueleconomy.gov website. **This is only an example**.
+    >[!NOTE] **Note**: For the purposes of this lab, we chose the largest electric vehicle available on the EPA, fueleconomy.gov website at the time of writing. **This is only an example**.
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image021.png)
 
@@ -300,7 +298,7 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
 1.  Populate the **Source** action with the following data:
 
-    (1) **Category name**: +++Purchased Electricity: Contractual Instrument Based - 2021+++
+    (1) **Category name**: +++Purchased Electricity: Contractual Instrument Based - 2022+++
 
     (2) **Activity data**: Purchased electricity
 
@@ -357,9 +355,9 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
     (4) **Unit**: Quantity unit
 
-    (5) **Emission factor library**: EPA 2021 - eGRID
+    (5) **Emission factor library**: EPA 2022 - eGRID
 
-    >[!NOTE]**Note**: There are several libraries with similar names. Make sure you select **EPA 2021 - eGRID** from the dropdown.
+    >[!NOTE]**Note**: There are several libraries with similar names. Make sure you select **EPA 2022 - eGRID** from the dropdown.
 
     (6) **Emission factor**: Contractual Instrument Type
 
@@ -406,7 +404,7 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
 1.  Populate the Source action with the following data:
 
-    (1) **Category name**: +++Electric Vehicle Miles Driven - 2021+++
+    (1) **Category name**: +++Electric Vehicle Miles Driven - 2022+++
 
     (2) **Activity data**: Purchased electricity
 
@@ -494,7 +492,7 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
     (2) **Emission report value**: kWhQuantity and **Unit**: kWh
 
-    (3) **Emission factor library**: EPA 2021 - eGrid (make sure you select the correct library)
+    (3) **Emission factor library**: EPA 2022 - eGrid (make sure you select the correct library)
 
     (4) **Emission factor**: +++US Average+++
 
@@ -522,7 +520,7 @@ In this exercise, you will learn about the steps that Alex takes to define and r
 
 ### Task 1: Create Purchased Electricity Calculation Profile
 
-In this task, Alex will create a Calculation Profile for the electricity purchased by Wide World Importers for their facilities for the year 2021. Alex will use the calculation model defined early in this lab and filter the profile to only activity data for the Wide World Importers organizational unit, and where the unit type is kWh. These filters will ensure that only the purchased electricity for Wide World Importers is included in the calculation job. This will exclude the miles driven by the fleet of electric vehicles, which is covered in the next task.
+In this task, Alex will create a Calculation Profile for the electricity purchased by Wide World Importers for their facilities for the year 2022. Alex will use the calculation model defined early in this lab and filter the profile to only activity data for the Wide World Importers organizational unit, and where the unit type is kWh. These filters will ensure that only the purchased electricity for Wide World Importers is included in the calculation job. This will exclude the miles driven by the fleet of electric vehicles, which is covered in the next task.
 
 1.  Navigate to **Calculation profiles** on the left side of the page.
 
@@ -540,7 +538,7 @@ In this task, Alex will create a Calculation Profile for the electricity purchas
  
 1.  Populate them with the following information: 
 
-    (1) **Calculation profile name**: +++Purchased Electricity: Contractual Instrument Based - 2021 - Wide World Importers+++
+    (1) **Calculation profile name**: +++Purchased Electricity: Contractual Instrument Based 2022 Wide World Importers+++
 
     (2) **Emission source**: Purchased electricity
 
@@ -579,7 +577,7 @@ In this task, Alex will create a Calculation Profile for the electricity purchas
 
 1. Set the remaining fields as follows:
 
-    (4) Select +++**Purchased Electricity: Contractual Instrument Based - 2021**+++ in the **Calculation model** dropdown list
+    (4) Select +++**Purchased Electricity: Contractual Instrument Based - 2022**+++ in the **Calculation model** dropdown list
 
     (5) Check **Schedule Automatically run**.
 
@@ -612,7 +610,7 @@ In this task, Alex will create a Calculation Profile for the electricity purchas
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image059.png)
 
-Great job, you have helped Alex create a calculation profile for the electricity purchased by Wide World Importers for their facilities for the year 2021. This profile used the calculation model defined early in this lab. The profile was filtered to only activity data for the Wide World Importers organizational unit, and where the unit type is kWh. 
+Great job, you have helped Alex create a calculation profile for the electricity purchased by Wide World Importers for their facilities for the year 2022. This profile used the calculation model defined early in this lab. The profile was filtered to only activity data for the Wide World Importers organizational unit, and where the unit type is kWh. 
 
 Calculation profiles are the mechanisms by which Calculation jobs are queued. You can set your Calculation profiles to run automatically when matching Activity Data is added or updated, as we chose in this scenario, or you can run them manually which we will discuss in Task 3 of this exercise. **Please continue to the next task.**
 
@@ -620,7 +618,7 @@ Calculation profiles are the mechanisms by which Calculation jobs are queued. Yo
 
 ### Task 2: Create Electric Vehicle Miles Driven Calculation Profile
 
-In this task, Alex will create a Calculation Profile for the miles driven by Wide World Importers’ fleet of electric vehicles for year 2021. They will use the calculation model defined earlier in this lab and filter the profile to only activity data for the Wide World Importers organizational unit, and where the unit type is mile. These filters will ensure that only the miles driven for Wide World Importers’ fleet of electric vehicles is included in the calculation job. This will exclude the purchased electricity, which was covered in the previous task.
+In this task, Alex will create a Calculation Profile for the miles driven by Wide World Importers’ fleet of electric vehicles for year 2022. They will use the calculation model defined earlier in this lab and filter the profile to only activity data for the Wide World Importers organizational unit, and where the unit type is mile. These filters will ensure that only the miles driven for Wide World Importers’ fleet of electric vehicles is included in the calculation job. This will exclude the purchased electricity, which was covered in the previous task.
 
 1.  Navigate to **Calculation profiles** on the left side of the page, if necessary.
 
@@ -638,7 +636,7 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
 
 1.  Populate them with the following information:
 
-    (1) **Calculation profile name**: +++Electric Vehicle Miles Driven - 2021+++
+    (1) **Calculation profile name**: +++Electric Vehicle Miles Driven 2022+++
 
     (2) **Emission source**: Purchased electricity
 
@@ -677,7 +675,7 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
 
 1. Set the remaining fields as follows:
 
-    (4) Select **Electric Vehicle Miles Driven - 2021** from the **Calculation model** dropdown list.   
+    (4) Select **Electric Vehicle Miles Driven - 2022** from the **Calculation model** dropdown list.   
 
     (5) Check **Schedule Automatically run**.
 
@@ -726,17 +724,17 @@ In this task, Alex will run the newly created Calculation Profiles for the elect
 
     ![Graphical user interface, text, application Description automatically generated with medium confidence](./Images/Lab03/L03_image060.png)
 
-1.  To run the calculation profile for **Purchased Electricity: Contractual Instrument Type - 2021**:
+1.  To run the calculation profile for **Purchased Electricity: Contractual Instrument Type - 2022**:
 
-    (1) Select **Purchased Electricity: Contractual Instrument Based - 2021 - Wide World Importers** in the list.
+    (1) Select **Purchased Electricity: Contractual Instrument Based - 2022 - Wide World Importers** in the list.
 
     (2) Select **Run calculation** on the command bar.
 
     ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image071.png)
 
-1.  To run the calculation profile for **Electric Vehicle Miles Driven - 2021**:
+1.  To run the calculation profile for **Electric Vehicle Miles Driven - 2022**:
 
-    (1) Select **Electric Vehicle Miles Driven - 2021** in the list.
+    (1) Select **Electric Vehicle Miles Driven - 2022** in the list.
 
     (2) Select **Run calculation** on the command bar.
 
