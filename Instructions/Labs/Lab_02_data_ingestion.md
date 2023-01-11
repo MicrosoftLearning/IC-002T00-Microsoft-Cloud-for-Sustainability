@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lesson 2: Data ingestion'
+    title: 'Lab 2: Data ingestion'
     module: 'Module 4: Configure data ingestion'
 ---
 
