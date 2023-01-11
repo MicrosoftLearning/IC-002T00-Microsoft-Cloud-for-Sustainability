@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Lesson 2: Insights and reporting
+    module: 'Module 4: Configure insights and reporting'
+---
 # Module 6 Lesson 2 Lab 4: Insights and reporting
 
 ## Overview
