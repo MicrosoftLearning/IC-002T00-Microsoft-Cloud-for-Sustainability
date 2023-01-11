@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Lesson 2: Organization Setup'
+    module: 'Module 3: Configure organization setup and structure'
+---
 # Module 3 Lesson 2 Lab 1: Organization Setup
 
 ## Overview
