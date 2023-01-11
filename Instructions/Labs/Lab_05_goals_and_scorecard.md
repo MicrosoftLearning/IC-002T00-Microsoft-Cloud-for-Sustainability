@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Lesson 2: Goals and scorecards'
+    module: 'Module 7: Configure goals and scorecards'
+---
 # Module 7 Lesson 2 Lab 5: Goals and scorecard
 
 ## Overview
