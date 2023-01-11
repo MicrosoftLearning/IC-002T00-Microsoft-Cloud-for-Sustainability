@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lesson 2: Data ingestion'
+    module: 'Module 4: Configure data ingestion'
+---
+
 # Module 4 Lesson 2 Lab 2: Data ingestion
 
 ## Overview
