@@ -424,7 +424,7 @@ In this task, Amber will create a linked chat to collaborate with Allen Contoso 
 
 1.  On the **New linked chat** blade:
 
-    (1)  Search for chat **Participants** - for this scenario use the dummy account, +++**Allen Contoso**+++.
+    (1)  Search for chat **Participants** - for this scenario use one of the dummy accounts available, such as **Allen Deyoung**.
 
     (2)  Enter a name for the Chat.
 
