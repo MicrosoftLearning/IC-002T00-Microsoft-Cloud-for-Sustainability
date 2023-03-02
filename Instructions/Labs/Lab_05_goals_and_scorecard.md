@@ -398,7 +398,7 @@ Great job, you have helped Reed turn on and configure a new Dynamics 365 record 
 
 ### Task 3: Create a Microsoft Teams linked chat
 
-In this task, Amber will create a linked chat to collaborate with Allen Contoso to discuss the EPA 2022 - eGRID in preparation for 2022 reporting needs.
+In this task, Amber will create a linked chat to collaborate with a colleague to discuss the EPA 2022 - eGRID in preparation for 2022 reporting needs.
 
 1.  Change the current Area to **Data**.
 
@@ -416,7 +416,7 @@ In this task, Amber will create a linked chat to collaborate with Allen Contoso 
 
     ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab05/L05_image057.png)
 
-1.  Select **New connected chat** to create a new chat window with another user, Allen Contoso, to discuss changes to the Factor mappings on the EPA 2022 - eGRID Factor library.
+1.  Select **New connected chat** to create a new chat window with another user to discuss changes to the Factor mappings on the EPA 2022 - eGRID Factor library.
 
     >[!NOTE] **Note**: You may need to wait a few minutes or perform a hard refresh (CTRL+F5) for the **New connected chat** button to appear the first time.
 
@@ -438,6 +438,6 @@ In this task, Amber will create a linked chat to collaborate with Allen Contoso 
 
     ![Graphical user interface, application Description automatically generated](./Images/Lab05/L05_image060.png)
 
-Great job, you have helped Amber create a linked chat to collaborate with Allen Contoso to discuss the EPA 2022 - eGRID in preparation for 2022 reporting needs.
+Great job, you have helped Amber create a linked chat to collaborate with a colleague to discuss the EPA 2022 - eGRID in preparation for 2022 reporting needs.
 
 **Congratulations!** Reed and Amber can now use the scorecard and its information in the new linked chat you set up with one of their colleagues to discuss changes to a factor library, continuing Ambers great work to record, report, and reduce carbon emissions across Wide World Importers and the entirety of Contoso corp. Linked chats can be used to help teams and organizations collaborate and improve efficiency by having the record context directly in the chat. You can configure many entities to have linked chats, as well as utilize custom system views to tailor the displayed fields to an organization’s needs.
