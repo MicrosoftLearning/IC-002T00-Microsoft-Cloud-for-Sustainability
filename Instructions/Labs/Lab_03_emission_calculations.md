@@ -68,7 +68,7 @@ Wide World Importers may not know exactly how much electricity was purchased for
 
 1. Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
 
-1. If needed, change the environment to **MC4S** on the top bar.
+1. If needed, change the environment to **Microsoft Cloud for Sustainability Trial** on the top bar.
 
 1. Open the **Sustainability Manager** Application.
 
