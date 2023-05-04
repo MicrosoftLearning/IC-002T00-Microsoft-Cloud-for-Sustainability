@@ -2,7 +2,7 @@ If you don't get the environment from your authorized lab hoster you should be a
 
 1- Go to the following link: [Microsoft Cloud for Sustainability | Microsoft](https://www.microsoft.com/en-us/sustainability/cloud)
 
-2- Request the trial
+2- Request the trial by clicking try for free
 
 3- Enter you non-Microsoft credentials
 
