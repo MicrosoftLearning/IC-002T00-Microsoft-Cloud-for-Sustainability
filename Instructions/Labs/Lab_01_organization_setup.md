@@ -1,5 +1,5 @@
 ---
-lab:
+lab  : 
     title: 'Lab 1: Organization Setup'
     module: 'Module 3: Configure organization setup and structure'
 ---
