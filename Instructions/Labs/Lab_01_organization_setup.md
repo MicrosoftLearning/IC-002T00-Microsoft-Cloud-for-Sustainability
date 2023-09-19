@@ -90,15 +90,15 @@ In this exercise, you will learn about the steps that Alex and Reed take to set 
 
 You will land on the **Home** page for Microsoft Sustainability Manager.
 
-    ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/c9d9df04-62a4-4b7d-abba-6f9fd2a67be0)
+    ![image](./Images/Lab01/image5.svg)
 
 >[!NOTE] **Note**: You can dismiss the Product tour by scrolling down and selecting the **Dismiss tour** button.
 
-     ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/bd528efa-b0f2-4186-b30e-52fa77dbd72d)
+     ![image](./Images/Lab01/image6.svg)
 
 Area navigation is a common first step in each lab and exercise. You can find the area navigation menu in the bottom corner of your screen.
 
-![image](./Images/Lab01/image4.svg)
+![image](./Images/Lab01/image7.svg)
 
 ## Task 1: Setup the Company profile, hierarchy, and facilities
 
@@ -106,42 +106,42 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
 
 1. In the bottom left corner, change your Area to **Settings**.
 
-    ![image](./Images/Lab01/image5.svg)
+    ![image](./Images/Lab01/image8.svg)
 
 1. Navigate to **Company profile** on the left navigation pane of the home page.
 
-    ![image](./Images/Lab01/image6.svg)
+    ![image](./Images/Lab01/image9.svg)
 
 1. The Company profile page includes basic information about the organization, such as name, address, company logo, the annual reporting period, and relevant industries. Additionally, there are tabs at the top of the page for setting up organization structure and facilities, both will be covered in this exercise.
 
-   ![image](./Images/Lab01/image7.svg)
+   ![image](./Images/Lab01/image10.svg)
 
 1. On the **Company profile** page, select the **Industries** tab. Microsoft Sustainability Manager includes a selection of pre-defined industries and sub-verticals based on NACE standards, see NACE Code at +++https://nacev2.com/en+++. Select **+Add**.
 
-   ![image](./Images/Lab01/image8.svg)
+   ![image](./Images/Lab01/image11.svg)
 
-   ![image](./Images/Lab01/image9.svg)
+   ![image](./Images/Lab01/image12.svg)
 
 1. Select **Transportation and storage**.
 
-    ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/8641f329-8d6f-4a2b-8a04-880e7bb7f586)
+    ![image](./Images/Lab01/image13.svg)
 
 1. In the next screen, select **Land transport and transport via pipelines** and select **Add**.
 
-    ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/ef540502-cc52-4d03-afee-b7ce8f98da85)
+    ![image](./Images/Lab01/image14.svg)
 
 1. **Land transport and transport via pipelines** is now visible in the **Industries** section at the bottom of the **Company profile** page.
 
-    ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/3e6f0678-96b2-43e5-8a62-534e34e47054)
+    ![image](./Images/Lab01/image15.svg)
 
 1. In the **Company profile** page, switch to the **Structure** tab.
 
-   ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/81390cfa-f4e2-47f2-8524-a90f15b9ab30)
+  ![image](./Images/Lab01/image16.svg)
 
 
 1. Select **Contoso USA** and select **Add** to add a new organizational unit under it.
 
-    ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/296cadb9-c735-4fd4-a2a7-3bc245629510)
+    ![image](./Images/Lab01/image17.svg)
 
 
 1. Enter the following data for organizational unit and select **Save** in the button pane:
@@ -149,12 +149,12 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
     1. **Name**: +++Wide World Importers+++
     1. **Organizational unit type**: Department
 
-    ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/88f7d627-419f-491c-b50a-4634da104109)
+   ![image](./Images/Lab01/image18.svg)
 
 
 1. In the **Organizational hierarchies** section, which appears after selecting **Save**, select **+ New Organizational hierarchy**.
 
-    ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/db5edf1a-2d38-40e6-9dbf-c7dd21240277)
+    ![image](./Images/Lab01/image19.svg)
 
 
 1. Set the following values and select **Save & Close**:
@@ -162,15 +162,15 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
     1. **Parent**: +++Contoso USA+++
     1. **Effective start date**: The first day of the current month (MM/DD/YYYY)
 
-    ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/2fa026e0-397d-4207-8edb-6bd635d870b9)
+    ![image](./Images/Lab01/image20.svg)
 
 1. After being returned to the **Organizational Unit**, select **Save & Close** to return to the **Company profile**.
 
-    ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/ae812087-96c0-478b-ac96-87f94198f142)
+    ![image](./Images/Lab01/image21.svg)
 
 1. If necessary, navigate to **Company profile**, switch to the **Facilities** tab page and select **Add facility**.
 
-   ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/729e95da-e2ca-43d5-b69c-84734b4de974)
+  ![image](./Images/Lab01/image22.svg)
 
 1. Create a new Facility with the following details. Once the values are entered, select **Save & Close**:
 
@@ -187,7 +187,7 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
 
     >[!NOTE] **Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
 
-    ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/f086387d-6d00-48ab-9c2d-466ec21a59dc)
+    ![image](./Images/Lab01/image23.svg)
 
 1. Using the same steps, add another new **Facility**. Once the values are entered, select **Save & Close**.
 
@@ -205,7 +205,7 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
 
 >[!NOTE] **Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
 
-![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/964229aa-474d-4657-b27c-bacb030f45de)
+![image](./Images/Lab01/image24.svg)
 
 
 Great job, by completing these steps, you have assisted Alex with completing the organizational setup in Microsoft Sustainability Manager for Wide World of Importers. This included the Company profile, hierarchy, and facilities. Organizational structure and facility management will be linked to activity and emission data to group emissions by Organization, facility, and even regions. This is an important part of carbon emission reporting and organization disclosures. **Please continue to the next task.**
@@ -218,22 +218,22 @@ In this task, Reed sets up the reference data for contractual instrument types i
 
 1. In the bottom left corner, change the Area to **Settings**, if necessary.
 
-   ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/5dbf450d-8715-43e5-a032-6ab8b117d074)
+  ![image](./Images/Lab01/image25.svg)
 
 
 1. Navigate to **Reference data** on the left side of the page.
 
-    ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/b7c4ab29-5968-48b2-8fcf-dcc6eb99a9bb)
+   ![image](./Images/Lab01/image26.svg)
 
 
 1. Select **Contractual instrument types** and select **View**.
 
-    ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/598ac9e3-fa08-4ed2-b8a0-8621edc3fc19)
+    ![image](./Images/Lab01/image27.svg)
 
 
 1. Under **Active contractual instrument types**, select **New** to create new contractual types.
 
-    ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/af23ad94-7c28-4b48-97e5-28d51a84b7fc)
+    ![image](./Images/Lab01/image28.svg)
 
 
 1. Create a new Contractual Instrument with the following details. Once entered, select **Save & Close** in the button pane.
@@ -243,7 +243,7 @@ In this task, Reed sets up the reference data for contractual instrument types i
 
     >[!NOTE] **Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
-    ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/6730aca8-a5b7-4191-9956-d32c30db8124)
+   ![image](./Images/Lab01/image29.svg)
 
 
 1. In the same way, again create a new Contractual Instrument with the following details. Once entered, select **Save & Close** in the button pane.
@@ -251,7 +251,7 @@ In this task, Reed sets up the reference data for contractual instrument types i
     1. **Name**: +++Adatum Corp+++
     1. **Energy source**: Other
 
-    ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/d36b44f2-d854-4a99-b9ce-ad749f391885)
+   ![image](./Images/Lab01/image30.svg)
 
 
     >[!NOTE]**Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
@@ -268,17 +268,17 @@ Unit Groups are used to group units together and define a base unit used to conv
 
 1. Navigate to **Unit groups** on the left side of the page.
 
-    ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/b4bc7d04-5574-4ac7-82f8-173438cec6d3)
+    ![image](./Images/Lab01/image31.svg)
 
 
 1. Under **Active unit groups**, select **Length/distance** and open it.
 
-    ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/0b4dc3c1-bfe7-47a2-9106-485067743837)
+   ![image](./Images/Lab01/image32.svg)
 
 
 1. Select **New unit** to create a new unit.
 
-   ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/e8dbdef6-558d-4aaa-98e7-c3f9a0bb1c40)
+   ![image](./Images/Lab01/image33.svg)
 
 
 1. Enter the following details to create a new unit. Once entered, select **Save & Close** from the button pane.
@@ -288,7 +288,7 @@ Unit Groups are used to group units together and define a base unit used to conv
 
 >[!NOTE] **Note:** The EPA calculates electric vehicle efficiency by the number of kilowatt hours (kWh) used per 100 miles. For consistency, it is best practice to utilize the same
 
-![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/2a5f3aec-1b2b-449c-9599-fc172b759c3e)
+![image](./Images/Lab01/image34.svg)
 
 
 Great job, by completing these steps you have helped Reed add the missing unit for the fleet for elctric vehicles to the Length/Distance unit group to Microsoft Sustainability Manager.
@@ -303,11 +303,11 @@ Alex proceeds to create a reporting year in Sustainability Manager. For detailed
 
 1.	In the left navigation pane, under **Organization settings**, select **Company** **profile**. Select the **Reporting years** tab.
 
-   ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/d967d927-a953-48f7-8896-0f6265408d86)
+   ![image](./Images/Lab01/image35.svg)
  
 4.	Select **Create reporting year.**
 
-   ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/161e5a0d-5219-4415-a31e-737bb8e050d3)
+  ![image](./Images/Lab01/image36.svg)
 
  
 6.	Enter the following details. After you've entered the values, select **Save**. 
@@ -318,12 +318,12 @@ Alex proceeds to create a reporting year in Sustainability Manager. For detailed
 
   	c.	**Year template** - +++Annual+++.
 
-       ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/cd7ed2b1-0591-4a78-a3ae-803493d2a235)
+       ![image](./Images/Lab01/image37.svg)
 
  
 8. Select **Close**. The reporting year will generate with the first period starting on the **Start date** and the last period ending one year from the **Start date**.
 
 
-![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/6e07cfc6-9a69-4777-b41f-a0659a6b8102)
+![image](./Images/Lab01/image38.svg)
 
 **Congratulations!** Alex and Reed of Wide World Importers now have their organizational structure set up along with the contractual instrument types, and a new unit in the Length/Distance unit group. This forms the foundation for the rest of the work they will do with the Microsoft Cloud for Sustainability and Microsoft Sustainability Manager. These data points are used throughout the tools, so it is important to spend the time to ensure that your organization and reference data is set up correctly.
