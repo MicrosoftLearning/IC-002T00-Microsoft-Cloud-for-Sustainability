@@ -86,7 +86,7 @@ In this exercise, you will learn about the steps that Alex and Reed take to set 
 
 1. Open the **Sustainability Manager** Application under Apps from the left navigation pane.
 
-    ![image](./Images/Lab01/image3.svg)
+    ![image](./Images/Lab01/image4.svg)
 
 You will land on the **Home** page for Microsoft Sustainability Manager.
 
