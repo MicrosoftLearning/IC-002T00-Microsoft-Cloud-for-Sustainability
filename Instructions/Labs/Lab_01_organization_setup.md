@@ -9,7 +9,7 @@ lab  :
 
 ### Background
 
-In this exercise for Microsoft Cloud for Sustainability, you'll use demo data to set up the "Set up organization and reference data" scenario. Contoso Corp is a specialty coffee distribution business with operations in APAC, US, Africa, and Europe.
+In this lab for Microsoft Cloud for Sustainability, you'll use demo data to set up the "Set up organization and reference data" scenario. Contoso Corp is a specialty coffee distribution business with operations in APAC, US, Africa, and Europe.
 
 Contoso Corp is experiencing supply chain challenges when transporting its finished goods across the United States. Additionally, it wants to augment its transportation and logistics capacities. To overcome this challenge, Contoso Corp acquired a transportation business called Wide World Importers, which is based in Florida, US. Wide World Importers has two office facilities with 100 employees that coordinate a fleet of 40 electric trucks that will be used for transportation of finished goods across the US.
 
@@ -39,7 +39,25 @@ Organization setup focuses on the foundational steps required to configure the M
 
 ### Personas and Scenarios
 
-In this lab, Jessie Irwin – Sustainability lead for Contoso Corp and Amber Rodriguez - Sustainability Specialist for Contoso Corp educate Alex Serra of Wide World importers on the tools and processes used for Contoso’s Sustainability reporting. Jessie guides Alex to build an inventory management plan by listing out the operating boundaries, facilities, and emission sources. Jessie and Amber demonstrate “Microsoft Sustainability Manager” and share the inventory plan template with Alex Serra – Emissions Analyst and Reed Flores – IT Admin. After completing the Inventory plan template - together, Alex and Reed set up the Company Profile, Organization data and Reference data based on the data provided by Amber in the Inventory plan.
+This exercise features the following personas:
+
+•	Jessie Irwin - Sustainability lead for Contoso Corp
+
+•	Amber Rodriguez - Sustainability specialist for Contoso Corp
+
+•	Alex Serra - Emissions analyst from Wide World Importers
+
+•	Reed Flores – IT admin from Wide World Importers
+
+These personas will participate in the following sequential scenarios:
+
+    1. Amber will educate Alex on the tools and processes that are used for Contoso's sustainability reporting.
+
+    2. Jessie will guide Alex on building an inventory management plan by listing the operating boundaries, facilities, and emission sources.
+
+    3. Jessie and Amber will demonstrate Microsoft Sustainability Manager and will share the inventory plan template with Alex and Reed.
+
+    4. After completing the inventory plan template, Alex and Reed will set up the company profile, organization data, and reference data based on the data that         Amber provided in the inventory plan.
 
 ![Diagram Description automatically generated](./Images/Lab01/L01_image002.png)
 
@@ -49,7 +67,7 @@ In this lab exercise, we will focus on the scenarios illustrated below:
 
 ## Exercise 1: Set up company profile and reference data
 
-In this exercise, you will learn about the steps that Alex and Reed take to set up Wide World Imports company profile, organizational data, and reference data. You can explore this functionality in deeper detail on Microsoft Docs. To do this visit **Set up a company profile** at +++https://docs.microsoft.com/en-us/industry/sustainability/setup-company-profile+++.
+In this exercise, you will learn about the steps that Alex and Reed take to set up Wide World Imports company profile, organizational data, reporting years and reference data. You can explore this functionality in deeper detail on Microsoft Docs. To do this visit **Set up a company profile** at +++https://docs.microsoft.com/en-us/industry/sustainability/setup-company-profile+++.
 
 1. Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
 
@@ -254,5 +272,30 @@ Unit Groups are used to group units together and define a base unit used to conv
 ![](./Images/Lab01/L01_image035.png)
 
 Great job, by completing these steps you have helped Reed add the missing unit for the fleet for elctric vehicles to the Length/Distance unit group to Microsoft Sustainability Manager.
+
+## Task 4 : Create a reporting year 
+
+Alex and Reed will set up the reporting years in Microsoft Sustainability Manager. Alex will name the reporting year, set up the start date and use a template to create more than one period. 
+
+>[!NOTE] **Note:** The Reporting years you set up will override the configuration in General settings.
+
+Alex proceeds to create a reporting year in Sustainability Manager. For detailed information, see Configure reporting years 
+
+1.	In the left navigation pane, under **Organization settings**, select **Company** **profile**.
+
+2.	Select the **Reporting years** tab.
+ 
+3.	Select **Create reporting year.**
+ 
+4.	Enter the following details. After you've entered the values, select **Save**. 
+
+  	a.	**Name** - Enter +++Fiscal – 2022+++.  This name appears on the **Insights** page in Microsoft Sustainability Manager.
+
+  	b.	**Start date**: +++01/01/2022+++.  
+
+  	c.	**Year template** - +++Annual+++.
+ 
+6. Select **Close**. The reporting year will generate with the first period starting on the **Start date** and the last period ending one year from the **Start date**.
+
 
 **Congratulations!** Alex and Reed of Wide World Importers now have their organizational structure set up along with the contractual instrument types, and a new unit in the Length/Distance unit group. This forms the foundation for the rest of the work they will do with the Microsoft Cloud for Sustainability and Microsoft Sustainability Manager. These data points are used throughout the tools, so it is important to spend the time to ensure that your organization and reference data is set up correctly.
