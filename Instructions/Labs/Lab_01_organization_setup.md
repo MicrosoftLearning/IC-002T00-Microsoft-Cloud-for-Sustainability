@@ -297,7 +297,6 @@ Alex proceeds to create a reporting year in Sustainability Manager. For detailed
  
 6. Select **Close**. The reporting year will generate with the first period starting on the **Start date** and the last period ending one year from the **Start date**.
 
-![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/6e49ab1f-7536-40f8-a08f-543a900417b0)
 
 
 
