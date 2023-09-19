@@ -296,7 +296,9 @@ Alex proceeds to create a reporting year in Sustainability Manager. For detailed
   	c.	**Year template** - +++Annual+++.
  
 6. Select **Close**. The reporting year will generate with the first period starting on the **Start date** and the last period ending one year from the **Start date**.
-https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/blob/MC4S-TF-September-2023/Instructions/Labs/Images/Lab01/image76.svg
+
+![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/6e49ab1f-7536-40f8-a08f-543a900417b0)
+
 
 
 **Congratulations!** Alex and Reed of Wide World Importers now have their organizational structure set up along with the contractual instrument types, and a new unit in the Length/Distance unit group. This forms the foundation for the rest of the work they will do with the Microsoft Cloud for Sustainability and Microsoft Sustainability Manager. These data points are used throughout the tools, so it is important to spend the time to ensure that your organization and reference data is set up correctly.
