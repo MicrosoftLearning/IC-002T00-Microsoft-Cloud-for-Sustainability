@@ -35,8 +35,6 @@ In this lab, you will perform the following:
 
 Organization setup focuses on the foundational steps required to configure the Microsoft Sustainability Manager application. These foundational steps will create the company profile, set up organizational structure and hierarchy, and corresponding facilities. After this, reference data will be set up that includes important information such as fuel types, vehicle types, contractual instrument types, and units. Some of this reference data is unique to an organization, and some will come from standard or industry sources.
 
-![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/fa85c1e4-10fb-477a-a154-9d602b6d2259)
-
 ![image](./Images/Lab01/image0.svg)
 
 
@@ -66,6 +64,8 @@ These personas will participate in the following sequential scenarios:
        organization data, and reference data based on the data that Amber provided in the inventory plan.
 
 ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/ea8d83b3-b7fb-4e80-8d14-54eff69275c8)
+
+./Images/Lab01/image1.svg
 
 
 In this lab exercise, we will focus on the scenarios illustrated below:
