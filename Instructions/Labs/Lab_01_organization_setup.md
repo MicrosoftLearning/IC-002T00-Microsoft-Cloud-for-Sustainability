@@ -65,8 +65,7 @@ These personas will participate in the following sequential scenarios:
 
 ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/ea8d83b3-b7fb-4e80-8d14-54eff69275c8)
 
-(./Images/Lab01/image1.svg)
-
+![image](./Images/Lab01/image1.svg)
 
 In this lab exercise, we will focus on the scenarios illustrated below:
 
