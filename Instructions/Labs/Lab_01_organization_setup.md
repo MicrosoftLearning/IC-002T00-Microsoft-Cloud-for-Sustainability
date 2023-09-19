@@ -90,11 +90,13 @@ In this exercise, you will learn about the steps that Alex and Reed take to set 
 
 You will land on the **Home** page for Microsoft Sustainability Manager.
 
-    ![image](./Images/Lab01/image5.svg)
+![image](./Images/Lab01/image5.svg)
+
 
 >[!NOTE] **Note**: You can dismiss the Product tour by scrolling down and selecting the **Dismiss tour** button.
 
-     ![image](./Images/Lab01/image6.svg)
+
+![image](./Images/Lab01/image6.svg)
 
 Area navigation is a common first step in each lab and exercise. You can find the area navigation menu in the bottom corner of your screen.
 
