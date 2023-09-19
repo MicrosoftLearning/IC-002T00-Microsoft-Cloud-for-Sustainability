@@ -63,13 +63,13 @@ These personas will participate in the following sequential scenarios:
  4. After completing the inventory plan template, Alex and Reed will set up the company profile, 
        organization data, and reference data based on the data that Amber provided in the inventory plan.
 
-![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/ea8d83b3-b7fb-4e80-8d14-54eff69275c8)
+
 
 ![image](./Images/Lab01/image1.svg)
 
 In this lab exercise, we will focus on the scenarios illustrated below:
 
-![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/ec6c320d-194c-46a7-9d15-130aa8fb818f)
+![image](./Images/Lab01/image2.svg)
 
 
 ## Exercise 1: Set up company profile and reference data
@@ -86,7 +86,7 @@ In this exercise, you will learn about the steps that Alex and Reed take to set 
 
 1. Open the **Sustainability Manager** Application under Apps from the left navigation pane.
 
-    ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/b3a97299-54d2-46d7-8bc4-6fbb462952fd)
+    ![image](./Images/Lab01/image3.svg)
 
 You will land on the **Home** page for Microsoft Sustainability Manager.
 
@@ -98,7 +98,7 @@ You will land on the **Home** page for Microsoft Sustainability Manager.
 
 Area navigation is a common first step in each lab and exercise. You can find the area navigation menu in the bottom corner of your screen.
 
-![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/59248b99-b094-4999-93c0-4aca285506a4)
+![image](./Images/Lab01/image4.svg)
 
 ## Task 1: Setup the Company profile, hierarchy, and facilities
 
@@ -106,21 +106,21 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
 
 1. In the bottom left corner, change your Area to **Settings**.
 
-    ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/8cc59c37-0245-409a-9292-ad72dba9fd7e)
+    ![image](./Images/Lab01/image5.svg)
 
 1. Navigate to **Company profile** on the left navigation pane of the home page.
 
-    ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/358ac7a7-e8c6-453b-b829-fac713fbcbf0)
+    ![image](./Images/Lab01/image6.svg)
 
 1. The Company profile page includes basic information about the organization, such as name, address, company logo, the annual reporting period, and relevant industries. Additionally, there are tabs at the top of the page for setting up organization structure and facilities, both will be covered in this exercise.
 
-    ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/389105fc-94f8-4b03-8571-82707527c1cc)
+   ![image](./Images/Lab01/image7.svg)
 
 1. On the **Company profile** page, select the **Industries** tab. Microsoft Sustainability Manager includes a selection of pre-defined industries and sub-verticals based on NACE standards, see NACE Code at +++https://nacev2.com/en+++. Select **+Add**.
 
-    ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/c7e2993c-00ed-40aa-a974-fa76fb2f1fb3)
+   ![image](./Images/Lab01/image8.svg)
 
-    ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/8d241036-3c23-44a9-9ddc-99139bf880df)
+   ![image](./Images/Lab01/image9.svg)
 
 1. Select **Transportation and storage**.
 
