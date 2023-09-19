@@ -37,6 +37,7 @@ Organization setup focuses on the foundational steps required to configure the M
 
 ![image](https://github.com/MicrosoftLearning/IC-002T00-Microsoft-Cloud-for-Sustainability/assets/96527771/fa85c1e4-10fb-477a-a154-9d602b6d2259)
 
+![image](./images/Lab01/image0.svg)
 
 ### Personas and Scenarios
 
