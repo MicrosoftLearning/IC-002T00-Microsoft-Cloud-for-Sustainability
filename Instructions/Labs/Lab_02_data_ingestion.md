@@ -30,17 +30,19 @@ In this lab, you will do the following:
 
 In this lab, the focus is on the “Data Ingestion” aspect of the Solution Focus Area. It follows the “Organization and Reference data Set up” and forms the basis for the emission calculations and the reporting thereafter. The Microsoft Sustainability Manager is flexible with multiple automated options to ingest data – such as the connectors as well as manual inputs. For scenarios that may require complex data transformation and/or ETL, tools like Azure Data Factory are recommended. You can explore this functionality in deeper detail on Microsoft Docs at **Overview of Microsoft Cloud for Sustainability Data Import**, +++https://docs.microsoft.com/en-us/industry/sustainability/import-data+++.
 
-![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image001.png)
+![image](./Images/Lab02/image1.svg)
 
 ### Personas and Scenarios
 
-In this lab, Reed Flores – IT Admin for Wide World Importers utilizes the activity data Excel spreadsheets sourced by Alex Serra – Emissions Analyst. The Activity data spreadsheets contain Electricity Purchased for the year 2022 and Miles driven by the fleet of Fabrikam Electric Trucks for the calendar year 2022. Reed utilizes Microsoft Sustainability Manger’s connector functionality to import from the Excel spreadsheets, and reviews other connectors available for future purposes. Reed uses the built-in Power Query functionality to transform the data to match Microsoft Sustainability Manager’s data schema and looks for other potential issues such as case-sensitive d data fields.
+In this lab, Reed Flores – IT Admin for Wide World Importers utilizes the activity data Excel spreadsheets sourced by Alex Serra – Emissions Analyst. The Activity data spreadsheets contain Electricity Purchased for the year 2022 and Miles driven by the fleet of Fabrikam Electric Trucks for the calendar year 2022. Reed observes that associated information such as product, model and Vehicle size needs to be added as custom dimension meta data before importing which are required to run the emission calculation and gather the Emission insights reports for monitoring. After adding this information, Reed uses Microsoft Sustainability Manger’s connector functionality to import from the Excel spreadsheets, and reviews other connectors available for future purposes. Reed uses the built-in Power Query functionality to transform the data to match Microsoft Sustainability Manager’s data schema and looks for other potential issues such as case-sensitive d data fields.
 
-![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image002.png)
+![image](./Images/Lab02/image2.svg)
 
-In this lab exercise, we will focus on the Lab 02 scenario illustrated below:
+In this lab exercise, we will focus on the Lab 02 scenario illustrated below. 
 
-![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image003.png)
+>[!NOTE]**Note:** Make sure that you note the newly ingested activity data during this exercise because it will be used in the remaining scenarios (calculations and reporting) in the upcoming exercises.
+
+![image](./Images/Lab02/image3.svg)
 
 ## Exercise 1: Import Data
 
@@ -55,6 +57,14 @@ In this exercise, you will learn about the steps that Reed takes to ingest the s
 1. Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
 
 1. If needed, change the environment to **Microsoft Cloud for Sustainability Trial** on the top bar.
+
+2. For this exercise, you'll use OneDrive.
+
+   Ensure that your personal OneDrive has been initialized by selecting the app selector button in the upper-left corner of the screen.
+
+  	![image](./Images/Lab02/image5.svg)
+
+3. 
 
 1. Open the **Sustainability Manager** Application.
 
