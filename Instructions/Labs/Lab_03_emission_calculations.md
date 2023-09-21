@@ -515,68 +515,49 @@ In this task, Alex will create a Calculation Profile for the electricity purchas
 
 1.  Navigate to **Calculation profiles** on the left side of the page.
 
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image050.png)
+    ![image](./Images/Lab03/image45.svg)
+
 
 1.  Select **+New Calculation profile** to create a new Calculation profile.
 
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image051.png)
+     ![image](./Images/Lab03/image46.svg)
 
-1.  The first fields of the **New calculation profile** wizard are explained below:
-
-    -  The **Calculation profile** name is used for identifying the calculation profile in the list.
-    -  The **Emission source** is used to identify which activity data type should be used in the calculation.
-    -  The **Activity data to include calculation** filter is used to filter activity data to a specific subset of the activity data type.  
  
-1.  Populate them with the following information: 
+1.  Populate the following information on the New calculation profile wizard.
 
     (1) **Calculation profile name**: +++Purchased Electricity: Contractual Instrument Based 2022 Wide World Importers+++
 
-    (2) **Emission source**: Purchased electricity
+    (2) **Module** – Select **Carbon activities.**
 
-    (3) **Activity data to include in calculation**: Organizational Unit equals Wide World Importers AND Quantity Unit equals kWh
-   
-    To create the filter perform the following steps:
+    (3) **Emission source**: Purchased electricity
 
-    1.  Select **Add -> Add row**.
+    (4) **Activity data to include in calculation**: Select **add > add row** and select **Organizational Unit** **equals** **Wide World Importers(Organizational unit)** and select **add> add row** again and select **Quantity** **unit** **equals** **kWh**.
 
-        ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image052.png)
+    (5) **Calculation model** - Select **Purchased Electricity: Contractual Instrument Based - 2022** from the dropdown list.
 
-    1.  In the **Select a field** dropdown, choose **Organizational Unit**.
+    (6) **Schedule** - Select the **Automatically run this calculation when data is refreshed** checkbox.
 
-        ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image053.png)
-
-    1.  In the **Value** dropdown, choose **Wide World Importers (Organizational unit)**.
+   The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
         
-        ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image054.png)
+        o	The Calculation profile identifies the calculation profile in the list.
 
-    1.  Select **Add -> Add row** again.
+        o	The Module is used to identify which data types should appear in the Activity data field.
+        
+        o	The Emissions source identifies which activity data type should be used in the calculation.
 
-        ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image055.png)
+        o	Use Activity data to include in calculation to filter activity data to a specific subset of the activity data type.
 
-    1.  In the **Select a field** dropdown, choose **Quantity unit**.
+        o	The Calculation model identifies which calculation model should be used for the calculation. Be sure to choose the calculation model from the dropdown list.
 
-        ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image056.png)
+        o	Use the Automatically run this calculation when data is refreshed filter to automatically trigger calculations when the matching activity data is refreshed.
 
-    1.  In the **Value** dropdown, choose **kWh**.
+        o	The form should resemble the following image. Select **Next**.
 
-        ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image057.png)
+Note - Make sure that you select the calculation model from the dropdown list.
 
-1.  The final fields of the **New calculation profile** wizard are explained below:
+![image](./Images/Lab03/image47.svg)
 
-    - The **Calculation model** is used to identify which calculation model should be used for the calculation. Choose the **Calculation model** from the dropdown list. 
-    - **Automatically run this calculation when data is refreshed** is used to automatically trigger calculations when the matching activity data is refreshed.
-
-1. Set the remaining fields as follows:
-
-    (4) Select +++**Purchased Electricity: Contractual Instrument Based - 2022**+++ in the **Calculation model** dropdown list
-
-    (5) Check **Schedule Automatically run**.
-
-    (6) The form should resemble the image below. Select **Next**.
-
-    ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image058.png)
-
-    On the **Preview** page of the New calculation profile wizard the emissions are calculated for the first row of data that matches the Activity data to include filter.
+On the **Preview** page of the **New calculation profile** wizard, the emissions are calculated for the first row of data that matches the **Activity data to include** filter. In this scenario, the values that are shown in the preview might differ from the following image.
 
     These values were determined by converting the consumed kWh to MWh: 3519.038/1000 = 3.519038 MWh
 
@@ -595,11 +576,13 @@ In this task, Alex will create a Calculation Profile for the electricity purchas
     -   N<sub>2</sub>O: 0.025 \* 298 = 7.45 lb
     -   CO<sub>2</sub>E: 3,029.892 + 4.85 + 7.45 = 3,042.19 lb
 
-1.  You can select **Save** to save your Calculation profile.
+1.  You can select **Save** to save your Calculation profile. Then click on **Done.**
 
     >[!NOTE] **Note:** In this scenario, the values seen in the preview may be different than the image below. If your preview does not show up, it is OK.**
 
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image059.png)
+    ![image](./Images/Lab03/image48.svg)
+
+    ![image](./Images/Lab03/image49.svg)
 
 Great job, you have helped Alex create a calculation profile for the electricity purchased by Wide World Importers for their facilities for the year 2022. This profile used the calculation model defined early in this lab. The profile was filtered to only activity data for the Wide World Importers organizational unit, and where the unit type is kWh. 
 
@@ -611,72 +594,48 @@ Calculation profiles are the mechanisms by which Calculation jobs are queued. Yo
 
 In this task, Alex will create a Calculation Profile for the miles driven by Wide World Importers’ fleet of electric vehicles for year 2022. They will use the calculation model defined earlier in this lab and filter the profile to only activity data for the Wide World Importers organizational unit, and where the unit type is mile. These filters will ensure that only the miles driven for Wide World Importers’ fleet of electric vehicles is included in the calculation job. This will exclude the purchased electricity, which was covered in the previous task.
 
-1.  Navigate to **Calculation profiles** on the left side of the page, if necessary.
-
-    ![Graphical user interface, text, application Description automatically generated with medium confidence](./Images/Lab03/L03_image060.png)
 
 1.  Select **+New Calculation profile** to create a new Calculation profile.
 
     ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image061.png)
 
-1.  The first fields of the New calcualtion profile are explained below:
-
-    -  The **Calculation profile name** is used for identifying the calculation profile in the list.
-    -  The **Emission source** is used to identify which activity data type should be used in the calculation.
-    -  The **Activity data to include in calculation** filter is used to filter activity data to a specific subset of the activity data type.
-
 1.  Populate them with the following information:
 
     (1) **Calculation profile name**: +++Electric Vehicle Miles Driven 2022+++
 
-    (2) **Emission source**: Purchased electricity
+    (2) **Module** – Select **Carbon activities**.
 
-    (3) **Activity data to include in calculation**: Organizational Unit equals Wide World Importers AND Quantity unit equals mile
+    (3) **Emission source**: Purchased electricity
+
+    (3) **Activity data to include in calculation**: Select **add>add row** and select **Organizational Unit equals Wide World Importers(Organizational unit)** and select **add>add** row again and select **Quantity unit equals mile.**
      
-    To create the filter perform the following steps:
+    (4) **Calculation model** - Select **Electric Vehicle Miles Driven - 2022** from the dropdown list.
 
-    1.  Select **Add -> Add row**.
+    (5) **Schedule** - Select the **Automatically run this calculation when data is refreshed** checkbox.
 
-        ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image062.png)
-        
-    1.  In the **Select a field** dropdown, choose **Organizational Unit**.
+The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
 
-        ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image063.png)
+    o	The Calculation profile name identifies the calculation profile in the list.
 
-    1.  In the **Value** dropdown, choose **Wide World Importers (Organizational unit)**.
+    o	The Module is used to identify which data types should appear in the Activity data field.
+    
+    o	The Emissions source identifies which activity data type should be used in the calculation.
 
-        ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image064.png)
+    o	Use Activity data to include in calculation to filter activity data to a specific subset of the activity data type.
 
-    1.  Select **Add -> Add row** again.
+    o	The Calculation model identifies which calculation model should be used for the calculation. Be sure to choose the calculation model from the dropdown list.
 
-        ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image065.png)
+    o	Use Automatically run this calculation when data is refreshed to automatically trigger calculations when the matching activity data is refreshed.
 
-    1.  In the **Select a field** dropdown, choose **Quantity unit**.
+    o	The form should resemble the following image. Select **Next**.
 
-        ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image066.png)
+![image](./Images/Lab03/image50.svg)
 
-    1.  In the **Value** dropdown, choose **mile**.
+Note - Make sure that you select the calculation model from the dropdown list.
 
-        ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image067.png)
+The Preview page of the New calculation profile wizard shows the emissions that were calculated for the first row of data that matches your Activity data to include filter. In this scenario, the values that are shown in the preview might differ from the following image.
 
-1.  The final fields of the New calculation profile wizard are explained below:
-
-    - The **Calculation model** is used to identify which calculation model should be used for the calculation. Choose the **Calculation model** from the dropdown list
-    - **Automatically run this calculation when data is refreshed** is used to automatically trigger calculations when the matching activity data is refreshed.
-
-1. Set the remaining fields as follows:
-
-    (4) Select **Electric Vehicle Miles Driven - 2022** from the **Calculation model** dropdown list.   
-
-    (5) Check **Schedule Automatically run**.
-
-    (6) The form should resemble the image below. Select **Next**.
-
-    ![Graphical user interface Description automatically generated with medium confidence](./Images/Lab03/L03_image068.png)
-
-    On the **Preview** page of the New calculation profile wizard you will see the emissions calculated for the first row of data that matches your Activity data to include filter. 
-
-    These values were determined by converting the miles driven to kWh: (7484.724 / 100) \* 49 = 3667.515 kWh
+These values were determined by converting the miles driven to kWh: (7484.724 / 100) \* 49 = 3667.515 kWh
 
     The consumed kWh converted to MWh: 3667.515/1000 = 3.667515 MWh
 
@@ -695,11 +654,13 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
     -   N<sub>2</sub>O: 0.033 \* 298 = 9.834 lb
     -   CO<sub>2</sub>E: 3,001.127 + 5.95 + 9.834 = 3,016.911 lb
 
-1. You can select **Save** to save your Calculation profile and select **Done** if necessary.
+3. Select **Save** to save your calculation profile.
 
->[!NOTE]**Note**: In this scenario, the values seen in the preview may be different than the image below.
+   ![image](./Images/Lab03/image51.svg)
 
-![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image069.png)
+4. Click on **Done**
+
+![image](./Images/Lab03/image52.svg)
 
 Great job, you have helped Alex create another calculation profile using the calculation model defined earlier in this lab. You filtered the profile to only activity data for the Wide World Importers organizational unit, and where the unit type is mile to ensure ensure that only the miles driven for Wide World Importers’ fleet of electric vehicles is included in the calculation job. 
 
@@ -711,17 +672,13 @@ Calculation profiles are the mechanisms by which Calculation jobs are queued. Yo
 
 In this task, Alex will run the newly created Calculation Profiles for the electricity purchased by Wide World Importers and miles driven by Wide World Importers fleet of electric vehicles. This will create a calculation job that will iterate over each activity data row matching the Calculation Profile filter criteria and use the Calculation Models created earlier in this lab to calculate the carbon emissions for each row. The results will be placed in the emissions table, which Alex will review once the calculations complete.
 
-1.  Navigate to **Calculation profiles** on the left side of the page, if necessary.
-
-    ![Graphical user interface, text, application Description automatically generated with medium confidence](./Images/Lab03/L03_image060.png)
-
 1.  To run the calculation profile for **Purchased Electricity: Contractual Instrument Type - 2022**:
 
     (1) Select **Purchased Electricity: Contractual Instrument Based - 2022 - Wide World Importers** in the list.
 
     (2) Select **Run calculation** on the command bar.
 
-    ![Graphical user interface, text, application Description automatically generated](./Images/Lab03/L03_image071.png)
+    ![image](./Images/Lab03/image53.svg)
 
 1.  To run the calculation profile for **Electric Vehicle Miles Driven - 2022**:
 
@@ -729,39 +686,36 @@ In this task, Alex will run the newly created Calculation Profiles for the elect
 
     (2) Select **Run calculation** on the command bar.
 
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab03/L03_image072.png)
+     ![image](./Images/Lab03/image54.svg)
 
 1.  After several minutes (approximately 6 minutes) both calculation jobs should be completed. Alex selects the **Refresh** button on the command bar to check the status of the calculation jobs. The two Calculation profiles should now have a status of **Succeeded**. If you are unable to see the column with **Succeeded**, you can scroll to the bottom and then to the right.
 
-    ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab03/L03_image073.png)
+     ![image](./Images/Lab03/image55.svg)
 
 1.  In the bottom left corner, change the Area to **Analytics**.
 
-    ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab03/L03_image074.png)
+     ![image](./Images/Lab03/image56.svg)
 
 1.  Navigate to **All emissions** on the left side of the page.
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image075.png)
+    ![image](./Images/Lab03/image57.svg)
 
 1.  The All emissions view shows all emissions that have been calculated or directly imported.
 
-    ![A screenshot of a computer Description automatically generated](./Images/Lab03/L03_image076.png)
+    ![image](./Images/Lab03/image58.svg)
 
 1.  Filter the view by selecting the down arrow next to the **Organizational Unit** column, and selecting **Filter by**. If you are unable to see the column with **Succeeded**, you can scroll to the bottom and then to the right. 
 
-    ![Graphical user interface, application, Word Description automatically generated](./Images/Lab03/L03_image077.png)
 
-1.  Select **Wide World Importers** from the **Filter By** dialog.
+    1.  Select **Wide World Importers** from the **Filter By** dialog.
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image078.png)
+    1.  Select **Apply** to apply the filter to the column.
 
-1.  Select **Apply** to apply the filter to the column.
-
-    ![Graphical user interface, application Description automatically generated](./Images/Lab03/L03_image079.png)
+     ![image](./Images/Lab03/image59.svg)
 
 1.  After a few moments, the view will refresh, and the calculated emissions data for each of the activity data records imported in previous labs will be shown. Scroll to the right to see the CO<sub>2</sub>E carbon emission values.
 
-    ![A screenshot of a computer Description automatically generated](./Images/Lab03/L03_image080.png)
+     ![image](./Images/Lab03/image60.svg)
 
 Great job, by completing these steps you have helped Alex, the Emissions Analyst, run the newly created Calculation Profiles for the electricity purchased by Wide World Importers and miles driven by Wide World Importers fleet of electric vehicles.
 
