@@ -74,7 +74,7 @@ In this lab exercise, we will focus on the scenarios illustrated below:
 
 ## Exercise 1: Set up company profile and reference data
 
-In this exercise, you will learn about the steps that Alex and Reed take to set up Wide World Imports company profile, organizational data, reporting years and reference data. You can explore this functionality in deeper detail on Microsoft Docs. To do this visit **Set up a company profile** at +++https://docs.microsoft.com/en-us/industry/sustainability/setup-company-profile+++.
+In this exercise, you will learn about the steps that Alex and Reed take to set up Wide World Imports company profile, organizational data, reporting years and reference data. You can explore this functionality in deeper detail on Microsoft Docs. To do this visit **Set up a company profile** at https://docs.microsoft.com/en-us/industry/sustainability/setup-company-profile.
 
 1. Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
 
