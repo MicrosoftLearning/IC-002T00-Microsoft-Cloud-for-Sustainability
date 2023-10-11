@@ -52,11 +52,11 @@ In this lab exercise, we will focus on the scenarios illustrated below:
 
 ## Exercise 1: Define sustainability goals
 
-In this exercise, you will learn about the steps that Amber takes to create scorecards and goals to help Wide World Importers track carbon reduction progress. Based on the results of the previous lab, Amber has determined that Wide World Importers needs to reduce their Scope 2: Purchased electricity carbon emissions. Scorecards and goals allow organizations to set carbon reduction targets and track their progress to that. You can explore this functionality in deeper detail on Microsoft Docs, please visit Overview of scorecards and goals +++https://docs.microsoft.com/en-us/industry/sustainability/reports-scorecards-goals+++.
+In this exercise, you will learn about the steps that Amber takes to create scorecards and goals to help Wide World Importers track carbon reduction progress. Based on the results of the previous lab, Amber has determined that Wide World Importers needs to reduce their Scope 2: Purchased electricity carbon emissions. Scorecards and goals allow organizations to set carbon reduction targets and track their progress to that. You can explore this functionality in deeper detail on Microsoft Docs, please visit Overview of scorecards and goals https://docs.microsoft.com/en-us/industry/sustainability/reports-scorecards-goals.
 
 1. Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
 
-1. Open a new browser window and navigate to +++https://make.powerapps.com+++.
+1. Open a new browser window and navigate to https://make.powerapps.com.
 
 1. Log into your Microsoft 365 tenant using the credentials for the tenant located on the Resources tab above.
 
@@ -86,7 +86,7 @@ In this task, Amber will create a new scorecard to track the goals for Wide Worl
 
 1.  Amber uses the following information to populate the fields on the new Scorecard.
  
-    (1) Enter the **Name**: +++Wide World Importers Reduction Plan - 2025+++
+    (1) Enter the **Name**: Wide World Importers Reduction Plan - 2025
 
     (2) Select **Save**.
 
@@ -122,9 +122,9 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
 1.  Amber uses the following information to populate these fields on the new Goal. Enter the data:
 
-    (1) **Goal name**: +++Reduce Scope 2 Emissions – 2023+++
+    (1) **Goal name**: Reduce Scope 2 Emissions – 2023
 
-    (2) **Owner**: +++MOD+++ and select **MOD Administrator**
+    (2) **Owner**: MOD and select **MOD Administrator**
 
     (3) **Scorecard**: Wide World Importers Reduction Plan - 2025
 
@@ -256,9 +256,9 @@ Sometimes we may have goals that are set to use manually check-ins if we are not
 
     (1) **Update for**: Use today’s date.
 
-    (2) **New value**: The preview value from the Source of current value connection screen. In this scenario, +++379.59+++.
+    (2) **New value**: The preview value from the Source of current value connection screen. In this scenario, 379.59.
 
-    (3) Select **Add Note** and set +++First check-in+++.
+    (3) Select **Add Note** and set First check-in.
 
     (4) Select **Save**.
 
@@ -348,7 +348,7 @@ In this task, Reed will add a new Dynamics 365 record type, Factor Library, to t
 
      ![image](./Images/Lab05/image35.svg)
 
-1.  On the **Allow chats to be connected to this record type** form, select +++Factor library+++ in the **Choose record type** lookup (you can scroll or type).
+1.  On the **Allow chats to be connected to this record type** form, select Factor library in the **Choose record type** lookup (you can scroll or type).
 
      ![image](./Images/Lab05/image36.svg)
 
