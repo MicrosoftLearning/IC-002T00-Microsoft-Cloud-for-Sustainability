@@ -52,7 +52,7 @@ In this exercise, you will take on the persona of Amber Rodriguez – Sustainabi
 
 1. Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
 
-1. Open a new browser window and navigate to +++https://make.powerapps.com+++.
+1. Open a new browser window and navigate to https://make.powerapps.com.
 
 1. Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
 
@@ -262,7 +262,7 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 
 1.  Set the following fields:
 
-    1.  **Name**: Enter the name of the report. For example: +++MC4S Emissions report+++
+    1.  **Name**: Enter the name of the report. For example: MC4S Emissions report
     1.  **Report type**: Emissions report
     1.  **Start date**: 01/01/2022
     1.  **End date**: 12/31/2022
