@@ -63,11 +63,11 @@ In this lab exercise, we will focus on the scenarios illustrated below:
 
 In this exercise, you will learn about the steps that Alex takes to define the factor mappings for Purchased electricity, and an estimation factor library for estimating the amount of electricity purchased based on the Miles driven by Wide World Importers fleet of electric trucks. While electric vehicles do not have Scope 1, direct tailpipe emissions, they do have to be charged while transporting goods, in this case - across the USA. This charging of Electric trucks results in Scope 2 purchased electricity.
 
-Wide World Importers may not know exactly how much electricity was purchased for charging the Electric Trucks, which grids the electricity came from, or what the energy source is. However, Wide World Importers can estimate the amount of electricity purchased by identifying how many kilowatt hours (kWh) are used per 100 miles, based on EPA vehicle efficiency data. You can explore this functionality in deeper detail on Microsoft Docs, please visit **Overview of Emission factors** at +++https://docs.microsoft.com/en-us/industry/sustainability/calculate-emission-factors+++.
+Wide World Importers may not know exactly how much electricity was purchased for charging the Electric Trucks, which grids the electricity came from, or what the energy source is. However, Wide World Importers can estimate the amount of electricity purchased by identifying how many kilowatt hours (kWh) are used per 100 miles, based on EPA vehicle efficiency data. You can explore this functionality in deeper detail on Microsoft Docs, please visit **Overview of Emission factors** at https://docs.microsoft.com/en-us/industry/sustainability/calculate-emission-factors.
 
 1. Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
 
-1. Open a new browser window and navigate to +++https://make.powerapps.com+++.
+1. Open a new browser window and navigate to https://make.powerapps.com.
 
 1. Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
 
@@ -139,11 +139,11 @@ In this task, Alex will create factor mappings to map the Contractual instrument
 
 1.  Alex will use the following information to populate the fields on the **New Factor mapping**:
 
-    (1) **Name**: +++FRCC - Purchased Electricity - VanArsdel Ltd+++
+    (1) **Name**: FRCC - Purchased Electricity - VanArsdel Ltd
 
-    (2) **Reference Data Name**: +++VanArsdel Ltd+++
+    (2) **Reference Data Name**: VanArsdel Ltd
 
-    (3) **Factor**: +++FRCC (FRCC All)+++
+    (3) **Factor**: FRCC (FRCC All)
 
     (4) Select **Save & Close** to save the record.
 
@@ -162,11 +162,11 @@ In this task, Alex will create factor mappings to map the Contractual instrument
 
 1.  Alex will use the following information to populate the fields on the **New Factor mapping**:
 
-    (1) **Name**: +++FRCC - Purchased Electricity - Adatum Corp+++
+    (1) **Name**: FRCC - Purchased Electricity - Adatum Corp
 
-    (2) **Reference Data**: +++Adatum Corp+++
+    (2) **Reference Data**: Adatum Corp
 
-    (3) **Factor**: +++FRCC (FRCC All)+++
+    (3) **Factor**: FRCC (FRCC All)
 
     (4) Select **Save & Close** to save the record.
 
@@ -202,11 +202,11 @@ In this task, Alex will create an estimation factor library to define the estima
 
 1.  Alex will use the following information to populate the fields on the new Factor library:
 
-    (1) **Name**: +++Electric Vehicle Estimation Library+++
+    (1) **Name**: Electric Vehicle Estimation Library
 
-    (2) **Description**: +++Scope 2 Emissions from Electric Vehicles+++
+    (2) **Description**: Scope 2 Emissions from Electric Vehicles
 
-    (3) **Documentation reference**: +++https://fueleconomy.gov/feg/byfuel/EV2022.shtml+++
+    (3) **Documentation reference**: https://fueleconomy.gov/feg/byfuel/EV2022.shtml
 
     (4) **Type**: Custom
 
@@ -249,17 +249,17 @@ In this task, Alex will create the estimation factor for estimating the kilowatt
 
 1.  Alex reviews the Fabrikam electric truck details on the EPA website and determines the following information needs to be populated on the **New Estimation factor**:
 
-    (1) **Name**: +++Fabrikam Electric Truck - EPA Estimate+++
+    (1) **Name**: Fabrikam Electric Truck - EPA Estimate
 
-    (2) **Documentation reference**: +++https://fueleconomy.gov/feg/noframes/45318.shtml+++
+    (2) **Documentation reference**: https://fueleconomy.gov/feg/noframes/45318.shtml
 
-    (3) **Factor Library**: +++Electric Vehicle Estimation Library+++.
+    (3) **Factor Library**: Electric Vehicle Estimation Library.
 
-    (4) **Unit**: +++100 Mile+++
+    (4) **Unit**: 100 Mile
 
-    (5) **Factor value**: +++49.00+++
+    (5) **Factor value**: 49.00
 
-    (6) **Factor value unit**: +++kWh+++
+    (6) **Factor value unit**: kWh
 
     (7) Select **Save & Close** to save the record.
 
@@ -277,7 +277,7 @@ Great job, you have helped Alex create an estimation factor for estimating the k
 
 In this exercise, you will learn about the steps that Alex takes to define Calculation Models used by Microsoft Sustainability Manager to calculate emissions. Calculation Models are the instruction sets, or recipes, which define all the steps and values to use during the emission calculations. Microsoft Sustainability Manager provides several calculation models.
 
-Take the opportunity review some of the pre-built models, they are a great source of knowledge when creating new calculation models. The calculation models can also be used as a template for new models.. The algorithm used to calculate emissions will be discussed in this exercise and the next. You can explore this functionality in deeper detail on Microsoft Docs, please visit ***Overview of Calculation models*** at +++https://docs.microsoft.com/en-us/industry/sustainability/calculate-calculation-models+++.
+Take the opportunity review some of the pre-built models, they are a great source of knowledge when creating new calculation models. The calculation models can also be used as a template for new models.. The algorithm used to calculate emissions will be discussed in this exercise and the next. You can explore this functionality in deeper detail on Microsoft Docs, please visit ***Overview of Calculation models*** at https://docs.microsoft.com/en-us/industry/sustainability/calculate-calculation-models.
 
 ### Task 1: Create Purchased Electricity Model
 
@@ -304,15 +304,15 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
 1.  Populate the **Source** action with the following data:
 
-    (1) **Category name**: +++Purchased Electricity: Contractual Instrument Based - 2022+++
+    (1) **Category name**: Purchased Electricity: Contractual Instrument Based - 2022
 
     (2) **Module**: Carbon activities
 
     (3) **Activity data**: Purchased electricity
 
-    (4) **Calculation method**: +++EPA Equation 1: Electricity (MWh) \* EF+++
+    (4) **Calculation method**: EPA Equation 1: Electricity (MWh) \* EF
 
-    (5) **Documentation reference**: +++https://www.epa.gov/sites/default/files/2020-12/documents/electricityemissions.pdf+++
+    (5) **Documentation reference**: https://www.epa.gov/sites/default/files/2020-12/documents/electricityemissions.pdf
 
     (6) Select **Save** to save the record.
 
@@ -324,7 +324,7 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
 1.  Select **Report** on the list of **Available actions**.
 
-    >[!NOTE] **Note**: Only **Source**, **Report**, and **Estimation** actions are covered in this lab. Additional details about each available action can be found in **Calculation models** at +++https://docs.microsoft.com/en-us/industry/sustainability/calculate-calculation-models#add-a-calculation-model+++.
+    >[!NOTE] **Note**: Only **Source**, **Report**, and **Estimation** actions are covered in this lab. Additional details about each available action can be found in **Calculation models** at https://docs.microsoft.com/en-us/industry/sustainability/calculate-calculation-models#add-a-calculation-model.
 
     ![image](./Images/Lab03/image31.svg)
 
@@ -355,9 +355,9 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
 1.  Populate the **Report action** with the following data:
 
-    (1) **Category name**: +++Electricity \* EF (Contractual Instrument Type)+++
+    (1) **Category name**: Electricity \* EF (Contractual Instrument Type)
 
-    (2) **Description**: +++EPA Equation 1: Electricity (MWh) \* EF+++
+    (2) **Description**: EPA Equation 1: Electricity (MWh) \* EF
 
     (3) **Emission report value**: Quantity
 
@@ -399,13 +399,13 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
 1.  Populate the Source action with the following data:
 
-    (1) **Category name**: +++Electric Vehicle Miles Driven - 2022+++
+    (1) **Category name**: Electric Vehicle Miles Driven - 2022
 
     (2) **Activity data**: Purchased electricity
 
-    (3) **Calculation method**: +++Miles Driven to kWh \* EF+++
+    (3) **Calculation method**: Miles Driven to kWh \* EF
 
-    (4) **Documentation reference**: +++https://fueleconomy.gov/feg/byfuel/EV2022.shtml+++
+    (4) **Documentation reference**: https://fueleconomy.gov/feg/byfuel/EV2022.shtml
 
     (5) Select **Save** to save the record.
 
@@ -443,7 +443,7 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
 1.  Populate the Estimation factor action with the following data:
 
-    (1) **Category name**: +++Estimate kWh/100 Mile+++
+    (1) **Category name**: Estimate kWh/100 Mile
 
     (2) **Estimation value**: Quantity
 
@@ -453,7 +453,7 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
     (5) **Estimation factor**: Fabrikam Electric Truck - EPA Estimate
 
-    (6) **Output variable name**: +++kWhQuantity+++
+    (6) **Output variable name**: kWhQuantity
 
     (7) Select **Save** to save the record.
 
@@ -483,13 +483,13 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
 1.  Populate the Report action with the following data:
 
-    (1) **Category name**: +++kWh \* EF+++
+    (1) **Category name**: kWh \* EF
 
     (2) **Emission report value**: kWhQuantity and **Unit**: kWh
 
     (3) **Emission factor library**: EPA 2022 - eGrid (make sure you select the correct library)
 
-    (4) **Emission factor**: +++US Average+++
+    (4) **Emission factor**: US Average
 
     (5) Select **Save** to save the record.
 
@@ -507,7 +507,7 @@ Calculation models are the instruction sets that are used by Microsoft Cloud for
 
 ## Exercise 3: Run Calculations
 
-In this exercise, you will learn about the steps that Alex takes to define and run Calculation Profiles. Microsoft Sustainability Manager uses calculation profiles to define the parameters and scheduling of calculation jobs. Calculation profiles allow an organization to define what activity data to calculate emissions for, any filters on that data, which Calculation model to use, and if the calculation should be redone every time the chosen activity data changes. Calculation profiles use the parameters to create calculation jobs, which are the background worker jobs iterating over an organization’s activity data and determining the carbon emissions, based on the calculation model defined in the calculation profile. You can explore this functionality in deeper detail on Microsoft Docs, please visit **Overview of Calculation profiles** at +++https://docs.microsoft.com/en-us/industry/sustainability/calculate-calculation-models#calculation-profile+++.
+In this exercise, you will learn about the steps that Alex takes to define and run Calculation Profiles. Microsoft Sustainability Manager uses calculation profiles to define the parameters and scheduling of calculation jobs. Calculation profiles allow an organization to define what activity data to calculate emissions for, any filters on that data, which Calculation model to use, and if the calculation should be redone every time the chosen activity data changes. Calculation profiles use the parameters to create calculation jobs, which are the background worker jobs iterating over an organization’s activity data and determining the carbon emissions, based on the calculation model defined in the calculation profile. You can explore this functionality in deeper detail on Microsoft Docs, please visit **Overview of Calculation profiles** at https://docs.microsoft.com/en-us/industry/sustainability/calculate-calculation-models#calculation-profile.
 
 ### Task 1: Create Purchased Electricity Calculation Profile
 
@@ -525,7 +525,7 @@ In this task, Alex will create a Calculation Profile for the electricity purchas
  
 1.  Populate the following information on the New calculation profile wizard.
 
-    (1) **Calculation profile name**: +++Purchased Electricity: Contractual Instrument Based 2022 Wide World Importers+++
+    (1) **Calculation profile name**: Purchased Electricity: Contractual Instrument Based 2022 Wide World Importers
 
     (2) **Module** – Select **Carbon activities.**
 
@@ -601,7 +601,7 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
 
 1.  Populate them with the following information:
 
-    (1) **Calculation profile name**: +++Electric Vehicle Miles Driven 2022+++
+    (1) **Calculation profile name**: Electric Vehicle Miles Driven 2022
 
     (2) **Module** – Select **Carbon activities**.
 
