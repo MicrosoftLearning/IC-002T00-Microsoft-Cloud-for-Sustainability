@@ -141,7 +141,7 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
   ![image](./Images/Lab01/image16.svg)
 
 
-1. Select **Contoso USA** and select **Add** to add a new organizational unit under it.
+9. Select **Contoso USA** and select **Add** to add a new organizational unit under it.
 
     ![image](./Images/Lab01/image17.svg)
 
