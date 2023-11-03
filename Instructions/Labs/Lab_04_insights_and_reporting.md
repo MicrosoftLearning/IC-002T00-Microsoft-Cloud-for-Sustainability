@@ -52,17 +52,17 @@ In this exercise, you will take on the persona of Amber Rodriguez – Sustainabi
 
 1. Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
 
-1. Open a new browser window and navigate to https://make.powerapps.com.
+2. Open a new browser window and navigate to https://make.powerapps.com.
 
-1. Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
+3. Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
 
-1. If needed, change the environment to **Microsoft Cloud for Sustainability Trial** on the top bar.
+4. If needed, change the environment to **Microsoft Cloud for Sustainability Trial** on the top bar.
 
-1. Open the **Sustainability Manager** Application.
+5. Open the **Sustainability Manager** Application.
 
 ![image](./Images/Lab04/image5.svg)
 
->[!ALERT] **Important** Please make sure that you have completed the previous labs to ensure that the dashboards and reports show meaningful data.
+**Important** Please make sure that you have completed the previous labs to ensure that the dashboards and reports show meaningful data.
 
 ### Task 1: Explore Sustainability Dashboards
 
@@ -72,26 +72,23 @@ In this task, Amber explores the various **Sustainability** dashboards which pro
 
     ![image](./Images/Lab04/image6.svg)
 
-1.  Select **Insights** on the left pane.
+2.  Select **Insights** on the left pane.
 
       ![image](./Images/Lab04/image7.svg)
 
-1.  The page displays the **Emissions overview** dashboard, the dashboard is filtered by selecting a reporting period and accounting method. The top tile in the dashboard has four tabs: All emissions, By month (comparison), By scope, and By scope (line chart). The first, third, and fourth tabs have a toggle that is used to **Show a comparison by year**. When the toggle is off, data for the selected reporting period is shown in a monthly view. When the toggle is on, all available years are shown on a trend chart. The details around each of the tabs in the top tile are as follows:
+3.  The page displays the **Emissions overview** dashboard, the dashboard is filtered by selecting a reporting period and accounting method. The top tile in the dashboard has four tabs: All emissions, By month (comparison), By scope, and By scope (line chart). The first, third, and fourth tabs have a toggle that is used to **Show a comparison by year**. When the toggle is off, data for the selected reporting period is shown in a monthly view. When the toggle is on, all available years are shown on a trend chart. The details around each of the tabs in the top tile are as follows:
 
     -   (1) All emissions – This tab shows total emissions over time.
     -   (2) By month - This tab shows a breakdown of emissions by month for the selected reporting period.
     -   (3) By scope – This tab shows a breakdown of emissions by scope 1, scope 2, and scope 3. It includes a chart for each scope.
     -   (4) By scope (line chart) – This tab shows each scope as a separate line on one chart. Therefore, you can easily compare emissions by scope over time.
-
-    (5) The **By source and scope** tile at the bottom shows a further breakdown of data in each scope. It shows specific sources and their contribution to emissions overall.
-
-    (6) The tile at the bottom right has three tabs: **By country/region**, **By organizational unit**, and **By facility**. Each tab shows a breakdown of emissions by scope 1, scope 2, and scope 3.
-
-    (7) Select **2022** under **Filters : Reporting period** on the left side to explore the data. **Note**: The data in the image below may not match your data.
+    -   (5) The **By source and scope** tile at the bottom shows a further breakdown of data in each scope. It shows specific sources and their contribution to emissions overall.
+    -   (6) The tile at the bottom right has three tabs: **By country/region**, **By organizational unit**, and **By facility**. Each tab shows a breakdown of emissions by scope 1, scope 2, and scope 3.
+    -   (7) Select **2022** under **Filters : Reporting period** on the left side to explore the data. **Note**: The data in the image below may not match your data.
 
     ![image](./Images/Lab04/image8.svg)
 
-1.  Select **Scope 1** on the top tab to view the Scope 1 emissions dashboard. Scope 1 emissions are emissions that are owned or directly controlled by the organization. Like the Emissions overview, the **Scope 1 emissions** dashboard lets users view scope 1 emissions by reporting period.
+4.  Select **Scope 1** on the top tab to view the Scope 1 emissions dashboard. Scope 1 emissions are emissions that are owned or directly controlled by the organization. Like the Emissions overview, the **Scope 1 emissions** dashboard lets users view scope 1 emissions by reporting period.
 
     (1) Summary statistics can be viewed in the left tile. These statistics include the total scope 1 emissions for the current reporting period compared to the previous period. They also include emissions by source type and emissions broken down by greenhouse emissions. Greenhouse emissions include the following gases:
 
@@ -116,7 +113,7 @@ In this task, Amber explores the various **Sustainability** dashboards which pro
 
     ![image](./Images/Lab04/image9.svg)
 
-1.  Select **Scope 2** on the top tab to view the Scope 2 emissions dashboard. Scope 2 are emissions that a company causes indirectly when the energy it purchases and uses. For example, for Wide World electric fleet vehicles the emissions from the generation of the electricity they're powered by would fall into this category. Just as with other dashboards, the **Scope 2 emissions** dashboard lets users view scope 2 emissions by reporting period and accounting method.
+5.  Select **Scope 2** on the top tab to view the Scope 2 emissions dashboard. Scope 2 are emissions that a company causes indirectly when the energy it purchases and uses. For example, for Wide World electric fleet vehicles the emissions from the generation of the electricity they're powered by would fall into this category. Just as with other dashboards, the **Scope 2 emissions** dashboard lets users view scope 2 emissions by reporting period and accounting method.
 
     (1) The summary statistics can be viewed in the left tile. These statistics include the total scope 2 emissions for the selected reporting period compared to the previous period. They also include scope 2 emissions by source. Scope 2 emissions have the following sources:
 
@@ -131,7 +128,7 @@ In this task, Amber explores the various **Sustainability** dashboards which pro
 
     ![image](./Images/Lab04/image10.svg)
 
-1.  Select **Scope 3** on the top tab to view the Scope 3 emissions dashboard. Scope 3 emissions are the result of activities from assets not owned or controlled by the reporting organization, but that the organization indirectly impacts its value chain. Scope 3 emissions include all sources not within an organization's scope 1 and 2 boundary. The **Scope 3 emissions** dashboard in Microsoft Sustainability Manager lets you view scope 3 emissions by reporting period.
+6.  Select **Scope 3** on the top tab to view the Scope 3 emissions dashboard. Scope 3 emissions are the result of activities from assets not owned or controlled by the reporting organization, but that the organization indirectly impacts its value chain. Scope 3 emissions include all sources not within an organization's scope 1 and 2 boundary. The **Scope 3 emissions** dashboard in Microsoft Sustainability Manager lets you view scope 3 emissions by reporting period.
 
     (1) Summary statistics can be viewed in the left tile. These statistics include the total scope 3 emissions for the reporting period compared to the previous period. The tile also shows all categories of scope 3 emissions classified as either upstream or downstream. Scope 3 emissions have the following fifteen categories.
 
@@ -170,7 +167,7 @@ In this task, Amber explores the various **Sustainability** dashboards which pro
 
      ![image](./Images/Lab04/image11.svg)
 
-1.  Select **Renewable energy** on the top tab to view the summary view of renewable energy, its sources, and the contract type.
+7.  Select **Renewable energy** on the top tab to view the summary view of renewable energy, its sources, and the contract type.
 
     (1) The summary statistics can be viewed in the left tile. These statistics include renewable energy as a total percentage of energy that was used for the selected reporting period compared to the previous period. The tile also shows the percentage of renewable energy by source type, such as solar, wind, and water.
 
@@ -182,7 +179,7 @@ In this task, Amber explores the various **Sustainability** dashboards which pro
 
     ![image](./Images/Lab04/image12.svg)
 
-1.  Select **Deep analysis** on the top tab to dive deeper into data and uncover insights that might not be available from other reports. The dashboard can be filtered by selecting a reporting period and accounting method.
+8.  Select **Deep analysis** on the top tab to dive deeper into data and uncover insights that might not be available from other reports. The dashboard can be filtered by selecting a reporting period and accounting method.
 
     The **Decomposition tree** can be used to drill down from the company-level to more granular levels of the organization, and to access:
 
@@ -196,23 +193,23 @@ In this task, Amber explores the various **Sustainability** dashboards which pro
 
     ![image](./Images/Lab04/image13.svg)
 
-1.  Amber drills into our decomposition tree to identify where our high sources of emissions are. Select the **+** next to **Total emissions**, and select **Scope**. (Images may not match displayed data.)
+9.  Amber drills into our decomposition tree to identify where our high sources of emissions are. Select the **+** next to **Total emissions**, and select **Scope**. (Images may not match displayed data.)
 
     ![image](./Images/Lab04/image14.svg)
 
-1.  Amber can see which scope has the largest volume of emissions. Select the **+** next to **Scope 2**, and select **Emission source** to identify which Scope 2 emission source is biggest contributor.
+10.  Amber can see which scope has the largest volume of emissions. Select the **+** next to **Scope 2**, and select **Emission source** to identify which Scope 2 emission source is biggest contributor.
 
     ![image](./Images/Lab04/image15.svg)
 
-1.  It seems that Purchased electricity was the biggest contributor of emissions. Select the **+** next to **Purchased electricity** and select **Country/region** to identify which regions were contributing to the large Purchased electricity emissions.
+11.  It seems that Purchased electricity was the biggest contributor of emissions. Select the **+** next to **Purchased electricity** and select **Country/region** to identify which regions were contributing to the large Purchased electricity emissions.
 
     ![image](./Images/Lab04/image16.svg)
 
-1.  The USA contributed the most to the Purchased Electricity emissions. The Country/Region selection is driven by the country region mapping table found in the Settings area. Select the **+** next to **USA** and select **Organization** to see which organizations contributed to this.
+12.  The USA contributed the most to the Purchased Electricity emissions. The Country/Region selection is driven by the country region mapping table found in the Settings area. Select the **+** next to **USA** and select **Organization** to see which organizations contributed to this.
 
     ![image](./Images/Lab04/image17.svg)
 
-1.  You can see the organizations with the largest to lowest contributor to Contoso Corp’s carbon emissions
+13.  You can see the organizations with the largest to lowest contributor to Contoso Corp’s carbon emissions
 
     ![image](./Images/Lab04/image18.svg)
     
@@ -244,7 +241,6 @@ You've now successfully explored various Sustainability dashboards. You can use 
 
 Great job, you have successfully explored various Sustainability dashboards with Amber to gain insights into the emissions data. You can see as you drilled down from total emissions to the organization level, Amber was able to determine that Wide World Importers needs to reduce the carbon emissions from Purchased electricity. This could be achieved in a variety of ways such as switching to renewable energy sources or using more energy efficient devices and vehicles. You and she can use these insights to drive business decisions and use the information to create scorecards and goals to track progress. **Please continue to the next task.**
 
-===
 
 ## Exercise 2: Generate Quantitative preparation report
 
@@ -256,11 +252,11 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 
     ![image](./Images/Lab04/image25.svg)
 
-1.  Select **New**.
+2.  Select **New**.
 
    ![image](./Images/Lab04/image26.svg)
 
-1.  Set the following fields:
+3.  Set the following fields:
 
     1.  **Name**: Enter the name of the report. For example: MC4S Emissions report
     1.  **Report type**: Emissions report
@@ -269,7 +265,7 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 
     Fields can be selected to group data by, or column headers for the report. The available fields for Emissions report are **Country/Region**, **Regional group**, **Latitude/Longitude**, **Organization unit**, **Facility**, **Is market based**, **Is biogenic**, **Scope**, **Emission source**, **Activity type**. (The **Organization hierarchy date** field appears only after the **Organization unit** field is selected.).
 
-1. For this task, Jessie will just set the following fields to **Yes** for use in Contoso Corp’s carbon emissions reporting for public disclosure:
+4. For this task, Jessie will just set the following fields to **Yes** for use in Contoso Corp’s carbon emissions reporting for public disclosure:
 
     - **Country/Region**
     - **Regional group**
@@ -278,27 +274,27 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
     - **Emissions source**
     - **Activity type** 
 
-1. Once these are selected, select **Save** on the top command bar.
+5. Once these are selected, select **Save** on the top command bar.
 
     ![image](./Images/Lab04/image27.svg)
 
    ![image](./Images/Lab04/image28.svg)
 
-1.  Once the report is saved, the **Generate report** button will be visible on the command bar. Select **Generate report** and then the report is queued to be generated.
+6.  Once the report is saved, the **Generate report** button will be visible on the command bar. Select **Generate report** and then the report is queued to be generated.
 
     ![image](./Images/Lab04/image29.svg)
 
-1.  Select **Refresh** button on the command bar until the **Report generation status** is changed from **Pending** to **Ready for download.** This may take a few minutes to generate.
+7.  Select **Refresh** button on the command bar until the **Report generation status** is changed from **Pending** to **Ready for download.** This may take a few minutes to generate.
 
     ![image](./Images/Lab04/image30.svg)
 
     ![image](./Images/Lab04/image31.svg)
 
-1.  Once the status is changed, a **Download report** button is visible in the command bar. Select that button to download the generated report. An Excel report begins to be downloaded. Open the report.
+8.  Once the status is changed, a **Download report** button is visible in the command bar. Select that button to download the generated report. An Excel report begins to be downloaded. Open the report.
 
   ![image](./Images/Lab04/image32.svg)
 
-1.  The reports contain the following information:
+9.  The reports contain the following information:
     - The **Group by** column headers that were selected. In this case, it is grouped by Country/Region, Regional group, Facility, Scope, Emissions source, and Activity type
     - The following emission metrics: **CO<sub>2</sub>**, **CH<sub>4</sub>**, **N<sub>2</sub>O**, **SF<sub>6</sub>**, **NF<sub>3</sub>**, **CO<sub>2</sub>E**, **HFCs**, **PFCs**, and **Other GHGs.**
 
@@ -306,6 +302,5 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 
 Great job, you have helped Jessie successfully generate an emissions report. Emissions reports are useful for providing information in public disclosures. Microsoft Sustainability provides this information in a tabular format to allow you to adapt it to meet the rapidly changing regulatory requirements. There is a great opportunity for partners to assist in the generation of the disclosure documents by configuring an emissions report to export data in a consistent and familiar format for ingestion into a partner solution. This report can be used in conjunction with the activity report, which will be generated in the next task. **Please continue to the next task.**
 
-===
 
 **Congratulations!** Amber is now comfortable using the dashboards to gain insights into the emissions data. She can use these insights to drive business decisions and use the information to create scorecards and goals to track progress. In addition, Jessie can now build the emission and activity reports and include them in the sustainability reporting procedures for Contoso Corp. These reports will help develop goals that can be tracked using Scorecards, which will be created in the next lab.
