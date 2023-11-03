@@ -48,7 +48,6 @@ In this lab exercise, we will focus on the scenarios illustrated below:
 
 ![image](./Images/Lab05/image000.svg)
 
-===
 
 ## Exercise 1: Define sustainability goals
 
@@ -56,13 +55,13 @@ In this exercise, you will learn about the steps that Amber takes to create scor
 
 1. Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
 
-1. Open a new browser window and navigate to https://make.powerapps.com.
+2. Open a new browser window and navigate to https://make.powerapps.com.
 
-1. Log into your Microsoft 365 tenant using the credentials for the tenant located on the Resources tab above.
+3. Log into your Microsoft 365 tenant using the credentials for the tenant located on the Resources tab above.
 
-1. If needed, change the environment to **Microsoft Cloud for Sustainability Trial** on the top bar.
+4. If needed, change the environment to **Microsoft Cloud for Sustainability Trial** on the top bar.
 
-1. Open the Sustainability Manager Application.
+5. Open the Sustainability Manager Application.
 
     ![image](./Images/Lab05/image2.svg)
 
@@ -76,25 +75,25 @@ In this task, Amber will create a new scorecard to track the goals for Wide Worl
 
     ![image](./Images/Lab05/image3.svg)
 
-1.  Navigate to **Scorecards and goals** on the left side of the page.
+2.  Navigate to **Scorecards and goals** on the left side of the page.
 
    ![image](./Images/Lab05/image4.svg)
    
-1.  On the **Scorecards** view, select **+Add Scorecard**.
+3.  On the **Scorecards** view, select **+Add Scorecard**.
 
     ![image](./Images/Lab05/image5.svg)
 
-1.  Amber uses the following information to populate the fields on the new Scorecard.
+4.  Amber uses the following information to populate the fields on the new Scorecard.
  
     (1) Enter the **Name**: Wide World Importers Reduction Plan - 2025
 
     (2) Select **Save**.
 
-    > [!NOTE] **Note:** The name of the scorecard is used for identifying the scorecard in the list.
+    **Note:** The name of the scorecard is used for identifying the scorecard in the list.
 
    ![image](./Images/Lab05/image7.svg)
 
-1.  Your new Scorecard will open automatically.
+5.  Your new Scorecard will open automatically.
 
    ![image](./Images/Lab05/image8.svg)
 
@@ -108,7 +107,7 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
     ![image](./Images/Lab05/image9.svg)
 
-1. The first fields of the goal are explained below: 
+2. The first fields of the goal are explained below: 
 
     - **Goal name** is used for identifying the goal in the list.
     - **Owner** is used to identify the primary person responsible for monitoring and tracking goal progress.
@@ -120,7 +119,7 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
     - **Starting value** is used to specify your starting point for the goal.
     - **Source of current value** is used to specify what the source of the current value is, if set to Enter Manually, or where to retrieve the current value from each day. The **Source of current value** can be a roll up from other child goals, or as in this scenario, Connected to data.
 
-1.  Amber uses the following information to populate these fields on the new Goal. Enter the data:
+3.  Amber uses the following information to populate these fields on the new Goal. Enter the data:
 
     (1) **Goal name**: Reduce Scope 2 Emissions – 2023
 
@@ -134,15 +133,15 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
     (6) **End date**: 12/31/2023 (select from calendar, do not type)
 
-    >[!NOTE] **Note**: The automatic check-in process will not perform a check-in if the current date is outside of the Start and End date range. Wide World Importers chose 12/31/2022 to include the final calculation of 2022 as the first, or base, check-in value for the new goal
+    **Note**: The automatic check-in process will not perform a check-in if the current date is outside of the Start and End date range. Wide World Importers chose 12/31/2022 to include the final calculation of 2022 as the first, or base, check-in value for the new goal
    
     ![image](./Images/Lab05/image10.svg)
 
-1. Under Progress tracker, enter Unit of measure – mtCO2e and Starting value - 900
+4. Under Progress tracker, enter Unit of measure – mtCO2e and Starting value - 900
 
    ![image](./Images/Lab05/image11.svg)
 
-3. Select Connect to data for Source of current value. Click on Set up connection. Enter the following details:
+5. Select Connect to data for Source of current value. Click on Set up connection. Enter the following details:
 
     1. Data source – **Emission**
 
@@ -158,11 +157,11 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
    ![image](./Images/Lab05/image13.svg)
 
-4. The connection is completed successfully.
+6. The connection is completed successfully.
 
     ![image](./Images/Lab05/image14.svg)
 
-6. The following list provides descriptions of the data that you’re entering:
+7. The following list provides descriptions of the data that you’re entering:
 
    o	**Name** – Use to identify the goal in the list.
 
@@ -188,29 +187,29 @@ In this task, Amber will create a new goal instructing Wide World Importers to r
 
        o   Select **Confirm** when you’re finished.
 
-1. Scroll down on the **Add a goal** page. For **Source of target value** – Select **Enter manually**. Select **600** for **Target value**.
+8. Scroll down on the **Add a goal** page. For **Source of target value** – Select **Enter manually**. Select **600** for **Target value**.
 
    ![image](./Images/Lab05/image15.svg)
 
-3. Select **Automatic** for **Status update method**. Click on **Set up status rules.**
+9. Select **Automatic** for **Status update method**. Click on **Set up status rules.**
 
     ![image](./Images/Lab05/image16.svg)
    
-5. Click on **Add rule.**
+10. Click on **Add rule.**
 
     ![image](./Images/Lab05/image17.svg)
    
-7. In the Operator dropdown menu, select **is greater than**. In the Value field, which currently shows **0**, enter **600**. Select **At risk** from the **Set status** to dropdown menu. This option specifies that if the check-in value is greater than 600 (the target value), then the organization is at risk and so the check-in will have a status of **At risk**. In the **Otherwise**, **set status to** dropdown menu, select **On track.**
+11. In the Operator dropdown menu, select **is greater than**. In the Value field, which currently shows **0**, enter **600**. Select **At risk** from the **Set status** to dropdown menu. This option specifies that if the check-in value is greater than 600 (the target value), then the organization is at risk and so the check-in will have a status of **At risk**. In the **Otherwise**, **set status to** dropdown menu, select **On track.**
 
     ![image](./Images/Lab05/image18.svg)
    
-9. The above option specifies that if the condition isn't met during a check-in, then you're on track to meeting the goal and so the check-in will have a status of **On track**. The status rules should resemble the following image. Select **Confirm**.
+12. The above option specifies that if the condition isn't met during a check-in, then you're on track to meeting the goal and so the check-in will have a status of **On track**. The status rules should resemble the following image. Select **Confirm**.
 
-11. Select **Save** on **Add a goal page**.
+13. Select **Save** on **Add a goal page**.
 
     ![image](./Images/Lab05/image19.svg)
     
-13. The new goal should be visible in the list of goals for the scorecard.
+14. The new goal should be visible in the list of goals for the scorecard.
 
     ![image](./Images/Lab05/image20.svg)
 
@@ -224,7 +223,7 @@ Sometimes we may have goals that are set to use manually check-ins if we are not
 
 1.  Amber opens the goal that was created in the previous task by selecting the goal name from the list in the scorecard.
 
-1.  Amber can see:
+2.  Amber can see:
 
     (1) **Progress** towards the Reduce Scope 2 Emissions - 2023 goal
 
@@ -235,15 +234,15 @@ Sometimes we may have goals that are set to use manually check-ins if we are not
     ![image](./Images/Lab05/image21.svg)
 
 
-1.  In the **History** section, select either the **+** or the **Check-in** button to create a new Goal check-in for the first check-in.
+3.  In the **History** section, select either the **+** or the **Check-in** button to create a new Goal check-in for the first check-in.
 
     ![image](./Images/Lab05/image22.svg)
 
-1.  A **New check-in** box will appear.
+4.  A **New check-in** box will appear.
 
    ![image](./Images/Lab05/image23.svg)
 
-1.  The fields are explained below:
+5.  The fields are explained below:
 
     - **Update for** is used identify what date the check-in was for. This may be the current date or a date in the past.
     - **New value** is used to specify the current value of the goal check-in. This value will be used on the Progress chart above
@@ -252,7 +251,7 @@ Sometimes we may have goals that are set to use manually check-ins if we are not
 
     - **Note** is optionally used if you want to provide more information or context about the check-in, such as a heatwave increased heating which resulted in an abnormally high carbon emission value for this check-in.
 
-1.  Populate the **New check-in** with the following data:
+6.  Populate the **New check-in** with the following data:
 
     (1) **Update for**: Use today’s date.
 
@@ -266,7 +265,7 @@ Sometimes we may have goals that are set to use manually check-ins if we are not
 
    ![image](./Images/Lab05/image25.svg)
 
-1.  Amber now sees:
+7.  Amber now sees:
 
 
     o	Use **Update for** to identify what date the check-in was for. This date might be the current date or a date in the past.
@@ -290,13 +289,12 @@ Great job, you have helped Amber create a scorecard and goal to help Wide World 
 
 **Please continue to the next task.**
 
-===
 
 ## Exercise 2: Set up Teams collaboration
 
 In this exercise, Reed Flores – IT Admin for Wide World Importers will configure integration with Microsoft Teams for Microsoft Sustainability Manager. Microsoft Teams offers several features useful for organizations. By integrating Microsoft Cloud for Sustainability with Microsoft Teams, you can improve the collaboration between your sustainability team and improve the performance of your carbon reduction goals. You can quickly collaborate with colleagues utilizing Microsoft Teams Chat embedded in Dynamics 365.
 
->[!NOTE] **Note**: The following task, **Enable enhanced Teams Integration and Turn on Microsoft Teams chats inside Dynamics 365**” requires Global Administrator rights in your tenant. 
+**Note**: The following task, **Enable enhanced Teams Integration and Turn on Microsoft Teams chats inside Dynamics 365**” requires Global Administrator rights in your tenant. 
 
 ### Task 1: Enable enhanced Teams Integration and Turn on Microsoft Teams chats inside Dynamics 365
 
@@ -306,35 +304,35 @@ By default, the Basic and Enhanced Microsoft Teams integration is disabled in Mi
 
      ![image](./Images/Lab05/image27.svg)
 
-1.  Navigate to **Teams chat** on the left side of the page.
+2.  Navigate to **Teams chat** on the left side of the page.
 
     ![image](./Images/Lab05/image28.svg)
 
-1.  On the **Microsoft Teams collaboration and chat** page, switch **Turn on the linking of Dynamics 365 records to Microsoft Teams channels** to **Yes**. Select the **Save** button at the bottom left.
+3.  On the **Microsoft Teams collaboration and chat** page, switch **Turn on the linking of Dynamics 365 records to Microsoft Teams channels** to **Yes**. Select the **Save** button at the bottom left.
 
     ![image](./Images/Lab05/image29.svg)
 
-1.  After the page finishes saving, switch **Turn on Enhanced Microsoft Teams Integration** to **Yes**.
+4.  After the page finishes saving, switch **Turn on Enhanced Microsoft Teams Integration** to **Yes**.
 
      ![image](./Images/Lab05/image30.svg)
 
-1.  Another pop-up window will open to grant permissions. Select the user you are signed in as currently (this account must be a global administrator).
+5.  Another pop-up window will open to grant permissions. Select the user you are signed in as currently (this account must be a global administrator).
 
-1.  Select **Accept** for requested permissions. It may take several minutes to configure. Ensure you do not have pop ups blocked that may interfere with the communication. If so, turn off blockers for this website, cancel and try connecting again.
+6.  Select **Accept** for requested permissions. It may take several minutes to configure. Ensure you do not have pop ups blocked that may interfere with the communication. If so, turn off blockers for this website, cancel and try connecting again.
 
      ![image](./Images/Lab05/image31.svg)
 
-1.  Once the dialog disappears, Select the **Save** button at the bottom left.
+7.  Once the dialog disappears, Select the **Save** button at the bottom left.
 
-1.  Both Microsoft Teams Integration settings are now set to **Yes**.
+8.  Both Microsoft Teams Integration settings are now set to **Yes**.
 
      ![image](./Images/Lab05/image32.svg)
 
-1.  On the **Microsoft Teams collaboration and chat** page, switch **Turn on Microsoft Teams chats inside Dynamics 365** to **Yes**. Click on **Save.**
+9.  On the **Microsoft Teams collaboration and chat** page, switch **Turn on Microsoft Teams chats inside Dynamics 365** to **Yes**. Click on **Save.**
  
     ![image](./Images/Lab05/image33.svg)
 
-1.  Microsoft Teams chats inside Dynamics365 is now set to **Yes**, and a new section appears at the bottom of the screen called **Connect chats to Dynamics 365 records**.
+10.  Microsoft Teams chats inside Dynamics365 is now set to **Yes**, and a new section appears at the bottom of the screen called **Connect chats to Dynamics 365 records**.
 
      ![image](./Images/Lab05/image34.svg)
 
@@ -348,20 +346,20 @@ In this task, Reed will add a new Dynamics 365 record type, Factor Library, to t
 
      ![image](./Images/Lab05/image35.svg)
 
-1.  On the **Allow chats to be connected to this record type** form, select Factor library in the **Choose record type** lookup (you can scroll or type).
+2.  On the **Allow chats to be connected to this record type** form, select Factor library in the **Choose record type** lookup (you can scroll or type).
 
      ![image](./Images/Lab05/image36.svg)
 
-1.  Set the **Join chat** and **New connected chats** toggles to **Yes**. Turn the slider to **Yes** for **Provide context for new linked chats**. Select **Factor libraries** under the **Message view** dropdown menu
+3.  Set the **Join chat** and **New connected chats** toggles to **Yes**. Turn the slider to **Yes** for **Provide context for new linked chats**. Select **Factor libraries** under the **Message view** dropdown menu
 
     ![image](./Images/Lab05/image37.svg)
 
-1.  Hovering the mouse over a view while the Message view list is open will give a preview of the message. The first 4-5 fields from the view are included in the message.
+4.  Hovering the mouse over a view while the Message view list is open will give a preview of the message. The first 4-5 fields from the view are included in the message.
 
      ![image](./Images/Lab05/image38.svg)
 
-1.  Select **Save**.
-1.  Factor library is now visible in the list of connected record types.
+5.  Select **Save**.
+6.  Factor library is now visible in the list of connected record types.
 
      ![image](./Images/Lab05/image39.svg)
     
@@ -375,25 +373,25 @@ In this task, Amber will create a linked chat to collaborate with a colleague to
 
      ![image](./Images/Lab05/image40.svg)
 
-1.  Navigate to **Factor libraries** on the left side of the page.
+2.  Navigate to **Factor libraries** on the left side of the page.
 
      ![image](./Images/Lab05/image41.svg)
 
-1.  Select the **EPA 2022 - eGRID** Factor library.
+3.  Select the **EPA 2022 - eGRID** Factor library.
 
     ![image](./Images/Lab05/image42.svg)
 
-1.  Select the **Chat** icon in the top right corner of the screen to open the Microsoft Teams chats inside of Cloud for Sustainability.
+4.  Select the **Chat** icon in the top right corner of the screen to open the Microsoft Teams chats inside of Cloud for Sustainability.
 
      ![image](./Images/Lab05/image43.svg)
 
-1.  Select **New linked chat** to create a new chat window with another user to discuss changes to the Factor mappings on the EPA 2022 - eGRID Factor library.
+5.  Select **New linked chat** to create a new chat window with another user to discuss changes to the Factor mappings on the EPA 2022 - eGRID Factor library.
 
-    >[!NOTE] **Note**: You may need to wait a few minutes or perform a hard refresh (CTRL+F5) for the **New linked chat** button to appear the first time.
+    **Note**: You may need to wait a few minutes or perform a hard refresh (CTRL+F5) for the **New linked chat** button to appear the first time.
 
      ![image](./Images/Lab05/image44.svg)
 
-1.  On the **New linked chat** blade:
+6.  On the **New linked chat** blade:
 
     (1)  Search for chat **Participants** - for this scenario use one of the dummy accounts available, such as **Allen Deyoung**.
 
@@ -407,7 +405,7 @@ In this task, Amber will create a linked chat to collaborate with a colleague to
 
    ![image](./Images/Lab05/image45.svg)
 
-1.  In a few moments an embedded chat window with all participants will appear, and a message will be displayed with the note that was included, some of the record data, and a link to the record.
+7.  In a few moments an embedded chat window with all participants will appear, and a message will be displayed with the note that was included, some of the record data, and a link to the record.
 
     ![image](./Images/Lab05/image46.svg)
 
