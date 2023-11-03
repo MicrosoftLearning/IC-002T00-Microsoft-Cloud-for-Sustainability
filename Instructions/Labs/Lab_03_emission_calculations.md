@@ -1,9 +1,9 @@
 ---
 lab:
-    title: 'Lab 3: Emission calculations'
+    title: 'Lab 3: Design Emission calculations'
     module: 'Module 5: Configure emission calculations'
 ---
-# Module 5 Lesson 2 Lab 3: Emission calculations
+# Module 5 Lesson 2 Lab 3: Design Emission calculations
 
 ## Overview
 
