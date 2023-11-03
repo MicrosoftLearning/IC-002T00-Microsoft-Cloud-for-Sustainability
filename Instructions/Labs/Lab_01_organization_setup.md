@@ -146,7 +146,7 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
     ![image](./Images/Lab01/image17.svg)
 
 
-1. Enter the following data for organizational unit and select **Save** in the button pane:
+10. Enter the following data for organizational unit and select **Save** in the button pane:
 
     1. **Name**: Wide World Importers
     1. **Organizational unit type**: Department
@@ -154,27 +154,27 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
    ![image](./Images/Lab01/image18.svg)
 
 
-1. In the **Organizational hierarchies** section, which appears after selecting **Save**, select **+ New Organizational hierarchy**.
+11. In the **Organizational hierarchies** section, which appears after selecting **Save**, select **+ New Organizational hierarchy**.
 
     ![image](./Images/Lab01/image19.svg)
 
 
-1. Set the following values and select **Save & Close**:
+12. Set the following values and select **Save & Close**:
 
     1. **Parent**: Contoso USA
     1. **Effective start date**: The first day of the current month (MM/DD/YYYY)
 
     ![image](./Images/Lab01/image20.svg)
 
-1. After being returned to the **Organizational Unit**, select **Save & Close** to return to the **Company profile**.
+13. After being returned to the **Organizational Unit**, select **Save & Close** to return to the **Company profile**.
 
     ![image](./Images/Lab01/image21.svg)
 
-1. If necessary, navigate to **Company profile**, switch to the **Facilities** tab page and select **Add facility**.
+14. If necessary, navigate to **Company profile**, switch to the **Facilities** tab page and select **Add facility**.
 
   ![image](./Images/Lab01/image22.svg)
 
-1. Create a new Facility with the following details. Once the values are entered, select **Save & Close**:
+15. Create a new Facility with the following details. Once the values are entered, select **Save & Close**:
 
     >[!NOTE] **Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
@@ -191,7 +191,7 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
 
     ![image](./Images/Lab01/image23.svg)
 
-1. Using the same steps, add another new **Facility**. Once the values are entered, select **Save & Close**.
+16. Using the same steps, add another new **Facility**. Once the values are entered, select **Save & Close**.
 
     >[!NOTE] **Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
@@ -205,14 +205,14 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
     1. **Longitude**: -82.514050
 
 
->[!NOTE] **Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
+**Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
 
 ![image](./Images/Lab01/image24.svg)
 
 
 Great job, by completing these steps, you have assisted Alex with completing the organizational setup in Microsoft Sustainability Manager for Wide World of Importers. This included the Company profile, hierarchy, and facilities. Organizational structure and facility management will be linked to activity and emission data to group emissions by Organization, facility, and even regions. This is an important part of carbon emission reporting and organization disclosures. **Please continue to the next task.**
 
-===
+
 
 ## Task 2: Setup reference data
 
@@ -243,7 +243,7 @@ In this task, Reed sets up the reference data for contractual instrument types i
     1. **Name**: VanArsdel Ltd
     1. **Energy source**: Nuclear
 
-    >[!NOTE] **Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
+    **Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
    ![image](./Images/Lab01/image29.svg)
 
@@ -256,11 +256,11 @@ In this task, Reed sets up the reference data for contractual instrument types i
    ![image](./Images/Lab01/image30.svg)
 
 
-    >[!NOTE]**Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
+    **Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
 Great job, by completing these steps, you have helped Reed add reference data for contractual instrument types. There are many types of reference data. Take some time after this lab to explore the other reference data types. They will be used throughout Microsoft Cloud for Sustainability, and Microsoft Sustainability Manager. **Please continue to the next task.**
 
-===
+
 
 ## Task 3: Setup Unit conversion factor
 
@@ -288,7 +288,7 @@ Unit Groups are used to group units together and define a base unit used to conv
     1. **Name**: 100 mile
     1. **Conversion factor**: 160934.40
 
->[!NOTE] **Note:** The EPA calculates electric vehicle efficiency by the number of kilowatt hours (kWh) used per 100 miles. For consistency, it is best practice to utilize the same
+**Note:** The EPA calculates electric vehicle efficiency by the number of kilowatt hours (kWh) used per 100 miles. For consistency, it is best practice to utilize the same
 
 ![image](./Images/Lab01/image34.svg)
 
@@ -299,7 +299,7 @@ Great job, by completing these steps you have helped Reed add the missing unit f
 
 Alex and Reed will set up the reporting years in Microsoft Sustainability Manager. Alex will name the reporting year, set up the start date and use a template to create more than one period. 
 
->[!NOTE] **Note:** The Reporting years you set up will override the configuration in General settings.
+**Note:** The Reporting years you set up will override the configuration in General settings.
 
 Alex proceeds to create a reporting year in Sustainability Manager. For detailed information, see Configure reporting years 
 
@@ -307,12 +307,12 @@ Alex proceeds to create a reporting year in Sustainability Manager. For detailed
 
    ![image](./Images/Lab01/image35.svg)
  
-4.	Select **Create reporting year.**
+2.	Select **Create reporting year.**
 
   ![image](./Images/Lab01/image36.svg)
 
  
-6.	Enter the following details. After you've entered the values, select **Save**. 
+3.	Enter the following details. After you've entered the values, select **Save**. 
 
   	a.	**Name** - Enter Fiscal – 2022.  This name appears on the **Insights** page in Microsoft Sustainability Manager.
 
@@ -323,7 +323,7 @@ Alex proceeds to create a reporting year in Sustainability Manager. For detailed
        ![image](./Images/Lab01/image37.svg)
 
  
-8. Select **Close**. The reporting year will generate with the first period starting on the **Start date** and the last period ending one year from the **Start date**.
+4. Select **Close**. The reporting year will generate with the first period starting on the **Start date** and the last period ending one year from the **Start date**.
 
 
 ![image](./Images/Lab01/image38.svg)
