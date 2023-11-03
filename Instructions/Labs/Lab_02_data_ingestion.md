@@ -40,7 +40,7 @@ In this lab, Reed Flores – IT Admin for Wide World Importers utilizes the acti
 
 In this lab exercise, we will focus on the Lab 02 scenario illustrated below. 
 
->[!NOTE]**Note:** Make sure that you note the newly ingested activity data during this exercise because it will be used in the remaining scenarios (calculations and reporting) in the upcoming exercises.
+**Note:** Make sure that you note the newly ingested activity data during this exercise because it will be used in the remaining scenarios (calculations and reporting) in the upcoming exercises.
 
 ![image](./Images/Lab02/image3.svg)
 
@@ -48,7 +48,7 @@ In this lab exercise, we will focus on the Lab 02 scenario illustrated below.
 
 In this exercise, you will learn about the steps that Reed takes to ingest the spreadsheets given by Alex. Data import is a vital task to bringing large volumes of data into Microsoft Sustainability Manager. Excel is utilized in this lab; however, many pre-built connectors are available, and Partners can build custom connectors to integrate with additional data sources. You can explore this functionality in deeper detail on Microsoft Docs, please visit **Overview of data connectors** at https://docs.microsoft.com/en-us/industry/sustainability/import-data-connectors.
 
->[!ALERT] **Important** Please ensure you have completed the previous lab to create Reference Data. **The data import process requires all Reference Data to exist, and the process is case sensitive, so please ensure the Reference data that was added has the exact same case formatting as what is found in the lab**. Failure to do so will result in errors during the data import process
+**Important** Please ensure you have completed the previous lab to create Reference Data. **The data import process requires all Reference Data to exist, and the process is case sensitive, so please ensure the Reference data that was added has the exact same case formatting as what is found in the lab**. Failure to do so will result in errors during the data import process
 
 1. Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
 
@@ -96,16 +96,16 @@ In this task, Reed will add additional information to the Excel spreadsheet that
 
 ![image](./Images/Lab02/image13.svg) 
  
-4.	Select the **Custom dimensions** tab.
+3.	Select the **Custom dimensions** tab.
 
 ![image](./Images/Lab02/image14.svg)
      
  
-6.	Select **New** on the top right on the Active Custom dimensions page.
+4.	Select **New** on the top right on the Active Custom dimensions page.
 
    ![image](./Images/Lab02/image15.svg)
  
-8.	Enter the details as follows: 
+5.	Enter the details as follows: 
 
   	 1. Logical name - Product
    
@@ -117,7 +117,7 @@ In this task, Reed will add additional information to the Excel spreadsheet that
 
     ![image](./Images/Lab02/image16.svg)
  
-13.	Repeat the previous steps to create another custom dimension metadata as follows 
+6.	Repeat the previous steps to create another custom dimension metadata as follows 
 
 •	Logical name - Model
 
@@ -137,7 +137,7 @@ In this task, Reed imports the Excel spreadsheet provided by Alex, _Purchased el
 
      ![image](./Images/Lab02/image18.svg)
 
-1. Go to **Carbon activities** on the left side of the page under **Data management**.
+2. Go to **Carbon activities** on the left side of the page under **Data management**.
 
    ![image](./Images/Lab02/image19.svg)
    
@@ -145,11 +145,11 @@ In this task, Reed imports the Excel spreadsheet provided by Alex, _Purchased el
 
     ![image](./Images/Lab02/image20.svg)
 
-5. On the **Data Imports** view, select **+New**.
+4. On the **Data Imports** view, select **+New**.
 
    ![image](./Images/Lab02/image21.svg)
    
-7. On the **Data imports**, select **POWER QUERY GUIDED EXPERIENCE**.
+5. On the **Data imports**, select **POWER QUERY GUIDED EXPERIENCE**.
 
    ![image](./Images/Lab02/image22.svg)
  
@@ -159,17 +159,17 @@ In this task, Reed imports the Excel spreadsheet provided by Alex, _Purchased el
  
 7. Select **Next**.
    
-9. Review the large list of connectors by selecting the **Excel workbook**, as the Data source.
+8. Review the large list of connectors by selecting the **Excel workbook**, as the Data source.
  
 ![image](./Images/Lab02/image24.svg)
 
-10. A new dialog will open for Power Query. Select the **Upload file** option and then select **Browse**.
+9. A new dialog will open for Power Query. Select the **Upload file** option and then select **Browse**.
 
     ![image](./Images/Lab02/image25.svg)
     
 Note - You can also choose to import an existing file that's located in OneDrive. For simplicity of this exercise, you'll use the Upload file functionality.
  
-12. On the file selection window, browse to the location of the Excel files that were downloaded.
+10. On the file selection window, browse to the location of the Excel files that were downloaded.
     
     1.	Select the **Purchased electricity Wide World Importers 2022.xlsx file**.
 
@@ -181,11 +181,11 @@ Note - You can also choose to import an existing file that's located in OneDrive
 
     ![image](./Images/Lab02/image27.svg)
  
-13. An Office 365 Sign-in dialog will appear. Reed will select their user from the list. In this exercise, select your  user account from the list.
+12. An Office 365 Sign-in dialog will appear. Reed will select their user from the list. In this exercise, select your  user account from the list.
 
-14. After the sign-in process is complete, the new connection will be selected automatically. Select **Next**.
+13. After the sign-in process is complete, the new connection will be selected automatically. Select **Next**.
 
-Note - If you receive an error after uploading the Excel file, check your browser cookie settings.
+**Note** - If you receive an error after uploading the Excel file, check your browser cookie settings.
 
 14. On the Choose data page of the Power Query wizard:
 
@@ -195,13 +195,13 @@ Note - If you receive an error after uploading the Excel file, check your browse
 
 ![image](./Images/Lab02/image28.svg) 
 
-16. You can complete various data and column transformations on the **Transform data** page of the Power Query wizard. As a result, you can adjust data types, update column mappings, and perform advanced transformations that you're familiar with in Microsoft Power Platform dataflows or Microsoft Power BI datasets. For this exercise, do not apply any transformations, click **Create**.
+15. You can complete various data and column transformations on the **Transform data** page of the Power Query wizard. As a result, you can adjust data types, update column mappings, and perform advanced transformations that you're familiar with in Microsoft Power Platform dataflows or Microsoft Power BI datasets. For this exercise, do not apply any transformations, click **Create**.
 
-Note - Wait for the transformations to be applied properly, before you click **Create**, else you may get an error.
+**Note** - Wait for the transformations to be applied properly, before you click **Create**, else you may get an error.
 
  ![image](./Images/Lab02/image29.svg)
     
-18. The **New data connection** wizard will now be on the **Schedule data** **import** page, where you'll complete the following actions:
+16. The **New data connection** wizard will now be on the **Schedule data** **import** page, where you'll complete the following actions:
 
      1. Turn on the **Import data automatically** toggle to allow the option to set a schedule for the data to be imported automatically. Selecting this     
         option is beneficial if the connector will be used in a scenario where the data will change frequently, such as a web API or FTP server.
@@ -274,8 +274,6 @@ After a few moments, the view will refresh and the activity data records that we
  
 You've now completed the data import of 2022 Purchased Electricity for Wide World Importers. This step is imperative in realizing the goal of recording, reporting, and reducing carbon emissions. Next, you'll import the 2022 Miles Driven for Wide World Importers fleet of electric vehicles.
 
-===
-
 ### Task 3: Import 2022 data “Miles Driven” for Electric Trucks
 
 In this task, Reed will import the second Excel spreadsheet that Alex provided: Fleet Vehicles Miles Driven Wide World Importers 2022.xlsx. While electric vehicles don't produce direct tailpipe emissions, they do produce **Scope 2: Purchased electricity** from charging. This import will bring in the Miles driven by Wide World Importers fleet of electric trucks for the year 2022 data into the Purchased electricity carbon activity data.
@@ -284,25 +282,25 @@ In this task, Reed will import the second Excel spreadsheet that Alex provided: 
 
     ![image](./Images/Lab02/image21.svg)
  
-3.	On the Data imports, select POWER QUERY GUIDED EXPERIENCE.
+2.	On the Data imports, select POWER QUERY GUIDED EXPERIENCE.
 
       ![image](./Images/Lab02/image22.svg)
   
-4. Select **Add**, next to **Purchased Electricity.**
+3. Select **Add**, next to **Purchased Electricity.**
 
     ![image](./Images/Lab02/image23.svg)
  
-6. Select **Next**.
+4. Select **Next**.
    
-8. On the list of connectors. select **Excel workbook**, as the Data Connector.
+5. On the list of connectors. select **Excel workbook**, as the Data Connector.
 
     ![image](./Images/Lab02/image24.svg)
  
-10. A new dialog will open for Power Query, where you'll select **Upload file > Browse.**
+6. A new dialog will open for Power Query, where you'll select **Upload file > Browse.**
 
  ![image](./Images/Lab02/image25.svg)
  
-11. On the file selection window, browse to the location of the downloaded Excel files.
+7. On the file selection window, browse to the location of the downloaded Excel files.
 
     1.	Select the **Fleet Vehicles Miles Driven Wide World Importers 2022.xlsx file.**
 
@@ -322,12 +320,13 @@ In this task, Reed will import the second Excel spreadsheet that Alex provided: 
 
      ![image](./Images/Lab02/image46.svg)
 
-13. On the Transform data page of the Power Query wizard, you can complete various data and column transformations. These transformations will allow you to adjust data types, column mappings updates, and perform advanced transformations that you're familiar with in Microsoft Power Platform dataflows or Power BI datasets. For this exercise, you do not need to apply any transformations, select **Create**.
-Note - Wait for the transformations to be applied properly, before you click Create, else you may get an error.
+12. On the Transform data page of the Power Query wizard, you can complete various data and column transformations. These transformations will allow you to adjust data types, column mappings updates, and perform advanced transformations that you're familiar with in Microsoft Power Platform dataflows or Power BI datasets. For this exercise, you do not need to apply any transformations, select **Create**.
+    
+**Note** - Wait for the transformations to be applied properly, before you click Create, else you may get an error.
 
 ![image](./Images/Lab02/image47.svg)
 
-14. The New data connection wizard will now be on the Schedule data import page, where you'll complete the following tasks:
+13. The New data connection wizard will now be on the Schedule data import page, where you'll complete the following tasks:
 
     1.	Turn on the **Import data automatically** toggle to allow the option to set a schedule for the data to be imported automatically. Selecting this option 
        is beneficial if the connector will be used in a scenario where the data will change frequently, such as a web API or FTP server.
@@ -357,29 +356,29 @@ Next, you'll map your source data to the data model. Data will not appear until 
 
     ![image](./Images/Lab02/image50.svg)
  
-18. In this scenario, Reed needs to map the columns from the spreadsheet to the columns in Microsoft Sustainability Manager. To do so, you'll select **Auto Map** for the solution to automatically map the file’s source fields with the destination fields, for any field that is not an exact match the best match will be found and highlighted in blue. Also, ensure the custom dimensions metadata Vehicle size is added as part of mapping. Please delete if any other dimensions are added.
+17. In this scenario, Reed needs to map the columns from the spreadsheet to the columns in Microsoft Sustainability Manager. To do so, you'll select **Auto Map** for the solution to automatically map the file’s source fields with the destination fields, for any field that is not an exact match the best match will be found and highlighted in blue. Also, ensure the custom dimensions metadata Vehicle size is added as part of mapping. Please delete if any other dimensions are added.
  
  ![image](./Images/Lab02/image51.svg)
 
  ![image](./Images/Lab02/image52.svg)
 
-19. You will review them and select **Save**.
+18. You will review them and select **Save**.
 
     ![image](./Images/Lab02/image53.svg)
 
-21. Select the toggle as **Yes** for **Ready to import**. Click on back arrow.  
+19. Select the toggle as **Yes** for **Ready to import**. Click on back arrow.  
  
-22. Click on **Done**. The **Data Import** job will run, and you can view the status as **Scheduled** and then in a moment it will switch to **Processing**. Refresh the page to see the change.
+20. Click on **Done**. The **Data Import** job will run, and you can view the status as **Scheduled** and then in a moment it will switch to **Processing**. Refresh the page to see the change.
 
  ![image](./Images/Lab02/image54.svg)
  
-23. After a minute or two, select the Refresh button above the list to view the updated status, which should be **Completed**. Ensure you have the correct number of records, and the status of the data connections is Complete before you go to the next steps.
+21. After a minute or two, select the Refresh button above the list to view the updated status, which should be **Completed**. Ensure you have the correct number of records, and the status of the data connections is Complete before you go to the next steps.
  
 ![image](./Images/Lab02/image55.svg)
 
-24. Go to **Carbon activities** data on the left side of the page.
+22. Go to **Carbon activities** data on the left side of the page.
  
-25. Find **Purchased electricity** in the **Scope 2: Indirect emissions** section and then select **View**.
+23. Find **Purchased electricity** in the **Scope 2: Indirect emissions** section and then select **View**.
 
     ![image](./Images/Lab02/image56.svg)
  
@@ -393,8 +392,6 @@ The Purchased electricity view shows all purchased electricity activity data tha
 
     2.	Select **Apply** to apply the filter to the column.
  
-
-
 25. After a few moments, the view will refresh. You should be able to view the activity data records that were imported during this exercise.
 
 ![image](./Images/Lab02/image58.svg)
