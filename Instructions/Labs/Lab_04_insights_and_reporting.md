@@ -212,14 +212,20 @@ In this task, Amber explores the various **Sustainability** dashboards which pro
 13.  You can see the organizations with the largest to lowest contributor to Contoso Corp’s carbon emissions
 
     ![image](./Images/Lab04/image18.svg)
+
+    
     
 14. In further filtering we see the Wide World Importers under Org level 3. Use this information to create a goal for Wide World Importers to reduce their Purchased electricity emissions by 300 mtCO2E (you'll complete this task in the next exercise).
 
      ![image](./Images/Lab04/image19.svg)
 
-15.	Select **Custom Dimensions** tab to view the emission analytics
+
+
+16.	Select **Custom Dimensions** tab to view the emission analytics
 
     ![image](./Images/Lab04/image20.svg)
+
+    
  
 •	You can view a time chart of CO2E emissions broken by custom dimension strings. For example, compare emissions by vehicle size where Vehicle Size is a custom dimension with string value.
 
