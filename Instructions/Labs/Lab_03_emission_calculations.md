@@ -42,7 +42,7 @@ The following terminologies will be used throughout the configuration of Emissio
 -   **Allocation Profile**: An allocation profile configures methods to distribute emissions from a source (like a facility) to specific entities based on chosen parameters. It allows visualization of emissions distribution without altering default reporting, offering insights into how emissions are divided.
 -   **Custom dimensions**: Custom dimensions can be used in emission calculation models, for example, in condition, calculation, and reporting actions.
 
-     ![image](./Images/Lab03/image1.svg)
+     ![image](./Images/Lab03/LP03-image1.svg)
 
 
 ### Personas and Scenarios
@@ -53,11 +53,11 @@ Alex also creates a new estimation factor library for estimating miles driven to
 
 Finally, Alex creates and runs calculation profiles, filtering to Wide World Importers activity data. Post running the Calculation profile, Alex reviews the calculated emissions data before notifying Amber Rodriguez – Sustainability specialist that the emission calculations are complete.
 
-![image](./Images/Lab03/image2.svg)
+![image](./Images/Lab03/LP03-image2.svg)
 
 In this lab exercise, we will focus on the scenarios illustrated below:
 
-![image](./Images/Lab03/image3.svg)
+![image](./Images/Lab03/LP03-image3.svg)
 
 ## Exercise 1: Set up Factor Libraries
 
@@ -75,7 +75,7 @@ Wide World Importers may not know exactly how much electricity was purchased for
 
 5. Open the **Sustainability Manager** Application.
 
-![image](./Images/Lab03/image5.svg)
+![image](./Images/Lab03/LP03-image5.svg)
 
 **Important** Please make sure that you have completed the previous lab to create Activity Data. **The emissions calculations require all the Data Ingestion processes from the previous lab to be completed.** Failure to do so will result in errors or incorrect values during the calculations
 
@@ -85,17 +85,17 @@ In this task, Alex will create factor mappings to map the Contractual instrument
 
 1.  In the bottom left corner, change your Area to **Data**.
 
-    ![image](./Images/Lab03/image6.svg)
+    ![image](./Images/Lab03/LP03-image6.svg)
 
 2.  Navigate to **Factor libraries** on the left navigation pane under **Calculations**.
 
-    ![image](./Images/Lab03/image7.svg)
+    ![image](./Images/Lab03/LP03-image7.svg)
 
 3.  Select the **EPA 2022 - eGRID** Factor library to open the Factor library. Make sure you have selected the **2022** library.
 
     **Note**: Microsoft Sustainability Manager includes EPA and IPCC based Factor libraries for emissions and estimations. Additional libraries are on the roadmap. Take time to review the existing factor libraries.
 
-   ![image](./Images/Lab03/image8.svg)
+   ![image](./Images/Lab03/LP03-image8.svg)
 
 4.  Let’s take a moment to explore the **EPA 2022 - eGRID** factor library. The **General** tab includes identifying information about the Factor library.
 
@@ -105,31 +105,31 @@ In this task, Alex will create factor mappings to map the Contractual instrument
     -   **Type of factor library**: this is used to identify if this factor library is a Custom, Demo (sample), or Standard (pre-loaded based on EPA libraries).
     -   **Library type**: this functionally switches the library type between Emission or Estimation Library. Emission Libraries are used to calculate emission gases, and Estimation Libraries are used to create estimated conversions from one unit type to another, such as night stays at a hotel to kWh used.
 
-    ![image](./Images/Lab03/image9.svg)
+    ![image](./Images/Lab03/LP03-image9.svg)
 
 5.  Select the **Emission factors** tab to see a list of Emission factors in the **Factor library**.
 
-   ![image](./Images/Lab03/image10.svg)
+   ![image](./Images/Lab03/LP03-image10.svg)
 
 6.  The **Emission factors** list displays the name of the emission factor, the unit type, sub type, documentation reference, and gases generated. As Wide World Importers is a Florida based business and is connected to the FRCC electrical grid, select **FRCC (FRCC All)** from the list of **Emission factors**.
 
-   ![image](./Images/Lab03/image11.svg)
+   ![image](./Images/Lab03/LP03-image11.svg)
 
 7.  The FRCC (FRCC All) Emission factor shows us the carbon emissions produced, 861lb of CO<sub>2</sub>, 0.055lb of CH<sub>4</sub>, and 0.007lb of N<sub>2</sub>O, **per megawatt hour (MWh) of energy consumed**.
 
     This information is important to understand how our final CO<sub>2</sub>E (Carbon equivalent) will be calculated later. When creating a new emission factor, you will want to define how much of each gas is produced per a given unit. There are several other gas types that can be tracked as seen on the screen, depending on the scenario some or all of them may be used.
 
-   ![image](./Images/Lab03/image12.svg)
+   ![image](./Images/Lab03/LP03-image12.svg)
 
 8.  Return to **EPA 2022 - eGRID** by selecting the back arrow, and select the **Factors mapping** tab.
 
-    ![image](./Images/Lab03/image13.svg)
+    ![image](./Images/Lab03/LP03-image13.svg)
 
     **Note:** Factor mappings help map emission factors to reference data. Microsoft Sustainability Manager will use the factor mappings to find the correct emission factor to be used in an emission calculation for a given activity data. This is based on the reference data linked on the activity data, such as vehicle type or contractual instrument type.
 
 9.  Alex will create factor mappings for the two Contractual instrument types created in previous labs and associate them to the FRCC (FRCC All) emission factor. Each of the Contractual instruments are local power providers in Florida and are part of the FRCC electric grid. Select **+New Factor mapping**.
 
-   ![image](./Images/Lab03/image14.svg)
+   ![image](./Images/Lab03/LP03-image14.svg)
 
 10.  The fields are explained below.
 
@@ -147,11 +147,13 @@ In this task, Alex will create factor mappings to map the Contractual instrument
 
     (4) Select **Save & Close** to save the record.
 
-    ![image](./Images/Lab03/image15.svg)
+![image](./Images/Lab03/LP03-image15.svg)
+
+    
 
 12.  Select **+New Factor mapping**.
 
-   ![image](./Images/Lab03/image16.svg)
+   ![image](./Images/Lab03/LP03-image16.svg)
 
 13.  The fields are explained below.
 
@@ -170,11 +172,11 @@ In this task, Alex will create factor mappings to map the Contractual instrument
 
     (4) Select **Save & Close** to save the record.
 
-   ![image](./Images/Lab03/image17.svg)
+   ![image](./Images/Lab03/LP03-image17.svg)
 
 15.  There are now two additional **Factor mappings**, one for each of the contractual instruments added during the previous labs.
 
-    ![image](./Images/Lab03/image18.svg)
+![image](./Images/Lab03/LP03-image18.svg)
 
 Great job, you have completed adding the factor mappings for the Purchased electricity activity data for Alex! This is an important step toward the creation of calculation models that will calculate emissions for multiple emission factors based on reference data, such as Contractual Instrument Types or Facilities. 
 
@@ -188,7 +190,7 @@ In this task, Alex will create an estimation factor library to define the estima
 
 1.  Go to Factor libraries on the left navigation pane and click on **Create new library**.
 
-    ![image](./Images/Lab03/image19.svg)
+    ![image](./Images/Lab03/LP03-image19.svg)
 
 2.  The fields are explained below.
 
@@ -212,7 +214,7 @@ In this task, Alex will create an estimation factor library to define the estima
 
     (6) Select **Save & Close** saves the record.
 
-   ![image](./Images/Lab03/image20.svg)
+   ![image](./Images/Lab03/LP03-image20.svg)
 
 Great job, you have helped Alex create an Estimation Library to define the estimation factor for estimating the kilowatt hours (kWh) used per miles driven. Estimation Libraries are the first step to utilizing estimations for emissions where you may not be able to determine the exact emissions. Some examples of estimations include estimating the amount of natural gas and electricity per hotel night stay during business travel, or vehicle fuel consumption by distance traveled. **Please continue to the next task.**
 
@@ -224,15 +226,15 @@ In this task, Alex will create the estimation factor for estimating the kilowatt
 
     **Note**: For the purposes of this lab, we chose the largest electric vehicle available on the EPA, fueleconomy.gov website at the time of writing. **This is only an example**.
 
-    ![image](./Images/Lab03/image21.svg)
+    ![image](./Images/Lab03/LP03-image21.svg)
 
 2.  Select the **Estimation Factors** tab.
 
-    ![image](./Images/Lab03/image22.svg)
+    ![image](./Images/Lab03/LP03-image22.svg)
 
 3.  Select **+New Estimation factor**.
 
-    ![image](./Images/Lab03/image23.svg)
+    ![image](./Images/Lab03/LP03-image23.svg)
 
 4.  The fields are explained below.
 
@@ -259,11 +261,11 @@ In this task, Alex will create the estimation factor for estimating the kilowatt
 
     (7) Select **Save & Close** to save the record.
 
-   ![image](./Images/Lab03/image24.svg)
+   ![image](./Images/Lab03/LP03-image24.svg)
 
 6.  The **New Estimation factor** is estimating that every 100 miles is equivalent to 49 kWh.
 
-   ![image](./Images/Lab03/image25.svg)
+   ![image](./Images/Lab03/LP03-image25.svg)
 
 Great job, you have helped Alex create an estimation factor for estimating the kilowatt hours (kWh) used per miles driven. Estimation factors are important to be able to convert from one unit type to another when an estimate is appropriate, such as estimated fuel or battery economy of vehicles, or estimating gas and electric utilization of hotel stays. **Please continue to the next task.**
 
@@ -279,15 +281,15 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
 1.  Navigate to **Calculation models** on the left side of the page.
 
-    ![image](./Images/Lab03/image26.svg)
+    ![image](./Images/Lab03/LP03-image26.svg)
 
 2.  Select **+New** to create a new Calculation model.
 
-    ![image](./Images/Lab03/image27.svg)
+    ![image](./Images/Lab03/LP03-image27.svg)
 
 3.  A new page will open to configure the Calculation model. A source action is added by default.
 
-    ![image](./Images/Lab03/image28.svg)
+    ![image](./Images/Lab03/LP03-image28.svg)
 
 4.  The fields are explained below.
 
@@ -310,21 +312,21 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
     (6) Select **Save** to save the record.
 
-    ![image](./Images/Lab03/image29.svg)
+    ![image](./Images/Lab03/LP03-image29.svg)
 
 6.  Select the **+** to add a new action to the calculation model.
 
-    ![image](./Images/Lab03/image30.svg)
+    ![image](./Images/Lab03/LP03-image30.svg)
 
 7.  Select **Report** on the list of **Available actions**.
 
     **Note**: Only **Source**, **Report**, and **Estimation** actions are covered in this lab. Additional details about each available action can be found in **Calculation models** at https://docs.microsoft.com/en-us/industry/sustainability/calculate-calculation-models#add-a-calculation-model.
 
-    ![image](./Images/Lab03/image31.svg)
+    ![image](./Images/Lab03/LP03-image31.svg)
 
 8.  A new **Report** action is added to the Calculation model. Select that action to configure it.
 
-    ![image](./Images/Lab03/image32.svg)
+    ![image](./Images/Lab03/LP03-image32.svg)
 
     The **Report** action is used to calculate and report carbon emissions to the emissions table. This action will use the emission factor or factor mapping to identify the emission factor to be used, based on the emission factor dropdown. In this lab, the action will use contractual instrument type field to identify the factor mapping and emission factor to use in the calculation.
 
@@ -365,11 +367,11 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
     (7) Select **Save** to save the record.
  
-   ![image](./Images/Lab03/image33.svg)
+   ![image](./Images/Lab03/LP03-image33.svg)
 
 11. Select the back arrow on the record to return to the list of Calculation models. The new Calculation model should now appear in the list.
 
-    ![image](./Images/Lab03/image34.svg)
+    ![image](./Images/Lab03/LP03-image34.svg)
 
 
 Great job, you have helped Alex create a new Calculation model to calculate carbon emissions for purchased electricity based on the contractual instrument type. This will be used in Exercise 3. In this Calculation model you utilized factor mappings, an important differentiator for Microsoft Cloud for Sustainability. Factor mappings allow the Calculation models to be more dynamic by mapping reference data to emission factors, allowing you to have one model that can calculate for multiple emission factors. 
@@ -401,19 +403,19 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
     (5) Select **Save** to save the record.
 
-    ![image](./Images/Lab03/image35.svg)
+    ![image](./Images/Lab03/LP03-image35.svg)
 
 4.  Select the **+** to add a new action to the calculation model.
 
-    ![image](./Images/Lab03/image36.svg)
+    ![image](./Images/Lab03/LP03-image36.svg)
 
 5.  Select **Estimation factor** on the list of **Available actions**.
 
-     ![image](./Images/Lab03/image37.svg)
+     ![image](./Images/Lab03/LP03-image37.svg)
 
 6.  A new action is added to the Calculation model. Select that action to configure it.
 
-     ![image](./Images/Lab03/image38.svg)
+     ![image](./Images/Lab03/LP03-image38.svg)
     
     The **Estimation factor** action is used to create an estimated value for converting one unit type to another in a different unit group, such as converting night stays to kilowatt hours (kWh) used. This is important when it may be difficult to know the exact amount of a given emission source that is used. In this lab, the action will be used to convert miles driven by the fleet of electric vehicles to kWh used. This helps Wide World Importers estimate the carbon emissions for their fleet of electric vehicles that are driving across the USA and may be charging various amounts and on different grids and energy sources.
 
@@ -449,19 +451,19 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
     (7) Select **Save** to save the record.
 
-     ![image](./Images/Lab03/image39.svg)
+     ![image](./Images/Lab03/LP03-image39.svg)
 
 9.  Select the **+** to add a new action to the calculation model.
 
-     ![image](./Images/Lab03/image40.svg)
+     ![image](./Images/Lab03/LP03-image40.svg)
 
 10.  Select **Report** on the list of Available actions
 
-    ![image](./Images/Lab03/image41.svg)
+ ![image](./Images/Lab03/LP03-image41.svg)
 
 11.  A new action is added to the Calculation model. Select that action to configure it.
 
-     ![image](./Images/Lab03/image42.svg)
+     ![image](./Images/Lab03/LP03-image42.svg)
 
 12.  The fields are explained below. 
 
@@ -485,11 +487,11 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
     (5) Select **Save** to save the record.
 
-    ![image](./Images/Lab03/image43.svg)
+![image](./Images/Lab03/LP03-image43.svg)
 
 14.  Select the back arrow on the record to return to the list of Calculation models. The new Calculation model should now appear in the list.
 
-    ![image](./Images/Lab02/image44.svg)
+![image](./Images/Lab02/LP03-image44.svg)
 
 Great job, you have helped Alex create another new Calculation model to calculate carbon emissions for miles driven by electric vehicles. This Calculation model included an estimation factor, allowing Alex to calculate emissions in areas where he may not know the exact quantity of an emission source, but still needs to account for the carbon emissions.  This model will be used in the following exercise. 
 
@@ -506,12 +508,12 @@ In this task, Alex will create a Calculation Profile for the electricity purchas
 
 1.  Navigate to **Calculation profiles** on the left side of the page.
 
-    ![image](./Images/Lab03/image45.svg)
+    ![image](./Images/Lab03/LP03-image45.svg)
 
 
 1.  Select **+New Calculation profile** to create a new Calculation profile.
 
-     ![image](./Images/Lab03/image46.svg)
+     ![image](./Images/Lab03/LP03-image46.svg)
 
  
 1.  Populate the following information on the New calculation profile wizard.
@@ -546,7 +548,7 @@ In this task, Alex will create a Calculation Profile for the electricity purchas
 
 Note - Make sure that you select the calculation model from the dropdown list.
 
-![image](./Images/Lab03/image47.svg)
+![image](./Images/Lab03/LP03-image47.svg)
 
 On the **Preview** page of the **New calculation profile** wizard, the emissions are calculated for the first row of data that matches the **Activity data to include** filter. In this scenario, the values that are shown in the preview might differ from the following image.
 
@@ -571,9 +573,9 @@ On the **Preview** page of the **New calculation profile** wizard, the emissions
 
     **Note:** In this scenario, the values seen in the preview may be different than the image below. If your preview does not show up, it is OK.**
 
-    ![image](./Images/Lab03/image48.svg)
+    ![image](./Images/Lab03/LP03-image48.svg)
 
-    ![image](./Images/Lab03/image49.svg)
+    ![image](./Images/Lab03/LP03-image49.svg)
 
 Great job, you have helped Alex create a calculation profile for the electricity purchased by Wide World Importers for their facilities for the year 2022. This profile used the calculation model defined early in this lab. The profile was filtered to only activity data for the Wide World Importers organizational unit, and where the unit type is kWh. 
 
@@ -620,7 +622,7 @@ The fields and their values are defined as follows (numbers corresponding to num
 
     o	The form should resemble the following image. Select **Next**.
 
-![image](./Images/Lab03/image50.svg)
+![image](./Images/Lab03/LP03-image50.svg)
 
 **Note** - Make sure that you select the calculation model from the dropdown list.
 
@@ -647,11 +649,11 @@ These values were determined by converting the miles driven to kWh: (7484.724 / 
 
 3. Select **Save** to save your calculation profile.
 
-   ![image](./Images/Lab03/image51.svg)
+   ![image](./Images/Lab03/LP03-image51.svg)
 
 4. Click on **Done**
 
-![image](./Images/Lab03/image52.svg)
+![image](./Images/Lab03/LP03-image52.svg)
 
 Great job, you have helped Alex create another calculation profile using the calculation model defined earlier in this lab. You filtered the profile to only activity data for the Wide World Importers organizational unit, and where the unit type is mile to ensure ensure that only the miles driven for Wide World Importers’ fleet of electric vehicles is included in the calculation job. 
 
@@ -669,7 +671,7 @@ In this task, Alex will run the newly created Calculation Profiles for the elect
 
     (2) Select **Run calculation** on the command bar.
 
-    ![image](./Images/Lab03/image53.svg)
+    ![image](./Images/Lab03/LP03-image53.svg)
 
 2.  To run the calculation profile for **Electric Vehicle Miles Driven - 2022**:
 
@@ -677,23 +679,23 @@ In this task, Alex will run the newly created Calculation Profiles for the elect
 
     (2) Select **Run calculation** on the command bar.
 
-     ![image](./Images/Lab03/image54.svg)
+     ![image](./Images/Lab03/LP03-image54.svg)
 
 3.  After several minutes (approximately 6 minutes) both calculation jobs should be completed. Alex selects the **Refresh** button on the command bar to check the status of the calculation jobs. The two Calculation profiles should now have a status of **Succeeded**. If you are unable to see the column with **Succeeded**, you can scroll to the bottom and then to the right.
 
-     ![image](./Images/Lab03/image55.svg)
+     ![image](./Images/Lab03/LP03-image55.svg)
 
 4.  In the bottom left corner, change the Area to **Analytics**.
 
-     ![image](./Images/Lab03/image56.svg)
+     ![image](./Images/Lab03/LP03-image56.svg)
 
 5.  Navigate to **All emissions** on the left side of the page.
 
-    ![image](./Images/Lab03/image57.svg)
+    ![image](./Images/Lab03/LP03-image57.svg)
 
 6.  The All emissions view shows all emissions that have been calculated or directly imported.
 
-    ![image](./Images/Lab03/image58.svg)
+    ![image](./Images/Lab03/LP03-image58.svg)
 
 7.  Filter the view by selecting the down arrow next to the **Organizational Unit** column, and selecting **Filter by**. If you are unable to see the column with **Succeeded**, you can scroll to the bottom and then to the right. 
 
@@ -702,11 +704,11 @@ In this task, Alex will run the newly created Calculation Profiles for the elect
 
     2.  Select **Apply** to apply the filter to the column.
 
-     ![image](./Images/Lab03/image59.svg)
+     ![image](./Images/Lab03/LP03-image59.svg)
 
 8.  After a few moments, the view will refresh, and the calculated emissions data for each of the activity data records imported in previous labs will be shown. Scroll to the right to see the CO<sub>2</sub>E carbon emission values.
 
-     ![image](./Images/Lab03/image60.svg)
+     ![image](./Images/Lab03/LP03-image60.svg)
 
 Great job, by completing these steps you have helped Alex, the Emissions Analyst, run the newly created Calculation Profiles for the electricity purchased by Wide World Importers and miles driven by Wide World Importers fleet of electric vehicles.
 
