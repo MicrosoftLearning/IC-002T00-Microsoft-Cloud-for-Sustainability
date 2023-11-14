@@ -28,384 +28,373 @@ In this lab, you will do the following:
 
 ### Solution Focus Area
 
-In this lab, the focus is on the “Data Ingestion” aspect of the Solution Focus Area. It follows the “Organization and Reference data Set up” and forms the basis for the emission calculations and the reporting thereafter. The Microsoft Sustainability Manager is flexible with multiple automated options to ingest data – such as the connectors as well as manual inputs. For scenarios that may require complex data transformation and/or ETL, tools like Azure Data Factory are recommended. You can explore this functionality in deeper detail on Microsoft Docs at **Overview of Microsoft Cloud for Sustainability Data Import**, +++https://docs.microsoft.com/en-us/industry/sustainability/import-data+++.
+In this lab, the focus is on the “Data Ingestion” aspect of the Solution Focus Area. It follows the “Organization and Reference data Set up” and forms the basis for the emission calculations and the reporting thereafter. The Microsoft Sustainability Manager is flexible with multiple automated options to ingest data – such as the connectors as well as manual inputs. For scenarios that may require complex data transformation and/or ETL, tools like Azure Data Factory are recommended. You can explore this functionality in deeper detail on Microsoft Docs at **Overview of Microsoft Cloud for Sustainability Data Import**, https://docs.microsoft.com/en-us/industry/sustainability/import-data.
 
-![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image001.png)
+![image](./Images/Lab02/image1.svg)
 
 ### Personas and Scenarios
 
-In this lab, Reed Flores – IT Admin for Wide World Importers utilizes the activity data Excel spreadsheets sourced by Alex Serra – Emissions Analyst. The Activity data spreadsheets contain Electricity Purchased for the year 2022 and Miles driven by the fleet of Fabrikam Electric Trucks for the calendar year 2022. Reed utilizes Microsoft Sustainability Manger’s connector functionality to import from the Excel spreadsheets, and reviews other connectors available for future purposes. Reed uses the built-in Power Query functionality to transform the data to match Microsoft Sustainability Manager’s data schema and looks for other potential issues such as case-sensitive d data fields.
+In this lab, Reed Flores – IT Admin for Wide World Importers utilizes the activity data Excel spreadsheets sourced by Alex Serra – Emissions Analyst. The Activity data spreadsheets contain Electricity Purchased for the year 2022 and Miles driven by the fleet of Fabrikam Electric Trucks for the calendar year 2022. Reed observes that associated information such as product, model and Vehicle size needs to be added as custom dimension meta data before importing which are required to run the emission calculation and gather the Emission insights reports for monitoring. After adding this information, Reed uses Microsoft Sustainability Manger’s connector functionality to import from the Excel spreadsheets, and reviews other connectors available for future purposes. Reed uses the built-in Power Query functionality to transform the data to match Microsoft Sustainability Manager’s data schema and looks for other potential issues such as case-sensitive d data fields.
 
-![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image002.png)
+![image](./Images/Lab02/image2.svg)
 
-In this lab exercise, we will focus on the Lab 02 scenario illustrated below:
+In this lab exercise, we will focus on the Lab 02 scenario illustrated below. 
 
-![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image003.png)
+**Note:** Make sure that you note the newly ingested activity data during this exercise because it will be used in the remaining scenarios (calculations and reporting) in the upcoming exercises.
+
+![image](./Images/Lab02/image3.svg)
 
 ## Exercise 1: Import Data
 
-In this exercise, you will learn about the steps that Reed takes to ingest the spreadsheets given by Alex. Data import is a vital task to bringing large volumes of data into Microsoft Sustainability Manager. Excel is utilized in this lab; however, many pre-built connectors are available, and Partners can build custom connectors to integrate with additional data sources. You can explore this functionality in deeper detail on Microsoft Docs, please visit **Overview of data connectors** at +++https://docs.microsoft.com/en-us/industry/sustainability/import-data-connectors+++.
+In this exercise, you will learn about the steps that Reed takes to ingest the spreadsheets given by Alex. Data import is a vital task to bringing large volumes of data into Microsoft Sustainability Manager. Excel is utilized in this lab; however, many pre-built connectors are available, and Partners can build custom connectors to integrate with additional data sources. You can explore this functionality in deeper detail on Microsoft Docs, please visit **Overview of data connectors** at https://docs.microsoft.com/en-us/industry/sustainability/import-data-connectors.
 
->[!ALERT] **Important** Please ensure you have completed the previous lab to create Reference Data. **The data import process requires all Reference Data to exist, and the process is case sensitive, so please ensure the Reference data that was added has the exact same case formatting as what is found in the lab**. Failure to do so will result in errors during the data import process
+**Important** Please ensure you have completed the previous lab to create Reference Data. **The data import process requires all Reference Data to exist, and the process is case sensitive, so please ensure the Reference data that was added has the exact same case formatting as what is found in the lab**. Failure to do so will result in errors during the data import process
 
 1. Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
 
-1. Open a new browser window and navigate to +++https://make.powerapps.com+++.
+1. Open a new browser window and navigate to https://make.powerapps.com.
  
 1. Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
 
 1. If needed, change the environment to **Microsoft Cloud for Sustainability Trial** on the top bar.
 
+2. For this exercise, you'll use OneDrive.
+
+   Ensure that your personal OneDrive has been initialized by selecting the app selector button in the upper-left corner of the screen.
+
+  	![image](./Images/Lab02/image5.svg)
+
+3. Select OneDrive from the Apps list.
+   
+   ![image](./Images/Lab02/image6.svg)
+
+5. A tab with your new OneDrive will open. Close this tab and return to Power Apps.
+
+   ![image](./Images/Lab02/image7.svg)
+
 1. Open the **Sustainability Manager** Application.
 
-    ![A screenshot of a computer Description automatically generated](./Images/Lab02/L02_image008.png)
+    ![image](./Images/Lab02/image8.svg)
 
     You will land on the **Home** page for Microsoft Sustainability Manager.
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image009.png)
+    ![image](./Images/Lab02/image9.svg)
 
     Area navigation is a common first step in each lab and exercise. You can find the area navigation menu in the bottom corner of your screen.
 
-   ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image010.png) 
+   ![image](./Images/Lab02/image10.svg)
+
+### Task 1: Add custom dimension metadata
+
+In this task, Reed will add additional information to the Excel spreadsheet that Alex provided: **Purchased electricity Wide World Importers 2022.xlsx**. Reed will add custom dimensions metadata for the mapping before importing the data from the Excel spreadsheet. 
+
+1. In the left navigation pane, select **Settings**.
+
+![image](./Images/Lab02/image12.svg)
+ 
+2.	Select  **App settings > General**
+
+![image](./Images/Lab02/image13.svg) 
+ 
+3.	Select the **Custom dimensions** tab.
+
+![image](./Images/Lab02/image14.svg)
+     
+ 
+4.	Select **New** on the top right on the Active Custom dimensions page.
+
+   ![image](./Images/Lab02/image15.svg)
+ 
+5.	Enter the details as follows: 
+
+  	 1. Logical name - Product
+   
+     2. Display name – Product
+
+     3. Description - Product (This is optional)
+  	
+      4. Click **Save & Close**.
+
+    ![image](./Images/Lab02/image16.svg)
+ 
+6.	Repeat the previous steps to create another custom dimension metadata as follows 
+
+•	Logical name - Model
+
+•	Display name - Model
+
+•	Logical name - Vehicle Size  
+
+•	Display name – Vehicle Size
+
+ ![image](./Images/Lab02/image17.svg)
 
 ### Task 1: Import 2022 data for “Purchased Electricity“ for Facilities
 
-In this task, Reed imports the first excel spreadsheet provided by Alex, Purchased electricity Wide World Importers 2022.xlsx. This brings in the Electricity Purchased by Wide World Importers facilities for the year 2022 into the Purchased electricity activity data.
+In this task, Reed imports the Excel spreadsheet provided by Alex, _Purchased electricity Wide World Importers 2022.xlsx_. This brings in the Electricity Purchased by Wide World Importers facilities for the year 2022 into the Purchased electricity activity data.
 
 1.  In the bottom left corner, change the Area to **Data**.
 
-    ![Graphical user interface, application, Teams Description automatically generated](./Images/Lab02/L02_image011.png)
+     ![image](./Images/Lab02/image18.svg)
 
-1.  Navigate to **Activity data** on the left side of the page, if necessary.
+2. Go to **Carbon activities** on the left side of the page under **Data management**.
 
-    ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab02/L02_image012.png)
+   ![image](./Images/Lab02/image19.svg)
+   
+3. Find **Purchased electricity** in the **Scope 2: Indirect emissions** section and then select **Manage**.
 
-1.  Find **Purchased electricity** in the **Scope 2: Indirect emissions** section, and select **Manage**.
+    ![image](./Images/Lab02/image20.svg)
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image013.png)
+4. On the **Data Imports** view, select **+New**.
 
-1.  On the **Data connections** view, select **+New**.
+   ![image](./Images/Lab02/image21.svg)
+   
+5. On the **Data imports**, select **POWER QUERY GUIDED EXPERIENCE**.
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image014.png)
+   ![image](./Images/Lab02/image22.svg)
+ 
+6. Under **Carbon activities**, Select **Add**, next to **Purchased electricity** under Category name
 
-1.  On the **New data connection** wizard:
+![image](./Images/Lab02/image23.svg)
+ 
+7. Select **Next**.
+   
+8. Review the large list of connectors by selecting the **Excel workbook**, as the Data source.
+ 
+![image](./Images/Lab02/image24.svg)
 
-    (1) Select **Activity data** from data type screen.
+9. A new dialog will open for Power Query. Select the **Upload file** option and then select **Browse**.
 
-    (2) Choose **Purchased electricity** from the Activity data drop down list.
+    ![image](./Images/Lab02/image25.svg)
+    
+Note - You can also choose to import an existing file that's located in OneDrive. For simplicity of this exercise, you'll use the Upload file functionality.
+ 
+10. On the file selection window, browse to the location of the Excel files that were downloaded.
+    
+    1.	Select the **Purchased electricity Wide World Importers 2022.xlsx file**.
 
-    (3) Select **Next** when finished.
+    2.	Select **Open**.
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image015.png)
+ ![image](./Images/Lab02/image26.svg)
+ 
+11. After the file has successfully uploaded, you might be required to select **Sign in** to create a new connection credential.
 
-1.  Take a moment to review the large list of connectors by selecting the **See all Power Query connectors** link. This may take several moments to load.
+    ![image](./Images/Lab02/image27.svg)
+ 
+12. An Office 365 Sign-in dialog will appear. Reed will select their user from the list. In this exercise, select your  user account from the list.
 
-    ![Graphical user interface Description automatically generated](./Images/Lab02/L02_image016.png)
+13. After the sign-in process is complete, the new connection will be selected automatically. Select **Next**.
 
-1.  Microsoft Sustainability Manager utilizes Power Query for its data ingestion connectors; there is a broad list of connectors available in Power Query. Select **Cancel** or the **X** in the top right corner to close the **Power Query** dialog.
+**Note** - If you receive an error after uploading the Excel file, check your browser cookie settings.
 
-    ![Graphical user interface Description automatically generated](./Images/Lab02/L02_image017.png)
+14. On the Choose data page of the Power Query wizard:
 
-1.  On the **Choose connector** page:
+    1. Select the **Purchased electricity** Excel spreadsheet.
 
-    (1) Select **Excel**.
+    2. Select **Transform data**.
 
-    (2) Select **Next**.
+![image](./Images/Lab02/image28.svg) 
 
+15. You can complete various data and column transformations on the **Transform data** page of the Power Query wizard. As a result, you can adjust data types, update column mappings, and perform advanced transformations that you're familiar with in Microsoft Power Platform dataflows or Microsoft Power BI datasets. For this exercise, do not apply any transformations, click **Create**.
 
-    >[!NOTE]**Note:** Notice the Adatum Utility Management connector at the bottom. Data providers and Partners can create their own connectors to be available in Microsoft Sustainability Manager.
+**Note** - Wait for the transformations to be applied properly, before you click **Create**, else you may get an error.
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image018.png)
+ ![image](./Images/Lab02/image29.svg)
+    
+16. The **New data connection** wizard will now be on the **Schedule data** **import** page, where you'll complete the following actions:
 
-1.  A new dialog will open for Power Query. On the **Power Query** dialog:
+     1. Turn on the **Import data automatically** toggle to allow the option to set a schedule for the data to be imported automatically. Selecting this     
+        option is beneficial if the connector will be used in a scenario where the data will change frequently, such as a web API or FTP server.
 
-    (1) Select **Upload file**.
+      2. Turn on the **Replace previously imported data** toggle to remove all previously imported data and bring in the full dataset that was retrieved. 
+         Selecting this option is beneficial if the data source isn't providing data from only the last import or if it always includes a full set of data. For 
+         this scenario of importing historical data, leave both options turned off.
+    
+17. Select **Next** when finished.
 
-    (2) Select **Browse**.
+ ![image](./Images/Lab02/image30.svg)
+ 
+18. On the Review and finish page, complete the following tasks:
+    
+    1. Enter a name for the new connection, such as **Wide World Importers Purchased Electricity 2022**
 
+    2. Select **Connect**.
 
-    >[!NOTE]**Note:** You can also choose to import an existing file located in OneDrive. For simplicity of this lab, we are using the Upload file functionality.
+ ![image](./Images/Lab02/image31.svg)
+ 
+19. Next, you'll need to map your source data to the data model. Data will not appear until this step is complete. Select on **Map fields**.
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image019.png)
+ ![image](./Images/Lab02/image32.svg)
+ 
+20. Select the **Data source** to map, in this exercise select **Purchased electricity** under **Carbon Activities.**
 
-1.  On the file selection window, browse to the desktop of the VM and open the **Lab Files** folder.
+ ![image](./Images/Lab02/image33.svg)
+ 
+21. In this scenario, Reed will need to map the columns from the spreadsheet to the columns in Microsoft Sustainability Manager. Select **Auto Map** for the solution to automatically map the file’s source fields with the destination fields, for any field that is not an exact match the best match will be found and highlighted in blue, make sure to review them. Review the custom dimensions to ensure Model and Product are added as part of mapping. Remove the unnecessary custom dimensions if they are added When you are done with the mapping, select **Save**.
 
-    (1) Select the **Purchased electricity Wide World Importers - 2022.xlsx** file.
+ ![image](./Images/Lab02/image34.svg)
 
-    (2) Select **Open**.
+  ![image](./Images/Lab02/image35.svg)
 
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image020.png)
+23. Now that we have reviewed our field mappings, toggle **Ready to Import** as yes. Click the back arrow. Click on **Done**.
 
-1.  Once the file is successfully uploaded, you may have to sign in. If the **Sign In** button is visible below the **Connection credentials** area, select **Sign in**.
+  ![image](./Images/Lab02/image36.svg)
 
-    ![Graphical user interface, table Description automatically generated](./Images/Lab02/L02_image021.png)
+   ![image](./Images/Lab02/image37.svg)
+ 
+24. You will be navigated back to **Data imports** where you can view the import you created.
 
-    1.  An Office 365 Sign in dialog will appear. Reed selects their user from the list. (For the purposes of this lab, select your lab user account from the list).
+25. The **Data Import** job will run, and the status will display **Scheduled** and then in a moment it switches to **Processing**. You might need to refresh your page to view the change.
 
-        ![Graphical user interface, text, application Description automatically generated](./Images/Lab02/L02_image022.png)
+26. After a minute or two select **Refresh** above the list to view the updated status, which should be **Complete**.
+ 
+ ![image](./Images/Lab02/image38.svg)
+ 
+27. Go to **Carbon Activities** on the left navigation pane under **Data management**.
 
-1.  Once the sign in process is completed, the new connection is automatically selected. Select **Next**.
+28. Find **Purchased electricity** in the **Scope 2: Indirect emissions** section and then select **View**.
 
-    ![Graphical user interface, text, application Description automatically generated](./Images/Lab02/L02_image024.png)
+     ![image](./Images/Lab02/image39.svg)
+ 
+The Purchased electricity view shows all purchased electricity activity data that has been imported.
 
-1.  On the **Choose data** page of the **Power Query** wizard:
+![image](./Images/Lab02/image40.svg)
+ 
+28. Filter the view by selecting the **Organizational Unit** dropdown menu and then selecting **Filter By**.
 
-    (1) Select the **Purchased electricity** sheet.
+29. Select **Wide World Importers** from the **Filter By** dialog.
 
-    (2) Select **Transform data**.
+30. Select **Apply** to apply the filter to the column.
 
-    ![Table Description automatically generated](./Images/Lab02/L02_image025.png)
+ ![image](./Images/Lab02/image41.svg)
+ 
+After a few moments, the view will refresh and the activity data records that were imported during this exercise will be displayed.
 
-    On the **Transform data** page of the Power Query wizard, various data and column transformations can be performed. This will allow for the adjusting of data types, update column mappings, and even perform advanced transformations familiar with in Power Platform Dataflows or Power BI Datasets.
+ ![image](./Images/Lab02/image42.svg)
+ 
+You've now completed the data import of 2022 Purchased Electricity for Wide World Importers. This step is imperative in realizing the goal of recording, reporting, and reducing carbon emissions. Next, you'll import the 2022 Miles Driven for Wide World Importers fleet of electric vehicles.
 
-1.  In this scenario, Reed will need to map the columns from the spreadsheet to the columns in Microsoft Sustainability Manager. To do this select **Map to entity** in the upper right corner of the dialog window.
+### Task 3: Import 2022 data “Miles Driven” for Electric Trucks
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image026.png)
+In this task, Reed will import the second Excel spreadsheet that Alex provided: Fleet Vehicles Miles Driven Wide World Importers 2022.xlsx. While electric vehicles don't produce direct tailpipe emissions, they do produce **Scope 2: Purchased electricity** from charging. This import will bring in the Miles driven by Wide World Importers fleet of electric trucks for the year 2022 data into the Purchased electricity carbon activity data.
 
-1.  On the **Map to CDM entity** of the dialog window we need to:
+1.  Select **Data imports** on the left navigation pane, select **+New** again.
 
-    (1) Select the table name, **Purchased energy**.
+    ![image](./Images/Lab02/image21.svg)
+ 
+2.	On the Data imports, select POWER QUERY GUIDED EXPERIENCE.
 
-    (2) Select **Auto map** to allow any automatic mappings to occur.
+      ![image](./Images/Lab02/image22.svg)
+  
+3. Select **Add**, next to **Purchased Electricity.**
 
-    (3) **Contractual Instrument Type** was **Not mapped**, hence Reed selects **Contracted firm** from the list of options in the **Query output column**.
+    ![image](./Images/Lab02/image23.svg)
+ 
+4. Select **Next**.
+   
+5. On the list of connectors. select **Excel workbook**, as the Data Connector.
 
-    (4) **Energy Provider name** was **Not mapped**, select **Provider** from the list of options in the **Query output column**.
+    ![image](./Images/Lab02/image24.svg)
+ 
+6. A new dialog will open for Power Query, where you'll select **Upload file > Browse.**
 
-    (5) When finished, select **OK**.
+ ![image](./Images/Lab02/image25.svg)
+ 
+7. On the file selection window, browse to the location of the downloaded Excel files.
 
-    ![Graphical user interface, table Description automatically generated](./Images/Lab02/L02_image027.png)
+    1.	Select the **Fleet Vehicles Miles Driven Wide World Importers 2022.xlsx file.**
 
-1.  The **Transform data** page should now look like this:
+    2.	Select **Open**.
+   
+     ![image](./Images/Lab02/image44.svg)
+ 
+8. Once the file is successfully uploaded, you may be required to select the sign in button to create a new Connection credential, this is done by selecting **Sign in.**
 
-    >[!NOTE]**Note:** Observe that the column names have changed to Contractual Instrument Type and Energy Provider Name.
+  ![image](./Images/Lab02/image45.svg)
+  
+9. An Office 365 Sign in dialog will appear. Reed selects their user from the list. For the purposes of this exercise, select your user account from the list.
 
-    ![Graphical user interface, application, table, Excel Description automatically generated](./Images/Lab02/L02_image028.png)
+10. If signed in, the new connection is automatically selected. Select **Next**.
 
-1.  Select **Create** to start the data import process:
+11. On the Choose data page of the Power Query wizard, select the **Miles Driven** spreadsheet, and then select **Transform data**.
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image029.png)
+     ![image](./Images/Lab02/image46.svg)
 
-1.  The **New data connection** wizard will now be on the Schedule data import page.
+12. On the Transform data page of the Power Query wizard, you can complete various data and column transformations. These transformations will allow you to adjust data types, column mappings updates, and perform advanced transformations that you're familiar with in Microsoft Power Platform dataflows or Power BI datasets. For this exercise, you do not need to apply any transformations, select **Create**.
+    
+**Note** - Wait for the transformations to be applied properly, before you click Create, else you may get an error.
 
-    Turning on **Import data automatically** will give the option to set a schedule to have the data imported automatically, this may be a good option if the connector will be used in a scenario where the data will change frequently such as a web API or FTP server.
+![image](./Images/Lab02/image47.svg)
 
-    Turning on **Replace previously imported data** will remove all previously imported data and bring in the full data set that was retrieved, this may be a good option if the data source is not only providing data from the last import or always includes a full set of data. For this scenario of importing historical data, leave both options turned off.
+13. The New data connection wizard will now be on the Schedule data import page, where you'll complete the following tasks:
 
-    1. Select **Next** when finished.
+    1.	Turn on the **Import data automatically** toggle to allow the option to set a schedule for the data to be imported automatically. Selecting this option 
+       is beneficial if the connector will be used in a scenario where the data will change frequently, such as a web API or FTP server.
 
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image030.png)
+    2.	Turn on the **Replace previously imported data** toggle to remove all previously imported data and to bring in the full dataset that was retrieved. 
+        Selecting this option is beneficial if the data source isn't providing data from only the last import or if it always includes a full set of data.
+        For this scenario of importing historical data, leave both options turned off.
 
-1.  On the **Review and finish** page:
+14. Select **Next** when you're finished.
 
-    (1) Enter a name for the new connection, such as +++**Wide World Importers Purchased Electricity 2022**+++.
+ ![image](./Images/Lab02/image30.svg)
 
-    (2) Select **Connect**.
+15. On the Review and finish page, complete the following tasks:
 
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image031.png)
+    1.	Enter a name for the new connection, such as Wide World Importers Electric Vehicle Miles Driven 2022
 
-1.  At the bottom of the window, there will be a message, **Creating connection…**
+    2.	Select **Connect**.
+   
+    ![image](./Images/Lab02/image48.svg)
 
-    ![Graphical user interface Description automatically generated with medium confidence](./Images/Lab02/L02_image032.png)
 
-1.  Once the connection is created, select **Done**.
+Next, you'll map your source data to the data model. Data will not appear until this step is complete. Select **Map fields**.
 
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image033.png)
+![image](./Images/Lab02/image49.svg)
+ 
+16. Select the data source to map. In this exercise, it is **Purchased electricity** under **Carbon Activities**.
 
-1.  The **Connections** view will now be visible, along with the status of the recently created connection. It should say **Scheduled** or **Processing**. 
+    ![image](./Images/Lab02/image50.svg)
+ 
+17. In this scenario, Reed needs to map the columns from the spreadsheet to the columns in Microsoft Sustainability Manager. To do so, you'll select **Auto Map** for the solution to automatically map the file’s source fields with the destination fields, for any field that is not an exact match the best match will be found and highlighted in blue. Also, ensure the custom dimensions metadata Vehicle size is added as part of mapping. Please delete if any other dimensions are added.
+ 
+ ![image](./Images/Lab02/image51.svg)
 
-    >[!NOTE] You may have to click **Refresh** more than once to see the status change from **Scheduled** to **Processing**.
+ ![image](./Images/Lab02/image52.svg)
 
-    ![Graphical user interface, text, application, website Description automatically generated](./Images/Lab02/L02_image034.png)
+18. You will review them and select **Save**.
 
-1.  After a minute or two select the **Refresh** button above the list to see the updated status, which should be **Complete**.
+    ![image](./Images/Lab02/image53.svg)
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image035.png)
+19. Select the toggle as **Yes** for **Ready to import**. Click on back arrow.  
+ 
+20. Click on **Done**. The **Data Import** job will run, and you can view the status as **Scheduled** and then in a moment it will switch to **Processing**. Refresh the page to see the change.
 
-1.  Navigate to **Activity data** on the left side of the page.
+ ![image](./Images/Lab02/image54.svg)
+ 
+21. After a minute or two, select the Refresh button above the list to view the updated status, which should be **Completed**. Ensure you have the correct number of records, and the status of the data connections is Complete before you go to the next steps.
+ 
+![image](./Images/Lab02/image55.svg)
 
-    ![Graphical user interface, text, application, chat or text message Description automatically generated](./Images/Lab02/L02_image036.png)
+22. Go to **Carbon activities** data on the left side of the page.
+ 
+23. Find **Purchased electricity** in the **Scope 2: Indirect emissions** section and then select **View**.
 
-1.  Find **Purchased electricity** in the **Scope 2: Indirect emissions** section, and select **View**.
+    ![image](./Images/Lab02/image56.svg)
+ 
+The Purchased electricity view shows all purchased electricity activity data that has been imported.
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image037.png)
+![image](./Images/Lab02/image57.svg)
+ 
+24. Filter the view by selecting the **Organizational Unit** dropdown menu and then selecting **Filter By**.
 
-1.  The **Purchased electricity** view shows all purchased electricity activity data that has been imported.
+    1.	Select **Wide World Importers **from the Filter by dialog.
 
-    ![A screenshot of a computer Description automatically generated](./Images/Lab02/L02_image038.png)
+    2.	Select **Apply** to apply the filter to the column.
+ 
+25. After a few moments, the view will refresh. You should be able to view the activity data records that were imported during this exercise.
 
-1.  Filter the view by selecting the down arrow next to the **Organizational Unit** column, and selecting **Filter by**.
+![image](./Images/Lab02/image58.svg)
+ 
+You've completed the data import for 2022 Miles Driven for Wide World Importers. This step is important for realizing the goal of recording, reporting, and reducing carbon emissions. In the following exercises, you calculate emissions, review insights and reporting, and define your reduction scorecards and goals.
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image039.png)
-
-1.  Select **Wide World Importers** from the **Filter By** dialog.
-
-    ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image040.png)
-
-1.  Select **Apply** to apply the filter to the column.
-
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image061.png)
-
-1.  After a few moments, the view will refresh, and the activity data records that were imported during this lab will be displayed.
-
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image042a.png)
-
-Great job, you have helped Reed complete the data import of 2022 Purchased Electricity for Wide World Importers. This is an important step to realizing the goal of recording, reporting, and reducing carbon emissions. Next, you will import the 2022 Miles Driven for Wide World Importers fleet of electric vehicles. **Please continue to the next task.**
-
-===
-
-### Task 2: Import 2022 data “Miles Driven” for Electric Trucks
-
-In this task, Reed imports the second excel spreadsheet provided by Alex - “Fleet Vehicles Miles Driven Wide World Importers 2022.xlsx”. While electric vehicles do not produce direct tailpipe emissions, they do produce “Scope 2: Purchased electricity from charging”. This brings in the Miles driven by Wide World Importers fleet of electric truck for the year 2022 into the Purchased electricity activity data.
-
-1.  Navigate to **Data connections** on the left side of the page.
-
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image041.png)
-
-1.  On the **Connections** view, select **+New**.
-
-    ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image042.png)
-
-1.  On the **New data connection** wizard:
-
-    (1) Select **Activity data** from data type screen.
-
-    (2) Choose **Purchased electricity** from the **Activity data** drop down list.
-
-    (3) Select **Next** when finished.
-
-    ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image043.png)
-
-1.  On the **Choose connector** page:
-
-    (1) Select **Excel**.
-
-    (2) Select **Next** when finished.
-
-    ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image044.png)
-
-1.  A new dialog will open for Power Query. On the **Power Query** dialog:
-
-    (1) Select **Upload file**.
-
-    (2) Select **Browse**.
-
-    ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image045.png)
-
-1.  On the file selection window, browse to the **Lab Files** folder on the VM desktop.
-
-    (1) Select the **Fleet Vehicles Miles Driven Wide World Importers - 2022.xlsx** file.
-
-    (2) Select **Open**.
-
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image046.png)
-
-1.  Once the file is uploaded, the Connection credentials automatically selects the previous connection for authentication. Select **Next**.
-
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image047.png)
-
-1.  On **Choose data** page of the **Power Query** wizard:
-
-    (1) Select the **Miles Driven** sheet.
-
-    (2) Select **Transform data**.
-
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image048.png)
-
-    On the **Transform data** page of the **Power Query** wizard, various data and column transformations can be performed. This will allow the adjusting of data types, column mappings updates, and even perform advanced transformations familiar with in Power Platform Dataflows or Power BI Datasets.
-
-1.  In this scenario, Reed will need to map the columns from the spreadsheet to the columns in Microsoft Sustainability Manager. To do this select **Map to entity** in the upper right corner of the dialog window.
-
-    ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image049.png)
-
-1.  On the **Map to CDM entity** dialog window we need to:
-
-    (1) Select the table name, **Purchased energy**.
-
-    (2) Select **Auto map** to allow any automatic mappings to occur.
-
-    (3) **Contractual Instrument Type** was **Not mapped**, hence Reed selects **Contracted firm** from the list of options in the **Query output column**.
-
-    (4) **Energy Provider Name** was **Not mapped**, select **Provider** from the list of options in the **Query output column**.
-
-    (5) When finished, select **OK**.
-
-    ![Graphical user interface, table Description automatically generated](./Images/Lab02/L02_image050.png)
-
-1.  The **Transform data** page should now look like this:
-
-    >[!NOTE] **Note:** Observe that the column names have changed to Contractual Instrument Type and Energy Provider Name.
-
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image051.png)
-
-1.  Select **Create** to start the data import process.
-
-    ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image052.png)
-
-1.  The **New data connection** wizard will now be on the Schedule data import page.
-
-    Turning on **Import data automatically** will give the option to set a schedule to have the data imported automatically, this may be a good option if the connector will be used in a scenario where the data will change frequently such as a web API or FTP server.
-
-    Turning on **Replace previously imported data** will remove all previously imported data and bring in the full data set that was retrieved, this may be a good option if the data source is not only providing data from the last import or always includes a full set of data. For this scenario of importing historical data, leave both options turned off.
-
-    1. Select **Next** when finished.
-
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image053.png)
-
-1.  On the **Review and finish** page:
-
-    (1) Enter a name for the new connection, such as +++**Wide World Importers Electric Vehicle Miles Driven 2022**+++.
-
-    (2) Select **Connect**.
-
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image054.png)
-
-1.  At the bottom of the window, there will be a message, **Creating connection…**.
-
-    ![Graphical user interface Description automatically generated with medium confidence](./Images/Lab02/L02_image032.png)
-
-1.  Once the connection is created, select **Done**.
-
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image055.png)
-
-1.  The **Connections** view will now be visible, along with the status of the recently created connection. It should say **Scheduled** or **Processing**. If it says **Scheduled**, select **Refresh** a couple of times.
-
-    ![Graphical user interface, text, application Description automatically generated](./Images/Lab02/L02_image056.png)
-
-1.  After a minute or two select the **Refresh** button above the list to see the updated status, which should be **Completed**. Ensure you have the correct number of records as below and the status of the data connections are **Complete** before moving to next steps.
-
-    >[!NOTE] **Note:** In case if you have duplicate records, you can ignore this and continue.
-
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image057.png)
-
-1.  Navigate to **Activity data** on the left side of the page.
-
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image036.png)
-
-1.  Find **Purchased electricity** in the **Scope 2: Indirect emissions** section, and select **View**.
-
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image058.png)
-
-1.  The **Purchased electricity** view shows all purchased electricity activity data that has been imported.
-
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image059.png)
-
-1.  Filter the view by selecting the down arrow next to the **Organizational Unit** column, and selecting **Filter by**.
-
-    ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image060.png)
-
-1.  Select **Wide World Importers** from the **Filter By** dialog.
-
-    ![Graphical user interface, application Description automatically generated](./Images/Lab02/L02_image040.png)
-
-1.  Select **Apply** to apply the filter to the column.
-
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image061.png)
-
-1.  After a few moments, the view will refresh, and the activity data records that were imported during this lab will be displayed.
-
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab02/L02_image062.png)
-
-Great job, by completing these steps you have helped Reed by using the Microsoft Sustainability Manger’s connector functionality to import from the  “Fleet Vehicles Miles Driven Wide World Importers - 2022.xlsx” spreadsheet, and used the built-in Power Query functionality to transform the data to match Microsoft Sustainability Manager’s data schema. This brings the Miles driven by Wide World Importers fleet of electric truck for the year 2022 into the Purchased electricity activity data.
-
-**Congratulations!** Reed and Alex can use the data you imported for emission calculations and reporting. This is an important step to realizing the goal of recording, reporting, and reducing carbon emissions. In the following labs we will calculate emissions, review insights and reporting, and define our reduction scorecards and goals.

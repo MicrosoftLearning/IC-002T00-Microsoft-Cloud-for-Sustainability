@@ -1,5 +1,5 @@
 ---
-lab:
+lab  : 
     title: 'Lab 1: Organization Setup'
     module: 'Module 3: Configure organization setup and structure'
 ---
@@ -9,9 +9,11 @@ lab:
 
 ### Background
 
-In this lab for Microsoft Cloud for Sustainability you will build on top of demo data to configure the “Set up organization and reference data” scenario. Contoso Corp (*organization present in the demo data*) is a specialty Coffee distribution business with operations in APAC, US, Africa, and Europe.
+In this lab for Microsoft Cloud for Sustainability, you'll use demo data to set up the "Set up organization and reference data" scenario. Contoso Corp is a specialty coffee distribution business with operations in APAC, US, Africa, and Europe.
 
-Contoso Corp is experiencing Supply chain challenges to transport its finished goods across the USA and wants to augment its transportation and logistics capacities. To meet this challenge, Contoso Corp acquires a transportation business called Wide World Importers based in Florida, USA. Wide World Importers has two office facilities with 100 employees that coordinate a fleet of 40 electric trucks that will be used for transportation of finished goods across the USA.
+Contoso Corp is experiencing supply chain challenges when transporting its finished goods across the United States. Additionally, it wants to augment its transportation and logistics capacities. To overcome this challenge, Contoso Corp acquired a transportation business called Wide World Importers, which is based in Florida, US. Wide World Importers has two office facilities with 100 employees that coordinate a fleet of 40 electric trucks that will be used for transportation of finished goods across the US.
+
+The newly created data in this exercise will form the foundation for the rest of the scenarios (data ingestion, calculations, and reporting) in the subsequent exercises.
 
 ### Learning Objectives
 
@@ -33,45 +35,72 @@ In this lab, you will perform the following:
 
 Organization setup focuses on the foundational steps required to configure the Microsoft Sustainability Manager application. These foundational steps will create the company profile, set up organizational structure and hierarchy, and corresponding facilities. After this, reference data will be set up that includes important information such as fuel types, vehicle types, contractual instrument types, and units. Some of this reference data is unique to an organization, and some will come from standard or industry sources.
 
-![Diagram Description automatically generated](./Images/Lab01/L01_image001.png)
+![image](./Images/Lab01/image0.svg)
+
 
 ### Personas and Scenarios
 
-In this lab, Jessie Irwin – Sustainability lead for Contoso Corp and Amber Rodriguez - Sustainability Specialist for Contoso Corp educate Alex Serra of Wide World importers on the tools and processes used for Contoso’s Sustainability reporting. Jessie guides Alex to build an inventory management plan by listing out the operating boundaries, facilities, and emission sources. Jessie and Amber demonstrate “Microsoft Sustainability Manager” and share the inventory plan template with Alex Serra – Emissions Analyst and Reed Flores – IT Admin. After completing the Inventory plan template - together, Alex and Reed set up the Company Profile, Organization data and Reference data based on the data provided by Amber in the Inventory plan.
+This exercise features the following personas:
 
-![Diagram Description automatically generated](./Images/Lab01/L01_image002.png)
+•	Jessie Irwin - Sustainability lead for Contoso Corp
+
+•	Amber Rodriguez - Sustainability specialist for Contoso Corp
+
+•	Alex Serra - Emissions analyst from Wide World Importers
+
+•	Reed Flores – IT admin from Wide World Importers
+
+These personas will participate in the following sequential scenarios:
+
+1. Amber will educate Alex on the tools and processes that are used for Contoso's 
+       sustainability reporting.
+2. Jessie will guide Alex on building an inventory management plan by 
+       listing the operating boundaries, facilities, and emission sources.
+
+3. Jessie and Amber will demonstrate Microsoft Sustainability Manager 
+       and will share the inventory plan template with Alex and Reed.
+
+ 4. After completing the inventory plan template, Alex and Reed will set up the company profile, 
+       organization data, and reference data based on the data that Amber provided in the inventory plan.
+
+
+
+![image](./Images/Lab01/image1.svg)
 
 In this lab exercise, we will focus on the scenarios illustrated below:
 
-![](./Images/Lab01/L01_image003.png)
+![image](./Images/Lab01/image2.svg)
+
 
 ## Exercise 1: Set up company profile and reference data
 
-In this exercise, you will learn about the steps that Alex and Reed take to set up Wide World Imports company profile, organizational data, and reference data. You can explore this functionality in deeper detail on Microsoft Docs. To do this visit **Set up a company profile** at +++https://docs.microsoft.com/en-us/industry/sustainability/setup-company-profile+++.
+In this exercise, you will learn about the steps that Alex and Reed take to set up Wide World Imports company profile, organizational data, reporting years and reference data. You can explore this functionality in deeper detail on Microsoft Docs. To do this visit **Set up a company profile** at https://docs.microsoft.com/en-us/industry/sustainability/setup-company-profile.
 
 1. Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
 
-1. Open a new browser window and navigate to +++https://make.powerapps.com+++.
+1. Open a new browser window and navigate to https://make.powerapps.com.
 
 1. Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
 
 1. If needed, change the environment to **Microsoft Cloud for Sustainability Trial** on the top bar.
 
-1. Open the **Sustainability Manager** Application.
+1. Open the **Sustainability Manager** Application under Apps from the left navigation pane.
 
-    ![Graphical user interface, application, Teams Description automatically generated](./Images/Lab01/L01_image005.png)
+    ![image](./Images/Lab01/image4.svg)
 
 You will land on the **Home** page for Microsoft Sustainability Manager.
 
-![A screenshot of a computer Description automatically generated](./Images/Lab01/L01_image006.png)
+![image](./Images/Lab01/image5.svg)
+
 
 >[!NOTE] **Note**: You can dismiss the Product tour by scrolling down and selecting the **Dismiss tour** button.
 
- ![Graphical user interface, text, application Description automatically generated](./Images/Lab01/L01_image007.png)
+
+![image](./Images/Lab01/image6.svg)
 
 Area navigation is a common first step in each lab and exercise. You can find the area navigation menu in the bottom corner of your screen.
 
-![](./Images/Lab01/L01_image008.png)
+![image](./Images/Lab01/image7.svg)
 
 ## Task 1: Setup the Company profile, hierarchy, and facilities
 
@@ -79,104 +108,111 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
 
 1. In the bottom left corner, change your Area to **Settings**.
 
-    ![](./Images/Lab01/L01_image009.png)
+    ![image](./Images/Lab01/image8.svg)
 
-1. Navigate to **Company profile** on the left side of the page.
+1. Navigate to **Company profile** on the left navigation pane of the home page.
 
-    ![](./Images/Lab01/L01_image010.png)
+    ![image](./Images/Lab01/image9.svg)
 
 1. The Company profile page includes basic information about the organization, such as name, address, company logo, the annual reporting period, and relevant industries. Additionally, there are tabs at the top of the page for setting up organization structure and facilities, both will be covered in this exercise.
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image011.png)
+   ![image](./Images/Lab01/image10.svg)
 
-1. On the **Company profile** page, select the **Industries** tab. Microsoft Sustainability Manager includes a selection of pre-defined industries and sub-verticals based on NACE standards, see NACE Code at +++https://nacev2.com/en+++. Select **+Add**.
+1. On the **Company profile** page, select the **Industries** tab. Microsoft Sustainability Manager includes a selection of pre-defined industries and sub-verticals based on NACE standards, see NACE Code at https://nacev2.com/en. Select **+Add**.
 
-    ![](./Images/Lab01/L01_image012.png)
+   ![image](./Images/Lab01/image11.svg)
 
-1. In the **Industries** section, select **Transportation and storage**.
+   ![image](./Images/Lab01/image12.svg)
 
-    ![Graphical user interface, application, PowerPoint Description automatically generated](./Images/Lab01/L01_image013.png)
+1. Select **Transportation and storage**.
+
+    ![image](./Images/Lab01/image13.svg)
 
 1. In the next screen, select **Land transport and transport via pipelines** and select **Add**.
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image014.png)
+    ![image](./Images/Lab01/image14.svg)
 
 1. **Land transport and transport via pipelines** is now visible in the **Industries** section at the bottom of the **Company profile** page.
 
-    ![Graphical user interface, website Description automatically generated](./Images/Lab01/L01_image015.png)
+    ![image](./Images/Lab01/image15.svg)
 
 1. In the **Company profile** page, switch to the **Structure** tab.
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image016.png)
+  ![image](./Images/Lab01/image16.svg)
 
-1. Select **Contoso USA** and select **Add** to add a new organizational unit under it.
 
-    ![Graphical user interface, application, table Description automatically generated](./Images/Lab01/L01_image017.png)
+9. Select **Contoso USA** and select **Add** to add a new organizational unit under it.
 
-1. Enter the following data for organizational unit and select **Save** in the button pane:
+    ![image](./Images/Lab01/image17.svg)
 
-    1. **Name**: +++Wide World Importers+++
+
+10. Enter the following data for organizational unit and select **Save** in the button pane:
+
+    1. **Name**: Wide World Importers
     1. **Organizational unit type**: Department
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image018.png)
+   ![image](./Images/Lab01/image18.svg)
 
-1. In the **Organizational hierarchies** section, which appears after selecting **Save**, select **+ New Organizational hierarchy**.
 
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab01/L01_image019.png)
+11. In the **Organizational hierarchies** section, which appears after selecting **Save**, select **+ New Organizational hierarchy**.
 
-1. Set the following values and select **Save & Close**:
+    ![image](./Images/Lab01/image19.svg)
 
-    1. **Parent**: +++Contoso USA+++
+
+12. Set the following values and select **Save & Close**:
+
+    1. **Parent**: Contoso USA
     1. **Effective start date**: The first day of the current month (MM/DD/YYYY)
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image020.png)
+    ![image](./Images/Lab01/image20.svg)
 
-1. After being returned to the **Organizational Unit**, select **Save & Close** to return to the **Company profile**.
+13. After being returned to the **Organizational Unit**, select **Save & Close** to return to the **Company profile**.
 
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab01/L01_image021.png)
+    ![image](./Images/Lab01/image21.svg)
 
-1. If necessary, navigate to **Company profile**, switch to the **Facilities** tab page and select **Add facility**.
+14. If necessary, navigate to **Company profile**, switch to the **Facilities** tab page and select **Add facility**.
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image022.png)
+  ![image](./Images/Lab01/image22.svg)
 
-1. Create a new Facility with the following details. Once the values are entered, select **Save & Close**:
+15. Create a new Facility with the following details. Once the values are entered, select **Save & Close**:
 
     >[!NOTE] **Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
-    1. **Name**: +++Wide World Importers - Miami Office+++
-    1. **Address line 1**: +++Brickell Avenue+++
-    1. **City**: +++Miami+++
-    1. **State**: +++Florida+++
-    1. **Zip**: +++33132+++
+    1. **Name**: Wide World Importers - Miami Office
+    1. **Address line 1**: Brickell Avenue
+    1. **City**: Miami
+    1. **State**: Florida
+    1. **Zip**: 33132
     1. **Country**: United states of America
-    1. **Latitude**: +++25.774320+++
-    1. **Longitude**: +++-80.187720+++
+    1. **Latitude**: 25.774320
+    1. **Longitude**: -80.187720
 
     >[!NOTE] **Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
 
-    ![](./Images/Lab01/L01_image023.png)
+    ![image](./Images/Lab01/image23.svg)
 
-1. Using the same steps, add another new **Facility**. Once the values are entered, select **Save & Close**.
+16. Using the same steps, add another new **Facility**. Once the values are entered, select **Save & Close**.
 
     >[!NOTE] **Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
-    1. **Name**: +++Wide World Importers - Tampa Office+++
-    1. **Address line 1**: +++Lois Avenue+++
-    1. **City**: +++Tampa+++
-    1. **State**: +++Florida+++
-    1. **Zip**: +++33609+++
+    1. **Name**: Wide World Importers - Tampa Office
+    1. **Address line 1**: Lois Avenue
+    1. **City**: Tampa
+    1. **State**: Florida
+    1. **Zip**: 33609
     1. **Country**: United states of America
-    1. **Latitude**: +++27.944830+++
-    1. **Longitude**: +++-82.514050+++
+    1. **Latitude**: 27.944830
+    1. **Longitude**: -82.514050
 
 
->[!NOTE] **Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
+**Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
 
-![](./Images/Lab01/L01_image024.png)
+![image](./Images/Lab01/image24.svg)
+
 
 Great job, by completing these steps, you have assisted Alex with completing the organizational setup in Microsoft Sustainability Manager for Wide World of Importers. This included the Company profile, hierarchy, and facilities. Organizational structure and facility management will be linked to activity and emission data to group emissions by Organization, facility, and even regions. This is an important part of carbon emission reporting and organization disclosures. **Please continue to the next task.**
 
-===
+
 
 ## Task 2: Setup reference data
 
@@ -184,73 +220,112 @@ In this task, Reed sets up the reference data for contractual instrument types i
 
 1. In the bottom left corner, change the Area to **Settings**, if necessary.
 
-    ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image025.png)
+  ![image](./Images/Lab01/image25.svg)
+
 
 1. Navigate to **Reference data** on the left side of the page.
 
-    ![](./Images/Lab01/L01_image026.png)
+   ![image](./Images/Lab01/image26.svg)
+
 
 1. Select **Contractual instrument types** and select **View**.
 
-    ![Graphical user interface, text, application Description automatically generated](./Images/Lab01/L01_image027.png)
+    ![image](./Images/Lab01/image27.svg)
+
 
 1. Under **Active contractual instrument types**, select **New** to create new contractual types.
 
-    ![Graphical user interface, text, table Description automatically generated with medium confidence](./Images/Lab01/L01_image028.png)
+    ![image](./Images/Lab01/image28.svg)
+
 
 1. Create a new Contractual Instrument with the following details. Once entered, select **Save & Close** in the button pane.
 
-    1. **Name**: +++VanArsdel Ltd+++
+    1. **Name**: VanArsdel Ltd
     1. **Energy source**: Nuclear
 
-    >[!NOTE] **Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
+    **Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
-    ![](./Images/Lab01/L01_image029.png)
+   ![image](./Images/Lab01/image29.svg)
+
 
 1. In the same way, again create a new Contractual Instrument with the following details. Once entered, select **Save & Close** in the button pane.
 
-    1. **Name**: +++Adatum Corp+++
+    1. **Name**: Adatum Corp
     1. **Energy source**: Other
 
-    ![](./Images/Lab01/L01_image030.png)
+   ![image](./Images/Lab01/image30.svg)
 
-    >[!NOTE]**Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
+
+    **Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
 Great job, by completing these steps, you have helped Reed add reference data for contractual instrument types. There are many types of reference data. Take some time after this lab to explore the other reference data types. They will be used throughout Microsoft Cloud for Sustainability, and Microsoft Sustainability Manager. **Please continue to the next task.**
 
-===
+
 
 ## Task 3: Setup Unit conversion factor
 
 In this task, Reed sets up a unit conversion factor in Microsoft Sustainability Manager. While reviewing the inventory management plan, Alex identifies a missing unit of distance needed to calculate emissions for the fleet of electric vehicles. They ask Reed to add a new unit to the Length/Distance unit group.
 
-Unit Groups are used to group units together and define a base unit used to convert between unit types. For example, the Length/Distance unit group contains units of length and distance, with a base unit of meter (m). The units within the Length/Distance unit group have conversions between the unit type and meter, such as miles convert to 1,609.344 meters. You can explore this functionality in deeper detail on Microsoft Docs, please visit **Set up unit groups** at +++https://docs.microsoft.com/en-us/industry/sustainability/setup-unit-groups+++.
-
-1. In the bottom left corner, change the Area to **Settings**, if necessary.
-
-    ![Graphical user interface, application Description automatically generated](./Images/Lab01/L01_image031.png)
+Unit Groups are used to group units together and define a base unit used to convert between unit types. For example, the Length/Distance unit group contains units of length and distance, with a base unit of meter (m). The units within the Length/Distance unit group have conversions between the unit type and meter, such as miles convert to 1,609.344 meters. You can explore this functionality in deeper detail on Microsoft Docs, please visit **Set up unit groups** at https://docs.microsoft.com/en-us/industry/sustainability/setup-unit-groups.
 
 1. Navigate to **Unit groups** on the left side of the page.
 
-    ![](./Images/Lab01/L01_image032.png)
+    ![image](./Images/Lab01/image31.svg)
+
 
 1. Under **Active unit groups**, select **Length/distance** and open it.
 
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab01/L01_image033.png)
+   ![image](./Images/Lab01/image32.svg)
+
 
 1. Select **New unit** to create a new unit.
 
-    ![Graphical user interface, text, application, email Description automatically generated](./Images/Lab01/L01_image034.png)
+   ![image](./Images/Lab01/image33.svg)
+
 
 1. Enter the following details to create a new unit. Once entered, select **Save & Close** from the button pane.
 
-    1. **Name**: +++100 mile+++
-    1. **Conversion factor**: +++160934.40+++
+    1. **Name**: 100 mile
+    1. **Conversion factor**: 160934.40
 
->[!NOTE] **Note:** The EPA calculates electric vehicle efficiency by the number of kilowatt hours (kWh) used per 100 miles. For consistency, it is best practice to utilize the same
+**Note:** The EPA calculates electric vehicle efficiency by the number of kilowatt hours (kWh) used per 100 miles. For consistency, it is best practice to utilize the same
 
-![](./Images/Lab01/L01_image035.png)
+![image](./Images/Lab01/image34.svg)
+
 
 Great job, by completing these steps you have helped Reed add the missing unit for the fleet for elctric vehicles to the Length/Distance unit group to Microsoft Sustainability Manager.
+
+## Task 4 : Create a reporting year 
+
+Alex and Reed will set up the reporting years in Microsoft Sustainability Manager. Alex will name the reporting year, set up the start date and use a template to create more than one period. 
+
+**Note:** The Reporting years you set up will override the configuration in General settings.
+
+Alex proceeds to create a reporting year in Sustainability Manager. For detailed information, see Configure reporting years 
+
+1.	In the left navigation pane, under **Organization settings**, select **Company** **profile**. Select the **Reporting years** tab.
+
+   ![image](./Images/Lab01/image35.svg)
+ 
+2.	Select **Create reporting year.**
+
+  ![image](./Images/Lab01/image36.svg)
+
+ 
+3.	Enter the following details. After you've entered the values, select **Save**. 
+
+  	a.	**Name** - Enter Fiscal – 2022.  This name appears on the **Insights** page in Microsoft Sustainability Manager.
+
+  	b.	**Start date**: 01/01/2022.  
+
+  	c.	**Year template** - Annual.
+
+       ![image](./Images/Lab01/image37.svg)
+
+ 
+4. Select **Close**. The reporting year will generate with the first period starting on the **Start date** and the last period ending one year from the **Start date**.
+
+
+![image](./Images/Lab01/image38.svg)
 
 **Congratulations!** Alex and Reed of Wide World Importers now have their organizational structure set up along with the contractual instrument types, and a new unit in the Length/Distance unit group. This forms the foundation for the rest of the work they will do with the Microsoft Cloud for Sustainability and Microsoft Sustainability Manager. These data points are used throughout the tools, so it is important to spend the time to ensure that your organization and reference data is set up correctly.
