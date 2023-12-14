@@ -78,13 +78,13 @@ In this exercise, you will learn about the steps that Alex and Reed take to set 
 
 1. Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
 
-1. Open a new browser window and navigate to https://make.powerapps.com.
+1. Open a new browser window and navigate to `https://make.powerapps.com`
 
 1. Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
 
 1. If needed, change the environment to **Microsoft Cloud for Sustainability Trial** on the top bar.
 
-1. Open the **Sustainability Manager** Application under Apps from the left navigation pane.
+1. Open the **Sustainability Manager** model-driven app under **Apps** from the left navigation pane.
 
     ![image](./Images/Lab01/image4.svg)
 
@@ -148,7 +148,8 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
 
 10. Enter the following data for organizational unit and select **Save** in the button pane:
 
-    1. **Name**: Wide World Importers
+    1. **Name**: `Wide World Importers`
+    
     1. **Organizational unit type**: Department
 
    ![image](./Images/Lab01/image18.svg)
@@ -170,7 +171,7 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
 
     ![image](./Images/Lab01/image21.svg)
 
-14. If necessary, navigate to **Company profile**, switch to the **Facilities** tab page and select **Add facility**.
+14. If necessary, navigate to **Company profile**, switch to the **Facilities** tab and select **Add facility**.
 
   ![image](./Images/Lab01/image22.svg)
 
@@ -178,7 +179,7 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
 
     >[!NOTE] **Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
-    1. **Name**: Wide World Importers - Miami Office
+    1. **Name**: `Wide World Importers - Miami Office`
     1. **Address line 1**: Brickell Avenue
     1. **City**: Miami
     1. **State**: Florida
@@ -195,7 +196,7 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
 
     >[!NOTE] **Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
-    1. **Name**: Wide World Importers - Tampa Office
+    1. **Name**: `Wide World Importers - Tampa Office`
     1. **Address line 1**: Lois Avenue
     1. **City**: Tampa
     1. **State**: Florida
@@ -240,7 +241,7 @@ In this task, Reed sets up the reference data for contractual instrument types i
 
 1. Create a new Contractual Instrument with the following details. Once entered, select **Save & Close** in the button pane.
 
-    1. **Name**: VanArsdel Ltd
+    1. **Name**: `VanArsdel Ltd`
     1. **Energy source**: Nuclear
 
     **Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
@@ -250,11 +251,10 @@ In this task, Reed sets up the reference data for contractual instrument types i
 
 1. In the same way, again create a new Contractual Instrument with the following details. Once entered, select **Save & Close** in the button pane.
 
-    1. **Name**: Adatum Corp
+    1. **Name**: `Adatum Corp`
     1. **Energy source**: Other
 
-   ![image](./Images/Lab01/image30.svg)
-
+    ![image](./Images/Lab01/image30.svg)
 
     **Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
@@ -285,15 +285,15 @@ Unit Groups are used to group units together and define a base unit used to conv
 
 1. Enter the following details to create a new unit. Once entered, select **Save & Close** from the button pane.
 
-    1. **Name**: 100 mile
+    1. **Name**: `100 mile`
     1. **Conversion factor**: 160934.40
 
 **Note:** The EPA calculates electric vehicle efficiency by the number of kilowatt hours (kWh) used per 100 miles. For consistency, it is best practice to utilize the same
 
 ![image](./Images/Lab01/image34.svg)
 
+Great job, by completing these steps you have helped Reed add the missing unit for the fleet for electric vehicles to the Length/Distance unit group to Microsoft Sustainability Manager.
 
-Great job, by completing these steps you have helped Reed add the missing unit for the fleet for elctric vehicles to the Length/Distance unit group to Microsoft Sustainability Manager.
 
 ## Task 4 : Create a reporting year 
 
@@ -301,20 +301,20 @@ Alex and Reed will set up the reporting years in Microsoft Sustainability Manage
 
 **Note:** The Reporting years you set up will override the configuration in General settings.
 
-Alex proceeds to create a reporting year in Sustainability Manager. For detailed information, see Configure reporting years 
+Alex proceeds to create a reporting year in Sustainability Manager. For detailed information, see Configure reporting years. 
 
 1.	In the left navigation pane, under **Organization settings**, select **Company** **profile**. Select the **Reporting years** tab.
 
    ![image](./Images/Lab01/image35.svg)
  
-2.	Select **Create reporting year.**
+2.	Select **Create reporting year**.
 
   ![image](./Images/Lab01/image36.svg)
 
  
 3.	Enter the following details. After you've entered the values, select **Save**. 
 
-  	a.	**Name** - Enter Fiscal – 2022.  This name appears on the **Insights** page in Microsoft Sustainability Manager.
+  	a.	**Name** - Enter `Fiscal – 2022` This name will appear on the **Insights** page in Microsoft Sustainability Manager.
 
   	b.	**Start date**: 01/01/2022.  
 
@@ -324,7 +324,6 @@ Alex proceeds to create a reporting year in Sustainability Manager. For detailed
 
  
 4. Select **Close**. The reporting year will generate with the first period starting on the **Start date** and the last period ending one year from the **Start date**.
-
 
 ![image](./Images/Lab01/image38.svg)
 
