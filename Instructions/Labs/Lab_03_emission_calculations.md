@@ -65,9 +65,9 @@ In this exercise, you will learn about the steps that Alex takes to define the f
 
 Wide World Importers may not know exactly how much electricity was purchased for charging the Electric Trucks, which grids the electricity came from, or what the energy source is. However, Wide World Importers can estimate the amount of electricity purchased by identifying how many kilowatt hours (kWh) are used per 100 miles, based on EPA vehicle efficiency data. You can explore this functionality in deeper detail on Microsoft Docs, please visit **Overview of Emission factors** at https://docs.microsoft.com/en-us/industry/sustainability/calculate-emission-factors.
 
-    1.  Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
+1.  Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
 
-    2.  Open a new browser window and navigate to https://make.powerapps.com.
+2.  Open a new browser window and navigate to https://make.powerapps.com.
 
 3.  Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
 
@@ -121,42 +121,45 @@ In this task, Alex will create factor mappings to map the Contractual instrument
    
 10.  The fields are explained below.
 
-    - The **Name** of the factor mapping is used for identifying the factor mapping in the list.
-    - The **Reference Data** is mapping the Contractual Instrument Type.
-    - The **Factor** is mapping the Emission Factor.
+    -  The **Name** of the factor mapping is used for identifying the factor mapping in the list.
+   
+    -  The **Reference Data** is mapping the Contractual Instrument Type.
+    
+    -  The **Factor** is mapping the Emission Factor.
 
 11.  Alex will use the following information to populate the fields on the **New Factor mapping**:
 
-    (1) **Name**: FRCC - Purchased Electricity - VanArsdel Ltd
+     1.  **Name**: FRCC - Purchased Electricity - VanArsdel Ltd
 
-    (2) **Reference Data Name**: VanArsdel Ltd
+     2.  **Reference Data Name**: VanArsdel Ltd
 
-    (3) **Factor**: FRCC (FRCC All)
+     3.  **Factor**: FRCC (FRCC All)
 
-    (4) Select **Save & Close** to save the record.
+     4.  Select **Save & Close** to save the record.
 
-
-    
 
 12.  Select **+New Factor mapping**.
 
    
 13.  The fields are explained below.
 
-    - The **Name** of the factor mapping is used for identifying the factor mapping in the list.
-    - The **Reference Data** is mapping the Contractual Instrument Type.
-    - The **Factor Library** is the library used.
-    - The **Factor** is mapping the Emission Factor.
+        1.  The **Name** of the factor mapping is used for identifying the factor mapping in the list.
 
-14.  Alex will use the following information to populate the fields on the **New Factor mapping**:
+        2.  The **Reference Data** is mapping the Contractual Instrument Type.
 
-    (1) **Name**: FRCC - Purchased Electricity - Adatum Corp
+        3.  The **Factor Library** is the library used.
 
-    (2) **Reference Data**: Adatum Corp
+        4.  The **Factor** is mapping the Emission Factor.
 
-    (3) **Factor**: FRCC (FRCC All)
+15.  Alex will use the following information to populate the fields on the **New Factor mapping**:
 
-    (4) Select **Save & Close** to save the record.
+        1. **Name**: FRCC - Purchased Electricity - Adatum Corp
+
+        2. **Reference Data**: Adatum Corp
+
+        3. **Factor**: FRCC (FRCC All)
+
+        4. Select **Save & Close** to save the record.
 
    
 15.  There are now two additional **Factor mappings**, one for each of the contractual instruments added during the previous labs.
@@ -333,21 +336,21 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
 10.  Populate the **Report action** with the following data:
 
-    (1) **Category name**: Electricity \* EF (Contractual Instrument Type)
+     1. **Category name**: Electricity \* EF (Contractual Instrument Type)
 
-    (2) **Description**: EPA Equation 1: Electricity (MWh) \* EF
+     2. **Description**: EPA Equation 1: Electricity (MWh) \* EF
 
-    (3) **Emission report value**: Quantity
+     3. **Emission report value**: Quantity
 
-    (4) **Unit**: Quantity unit
+     4. **Unit**: Quantity unit
 
-    (5) **Emission factor library**: EPA 2022 - eGRID
+     5. **Emission factor library**: EPA 2022 - eGRID
 
-    **Note**: There are several libraries with similar names. Make sure you select **EPA 2022 - eGRID** from the dropdown.
+     **Note**: There are several libraries with similar names. Make sure you select **EPA 2022 - eGRID** from the dropdown.
 
-    (6) **Emission factor**: Contractual Instrument Type
+      6. **Emission factor**: Contractual Instrument Type
 
-    (7) Select **Save** to save the record.
+      7. Select **Save** to save the record.
  
    
 
@@ -448,23 +451,25 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
 12.  The fields are explained below. 
 
-    - The **Category name** is used for identifying the action in the calculation model.
-    - The **Emission report value** is used to identify which field should be used to retrieve the value used in the emission calculation. In this scenario, the Output variable from the Estimation factor action is used.
+     1. The **Category name** is used for identifying the action in the calculation model.
 
-    **Note**: In this scenario, the Unit is automatically selected based on the Unit type of the Output variable from the Estimation factor node
+     2. The **Emission report value** is used to identify which field should be used to retrieve the value used in the emission calculation. In this scenario, the Output variable from the Estimation factor action is used.
 
-    - The **Emission factor library** is used to identify which factor library will be used to identify the emission factor.
-    - The **Emission factor** is used to identify which emission factor or factor mapping will be used to calculate the emissions. In this scenario, Alex and Wide World Importers may not know which electric grid a vehicle was charged on or the energy source, so Alex chooses the US Average emission factor to provide the estimated emissions.
+     **Note**: In this scenario, the Unit is automatically selected based on the Unit type of the Output variable from the Estimation factor node
+
+     3. The **Emission factor library** is used to identify which factor library will be used to identify the emission factor.
+
+     4. The **Emission factor** is used to identify which emission factor or factor mapping will be used to calculate the emissions. In this scenario, Alex and Wide World Importers may not know which electric grid a vehicle was charged on or the energy source, so Alex chooses the US Average emission factor to provide the estimated emissions.
 
 13.  Populate the Report action with the following data:
 
-    (1) **Category name**: kWh \* EF
+        1. **Category name**: kWh \* EF
 
-    (2) **Emission report value**: kWhQuantity and **Unit**: kWh
+        2. **Emission report value**: kWhQuantity and **Unit**: kWh
 
-    (3) **Emission factor library**: EPA 2022 - eGrid (make sure you select the correct library)
+        3. **Emission factor library**: EPA 2022 - eGrid (make sure you select the correct library)
 
-    (4) **Emission factor**: US Average
+        4. **Emission factor**: US Average
 
     (5) Select **Save** to save the record.
 
@@ -512,43 +517,47 @@ In this task, Alex will create a Calculation Profile for the electricity purchas
     (6) **Schedule** - Select the **Automatically run this calculation when data is refreshed** checkbox.
 
    The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
+           1. The Calculation profile identifies the calculation profile in the list.
+
+            2. The Module is used to identify which data types should appear in the Activity data field.
         
-        o	The Calculation profile identifies the calculation profile in the list.
+            3. The Emissions source identifies which activity data type should be used in the calculation.
 
-        o	The Module is used to identify which data types should appear in the Activity data field.
-        
-        o	The Emissions source identifies which activity data type should be used in the calculation.
+            4. Use Activity data to include in calculation to filter activity data to a specific subset of the activity data type.
 
-        o	Use Activity data to include in calculation to filter activity data to a specific subset of the activity data type.
+            5. The Calculation model identifies which calculation model should be used for the calculation. Be sure to choose the calculation model from the dropdown list.
 
-        o	The Calculation model identifies which calculation model should be used for the calculation. Be sure to choose the calculation model from the dropdown list.
+            6. Use the Automatically run this calculation when data is refreshed filter to automatically trigger calculations when the matching activity data is refreshed.
 
-        o	Use the Automatically run this calculation when data is refreshed filter to automatically trigger calculations when the matching activity data is refreshed.
+            7. The form should resemble the following image. Select **Next**.
 
-        o	The form should resemble the following image. Select **Next**.
-
-Note - Make sure that you select the calculation model from the dropdown list.
+**Note** - Make sure that you select the calculation model from the dropdown list.
 
 
 
 On the **Preview** page of the **New calculation profile** wizard, the emissions are calculated for the first row of data that matches the **Activity data to include** filter. In this scenario, the values that are shown in the preview might differ from the following image.
 
-    These values were determined by converting the consumed kWh to MWh: 3519.038/1000 = 3.519038 MWh
+These values were determined by converting the consumed kWh to MWh: 3519.038/1000 = 3.519038 MWh
 
-    The values of emissions gasses are determined by multiplying the converted consumption by each of the greenhouse gas factors from the emission factor (FRCC) determined in the factor mapping:
+The values of emissions gasses are determined by multiplying the converted consumption by each of the greenhouse gas factors from the emission factor (FRCC) determined in the factor mapping:
 
-    -   CO<sub>2</sub>: 3.519038 \* 861 = 3,029.892 lb
-    -   CH<sub>4</sub>: 3.519038 \* .055 = 0.194 lb
-    -   N<sub>2</sub>O: 3.519038 \* .007 = 0.025 lb
+1. CO<sub>2</sub>: 3.519038 \* 861 = 3,029.892 lb
+
+2. CH<sub>4</sub>: 3.519038 \* .055 = 0.194 lb
+
+3. N<sub>2</sub>O: 3.519038 \* .007 = 0.025 lb
 
     Finally, multiplying the greenhouse gases by their GWP factor (Global Warming Potential) found in the Greenhouse gases table, and adding up the values.
 
     **Note**: The values in this by hand demonstration have been rounded to 3 decimal points resulting in a slightly different value. Microsoft Sustainability Manager computes up to 10 decimal points
 
-    -   CO<sub>2</sub>: 3,029.892 \* 1 = 3,029.892 lb
-    -   CH<sub>4</sub>: 0.194 \* 25 = 4.85 lb
-    -   N<sub>2</sub>O: 0.025 \* 298 = 7.45 lb
-    -   CO<sub>2</sub>E: 3,029.892 + 4.85 + 7.45 = 3,042.19 lb
+ 1. CO<sub>2</sub>: 3,029.892 \* 1 = 3,029.892 lb
+
+ 2. CH<sub>4</sub>: 0.194 \* 25 = 4.85 lb
+
+ 3. N<sub>2</sub>O: 0.025 \* 298 = 7.45 lb
+
+ 4. CO<sub>2</sub>E: 3,029.892 + 4.85 + 7.45 = 3,042.19 lb
 
 1.  You can select **Save** to save your Calculation profile. Then click on **Done.**
 
@@ -575,33 +584,33 @@ In this task, Alex will create a Calculation Profile for the miles driven by Wid
 
 1.  Populate them with the following information:
 
-    (1) **Calculation profile name**: Electric Vehicle Miles Driven 2022
+    1. **Calculation profile name**: Electric Vehicle Miles Driven 2022
 
-    (2) **Module** – Select **Carbon activities**.
+    2. **Module** – Select **Carbon activities**.
 
-    (3) **Emission source**: Purchased electricity
+    3. **Emission source**: Purchased electricity
 
-    (3) **Activity data to include in calculation**: Select **add>add row** and select **Organizational Unit equals Wide World Importers(Organizational unit)** and select **add>add** row again and select **Quantity unit equals mile.**
+    4. **Activity data to include in calculation**: Select **add>add row** and select **Organizational Unit equals Wide World Importers(Organizational unit)** and select **add>add** row again and select **Quantity unit equals mile.**
      
-    (4) **Calculation model** - Select **Electric Vehicle Miles Driven - 2022** from the dropdown list.
+    5. **Calculation model** - Select **Electric Vehicle Miles Driven - 2022** from the dropdown list.
 
-    (5) **Schedule** - Select the **Automatically run this calculation when data is refreshed** checkbox.
+    6. **Schedule** - Select the **Automatically run this calculation when data is refreshed** checkbox.
 
 The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
 
-    o	The Calculation profile name identifies the calculation profile in the list.
+1. The Calculation profile name identifies the calculation profile in the list.
 
-    o	The Module is used to identify which data types should appear in the Activity data field.
+2. The Module is used to identify which data types should appear in the Activity data field.
     
-    o	The Emissions source identifies which activity data type should be used in the calculation.
+3. The Emissions source identifies which activity data type should be used in the calculation.
 
-    o	Use Activity data to include in calculation to filter activity data to a specific subset of the activity data type.
+4. Use Activity data to include in calculation to filter activity data to a specific subset of the activity data type.
 
-    o	The Calculation model identifies which calculation model should be used for the calculation. Be sure to choose the calculation model from the dropdown list.
+5. The Calculation model identifies which calculation model should be used for the calculation. Be sure to choose the calculation model from the dropdown list.
 
-    o	Use Automatically run this calculation when data is refreshed to automatically trigger calculations when the matching activity data is refreshed.
+6. Use Automatically run this calculation when data is refreshed to automatically trigger calculations when the matching activity data is refreshed.
 
-    o	The form should resemble the following image. Select **Next**.
+7. The form should resemble the following image. Select **Next**.
 
 
 
@@ -611,22 +620,27 @@ The Preview page of the New calculation profile wizard shows the emissions that 
 
 These values were determined by converting the miles driven to kWh: (7484.724 / 100) \* 49 = 3667.515 kWh
 
-    The consumed kWh converted to MWh: 3667.515/1000 = 3.667515 MWh
+The consumed kWh converted to MWh: 3667.515/1000 = 3.667515 MWh
 
-    Multiplying the converted consumption by each of the greenhouse gas factors from the emission factor (FRCC) determined in the factor mapping:
+Multiplying the converted consumption by each of the greenhouse gas factors from the emission factor (FRCC) determined in the factor mapping:
 
-    -   CO<sub>2</sub>: 3.667515 \* 861 = 3,001.127 lb
-    -   CH<sub>4</sub>: 3.667515 \* .055 = 0.238 lb
-    -   N<sub>2</sub>O: 3.667515 \* .007 = 0.033 lb
+1. CO<sub>2</sub>: 3.667515 \* 861 = 3,001.127 lb
+
+2. CH<sub>4</sub>: 3.667515 \* .055 = 0.238 lb
+
+3. N<sub>2</sub>O: 3.667515 \* .007 = 0.033 lb
 
     Finally, multiplying the greenhouse gases by their GWP factor (Global Warming Potential) found in the Greenhouse gases table, and adding up the values.
 
     **Note**: The values in this by hand demonstration have been rounded to 3 decimal points resulting in a slightly different value. Microsoft Sustainability Manager computes up to 10 decimal points.
 
-    -   CO<sub>2</sub>: 3,001.127 \* 1 = 3,001.127 lb
-    -   CH<sub>4</sub>: 0.238 \* 25 = 5.95 lb
-    -   N<sub>2</sub>O: 0.033 \* 298 = 9.834 lb
-    -   CO<sub>2</sub>E: 3,001.127 + 5.95 + 9.834 = 3,016.911 lb
+1. CO<sub>2</sub>: 3,001.127 \* 1 = 3,001.127 lb
+
+2. CH<sub>4</sub>: 0.238 \* 25 = 5.95 lb
+
+3. N<sub>2</sub>O: 0.033 \* 298 = 9.834 lb
+
+4. CO<sub>2</sub>E: 3,001.127 + 5.95 + 9.834 = 3,016.911 lb
 
 3. Select **Save** to save your calculation profile.
 
