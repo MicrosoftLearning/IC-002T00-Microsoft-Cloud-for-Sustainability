@@ -56,11 +56,9 @@ In this exercise, you will take on the persona of Amber Rodriguez – Sustainabi
 
 3. Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
 
-4. If needed, change the environment to **Microsoft Cloud for Sustainability Trial** on the top bar.
+4. If needed, change the environment to yours on the top bar.
 
 5. Open the **Sustainability Manager** Application.
-
-![image](./Images/Lab04/image5.svg)
 
 **Important** Please make sure that you have completed the previous labs to ensure that the dashboards and reports show meaningful data.
 
@@ -68,13 +66,7 @@ In this exercise, you will take on the persona of Amber Rodriguez – Sustainabi
 
 In this task, Amber explores the various **Sustainability** dashboards which provide an overview of total emissions, revenue intensity, and renewable energy broken down by scope, geography, organizational unit, and facility.
 
-1.  In the bottom left corner, change the Area to **Analytics**, if necessary.
-
-    ![image](./Images/Lab04/image6.svg)
-
-2.  Select **Insights** on the left pane.
-
-      ![image](./Images/Lab04/image7.svg)
+1.  In the left navigation pane under **Analytics** select **Emission Insights**.
 
 3.  The page displays the **Emissions overview** dashboard, the dashboard is filtered by selecting a reporting period and accounting method. The top tile in the dashboard has four tabs: All emissions, By month (comparison), By scope, and By scope (line chart). The first, third, and fourth tabs have a toggle that is used to **Show a comparison by year**. When the toggle is off, data for the selected reporting period is shown in a monthly view. When the toggle is on, all available years are shown on a trend chart. The details around each of the tabs in the top tile are as follows:
 
