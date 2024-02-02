@@ -65,15 +65,15 @@ In this exercise, you will learn about the steps that Alex takes to define the f
 
 Wide World Importers may not know exactly how much electricity was purchased for charging the Electric Trucks, which grids the electricity came from, or what the energy source is. However, Wide World Importers can estimate the amount of electricity purchased by identifying how many kilowatt hours (kWh) are used per 100 miles, based on EPA vehicle efficiency data. You can explore this functionality in deeper detail on Microsoft Docs, please visit **Overview of Emission factors** at https://docs.microsoft.com/en-us/industry/sustainability/calculate-emission-factors.
 
-1. Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
+    1.  Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
 
-2. Open a new browser window and navigate to https://make.powerapps.com.
+    2.  Open a new browser window and navigate to https://make.powerapps.com.
 
-3. Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
+3.  Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
 
-4. If needed, change the environment to **Microsoft Cloud for Sustainability Trial** on the top bar.
+4.  If needed, change the environment to **Microsoft Cloud for Sustainability Trial** on the top bar.
 
-5. Open the **Sustainability Manager** Application.
+5.  Open the **Sustainability Manager** Application.
 
 
 **Important** Please make sure that you have completed the previous lab to create Activity Data. **The emissions calculations require all the Data Ingestion processes from the previous lab to be completed.** Failure to do so will result in errors or incorrect values during the calculations
