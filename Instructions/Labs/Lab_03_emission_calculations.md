@@ -81,9 +81,6 @@ Wide World Importers may not know exactly how much electricity was purchased for
 ### Task 1: Add eGRID Factor mappings
 
 In this task, Alex will create factor mappings to map the Contractual instrument types, for Wide World Importers that were added by Reed previously, to the respective electric grid emission factor. This allows Microsoft Sustainability Manager to find the correct electric grid for a given Contractual instrument type. This can be expanded to map other reference data to specific emission factors, avoiding the need to create calculations models that are for specific emission factors.
-
-1.  In the bottom left corner, change your Area to **Data**.
-
     
 2.  Navigate to **Factor libraries** on the left navigation pane under **Calculations**.
 
@@ -265,7 +262,7 @@ Take the opportunity review some of the pre-built models, they are a great sourc
 
 In this task, Alex will create a new calculation model to calculate carbon emissions for purchased electricity based on the contractual instrument type. They will leverage the factor mappings created in the previous exercise to make the calculation model dynamically find the emission factor to be used per line of activity data.
 
-1.  Navigate to **Calculation models** on the left side of the page.
+1.  Navigate to **Calculation** on the left side of the page. Select **Models.**
 
 
 
