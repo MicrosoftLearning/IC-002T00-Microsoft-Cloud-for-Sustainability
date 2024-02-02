@@ -56,7 +56,7 @@ In this exercise, you will learn about the steps that Reed takes to ingest the s
  
 1. Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
 
-1. If needed, change the environment to **Microsoft Cloud for Sustainability Trial** on the top bar.
+1. If needed, change the environment to your environment on the top bar.
 
 2. For this exercise, you'll use OneDrive.
 
@@ -80,26 +80,13 @@ In this exercise, you will learn about the steps that Reed takes to ingest the s
 
     ![image](./Images/Lab02/image9.svg)
 
-    Area navigation is a common first step in each lab and exercise. You can find the area navigation menu in the bottom corner of your screen.
 
-   ![image](./Images/Lab02/image10.svg)
 
 ### Task 1: Add custom dimension metadata
 
 In this task, Reed will add additional information to the Excel spreadsheet that Alex provided: **Purchased electricity Wide World Importers 2022.xlsx**. Reed will add custom dimensions metadata for the mapping before importing the data from the Excel spreadsheet. 
 
-1. In the left navigation pane, select **Settings**.
-
-![image](./Images/Lab02/image12.svg)
- 
-2.	Select  **App settings > General**
-
-![image](./Images/Lab02/image13.svg) 
- 
-3.	Select the **Custom dimensions** tab.
-
-![image](./Images/Lab02/image14.svg)
-     
+1. In the left navigation pane, select **Custom Dimensions** under **Organization settings.**
  
 4.	Select **New** on the top right on the Active Custom dimensions page.
 
@@ -129,27 +116,13 @@ In this task, Reed will add additional information to the Excel spreadsheet that
 
  ![image](./Images/Lab02/image17.svg)
 
-### Task 1: Import 2022 data for “Purchased Electricity“ for Facilities
+### Task 2: Import 2022 data for “Purchased Electricity“ for Facilities
 
 In this task, Reed imports the Excel spreadsheet provided by Alex, _Purchased electricity Wide World Importers 2022.xlsx_. This brings in the Electricity Purchased by Wide World Importers facilities for the year 2022 into the Purchased electricity activity data.
 
-1.  In the bottom left corner, change the Area to **Data**.
-
-     ![image](./Images/Lab02/image18.svg)
-
-2. Go to **Carbon activities** on the left side of the page under **Data management**.
-
-   ![image](./Images/Lab02/image19.svg)
+1.  Select **Imports** under **Data** on the left navigation pane. Then Select **New**.
    
-3. Find **Purchased electricity** in the **Scope 2: Indirect emissions** section and then select **Manage**.
-
-    ![image](./Images/Lab02/image20.svg)
-
-4. On the **Data Imports** view, select **+New**.
-
-   ![image](./Images/Lab02/image21.svg)
-   
-5. On the **Data imports**, select **POWER QUERY GUIDED EXPERIENCE**.
+5. On the **Imports**, select **POWER QUERY GUIDED EXPERIENCE**.
 
    ![image](./Images/Lab02/image22.svg)
  
@@ -278,11 +251,9 @@ You've now completed the data import of 2022 Purchased Electricity for Wide Worl
 
 In this task, Reed will import the second Excel spreadsheet that Alex provided: Fleet Vehicles Miles Driven Wide World Importers 2022.xlsx. While electric vehicles don't produce direct tailpipe emissions, they do produce **Scope 2: Purchased electricity** from charging. This import will bring in the Miles driven by Wide World Importers fleet of electric trucks for the year 2022 data into the Purchased electricity carbon activity data.
 
-1.  Select **Data imports** on the left navigation pane, select **+New** again.
-
-    ![image](./Images/Lab02/image21.svg)
+1.  Select **Imports** under **Data** on the left navigation pane. Then Select **New**.
  
-2.	On the Data imports, select POWER QUERY GUIDED EXPERIENCE.
+2.	On the **Imports** page, select POWER QUERY GUIDED EXPERIENCE.
 
       ![image](./Images/Lab02/image22.svg)
   
