@@ -56,7 +56,7 @@ In this exercise, you will take on the persona of Amber Rodriguez – Sustainabi
 
 3. Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
 
-4. If needed, change the environment to **Microsoft Cloud for Sustainability Trial** on the top bar.
+4. If needed, change the environment to your trial on the top bar.
 
 5. Open the **Sustainability Manager** Application.
 
@@ -68,9 +68,7 @@ In this exercise, you will take on the persona of Amber Rodriguez – Sustainabi
 
 In this task, Amber explores the various **Sustainability** dashboards which provide an overview of total emissions, revenue intensity, and renewable energy broken down by scope, geography, organizational unit, and facility.
 
-1.  In the bottom left corner, change the Area to **Analytics**, if necessary.
-
-    ![image](./Images/Lab04/image6.svg)
+1.  In the left navigation pane, under **Analytics**, select **Emission Insights.**
 
 2.  Select **Insights** on the left pane.
 
@@ -255,8 +253,6 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 ### Task 1: Generate emissions report
 
 1.  In the left navigation pane, select **Reporting**.
-
-    ![image](./Images/Lab04/image25.svg)
 
 2.  Select **New**.
 
