@@ -59,7 +59,7 @@ In this exercise, you will learn about the steps that Amber takes to create scor
 
 3. Log into your Microsoft 365 tenant using the credentials for the tenant located on the Resources tab above.
 
-4. If needed, change the environment to **Microsoft Cloud for Sustainability Trial** on the top bar.
+4. If needed, change the environment to your trial on the top bar.
 
 5. Open the Sustainability Manager Application.
 
@@ -71,13 +71,7 @@ In this exercise, you will learn about the steps that Amber takes to create scor
 
 In this task, Amber will create a new scorecard to track the goals for Wide World Importers. Microsoft Sustainability Manager utilizes scorecards to group goals together.
 
-1.  Change the current Area to **Analytics**, if necessary.
-
-    ![image](./Images/Lab05/image3.svg)
-
-2.  Navigate to **Scorecards and goals** on the left side of the page.
-
-   ![image](./Images/Lab05/image4.svg)
+2.  Navigate to **Scorecards and goals** on the left side of the page under **Analytics**.
    
 3.  On the **Scorecards** view, select **+Add Scorecard**.
 
@@ -103,7 +97,7 @@ Great job, you have helped Amber create a new scorecard to track the goals for W
 
 In this task, Amber will create a new goal instructing Wide World Importers to reduce their carbon emissions from 900 mtCO<sub>2</sub>E to 600 mtCO<sub>2</sub>E. Amber will enable automatic check-ins and status rules to ensure that the goal is automatically kept up to date. These automatic check-ins will occur once every 24 hours. Microsoft Sustainability Manager utilizes goals to help organizations like Contoso Corp and Wide World Importers track their carbon reduction goals.
 
-1.  Select the **+Add goal** button to create a new goal.
+1.  Select the **+Add goal** button on the **Scorecards** view to create a new goal.
 
     ![image](./Images/Lab05/image9.svg)
 
@@ -300,13 +294,7 @@ In this exercise, Reed Flores – IT Admin for Wide World Importers will configu
 
 By default, the Basic and Enhanced Microsoft Teams integration is disabled in Microsoft Sustainability Manager. In this Task, Reed will enable Microsoft Teams in Dynamics 365.
 
-1.  Change the current Area to **Settings**.
-
-     ![image](./Images/Lab05/image27.svg)
-
-2.  Navigate to **Teams chat** on the left side of the page.
-
-    ![image](./Images/Lab05/image28.svg)
+2.  Navigate to **Teams chat** on the left side of the page under **Settings.**
 
 3.  On the **Microsoft Teams collaboration and chat** page, switch **Turn on the linking of Dynamics 365 records to Microsoft Teams channels** to **Yes**. Select the **Save** button at the bottom left.
 
@@ -369,13 +357,8 @@ Great job, you have helped Reed turn on and configure a new Dynamics 365 record 
 
 In this task, Amber will create a linked chat to collaborate with a colleague to discuss the EPA 2022 - eGRID in preparation for 2022 reporting needs.
 
-1.  Change the current Area to **Data**.
 
-     ![image](./Images/Lab05/image40.svg)
-
-2.  Navigate to **Factor libraries** on the left side of the page.
-
-     ![image](./Images/Lab05/image41.svg)
+2.  Navigate to **Factor libraries** on the left side of the page under **Calculations.**
 
 3.  Select the **EPA 2022 - eGRID** Factor library.
 
