@@ -71,7 +71,7 @@ Wide World Importers may not know exactly how much electricity was purchased for
 
 3. Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
 
-4. If needed, change the environment to **Microsoft Cloud for Sustainability Trial** on the top bar.
+4. If needed, change the environment to your trial on the top bar.
 
 5. Open the **Sustainability Manager** Application.
 
@@ -81,8 +81,6 @@ Wide World Importers may not know exactly how much electricity was purchased for
 ### Task 1: Add eGRID Factor mappings
 
 In this task, Alex will create factor mappings to map the Contractual instrument types, for Wide World Importers that were added by Reed previously, to the respective electric grid emission factor. This allows Microsoft Sustainability Manager to find the correct electric grid for a given Contractual instrument type. This can be expanded to map other reference data to specific emission factors, avoiding the need to create calculations models that are for specific emission factors.
-
-1.  In the bottom left corner, change your Area to **Data**.
 
     
 2.  Navigate to **Factor libraries** on the left navigation pane under **Calculations**.
@@ -265,7 +263,7 @@ Take the opportunity review some of the pre-built models, they are a great sourc
 
 In this task, Alex will create a new calculation model to calculate carbon emissions for purchased electricity based on the contractual instrument type. They will leverage the factor mappings created in the previous exercise to make the calculation model dynamically find the emission factor to be used per line of activity data.
 
-1.  Navigate to **Calculation models** on the left side of the page.
+1.  Navigate to **Calculations** on the left side of the page. Select **Models**.
 
 
 
@@ -643,7 +641,7 @@ Great job, you have helped Alex create another calculation profile using the cal
 
 Calculation profiles are the mechanisms by which Calculation jobs are queued. You can set your Calculation profiles to run automatically when matching Activity Data is added or updated, as we chose in this scenario, or you can run them manually which we will discuss in Task 3 of this exercise. **Please continue to the next task.**
 
-===
+
 
 ### Task 3: Run Calculation Profiles
 
@@ -696,3 +694,81 @@ In this task, Alex will run the newly created Calculation Profiles for the elect
 Great job, by completing these steps you have helped Alex, the Emissions Analyst, run the newly created Calculation Profiles for the electricity purchased by Wide World Importers and miles driven by Wide World Importers fleet of electric vehicles.
 
 **Congratulations!** Alex and Amber, the Sustainability specialist, can now review the Wide World Importers' results produced from the emission calculations you performed to make better decisions regarding the company's carbon emissions. You did these calculations using factor libraries, emission factors, estimation factors and calculation profiles. Calculation profiles are the final step in calculating and recording your carbon emissions in Microsoft Cloud for Sustainability. From here you will be able to Report and Reduce your carbon emissions, which we will discuss in the next labs. It may take 30 minutes for your emissions to appear in the Reporting areas.
+
+### Exercise - Create allocation profiles and run calculations
+
+In this exercise, you learn about the steps that Alex takes to create the allocation method, method details and an allocations profile. For more information on allocation profile, see Configure allocations profile. Allocations help visualize how your emissions are generated in multiple methods without impacting the default emissions reporting. With allocations, you can visualize how your emissions are distributed based on a parameter.
+
+### Task: Create allocation methods
+
+In this task, Alex creates an allocation method called Headcount to understand the emissions distributed based on the purchased electricity.
+
+1.	In the left navigation pane, under **Data**, select  **Reference Data**.
+
+2.	Select View for **(Preview) Allocation methods.**
+ 
+3.	Select **New** under **Active Allocation methods**.
+ 
+
+4.	Enter the **Name** as **Headcount** and select **Save & Close**. The allocation method is created .
+ 
+
+### Task: Create the allocation method details
+
+In this task, Alex creates the allocation method details by importing an excel file with the details. You must download the sample data - Allocation Method Details.zip for this task.
+
+1.	In the left navigation pane, under **Data**, select  **Reference Data.**
+
+2.	Select **View** for **(Preview) Allocation method** details.
+
+3.	Select the three horizontal dots and select **Import** **from Excel**.
+ 
+4.	Select **Choose File** and then upload the Allocation method detail **demo.xlsx.** 
+ 
+5.	Select **Next**.
+
+6.	Select **Finish Import.**
+
+7.	Select **Done**. The data is imported successfully.
+ 
+
+8.	Select **Refresh** to see the records created. 
+
+
+### Task: Create an allocation profile
+
+1.	In the left navigation pane, under **Calculations**, select  **Allocation profile(preview)**.
+ 
+
+2.	Select **New**.
+ 
+3.	Enter the following details.
+
+    o	Emission source – **Purchased Electricity**
+
+    o	Start and End date – Provide the start date and end date of the year of your choice.
+ 
+
+4.	Select **Next**.
+
+5.	Select the **Profile method** as **Headcount** that you created in the previous task and Profile period as Yearly.
+
+6.	Select **Next**.
+ 
+
+7.	Enter the Allocation profile name as Headcount and select Done.
+ 
+
+8.	Select **Continue**.
+
+9.	Select **OK**. The allocation profile is created successfully.
+
+10.	Select **Refresh** to see the record. 
+
+11.	In the **Active Allocation Profile** page, select the profile and select Run allocation for the profile created.
+ 
+
+12.	Refresh the page and select the Allocation profile to view the status of the calculation.
+You created the allocation methods and set up the allocation profile with this method. Now, you'll be able to visualize how your emissions are generated using these methods without impacting the default emissions reporting.
+
+
