@@ -213,14 +213,8 @@ Great job, by completing these steps, you have assisted Alex with completing the
 
 In this task, Reed sets up the reference data for contractual instrument types in Microsoft Sustainability Manager. Contractual instrument types are the different types of contractual agreements that a firm has with their providers and suppliers.
 
-1. In the bottom left corner, change the Area to **Settings**, if necessary.
 
-  ![image](./Images/Lab01/image25.svg)
-
-
-1. Navigate to **Reference data** on the left side of the page.
-
-   ![image](./Images/Lab01/image26.svg)
+1. Navigate to **Reference data** on the left side of the page under **Data**.
 
 
 1. Select **Contractual instrument types** and select **View**.
@@ -263,9 +257,7 @@ In this task, Reed sets up a unit conversion factor in Microsoft Sustainability 
 
 Unit Groups are used to group units together and define a base unit used to convert between unit types. For example, the Length/Distance unit group contains units of length and distance, with a base unit of meter (m). The units within the Length/Distance unit group have conversions between the unit type and meter, such as miles convert to 1,609.344 meters. You can explore this functionality in deeper detail on Microsoft Docs, please visit **Set up unit groups** at https://docs.microsoft.com/en-us/industry/sustainability/setup-unit-groups.
 
-1. Navigate to **Unit groups** on the left side of the page.
-
-    ![image](./Images/Lab01/image31.svg)
+1. Navigate to **Unit groups** on the left side of the page under **Settings > Applications.**
 
 
 1. Under **Active unit groups**, select **Length/distance** and open it.
@@ -298,7 +290,7 @@ Alex and Reed will set up the reporting years in Microsoft Sustainability Manage
 
 Alex proceeds to create a reporting year in Sustainability Manager. For detailed information, see Configure reporting years 
 
-1.	In the left navigation pane, under **Organization settings**, select **Company** **profile**. Select the **Reporting years** tab.
+1.	In the left navigation pane, under **Settings**, select **Company** **profile**. Select the **Reporting years** tab.
 
    ![image](./Images/Lab01/image35.svg)
  
