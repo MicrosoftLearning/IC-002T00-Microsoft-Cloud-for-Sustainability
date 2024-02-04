@@ -98,17 +98,12 @@ You will land on the **Home** page for Microsoft Sustainability Manager.
 
 ![image](./Images/Lab01/image6.svg)
 
-Area navigation is a common first step in each lab and exercise. You can find the area navigation menu in the bottom corner of your screen.
-
-![image](./Images/Lab01/image7.svg)
-
 ## Task 1: Setup the Company profile, hierarchy, and facilities
 
 In this task, Alex sets up the Company profile, hierarchy, and facilities for the Wide World Importers organization in Microsoft Sustainability Manager.
 
-1. In the bottom left corner, change your Area to **Settings**.
+1. In the left navigation pane, Select **Company profile** under **Settings** .
 
-    ![image](./Images/Lab01/image8.svg)
 
 1. Navigate to **Company profile** on the left navigation pane of the home page.
 
