@@ -104,11 +104,6 @@ In this task, Alex sets up the Company profile, hierarchy, and facilities for th
 
 1. In the left navigation pane, Select **Company profile** under **Settings** .
 
-
-1. Navigate to **Company profile** on the left navigation pane of the home page.
-
-    ![image](./Images/Lab01/image9.svg)
-
 1. The Company profile page includes basic information about the organization, such as name, address, company logo, the annual reporting period, and relevant industries. Additionally, there are tabs at the top of the page for setting up organization structure and facilities, both will be covered in this exercise.
 
    ![image](./Images/Lab01/image10.svg)
