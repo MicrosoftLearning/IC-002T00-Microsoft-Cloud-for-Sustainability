@@ -80,25 +80,13 @@ In this exercise, you will learn about the steps that Reed takes to ingest the s
 
     ![image](./Images/Lab02/image9.svg)
 
-    Area navigation is a common first step in each lab and exercise. You can find the area navigation menu in the bottom corner of your screen.
-
-   ![image](./Images/Lab02/image10.svg)
 
 ### Task 1: Add custom dimension metadata
 
 In this task, Reed will add additional information to the Excel spreadsheet that Alex provided: **Purchased electricity Wide World Importers 2022.xlsx**. Reed will add custom dimensions metadata for the mapping before importing the data from the Excel spreadsheet. 
 
-1. In the left navigation pane, select **Settings**.
-
-![image](./Images/Lab02/image12.svg)
  
-2.	Select  **App settings > General**
-
-![image](./Images/Lab02/image13.svg) 
- 
-3.	Select the **Custom dimensions** tab.
-
-![image](./Images/Lab02/image14.svg)
+3.	Select the **Custom dimensions** tab under **Data**.
      
  
 4.	Select **New** on the top right on the Active Custom dimensions page.
@@ -133,9 +121,7 @@ In this task, Reed will add additional information to the Excel spreadsheet that
 
 In this task, Reed imports the Excel spreadsheet provided by Alex, _Purchased electricity Wide World Importers 2022.xlsx_. This brings in the Electricity Purchased by Wide World Importers facilities for the year 2022 into the Purchased electricity activity data.
 
-1.  In the bottom left corner, change the Area to **Data**.
-
-     ![image](./Images/Lab02/image18.svg)
+1.  In the left navigation pane, under **Data**, select **Imports** and select **New**
 
 2. Go to **Carbon activities** on the left side of the page under **Data management**.
 
@@ -278,7 +264,7 @@ You've now completed the data import of 2022 Purchased Electricity for Wide Worl
 
 In this task, Reed will import the second Excel spreadsheet that Alex provided: Fleet Vehicles Miles Driven Wide World Importers 2022.xlsx. While electric vehicles don't produce direct tailpipe emissions, they do produce **Scope 2: Purchased electricity** from charging. This import will bring in the Miles driven by Wide World Importers fleet of electric trucks for the year 2022 data into the Purchased electricity carbon activity data.
 
-1.  Select **Data imports** on the left navigation pane, select **+New** again.
+1.  Select **Imports** on the left navigation pane, select **+New** again.
 
     ![image](./Images/Lab02/image21.svg)
  
