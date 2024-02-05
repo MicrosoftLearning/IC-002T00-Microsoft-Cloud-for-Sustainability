@@ -72,9 +72,7 @@ In this exercise, you will learn about the steps that Reed takes to ingest the s
 
    ![image](./Images/Lab02/image7.svg)
 
-1. Open the **Sustainability Manager** Application.
-
-    ![image](./Images/Lab02/image8.svg)
+1. Open the **Sustainability Manager** Application by clicking on Play button.
 
     You will land on the **Home** page for Microsoft Sustainability Manager.
 
