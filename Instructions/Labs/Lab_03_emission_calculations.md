@@ -73,7 +73,7 @@ Wide World Importers may not know exactly how much electricity was purchased for
 
 4. If needed, change the environment to your trial on the top bar.
 
-5. Open the **Sustainability Manager** Application.
+5. Open the **Sustainability Manager** Application by clickin on Play button.
 
 
 **Important** Please make sure that you have completed the previous lab to create Activity Data. **The emissions calculations require all the Data Ingestion processes from the previous lab to be completed.** Failure to do so will result in errors or incorrect values during the calculations
