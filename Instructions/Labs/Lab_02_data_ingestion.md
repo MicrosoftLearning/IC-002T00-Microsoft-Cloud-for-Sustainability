@@ -251,8 +251,6 @@ You've now completed the data import of 2022 Purchased Electricity for Wide Worl
 In this task, Reed will import the second Excel spreadsheet that Alex provided: Fleet Vehicles Miles Driven Wide World Importers 2022.xlsx. While electric vehicles don't produce direct tailpipe emissions, they do produce **Scope 2: Purchased electricity** from charging. This import will bring in the Miles driven by Wide World Importers fleet of electric trucks for the year 2022 data into the Purchased electricity carbon activity data.
 
 1.  Select **Imports** on the left navigation pane, select **+New** again.
-
-    ![image](./Images/Lab02/image21.svg)
  
 2.	On the Data imports, select POWER QUERY GUIDED EXPERIENCE.
 
