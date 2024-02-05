@@ -61,9 +61,8 @@ In this exercise, you will learn about the steps that Amber takes to create scor
 
 4. If needed, change the environment to your trial on the top bar.
 
-5. Open the Sustainability Manager Application.
+5. Open the Sustainability Manager Application by clicking on **Play** button.
 
-    ![image](./Images/Lab05/image2.svg)
 
     >[!ALERT] **Important:** Please make sure that you have completed the previous labs to ensure that the scorecard and goals show meaningful data.
 
