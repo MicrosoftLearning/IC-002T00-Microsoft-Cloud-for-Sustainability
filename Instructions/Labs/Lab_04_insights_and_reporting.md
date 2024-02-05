@@ -58,9 +58,7 @@ In this exercise, you will take on the persona of Amber Rodriguez – Sustainabi
 
 4. If needed, change the environment to your trial on the top bar.
 
-5. Open the **Sustainability Manager** Application.
-
-![image](./Images/Lab04/image5.svg)
+5. Open the **Sustainability Manager** Application by clickin on Play button.
 
 **Important** Please make sure that you have completed the previous labs to ensure that the dashboards and reports show meaningful data.
 
