@@ -120,20 +120,8 @@ In this task, Reed will add additional information to the Excel spreadsheet that
 In this task, Reed imports the Excel spreadsheet provided by Alex, _Purchased electricity Wide World Importers 2022.xlsx_. This brings in the Electricity Purchased by Wide World Importers facilities for the year 2022 into the Purchased electricity activity data.
 
 1.  In the left navigation pane, under **Data**, select **Imports** and select **New**
-
-2. Go to **Carbon activities** on the left side of the page under **Data management**.
-
-   ![image](./Images/Lab02/image19.svg)
    
-3. Find **Purchased electricity** in the **Scope 2: Indirect emissions** section and then select **Manage**.
-
-    ![image](./Images/Lab02/image20.svg)
-
-4. On the **Data Imports** view, select **+New**.
-
-   ![image](./Images/Lab02/image21.svg)
-   
-5. On the **Data imports**, select **POWER QUERY GUIDED EXPERIENCE**.
+5. On the **Imports**, select **POWER QUERY GUIDED EXPERIENCE**.
 
    ![image](./Images/Lab02/image22.svg)
  
