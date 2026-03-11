@@ -1,8 +1,13 @@
 ---
 lab:
-    title: 'Lab 3: Design Emission calculations'
-    module: 'Module 5: Configure emission calculations'
+  title: 'Lab 3: Design Emission calculations'
+  module: 'Module 5: Configure emission calculations'
+  description: By creating these factor mappings, we can choose Contractual Instrument Types as emission factor during our calculation model creation. This tells Microsoft Sustainability Manager to map the contractual instrument type on an activity data record to the emission factor listed in the factor mapping. This allows you to create more dynamic calculations rather than calculations specific to a given emission factor. We will go into more detail on this later in this lab. Please continue to the next task.
+  duration: 6 minutes
+  level: 200
+  islab: true
 ---
+
 # Module 5 Lesson 2 Lab 3: Design Emission calculations
 
 ## Overview
