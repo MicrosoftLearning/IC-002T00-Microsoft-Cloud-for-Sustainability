@@ -1,8 +1,18 @@
 ---
 lab:
-    title: 'Lab 5: Goals and scorecards'
-    module: 'Module 7: Configure goals and scorecards'
+  title: 'Lab 5: Goals and scorecards'
+  module: 'Module 7: Configure goals and scorecards'
+  description: In the previous four labs, the master and system data were set up and
+    calculations performed to report on emissions. In this lab, the focus is on setting
+    carbon emission reduction goals and tracking them using scorecards. In the scorecard,
+    emission reduction goals can be introduced based on the organization’s sustainability
+    priorities and can be collaboratively tracked with various stakeholders using
+    the Teams collaboration feature.
+  duration: 150 minutes
+  level: 100
+  islab: true
 ---
+
 # Module 7 Lesson 2 Lab 5: Goals and scorecard
 
 ## Overview
