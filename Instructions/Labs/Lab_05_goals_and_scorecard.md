@@ -1,8 +1,13 @@
 ---
 lab:
-    title: 'Lab 5: Goals and scorecards'
-    module: 'Module 7: Configure goals and scorecards'
+  title: 'Lab 5: Goals and scorecards'
+  module: 'Module 7: Configure goals and scorecards'
+  description: 'In this exercise, you will learn about the steps that Amber takes to create scorecards and goals to help Wide World Importers track carbon reduction progress. Based on the results of the previous lab, Amber has determined that Wide World Importers needs to reduce their Scope 2: Purchased electricity carbon emissions. Scorecards and goals allow organizations to set carbon reduction targets and track their progress to that. You can explore this functionality in deeper detail on Microsoft Docs, please visit Overview of scorecards and goals https://docs.microsoft.com/en-us/industry/sustainability/reports-scorecards-goals.'
+  duration: 150 minutes
+  level: 100
+  islab: true
 ---
+
 # Module 7 Lesson 2 Lab 5: Goals and scorecard
 
 ## Overview
