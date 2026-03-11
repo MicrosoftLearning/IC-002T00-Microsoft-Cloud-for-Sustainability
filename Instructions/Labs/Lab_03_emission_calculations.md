@@ -1,8 +1,19 @@
 ---
 lab:
-    title: 'Lab 3: Design Emission calculations'
-    module: 'Module 5: Configure emission calculations'
+  title: 'Lab 3: Design Emission calculations'
+  module: 'Module 5: Configure emission calculations'
+  description: In the previous two labs, we laid the foundation for emission calculations
+    by setting up the organization, reference data such as Contractual instrument
+    types and ingesting the Activity data. Now that the groundwork and data has been
+    laid for emission calculations, this lab will focus on performing the emission
+    calculations using a combination of factor libraries, emission factors, estimation
+    factors and calculation profiles. Once the calculations are performed, we will
+    review the emission calculations output.
+  duration: 6 minutes
+  level: 200
+  islab: true
 ---
+
 # Module 5 Lesson 2 Lab 3: Design Emission calculations
 
 ## Overview
