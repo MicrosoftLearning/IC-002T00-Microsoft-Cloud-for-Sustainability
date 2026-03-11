@@ -1,8 +1,18 @@
 ---
-lab  : 
-    title: 'Lab 1: Organization Setup'
-    module: 'Module 3: Configure organization setup and structure'
+lab:
+  title: 'Lab 1: Organization Setup'
+  module: 'Module 3: Configure organization setup and structure'
+  description: In this lab for Microsoft Cloud for Sustainability, you'll use demo
+    data to set up the "Set up organization and reference data" scenario. Contoso
+    Corp is a specialty coffee distribution business with operations in APAC, US,
+    Africa, and Europe.
+  duration: 152 minutes
+  level: 200
+  islab: true
+  primarytopics:
+  - Microsoft Cloud for Sustainability
 ---
+
 # Module 3 Lesson 2 Lab 1: Organization Setup
 
 ## Overview
