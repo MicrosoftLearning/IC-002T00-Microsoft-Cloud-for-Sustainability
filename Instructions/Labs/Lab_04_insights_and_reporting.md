@@ -1,8 +1,13 @@
 ---
 lab:
-    title: 'Lab 4: Insights and reporting'
-    module: 'Module 6: Configure insights and reporting'
+  title: 'Lab 4: Insights and reporting'
+  module: 'Module 6: Configure insights and reporting'
+  description: In this lab, Amber Rodriguez – Sustainability specialist for Contoso Corp reviews the data in the Insights section of Microsoft Sustainability Manager, noticing that Wide World Importers was a large contributor to Scope 2 emissions in 2022. Amber informs Jessie Irwin - Sustainability lead for Contoso Corp that the Activity and Emission Reports are available for review. Jessie opens the reporting section and creates a new Activity report and a new Emissions report. Jessie reviews the generated report and includes the report in the sustainability reporting procedures for Contoso Corp.
+  duration: 30 minutes
+  level: 100
+  islab: true
 ---
+
 # Module 6 Lesson 2 Lab 4: Insights and reporting
 
 ## Overview
