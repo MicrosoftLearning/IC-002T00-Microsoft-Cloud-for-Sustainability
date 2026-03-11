@@ -1,7 +1,18 @@
 ---
 lab:
-    title: 'Lab 2: Data ingestion'
-    module: 'Module 4: Configure data ingestion'
+  title: 'Lab 2: Data ingestion'
+  module: 'Module 4: Configure data ingestion'
+  description: In the previous lab, Wide Word Importers’ company profile, facilities,
+    and reference data such as Contractual instrument types were created to lay the
+    Master data foundation for Emissions calculations and Reporting. In this lab -
+    we will perform the Activity data ingestion for the Purchased Electricity of the
+    two newly acquired Florida facilities. In addition, we will also ingest emission
+    data related to the charging of the fleet of 50 Fabrikam Electric trucks. The
+    built-in connectors in the Microsoft Sustainability Manager will be used to ingest
+    the Activity data into the application.
+  duration: 150 minutes
+  level: 100
+  islab: true
 ---
 
 # Module 4 Lesson 2 Lab 2: Data ingestion
