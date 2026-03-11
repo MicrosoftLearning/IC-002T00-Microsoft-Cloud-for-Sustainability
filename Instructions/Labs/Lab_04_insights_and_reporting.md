@@ -1,8 +1,18 @@
 ---
 lab:
-    title: 'Lab 4: Insights and reporting'
-    module: 'Module 6: Configure insights and reporting'
+  title: 'Lab 4: Insights and reporting'
+  module: 'Module 6: Configure insights and reporting'
+  description: In the previous lab, the ingested Activity data was taken through calculation
+    designs using calculation models and the output was reviewed in terms of CO<sub>2</sub>E
+    unit. In this lab, we will perform a set of activities to generate emissions reports,
+    activity reports, and review Power BI dashboards.
+  duration: 30 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Power BI
 ---
+
 # Module 6 Lesson 2 Lab 4: Insights and reporting
 
 ## Overview
